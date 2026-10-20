@@ -275,7 +275,13 @@ export function QuestionCard({
             <div className="mb-1 flex items-center gap-1.5 text-sm font-semibold text-primary">
               <Lightbulb className="h-4 w-4" /> 参考答案
             </div>
-            <KatexBlock text={answerText} className="text-sm text-foreground" />
+            {answerText.trim() ? (
+              <KatexBlock text={answerText} className="text-sm text-foreground" />
+            ) : (
+              <p className="text-sm italic text-muted-foreground">
+                本题参考答案暂缺（原卷答案未收录该题解答），后续补齐后会自动显示。
+              </p>
+            )}
           </div>
 
           {q.answer_images?.length > 0 && (

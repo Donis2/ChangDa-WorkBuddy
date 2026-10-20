@@ -1,0 +1,678 @@
+{
+  "year": 2018,
+  "source": "2018年855机械设计基础真题（A 卷）",
+  "paper_file": "真题/常大2018年真题.pdf",
+  "answer_file": "真题答案/2018年答案.pdf",
+  "note": "A 卷，满分 150 分（选择 10×2 + 简答 5×5 + 三~九 各 15）。原始卷与答案为扫描件（答案 2 页手写）。选择题答案见答卷首页（1-5 ACACD、6-10 BABAC）；简答题 5 题原答案未写，参考答案待补。",
+  "questions": [
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "存在刚性冲击"
+        },
+        {
+          "key": "B",
+          "text": "存在柔性冲击"
+        },
+        {
+          "key": "C",
+          "text": "不存在冲击"
+        },
+        {
+          "key": "D",
+          "text": "既有刚性冲击又有柔性冲击"
+        }
+      ],
+      "images": [],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-01",
+      "type": "single_choice",
+      "stem": "凸轮机构中从动件作等速运动时______。",
+      "answer": [
+        "A"
+      ],
+      "explanation": "等速运动规律在行程起、止点速度突变（加速度无穷大），产生刚性冲击；等加速等减速与余弦加速度规律产生柔性冲击；正弦加速度规律无冲击。",
+      "knowledge_points": [
+        "从动件常用运动规律"
+      ],
+      "chapter": "第三章 凸轮机构",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第1题"
+      }
+    },
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "模数较大"
+        },
+        {
+          "key": "B",
+          "text": "模数较小"
+        },
+        {
+          "key": "C",
+          "text": "齿数较少"
+        },
+        {
+          "key": "D",
+          "text": "齿数较多"
+        }
+      ],
+      "images": [],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-02",
+      "type": "single_choice",
+      "stem": "标准齿轮发生根切的原因是______。",
+      "answer": [
+        "C"
+      ],
+      "explanation": "用范成法加工标准齿轮时，齿数少于最少齿数 $z_{\\min}=\\dfrac{2h_a^{*}}{\\sin^{2}\\alpha}$（标准直齿 $\\alpha=20^{\\circ}$ 时 $z_{\\min}=17$）就会发生根切。",
+      "knowledge_points": [
+        "根切、最少齿数及其变位齿轮"
+      ],
+      "chapter": "第四章 齿轮机构",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第2题"
+      }
+    },
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "一定"
+        },
+        {
+          "key": "B",
+          "text": "不一定"
+        },
+        {
+          "key": "C",
+          "text": "一定不"
+        }
+      ],
+      "images": [],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-03",
+      "type": "single_choice",
+      "stem": "双曲柄机构的最短构件与最长构件长度之和______小于其它两构件长度之和。",
+      "answer": [
+        "A"
+      ],
+      "explanation": "双曲柄机构必须满足格拉晓夫条件：最短杆 + 最长杆 ≤ 其余两杆之和，故一定小于或等于。",
+      "knowledge_points": [
+        "平面连杆机构的基本类型及其应用"
+      ],
+      "chapter": "第二章 平面连杆机构",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第3题"
+      }
+    },
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "奇数"
+        },
+        {
+          "key": "B",
+          "text": "5的倍数"
+        },
+        {
+          "key": "C",
+          "text": "偶数"
+        },
+        {
+          "key": "D",
+          "text": "10的倍数"
+        }
+      ],
+      "images": [],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-04",
+      "type": "single_choice",
+      "stem": "链传动的链节数宜采用______节。",
+      "answer": [
+        "C"
+      ],
+      "explanation": "链节数取偶数并配用奇数齿链轮，可使链条与轮齿磨损均匀，且避免使用过渡链节（过渡链节会降低承载能力）。",
+      "knowledge_points": [
+        "链传动的特点与应用"
+      ],
+      "chapter": "第十三章 带传动和链传动",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第4题"
+      }
+    },
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "$i=\\dfrac{\\omega_1}{\\omega_2}$"
+        },
+        {
+          "key": "B",
+          "text": "$i=\\dfrac{z_2}{z_1}$"
+        },
+        {
+          "key": "C",
+          "text": "$i=\\dfrac{n_1}{n_2}$"
+        },
+        {
+          "key": "D",
+          "text": "$i=\\dfrac{d_2}{d_1}$"
+        }
+      ],
+      "images": [],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-05",
+      "type": "single_choice",
+      "stem": "在减速蜗杆传动中，用______来计算传动比 $i$ 是错误的。",
+      "answer": [
+        "D"
+      ],
+      "explanation": "$i=\\dfrac{n_1}{n_2}=\\dfrac{z_2}{z_1}=\\dfrac{d_2}{d_1\\tan\\gamma}$，不能写成 $\\dfrac{d_2}{d_1}$（$d_2=mz_2$、$d_1=mq$，$\\dfrac{d_2}{d_1}=\\dfrac{z_2}{q}$，与传动比不同）。",
+      "knowledge_points": [
+        "蜗杆传动的类型、特点"
+      ],
+      "chapter": "第十二章 蜗杆传动",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第5题"
+      }
+    },
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "心轴"
+        },
+        {
+          "key": "B",
+          "text": "转轴"
+        },
+        {
+          "key": "C",
+          "text": "传动轴"
+        }
+      ],
+      "images": [],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-06",
+      "type": "single_choice",
+      "stem": "既受弯矩，又受转矩的轴，称为______。",
+      "answer": [
+        "B"
+      ],
+      "explanation": "转轴同时受弯矩与转矩（减速器中的轴）；心轴只受弯矩；传动轴只受转矩。",
+      "knowledge_points": [
+        "轴的类型与应用"
+      ],
+      "chapter": "第十四章 轴",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第6题"
+      }
+    },
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "轴的直径"
+        },
+        {
+          "key": "B",
+          "text": "轴的长度"
+        },
+        {
+          "key": "C",
+          "text": "与轴配合的零件宽度"
+        }
+      ],
+      "images": [],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-07",
+      "type": "single_choice",
+      "stem": "普通平键的截面尺寸，是根据______查标准后、从标准中选取的。",
+      "answer": [
+        "A"
+      ],
+      "explanation": "平键的宽度 $b$ 与高度 $h$ 按轴的直径 $d$ 查标准；键长按轮毂长度选取并校核挤压强度。",
+      "knowledge_points": [
+        "键连接和花键连接"
+      ],
+      "chapter": "第十章 连接",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第7题"
+      }
+    },
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "小径"
+        },
+        {
+          "key": "B",
+          "text": "大径"
+        },
+        {
+          "key": "C",
+          "text": "中径"
+        },
+        {
+          "key": "D",
+          "text": "平均直径"
+        }
+      ],
+      "images": [],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-08",
+      "type": "single_choice",
+      "stem": "螺纹标记 M24 中，24 表示螺纹的______。",
+      "answer": [
+        "B"
+      ],
+      "explanation": "M24 表示公称直径（大径）为 24 mm 的粗牙普通螺纹；细牙需标螺距，如 M24×1.5。",
+      "knowledge_points": [
+        "螺纹参数"
+      ],
+      "chapter": "第十章 连接",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第8题"
+      }
+    },
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "啮合摩擦损耗"
+        },
+        {
+          "key": "B",
+          "text": "轴承摩擦损耗"
+        },
+        {
+          "key": "C",
+          "text": "加装风扇损耗"
+        },
+        {
+          "key": "D",
+          "text": "搅油损耗"
+        }
+      ],
+      "images": [],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-09",
+      "type": "single_choice",
+      "stem": "蜗杆传动的总效率，主要取决于______时的效率。",
+      "answer": [
+        "A"
+      ],
+      "explanation": "总效率 $\\eta=\\eta_1\\eta_2\\eta_3$，其中啮合效率 $\\eta_1=\\dfrac{\\tan\\gamma}{\\tan(\\gamma+\\rho_v)}$ 占主导（一般 0.7~0.9）。",
+      "knowledge_points": [
+        "圆柱蜗杆传动的效率、润滑与热平衡计算"
+      ],
+      "chapter": "第十二章 蜗杆传动",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第9题"
+      }
+    },
+    {
+      "options": [
+        {
+          "key": "A",
+          "text": "带顶面低于轮槽边缘"
+        },
+        {
+          "key": "B",
+          "text": "带顶面与轮槽边缘齐平"
+        },
+        {
+          "key": "C",
+          "text": "带顶面略高于轮槽边缘"
+        },
+        {
+          "key": "D",
+          "text": "带底面与槽底接触"
+        }
+      ],
+      "images": [
+        "/images/questions/2018-选择-10.png"
+      ],
+      "answer_images": [],
+      "tags": [],
+      "id": "2018-选择-10",
+      "type": "single_choice",
+      "stem": "下面______正确表示出 V 带在轮槽中的位置。",
+      "answer": [
+        "C"
+      ],
+      "explanation": "V 带靠两侧面工作，带顶面应略高于轮槽边缘（一般高出 1~2 mm），以保证两侧面与槽面充分接触；带底与槽底应留有间隙。",
+      "knowledge_points": [
+        "V带轮结构"
+      ],
+      "chapter": "第十三章 带传动和链传动",
+      "difficulty": "简单",
+      "score": 2,
+      "original_numbers": {
+        "2018": "一、选择题 第10题"
+      }
+    },
+    {
+      "options": [],
+      "images": [],
+      "answer_images": [],
+      "tags": [
+        "答案待补充"
+      ],
+      "id": "2018-简答-01",
+      "type": "short_answer",
+      "stem": "现有 A、B 两对闭式直齿圆柱齿轮传动，A 对的模数 $m=2\\ \\mathrm{mm}$、齿数比 $u=3$、小齿轮直径 $d_1=66\\ \\mathrm{mm}$；B 对的模数 $m=2\\ \\mathrm{mm}$、齿数比 $u=3$、小齿轮直径 $d_1=60\\ \\mathrm{mm}$。试比较在其它条件都相同的情况下，这两对齿轮的接触强度和弯曲强度的大小，并说明原因。",
+      "answer": "",
+      "explanation": "考点：接触强度与弯曲强度分别取决于什么。接触强度主要取决于分度圆直径（直径大 → 接触应力小），故 A 对接触强度高；弯曲强度在模数相同时取决于齿宽与齿数（齿数多则齿形系数小、弯曲应力低），需按 $z_1=\\dfrac{d_1}{m}$ 比较。",
+      "knowledge_points": [
+        "齿根弯曲和齿面接触疲劳强度计算"
+      ],
+      "chapter": "第十一章 齿轮传动",
+      "difficulty": "中等",
+      "score": 5,
+      "original_numbers": {
+        "2018": "二、简答题 第1题"
+      }
+    },
+    {
+      "options": [],
+      "images": [
+        "/images/questions/2018-简答-02.png"
+      ],
+      "answer_images": [],
+      "tags": [
+        "答案待补充"
+      ],
+      "id": "2018-简答-02",
+      "type": "short_answer",
+      "stem": "说明下图所示两根曲轴的平衡状态如何？（配知各质径积 $mr$ 值相等）",
+      "answer": "",
+      "explanation": "考点：静平衡与动平衡的判断。图(a) 各曲拐在轴平面内对称分布，惯性力矢量和为零且惯性力偶矩也为零 → 既静平衡又动平衡；图(b) 惯性力矢量和为零（静平衡），但各力不在同一平面内、力偶矩不为零 → 只静平衡，需动平衡。",
+      "knowledge_points": [
+        "刚性回转件的平衡（静平衡、动平衡）"
+      ],
+      "chapter": "第八章 回转件的平衡",
+      "difficulty": "中等",
+      "score": 5,
+      "original_numbers": {
+        "2018": "二、简答题 第2题"
+      }
+    },
+    {
+      "options": [],
+      "images": [],
+      "answer_images": [],
+      "tags": [
+        "答案待补充"
+      ],
+      "id": "2018-简答-03",
+      "type": "short_answer",
+      "stem": "带传动的设计计算准则是什么？",
+      "answer": "",
+      "explanation": "考点：设计准则。① 不打滑：$F_e\\le F_{ec}=2F_0\\dfrac{e^{f_v\\alpha}-1}{e^{f_v\\alpha}+1}$，即保证足够包角与初拉力；② 不疲劳损坏：$\\sigma_{\\max}=\\sigma_1+\\sigma_{b1}+\\sigma_c\\le[\\sigma]$，即限制弯曲应力与循环次数。",
+      "knowledge_points": [
+        "V带传动的计算",
+        "带的应力分析"
+      ],
+      "chapter": "第十三章 带传动和链传动",
+      "difficulty": "中等",
+      "score": 5,
+      "original_numbers": {
+        "2018": "二、简答题 第3题"
+      }
+    },
+    {
+      "options": [],
+      "images": [],
+      "answer_images": [],
+      "tags": [
+        "答案待补充"
+      ],
+      "id": "2018-简答-04",
+      "type": "short_answer",
+      "stem": "联轴器和离合器的功用和区别是什么？",
+      "answer": "",
+      "explanation": "考点：联轴器与离合器的区别。功用都是连接两轴、传递转矩；区别在于联轴器只能在停机后拆卸才能分离两轴，离合器可在运转中随时接合或分离（便于启动、变速、换向）。",
+      "knowledge_points": [
+        "联轴器的类型和应用",
+        "离合器的分类和特点"
+      ],
+      "chapter": "第十七章 联轴器、离合器与制动器",
+      "difficulty": "中等",
+      "score": 5,
+      "original_numbers": {
+        "2018": "二、简答题 第4题"
+      }
+    },
+    {
+      "options": [],
+      "images": [
+        "/images/questions/2018-简答-05.png"
+      ],
+      "answer_images": [],
+      "tags": [
+        "答案待补充"
+      ],
+      "id": "2018-简答-05",
+      "type": "short_answer",
+      "stem": "判断下面向心推力轴承的布置，哪种方案可以提高支承的刚度？为什么？",
+      "answer": "",
+      "explanation": "考点：成对角接触轴承的正装与反装。正装（面对面，X 型）支承跨距小、刚度较低但抗弯好；反装（背靠背，O 型）支承跨距大、支承刚度高、抗倾覆能力强，故方案(2)（背靠背）可提高支承刚度。",
+      "knowledge_points": [
+        "滚动轴承组合结构设计"
+      ],
+      "chapter": "第十六章 滚动轴承",
+      "difficulty": "中等",
+      "score": 5,
+      "original_numbers": {
+        "2018": "二、简答题 第5题"
+      }
+    },
+    {
+      "options": [],
+      "images": [
+        "/images/questions/2018-计算-01.png"
+      ],
+      "answer_images": [],
+      "tags": [
+        "答案按手写答案整理"
+      ],
+      "id": "2018-计算-01",
+      "type": "calculation",
+      "stem": "说出图示平面机构的复合铰链、局部自由度和虚约束，以及活动构件数、低副数、高副数，并计算其自由度，并说明该机构需要几个原动件才能有确定的运动。",
+      "answer": "活动构件数 $n=6$，低副数 $P_L=8$，高副数 $P_H=1$。\n$F = 3n - 2P_L - P_H = 3\\times 6 - 2\\times 8 - 1 = 1$。\n· 复合铰链：$B$ 处（三个构件汇交，按 2 个转动副计）。\n· 局部自由度：滚子 $D$ 绕自身轴线的转动。\n· 虚约束：$E$、$F$ 两处导路中有一处为虚约束（同轴双移动副只计一个）。\n该机构需要 1 个原动件才能有确定的运动（$F=1$）。",
+      "explanation": "自由度计算：数活动构件、低副、高副 → 代入 $F=3n-2P_L-P_H$ → 处理复合铰链（$m-1$ 个转动副）、局部自由度（除去滚子自转）、虚约束（只计一处）。$F$ 等于所需原动件数。",
+      "knowledge_points": [
+        "平面机构的自由度",
+        "平面运动副及其分类"
+      ],
+      "chapter": "第一章 平面机构的自由度和速度分析",
+      "difficulty": "中等",
+      "score": 15,
+      "original_numbers": {
+        "2018": "三、计算题 第1题"
+      }
+    },
+    {
+      "options": [],
+      "images": [],
+      "answer_images": [],
+      "tags": [
+        "答案按手写答案整理"
+      ],
+      "id": "2018-计算-02",
+      "type": "calculation",
+      "stem": "已知一对正常齿制的渐开线标准斜齿圆柱齿轮的中心距 $a=250\\ \\mathrm{mm}$，齿数 $z_1=23$、$z_2=98$，法面模数 $m_n=4\\ \\mathrm{mm}$。试计算：\n（1）螺旋角 $\\beta$；\n（2）分度圆直径 $d_1$、$d_2$；\n（3）小齿轮的齿顶圆直径 $d_{a1}$ 和齿根圆直径 $d_{f1}$。",
+      "answer": "（1）由 $a=\\dfrac{m_n(z_1+z_2)}{2\\cos\\beta}$ 得\n$\\cos\\beta=\\dfrac{m_n(z_1+z_2)}{2a}=\\dfrac{4\\times(23+98)}{2\\times 250}=\\dfrac{484}{500}=0.968$，\n$\\beta=\\arccos 0.968 \\approx 14.5^{\\circ}$。\n（2）$d_1=\\dfrac{m_n z_1}{\\cos\\beta}=\\dfrac{4\\times 23}{0.968}\\approx 95.0\\ \\mathrm{mm}$；\n　　$d_2=\\dfrac{m_n z_2}{\\cos\\beta}=\\dfrac{4\\times 98}{0.968}\\approx 405.0\\ \\mathrm{mm}$。\n（3）正常齿制 $h_a^{*}=1$、$c^{*}=0.25$：\n$d_{a1}=d_1+2h_a^{*}m_n=95.0+2\\times 4=103.0\\ \\mathrm{mm}$；\n$d_{f1}=d_1-2(h_a^{*}+c^{*})m_n=95.0-2.5\\times 4=85.0\\ \\mathrm{mm}$。",
+      "explanation": "斜齿轮几何：$d=\\dfrac{m_n z}{\\cos\\beta}$，$a=\\dfrac{m_n(z_1+z_2)}{2\\cos\\beta}$，$d_a=d+2h_a^{*}m_n$，$d_f=d-2(h_a^{*}+c^{*})m_n$。先由中心距反求螺旋角是常见题型。",
+      "knowledge_points": [
+        "平行轴斜齿轮机构",
+        "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸"
+      ],
+      "chapter": "第四章 齿轮机构",
+      "difficulty": "中等",
+      "score": 15,
+      "original_numbers": {
+        "2018": "四、计算题 第1题"
+      }
+    },
+    {
+      "options": [],
+      "images": [
+        "/images/questions/2018-计算-03.png"
+      ],
+      "answer_images": [],
+      "tags": [
+        "答案已修正"
+      ],
+      "id": "2018-计算-03",
+      "type": "calculation",
+      "stem": "图示轮系中，已知齿数 $z_1=20$、$z_2=40$，轮 1 的转速 $n_1=1000\\ \\mathrm{r/min}$。求：$z_3$ 和系杆 $H$ 的转速 $n_H$，并说明系杆和轮 1 的转向关系。",
+      "answer": "（1）由行星轮系的结构关系（轮 3 为内齿圈、轮 2 为行星轮）：\n$z_3 = z_1 + 2z_2 = 20 + 2\\times 40 = 100$。\n\n（2）轮 3 固定（$n_3=0$），用转化机构法：\n$i_{13}^{H}=\\dfrac{n_1-n_H}{n_3-n_H}=-\\dfrac{z_3}{z_1}=-\\dfrac{100}{20}=-5$，\n代入 $n_3=0$：$\\dfrac{n_1-n_H}{-n_H}=-5 \\Rightarrow n_1-n_H=5n_H \\Rightarrow n_H=\\dfrac{n_1}{6}=\\dfrac{1000}{6}\\approx 166.7\\ \\mathrm{r/min}$。\n$n_H$ 为正，与 $n_1$ 转向相同。\n\n（说明：随卷手写答案把 $\\dfrac{z_3}{z_1}$ 取为 2（相当于 $z_3=40$），得 $n_H=333.3\\ \\mathrm{r/min}$；按内齿圈与两轮齿数的几何关系应为 $z_3=z_1+2z_2=100$，故本题按 $n_H\\approx166.7\\ \\mathrm{r/min}$ 修正。）",
+      "explanation": "行星轮系求转速用转化机构法：$i_{13}^{H}=\\dfrac{n_1-n_H}{n_3-n_H}=(-1)^m\\dfrac{z_3}{z_1}$。内齿圈与太阳轮、行星轮的齿数关系为 $z_3=z_1+2z_2$，这是求 $z_3$ 的关键。由 $n_H$ 的正负判断其与 $n_1$ 的同向或反向。",
+      "knowledge_points": [
+        "周转轮系及其传动比",
+        "轮系的分类"
+      ],
+      "chapter": "第五章 轮系",
+      "difficulty": "中等",
+      "score": 15,
+      "original_numbers": {
+        "2018": "五、计算题 第1题"
+      }
+    },
+    {
+      "options": [],
+      "images": [
+        "/images/questions/2018-计算-04.png"
+      ],
+      "answer_images": [],
+      "tags": [
+        "答案已修正"
+      ],
+      "id": "2018-计算-04",
+      "type": "calculation",
+      "stem": "某两薄板之间采用 2 个 M20 螺栓连接，小径 $d_1=17.294\\ \\mathrm{mm}$，中径 $d_2=18.376\\ \\mathrm{mm}$，螺栓的许用拉应力 $[\\sigma]=160\\ \\mathrm{MPa}$，接合面间摩擦系数 $f=0.15$。若取可靠性系数 $C=1.2$，试计算该螺栓连接所能承受的最大载荷 $F$。",
+      "answer": "（1）由单个螺栓的强度条件求最大预紧力：\n$\\sigma=\\dfrac{1.3F_0}{\\dfrac{\\pi d_1^{2}}{4}}\\le[\\sigma]$ → $F_0\\le\\dfrac{\\pi d_1^{2}[\\sigma]}{4\\times 1.3}=\\dfrac{\\pi\\times 17.294^{2}\\times 160}{5.2}\\approx 2.89\\times 10^{4}\\ \\mathrm{N}$（28911 N）。\n（2）由接合面不滑移条件 $F\\cdot C\\le F_0 f z m$（$z=2$ 个螺栓、$m=1$ 个接合面）：\n$F\\le\\dfrac{F_0 f z m}{C}=\\dfrac{28911\\times 0.15\\times 2}{1.2}\\approx 7.2\\times 10^{3}\\ \\mathrm{N}$（7228 N）。\n即该螺栓连接能承受的最大横向载荷 $F\\approx 7.2\\ \\mathrm{kN}$。\n\n（说明：随卷手写答案在强度条件中漏乘 1.3（得 $F_0\\approx 38879\\ \\mathrm{N}$、$F\\approx 9720\\ \\mathrm{N}$），紧螺栓联接必须计入拧紧扭矩产生的扭转剪应力，故本题按 1.3 倍修正。）",
+      "explanation": "受横向载荷的普通螺栓联接：靠预紧力产生的摩擦力传力，$F_0=\\dfrac{CF}{fzm}$；强度条件按 $1.3F_0$ 计（考虑拧紧时的扭转剪应力）。两式联立即可求最大横向载荷。",
+      "knowledge_points": [
+        "螺纹连接的强度计算",
+        "螺纹连接的预紧与防松"
+      ],
+      "chapter": "第十章 连接",
+      "difficulty": "中等",
+      "score": 15,
+      "original_numbers": {
+        "2018": "六、计算题 第1题"
+      }
+    },
+    {
+      "options": [],
+      "images": [
+        "/images/questions/2018-计算-05.png"
+      ],
+      "answer_images": [],
+      "tags": [
+        "答案按手写答案整理"
+      ],
+      "id": "2018-计算-05",
+      "type": "calculation",
+      "stem": "某传动装置根据工作条件决定采用一对角接触球轴承（如图），暂定轴承型号为 7307AC。已知轴承所承受的径向载荷 $F_{r1}=1000\\ \\mathrm{N}$、$F_{r2}=2060\\ \\mathrm{N}$，作用在轴上的轴向外载荷 $F_{ae}=880\\ \\mathrm{N}$（方向向右），轴承的内部轴向力 $F_d$ 的计算公式为 $F_d=0.7F_r$（$F_r$ 为轴承承受的径向载荷）。要求在图上画出轴承的内部轴向力 $F_{d1}$、$F_{d2}$ 的方向，并计算轴承所受的轴向力 $F_{a1}$、$F_{a2}$。",
+      "answer": "（1）内部轴向力：\n$F_{d1}=0.7F_{r1}=0.7\\times 1000=700\\ \\mathrm{N}$（方向由轴承 1 指向轴的外侧，即向左）；\n$F_{d2}=0.7F_{r2}=0.7\\times 2060=1442\\ \\mathrm{N}$（方向向右）。\n（2）判定压紧端：\n$F_{d1}+F_{ae}=700+880=1580\\ \\mathrm{N} > F_{d2}=1442\\ \\mathrm{N}$，轴有向右窜动的趋势，\n故右端轴承 2 被压紧、左端轴承 1 被放松：\n$F_{a1}=F_{d1}=700\\ \\mathrm{N}$，\n$F_{a2}=F_{d1}+F_{ae}=1580\\ \\mathrm{N}$。",
+      "explanation": "成对角接触球轴承：① 派生轴向力 $F_d=0.7F_r$；② 比较「一端派生力 + 外载荷」与另一端派生力判断压紧端；③ 压紧端轴向力 = 另一端派生力 + 外载荷，放松端等于自身派生力。",
+      "knowledge_points": [
+        "滚动轴承的选择计算",
+        "滚动轴承组合结构设计"
+      ],
+      "chapter": "第十六章 滚动轴承",
+      "difficulty": "中等",
+      "score": 15,
+      "original_numbers": {
+        "2018": "七、计算题 第1题"
+      }
+    },
+    {
+      "options": [],
+      "images": [
+        "/images/questions/2018-分析-01.png"
+      ],
+      "answer_images": [],
+      "tags": [
+        "答案按手写答案整理"
+      ],
+      "id": "2018-分析-01",
+      "type": "calculation",
+      "stem": "图示减速传动中，已知运动由轴Ⅰ经轴Ⅱ传至轴Ⅲ，轮 1 和轮 2 为蜗杆蜗轮传动，轮 3 和轮 4 为圆锥齿轮传动，其中轮 3 有两种可能安装位置（图中分别用实线和虚线表示）；蜗杆为右旋，转向如图。要求：\n（1）为使轴Ⅱ上的轴向力适当抵消，确定齿轮 3 的安装位置；\n（2）确定轴Ⅱ的转动方向 $n_Ⅱ$；\n（3）画出蜗杆 1 在啮合处所受圆周力 $F_{t1}$ 和轴向力 $F_{a1}$ 的方向。",
+      "answer": "（1）齿轮 3 安装在左侧（实线位置）更合适 —— 这样才能使轴Ⅱ上两传动件的轴向力方向相反、互相抵消一部分。\n（2）轴Ⅱ的转动方向为「向左」（按图面方向，与蜗杆转向配合由左右手定则确定）。\n（3）蜗杆 1 在啮合处：圆周力 $F_{t1}$ 与其转向相反（图中向左）；轴向力 $F_{a1}$ 沿轴线（图中向左），与蜗轮的圆周力方向的关系为 $F_{t1}=F_{a2}$、$F_{a1}=F_{t2}$。",
+      "explanation": "判定步骤：① 蜗杆右旋、转向已知 → 用右手定则定蜗杆轴向力 $F_{a1}$ → 蜗轮转向（四指沿蜗杆转向，拇指反向为蜗轮啮合点速度方向）；② 蜗杆与蜗轮的轴向力互为反作用（$F_{a2}=F_{t1}$）；③ 轴Ⅱ上锥齿轮 3 的轴向力必须与蜗轮的轴向力反向才能抵消，据此选定 3 的安装位置；④ 圆周力与转向相反、轴向力沿轴线画箭头即可。",
+      "knowledge_points": [
+        "圆柱蜗杆传动的受力分析",
+        "锥齿轮机构"
+      ],
+      "chapter": "第十二章 蜗杆传动",
+      "difficulty": "较难",
+      "score": 15,
+      "original_numbers": {
+        "2018": "八、分析题 第1题"
+      }
+    },
+    {
+      "options": [],
+      "images": [
+        "/images/questions/2018-分析-02.png"
+      ],
+      "answer_images": [],
+      "tags": [
+        "答案按手写答案整理"
+      ],
+      "id": "2018-分析-02",
+      "type": "calculation",
+      "stem": "指出下图中轴系结构的错误或不合理之处，轴端安装联轴器。（找出 10 个满分 15 分）",
+      "answer": "① 左边轴承内圈左端无轴向固定 —— 可设置套筒。\n② 齿轮无周向固定 —— 应设计键槽，用键连接。\n③ 齿轮工作轴颈长度应略短于齿轮轮毂宽度 —— 使套筒/端面能压紧轮毂，保证轴向固定可靠。\n④ 轴肩高度高于轴承内圈高度（轴肩过高）—— 不便于轴承拆卸，轴肩外径应小于内圈外径。\n⑤ 轴承盖与轴之间应留有一定间隙 —— 端盖孔径应大于轴径。\n⑥ 轴承盖内应设置密封圈 —— 防止漏油与灰尘进入。\n⑦ 右端轴承处无支撑轴颈、轴段过长 —— 应设计出台阶，减少精加工面、便于装拆。\n⑧ 联轴器左端无轴向固定 —— 应设计台阶（轴肩）定位。\n⑨ 联轴器右端无轴向固定 —— 应设置轴端挡圈。\n⑩ 联轴器处的键槽过长 —— 键槽长度应与轮毂长度相适应。",
+      "explanation": "轴系结构改错的常规考点：轴向固定（轴肩、套筒、轴端挡圈）、周向固定（键）、轴承的定位与拆卸（轴肩高度、支撑轴颈）、端盖与轴的间隙、密封圈、键槽长度与轮毂长度的匹配。\n本题题干要求「找出 10 个满分 15 分」，可按错一处 1~2 分估分。",
+      "knowledge_points": [
+        "轴的结构设计",
+        "滚动轴承组合结构设计"
+      ],
+      "chapter": "第十四章 轴",
+      "difficulty": "较难",
+      "score": 15,
+      "original_numbers": {
+        "2018": "九、分析题 第1题"
+      }
+    }
+  ]
+}

@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-10-16T12:12:13+08:00",
+  "generated_at": "2026-10-20T22:10:31+08:00",
   "subject": "855 机械设计基础",
-  "total_questions": 53,
-  "total_score": 515,
+  "total_questions": 130,
+  "total_score": 1115,
   "by_year": [
+    {
+      "year": 2018,
+      "count": 22,
+      "types": {
+        "single_choice": 10,
+        "short_answer": 5,
+        "calculation": 7
+      }
+    },
+    {
+      "year": 2019,
+      "count": 22,
+      "types": {
+        "single_choice": 10,
+        "short_answer": 5,
+        "calculation": 7
+      }
+    },
+    {
+      "year": 2020,
+      "count": 22,
+      "types": {
+        "fill_blank": 10,
+        "short_answer": 5,
+        "calculation": 7
+      }
+    },
+    {
+      "year": 2021,
+      "count": 11,
+      "types": {
+        "short_answer": 5,
+        "calculation": 6
+      }
+    },
     {
       "year": 2022,
       "count": 22,
@@ -44,113 +79,243 @@
     {
       "type": "single_choice",
       "label": "单选题",
-      "count": 19,
-      "score": 54
+      "count": 39,
+      "score": 94
+    },
+    {
+      "type": "fill_blank",
+      "label": "填空题",
+      "count": 10,
+      "score": 20
     },
     {
       "type": "short_answer",
       "label": "简答题",
-      "count": 12,
-      "score": 95
+      "count": 32,
+      "score": 200
     },
     {
       "type": "calculation",
       "label": "计算题",
-      "count": 22,
-      "score": 366
+      "count": 49,
+      "score": 801
     }
   ],
   "by_difficulty": [
     {
       "difficulty": "简单",
-      "count": 14
+      "count": 42
     },
     {
       "difficulty": "中等",
-      "count": 28
+      "count": 59
     },
     {
       "difficulty": "较难",
-      "count": 11
+      "count": 29
     }
   ],
   "by_chapter": [
     {
       "chapter": "第一章 平面机构的自由度和速度分析",
-      "count": 4
+      "count": 8
     },
     {
       "chapter": "第二章 平面连杆机构",
-      "count": 3
+      "count": 8
     },
     {
       "chapter": "第三章 凸轮机构",
-      "count": 3
+      "count": 8
     },
     {
       "chapter": "第四章 齿轮机构",
-      "count": 4
+      "count": 15
     },
     {
       "chapter": "第五章 轮系",
-      "count": 4
+      "count": 8
     },
     {
       "chapter": "第七章 机器的运转速度波动的调节",
-      "count": 1
-    },
-    {
-      "chapter": "第八章 回转件的平衡",
-      "count": 3
-    },
-    {
-      "chapter": "第十章 连接",
-      "count": 10
-    },
-    {
-      "chapter": "第十一章 齿轮传动",
-      "count": 5
-    },
-    {
-      "chapter": "第十二章 蜗杆传动",
-      "count": 4
-    },
-    {
-      "chapter": "第十三章 带传动和链传动",
-      "count": 6
-    },
-    {
-      "chapter": "第十四章 轴",
-      "count": 4
-    },
-    {
-      "chapter": "第十五章 滑动轴承",
       "count": 2
     },
     {
+      "chapter": "第八章 回转件的平衡",
+      "count": 7
+    },
+    {
+      "chapter": "第十章 连接",
+      "count": 20
+    },
+    {
+      "chapter": "第十一章 齿轮传动",
+      "count": 8
+    },
+    {
+      "chapter": "第十二章 蜗杆传动",
+      "count": 11
+    },
+    {
+      "chapter": "第十三章 带传动和链传动",
+      "count": 14
+    },
+    {
+      "chapter": "第十四章 轴",
+      "count": 11
+    },
+    {
+      "chapter": "第十五章 滑动轴承",
+      "count": 6
+    },
+    {
       "chapter": "第十六章 滚动轴承",
-      "count": 4
+      "count": 16
+    },
+    {
+      "chapter": "第十七章 联轴器、离合器与制动器",
+      "count": 1
     }
   ],
   "knowledge_point_ranking": [
     {
+      "name": "滚动轴承组合结构设计",
+      "chapter": "第十六章 滚动轴承",
+      "count": 10
+    },
+    {
       "name": "螺纹连接的强度计算",
       "chapter": "第十章 连接",
-      "count": 5
+      "count": 10
     },
     {
       "name": "刚性回转件的平衡（静平衡、动平衡）",
       "chapter": "第八章 回转件的平衡",
-      "count": 3
+      "count": 7
     },
     {
       "name": "平面机构的自由度",
       "chapter": "第一章 平面机构的自由度和速度分析",
-      "count": 3
+      "count": 7
+    },
+    {
+      "name": "平行轴斜齿轮机构",
+      "chapter": "第四章 齿轮机构",
+      "count": 7
+    },
+    {
+      "name": "轴的结构设计",
+      "chapter": "第十四章 轴",
+      "count": 7
+    },
+    {
+      "name": "周转轮系及其传动比",
+      "chapter": "第五章 轮系",
+      "count": 6
+    },
+    {
+      "name": "滚动轴承的选择计算",
+      "chapter": "第十六章 滚动轴承",
+      "count": 6
+    },
+    {
+      "name": "圆柱蜗杆传动的受力分析",
+      "chapter": "第十二章 蜗杆传动",
+      "count": 6
+    },
+    {
+      "name": "平面四杆机构的基本特性",
+      "chapter": "第二章 平面连杆机构",
+      "count": 6
+    },
+    {
+      "name": "带传动的受力分析",
+      "chapter": "第十三章 带传动和链传动",
+      "count": 5
+    },
+    {
+      "name": "从动件常用运动规律",
+      "chapter": "第三章 凸轮机构",
+      "count": 4
+    },
+    {
+      "name": "根切、最少齿数及其变位齿轮",
+      "chapter": "第四章 齿轮机构",
+      "count": 4
+    },
+    {
+      "name": "平面连杆机构的基本类型及其应用",
+      "chapter": "第二章 平面连杆机构",
+      "count": 4
+    },
+    {
+      "name": "轴的类型与应用",
+      "chapter": "第十四章 轴",
+      "count": 4
+    },
+    {
+      "name": "V带传动的计算",
+      "chapter": "第十三章 带传动和链传动",
+      "count": 4
     },
     {
       "name": "复合轮系及其传动比",
       "chapter": "第五章 轮系",
+      "count": 4
+    },
+    {
+      "name": "蜗杆传动的几何尺寸、主要参数",
+      "chapter": "第十二章 蜗杆传动",
+      "count": 4
+    },
+    {
+      "name": "键连接和花键连接",
+      "chapter": "第十章 连接",
+      "count": 3
+    },
+    {
+      "name": "齿根弯曲和齿面接触疲劳强度计算",
+      "chapter": "第十一章 齿轮传动",
+      "count": 3
+    },
+    {
+      "name": "带的应力分析",
+      "chapter": "第十三章 带传动和链传动",
+      "count": 3
+    },
+    {
+      "name": "平面运动副及其分类",
+      "chapter": "第一章 平面机构的自由度和速度分析",
+      "count": 3
+    },
+    {
+      "name": "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸",
+      "chapter": "第四章 齿轮机构",
+      "count": 3
+    },
+    {
+      "name": "螺纹连接的预紧与防松",
+      "chapter": "第十章 连接",
+      "count": 3
+    },
+    {
+      "name": "凸轮机构的压力角",
+      "chapter": "第三章 凸轮机构",
+      "count": 3
+    },
+    {
+      "name": "螺纹连接的基本类型及紧固件",
+      "chapter": "第十章 连接",
+      "count": 3
+    },
+    {
+      "name": "动压润滑的基本原理",
+      "chapter": "第十五章 滑动轴承",
+      "count": 3
+    },
+    {
+      "name": "滚动轴承的代号",
+      "chapter": "第十六章 滚动轴承",
       "count": 3
     },
     {
@@ -164,48 +329,43 @@
       "count": 3
     },
     {
-      "name": "轴的结构设计",
-      "chapter": "第十四章 轴",
-      "count": 3
-    },
-    {
-      "name": "从动件常用运动规律",
-      "chapter": "第三章 凸轮机构",
-      "count": 2
-    },
-    {
-      "name": "平行轴斜齿轮机构",
-      "chapter": "第四章 齿轮机构",
-      "count": 2
-    },
-    {
-      "name": "蜗杆传动的几何尺寸、主要参数",
-      "chapter": "第十二章 蜗杆传动",
-      "count": 2
-    },
-    {
-      "name": "动压润滑的基本原理",
-      "chapter": "第十五章 滑动轴承",
-      "count": 2
-    },
-    {
-      "name": "平面四杆机构的基本特性",
-      "chapter": "第二章 平面连杆机构",
-      "count": 2
-    },
-    {
-      "name": "带传动的受力分析",
-      "chapter": "第十三章 带传动和链传动",
-      "count": 2
-    },
-    {
-      "name": "螺纹连接的基本类型及紧固件",
+      "name": "螺纹参数",
       "chapter": "第十章 连接",
       "count": 2
     },
     {
-      "name": "滚动轴承的选择计算",
-      "chapter": "第十六章 滚动轴承",
+      "name": "V带轮结构",
+      "chapter": "第十三章 带传动和链传动",
+      "count": 2
+    },
+    {
+      "name": "锥齿轮机构",
+      "chapter": "第四章 齿轮机构",
+      "count": 2
+    },
+    {
+      "name": "非液体摩擦滑动轴承的设计计算",
+      "chapter": "第十五章 滑动轴承",
+      "count": 2
+    },
+    {
+      "name": "螺纹副的受力分析、效率和自锁",
+      "chapter": "第十章 连接",
+      "count": 2
+    },
+    {
+      "name": "齿轮传动的主要失效形式和设计计算准则",
+      "chapter": "第十一章 齿轮传动",
+      "count": 2
+    },
+    {
+      "name": "螺栓的材料和许用应力",
+      "chapter": "第十章 连接",
+      "count": 2
+    },
+    {
+      "name": "定轴轮系及其传动比",
+      "chapter": "第五章 轮系",
       "count": 2
     },
     {
@@ -214,23 +374,63 @@
       "count": 2
     },
     {
-      "name": "滚动轴承组合结构设计",
-      "chapter": "第十六章 滚动轴承",
-      "count": 2
+      "name": "链传动的特点与应用",
+      "chapter": "第十三章 带传动和链传动",
+      "count": 1
     },
     {
-      "name": "圆柱蜗杆传动的受力分析",
+      "name": "蜗杆传动的类型、特点",
       "chapter": "第十二章 蜗杆传动",
-      "count": 2
+      "count": 1
     },
     {
-      "name": "周转轮系及其传动比",
+      "name": "圆柱蜗杆传动的效率、润滑与热平衡计算",
+      "chapter": "第十二章 蜗杆传动",
+      "count": 1
+    },
+    {
+      "name": "联轴器的类型和应用",
+      "chapter": "第十七章 联轴器、离合器与制动器",
+      "count": 1
+    },
+    {
+      "name": "离合器的分类和特点",
+      "chapter": "第十七章 联轴器、离合器与制动器",
+      "count": 1
+    },
+    {
+      "name": "轮系的分类",
       "chapter": "第五章 轮系",
-      "count": 2
+      "count": 1
     },
     {
-      "name": "平面连杆机构的基本类型及其应用",
-      "chapter": "第二章 平面连杆机构",
+      "name": "提高螺栓连接强度的措施",
+      "chapter": "第十章 连接",
+      "count": 1
+    },
+    {
+      "name": "平衡的目的与分类",
+      "chapter": "第八章 回转件的平衡",
+      "count": 1
+    },
+    {
+      "name": "滚动轴承的基本类型和特点",
+      "chapter": "第十六章 滚动轴承",
+      "count": 1
+    },
+    {
+      "name": "渐开线标准圆柱齿轮传动的啮合",
+      "chapter": "第四章 齿轮机构",
+      "count": 1
+    },
+    {
+      "name": "滑动轴承的结构形式",
+      "chapter": "第十五章 滑动轴承",
+      "count": 1
+    },
+    {
+      "name": "机器运转速度波动调节的目的和方法",
+      "chapter": "第七章 机器的运转速度波动的调节",
       "count": 1
     },
     {
@@ -239,53 +439,8 @@
       "count": 1
     },
     {
-      "name": "螺纹连接的预紧与防松",
-      "chapter": "第十章 连接",
-      "count": 1
-    },
-    {
-      "name": "键连接和花键连接",
-      "chapter": "第十章 连接",
-      "count": 1
-    },
-    {
-      "name": "V带传动的计算",
-      "chapter": "第十三章 带传动和链传动",
-      "count": 1
-    },
-    {
-      "name": "齿根弯曲和齿面接触疲劳强度计算",
-      "chapter": "第十一章 齿轮传动",
-      "count": 1
-    },
-    {
-      "name": "齿轮传动的主要失效形式和设计计算准则",
-      "chapter": "第十一章 齿轮传动",
-      "count": 1
-    },
-    {
-      "name": "根切、最少齿数及其变位齿轮",
-      "chapter": "第四章 齿轮机构",
-      "count": 1
-    },
-    {
-      "name": "平面运动副及其分类",
-      "chapter": "第一章 平面机构的自由度和速度分析",
-      "count": 1
-    },
-    {
       "name": "凸轮机构的应用和分类",
       "chapter": "第三章 凸轮机构",
-      "count": 1
-    },
-    {
-      "name": "轴的类型与应用",
-      "chapter": "第十四章 轴",
-      "count": 1
-    },
-    {
-      "name": "螺纹副的受力分析、效率和自锁",
-      "chapter": "第十章 连接",
       "count": 1
     },
     {
@@ -294,43 +449,63 @@
       "count": 1
     },
     {
-      "name": "V带轮结构",
-      "chapter": "第十三章 带传动和链传动",
-      "count": 1
-    },
-    {
       "name": "带传动弹性滑动、传动比和打滑现象",
       "chapter": "第十三章 带传动和链传动",
-      "count": 1
-    },
-    {
-      "name": "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸",
-      "chapter": "第四章 齿轮机构",
-      "count": 1
-    },
-    {
-      "name": "定轴轮系及其传动比",
-      "chapter": "第五章 轮系",
       "count": 1
     }
   ],
   "calculation_analysis": {
-    "total": 22,
-    "score": 366,
+    "total": 49,
+    "score": 801,
     "by_knowledge_point": [
       {
         "name": "螺纹连接的强度计算",
         "chapter": "第十章 连接",
-        "count": 4
+        "count": 8
       },
       {
         "name": "平面机构的自由度",
         "chapter": "第一章 平面机构的自由度和速度分析",
-        "count": 3
+        "count": 7
+      },
+      {
+        "name": "滚动轴承组合结构设计",
+        "chapter": "第十六章 滚动轴承",
+        "count": 7
+      },
+      {
+        "name": "轴的结构设计",
+        "chapter": "第十四章 轴",
+        "count": 7
+      },
+      {
+        "name": "滚动轴承的选择计算",
+        "chapter": "第十六章 滚动轴承",
+        "count": 6
+      },
+      {
+        "name": "圆柱蜗杆传动的受力分析",
+        "chapter": "第十二章 蜗杆传动",
+        "count": 6
+      },
+      {
+        "name": "周转轮系及其传动比",
+        "chapter": "第五章 轮系",
+        "count": 5
+      },
+      {
+        "name": "平行轴斜齿轮机构",
+        "chapter": "第四章 齿轮机构",
+        "count": 4
       },
       {
         "name": "复合轮系及其传动比",
         "chapter": "第五章 轮系",
+        "count": 4
+      },
+      {
+        "name": "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸",
+        "chapter": "第四章 齿轮机构",
         "count": 3
       },
       {
@@ -344,33 +519,58 @@
         "count": 3
       },
       {
-        "name": "轴的结构设计",
-        "chapter": "第十四章 轴",
-        "count": 3
+        "name": "平面运动副及其分类",
+        "chapter": "第一章 平面机构的自由度和速度分析",
+        "count": 2
       },
       {
-        "name": "滚动轴承的选择计算",
+        "name": "螺纹连接的预紧与防松",
+        "chapter": "第十章 连接",
+        "count": 2
+      },
+      {
+        "name": "锥齿轮机构",
+        "chapter": "第四章 齿轮机构",
+        "count": 2
+      },
+      {
+        "name": "平面连杆机构的基本类型及其应用",
+        "chapter": "第二章 平面连杆机构",
+        "count": 2
+      },
+      {
+        "name": "平面四杆机构的基本特性",
+        "chapter": "第二章 平面连杆机构",
+        "count": 2
+      },
+      {
+        "name": "滚动轴承的代号",
         "chapter": "第十六章 滚动轴承",
         "count": 2
       },
       {
-        "name": "滚动轴承组合结构设计",
-        "chapter": "第十六章 滚动轴承",
+        "name": "螺栓的材料和许用应力",
+        "chapter": "第十章 连接",
         "count": 2
       },
       {
-        "name": "圆柱蜗杆传动的受力分析",
-        "chapter": "第十二章 蜗杆传动",
-        "count": 2
-      },
-      {
-        "name": "周转轮系及其传动比",
+        "name": "定轴轮系及其传动比",
         "chapter": "第五章 轮系",
         "count": 2
       },
       {
-        "name": "平行轴斜齿轮机构",
+        "name": "轮系的分类",
+        "chapter": "第五章 轮系",
+        "count": 1
+      },
+      {
+        "name": "渐开线标准圆柱齿轮传动的啮合",
         "chapter": "第四章 齿轮机构",
+        "count": 1
+      },
+      {
+        "name": "蜗杆传动的几何尺寸、主要参数",
+        "chapter": "第十二章 蜗杆传动",
         "count": 1
       },
       {
@@ -382,34 +582,24 @@
         "name": "刚性回转件的平衡（静平衡、动平衡）",
         "chapter": "第八章 回转件的平衡",
         "count": 1
-      },
-      {
-        "name": "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸",
-        "chapter": "第四章 齿轮机构",
-        "count": 1
-      },
-      {
-        "name": "定轴轮系及其传动比",
-        "chapter": "第五章 轮系",
-        "count": 1
       }
     ],
     "by_type_shape": [
       {
         "shape": "机构自由度计算",
-        "count": 3
+        "count": 7
       },
       {
         "shape": "轮系传动比计算",
-        "count": 4
+        "count": 7
       },
       {
         "shape": "螺栓组强度计算",
-        "count": 4
+        "count": 8
       },
       {
         "shape": "齿轮几何尺寸计算",
-        "count": 1
+        "count": 4
       },
       {
         "shape": "平衡（回转件）计算",
@@ -429,6 +619,314 @@
     "note": "正确率无法从题库静态计算，由前端根据本地答题记录（localStorage）实时统计。"
   },
   "source_distribution": [
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2018",
+      "year": 2018
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2019",
+      "year": 2019
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2020",
+      "year": 2020
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
+    {
+      "source": "2021",
+      "year": 2021
+    },
     {
       "source": "2022",
       "year": 2022
