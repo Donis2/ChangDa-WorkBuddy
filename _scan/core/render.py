@@ -4,8 +4,9 @@ import os
 
 import pymupdf
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+OUT = os.path.join(ROOT, "_scan", "cache", "render")
+os.makedirs(OUT, exist_ok=True)
 
 JOBS = [
     ("真题/常大2026年真题.pdf", "paper2026"),

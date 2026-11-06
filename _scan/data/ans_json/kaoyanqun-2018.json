@@ -1,0 +1,67 @@
+{
+  "year": 2018,
+  "version": "kaoyanqun",
+  "source_label": "考研群资料版本 2018 年答案（手写）",
+  "quality_default": "原文转录·手写识读",
+  "items": [
+    { "question_id": "2018-选择-01", "answer": ["A"], "note": "原卷作 1-5. ACACD" },
+    { "question_id": "2018-选择-02", "answer": ["C"] },
+    {
+      "question_id": "2018-选择-03",
+      "answer": ["A"],
+      "note": "与另一版不同：老魏版记作 B"
+    },
+    { "question_id": "2018-选择-04", "answer": ["C"] },
+    { "question_id": "2018-选择-05", "answer": ["D"] },
+    { "question_id": "2018-选择-06", "answer": ["B"], "note": "原卷作 6-10. BABAC" },
+    { "question_id": "2018-选择-07", "answer": ["A"] },
+    { "question_id": "2018-选择-08", "answer": ["B"] },
+    { "question_id": "2018-选择-09", "answer": ["A"] },
+    {
+      "question_id": "2018-选择-10",
+      "answer": ["C"],
+      "note": "与另一版不同：老魏版记作 B"
+    },
+    {
+      "question_id": "2018-计算-01",
+      "answer": "活动构件 $n=6$，低副 $P_L=8$，高副 $P_H=1$\n$F=3n-2P_L-P_H=3\\times6-2\\times8-1=1$\n复合铰链：$B$；虚约束：$E$、$F$ 其中之一；局部自由度：滚子 $D$\n该机构需要一个原动件才有确定的运动。",
+      "note": "原卷编号为「二、」，对应本清单第三大题"
+    },
+    {
+      "question_id": "2018-计算-02",
+      "answer": "(1) $\\beta=\\arccos\\dfrac{m_n(z_1+z_2)}{2a}=\\arccos\\dfrac{484}{500}=14.7^{\\circ}$\n(2) $d_1=m_nz_1/\\cos\\beta=4\\times23/\\cos14.7^{\\circ}=95\\ \\mathrm{mm}$；$d_2=m_nz_2/\\cos\\beta=4\\times98/\\cos14.7^{\\circ}=405\\ \\mathrm{mm}$\n(3) $d_{a1}=d_1+2m_n=103\\ \\mathrm{mm}$；$d_{f1}=d_1-2.5m_n=85\\ \\mathrm{mm}$",
+      "note": "原卷编号为「三、」；$d_1$ 一处数字有涂改，按 95 mm 识读"
+    },
+    {
+      "question_id": "2018-计算-03",
+      "answer": "五、由反转法：\n$i_{13}^{H}=\\dfrac{n_1-n_H}{n_3-n_H}=-\\dfrac{z_3}{z_1}=-2$\n其中 $n_3=0$，$n_1=1000\\ \\mathrm{r/min}$\n$n_H=333.3\\ \\mathrm{r/min}$\n系杆与轮 1 转向相同。",
+      "note": "与另一版不同：该版按 $-2$ 计算，得 $n_H=333.3\\ \\mathrm{r/min}$；老魏版按 $-5$ 计算，得 $n_H=166.67\\ \\mathrm{r/min}$"
+    },
+    {
+      "question_id": "2018-计算-04",
+      "answer": "六、$F_0\\le\\dfrac{\\pi d_1^{2}[\\sigma]}{4}=\\dfrac{3.14\\times17.294^{2}\\times160}{4}=38879\\ \\mathrm{N}$\n$F\\le\\dfrac{F_0fzi}{C}=\\dfrac{38879\\times0.15\\times1\\times2}{1.2}=9719.75\\ \\mathrm{N}$",
+      "note": "与另一版不同：老魏版强度条件取 $\\dfrac{1.3F_0}{\\dfrac{1}{4}\\pi d_1^2}\\le[\\sigma]$，得 $F\\le7227.655\\ \\mathrm{N}$"
+    },
+    {
+      "question_id": "2018-计算-05",
+      "answer": "七、$F_{d1}=0.7F_{r1}=0.7\\times1000=700\\ \\mathrm{N}$，$F_{d2}=0.7F_{r2}=0.7\\times2060=1442\\ \\mathrm{N}$\n$F_{d1}$ 与 $F_{ae}$ 同向，轴有向右窜动的趋势；$F_{d1}+F_{ae}>F_{d2}$\n右边轴承被压紧，左边轴承被放松\n$F_{a1}=F_{d1}=700\\ \\mathrm{N}$，$F_{a2}=F_{a1}+F_{ae}=1580\\ \\mathrm{N}$",
+      "note": "与另一版不同：老魏版为轴承 1 压紧，$F_{a1}=2322\\ \\mathrm{N}$、$F_{a2}=1442\\ \\mathrm{N}$"
+    },
+    {
+      "question_id": "2018-分析-01",
+      "answer": "八、(1) 齿轮 3 安装在左边更合适。\n(2) 轴Ⅱ转动方向向左。\n(3) 受力图：$F_{t1}$ 水平向左，$F_{a1}$ 垂直纸面向里（⊗）。",
+      "note": "第 (3) 小问原卷为手绘受力图，方向按图中所标箭头转录"
+    },
+    {
+      "question_id": "2018-分析-02",
+      "answer": "九、\n1. 左边轴承左端无轴向固定，可设置套筒；\n2. 齿轮无周向固定，可设计键槽；\n3. 齿轮所在工作轴段长度应略短于齿轮轮毂宽度；\n4. 轴肩的高度高于轴承内圈高度，不便于轴承拆卸；\n5. 轴承盖与轴之间留有一定间隙；\n6. 轴承盖内应设置密封圈；\n7. 右端轴承所在支撑轴颈过长，应设计台阶，减少精加工面；\n8. 联轴器左端无轴向固定，可设计台阶；\n9. 联轴器右端无轴向固定，可设置轴端挡圈；\n10. 联轴器所在的键槽过长。"
+    }
+  ],
+  "missing": [
+    { "question_id": "2018-简答-01", "reason": "考研群版 2018 页只收录选择题与「二～九」计算、分析题，第二大题简答题未收录" },
+    { "question_id": "2018-简答-02", "reason": "同上" },
+    { "question_id": "2018-简答-03", "reason": "同上" },
+    { "question_id": "2018-简答-04", "reason": "同上" },
+    { "question_id": "2018-简答-05", "reason": "同上" }
+  ]
+}
