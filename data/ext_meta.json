@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-11-06T11:19:26+08:00",
+  "total_questions": 585,
+  "by_source": [
+    {
+      "source": "青蛙弟弟选择题题库",
+      "count": 237
+    },
+    {
+      "source": "简答题专项训练",
+      "count": 173
+    },
+    {
+      "source": "简答题汇编·预测题",
+      "count": 110
+    },
+    {
+      "source": "简答题汇编·历年真题",
+      "count": 64
+    },
+    {
+      "source": "客观题册·补充题库",
+      "count": 1
+    }
+  ],
+  "by_type": [
+    {
+      "type": "single_choice",
+      "label": "单选题",
+      "count": 238
+    },
+    {
+      "type": "short_answer",
+      "label": "简答题",
+      "count": 347
+    }
+  ],
+  "tagged_real_exam": 115,
+  "type_labels": {
+    "single_choice": "单选题",
+    "multiple_choice": "多选题",
+    "fill_blank": "填空题",
+    "true_false": "判断题",
+    "short_answer": "简答题",
+    "calculation": "计算题"
+  }
+}

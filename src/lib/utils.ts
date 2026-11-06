@@ -27,6 +27,30 @@ export function typeLabel(t: string) {
   return TYPE_LABELS[t] ?? t
 }
 
+/** 答案版本显示名（与 scripts/build_data.py 的 ANSWER_VERSION_LABELS 保持一致） */
+export const ANSWER_VERSION_LABELS: Record<string, string> = {
+  laowei: '老魏版',
+  kaoyanqun: '考研群版',
+  textbook: '教材版',
+  ziliao: '拓展资料版',
+}
+
+export const ANSWER_VERSION_ORDER = ['laowei', 'kaoyanqun', 'ziliao', 'textbook']
+
+/** 把答案数组格式化为可显示文本（判断题 true/false 转正确/错误） */
+export function formatAnswerValue(
+  type: string,
+  answer: string[] | string | boolean[] | undefined,
+): string {
+  if (answer === undefined || answer === null) return ''
+  if (type === 'true_false') {
+    const a = Array.isArray(answer) ? answer[0] : answer
+    return a ? '正确' : '错误'
+  }
+  if (Array.isArray(answer)) return (answer as string[]).join('\n')
+  return String(answer)
+}
+
 /** 是否为客观题（点击选项即时判分） */
 export function isObjective(t: string) {
   return t === 'single_choice' || t === 'multiple_choice' || t === 'true_false'

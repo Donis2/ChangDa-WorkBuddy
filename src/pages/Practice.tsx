@@ -2,6 +2,7 @@ import * as React from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { ChevronLeft, ChevronRight, Shuffle, ListOrdered, Sparkles, Star, AlertCircle, Layers, Square, Eye, EyeOff, ArrowUp, X, SlidersHorizontal } from 'lucide-react'
 import { questions } from '@/lib/data'
+import { extendedQuestions, allQuestions } from '@/lib/extData'
 import { filterQuestions, modeLabel } from '@/lib/quiz'
 import {
   defaultSession,
@@ -35,6 +36,7 @@ export function Practice() {
     const kp = params.get('kp')
     const chapter = params.get('chapter')
     const mode = params.get('mode')
+    const bank = params.get('bank')
     // 沿用当前的显示方式（单题 / 全显示），只替换筛选条件
     setSession((prev) => {
       const next: SessionState = {
@@ -42,7 +44,9 @@ export function Practice() {
         view: prev.view,
         revealAll: prev.revealAll,
         multiSelect: prev.multiSelect,
+        bank: prev.bank,
       }
+      if (bank === 'ext' || bank === 'all' || bank === 'real') next.bank = bank
       if (year) next.yearFilter = year.split(',').map(Number)
       if (type) next.typeFilter = type.split(',')
       if (chapter) next.chapterFilter = chapter.split(',')
@@ -67,9 +71,12 @@ export function Practice() {
     [],
   )
 
+  const pool =
+    session.bank === 'ext' ? extendedQuestions : session.bank === 'all' ? allQuestions : questions
+
   const list = React.useMemo(
-    () => filterQuestions(session, progress, questions),
-    [session, progress],
+    () => filterQuestions(session, progress, pool),
+    [session, progress, pool],
   )
 
   const index = Math.min(session.index, Math.max(0, list.length - 1))
@@ -114,6 +121,11 @@ export function Practice() {
           <Badge variant="default" className="shrink-0 text-xs">
             {modeLabel(session)}
           </Badge>
+          {session.bank !== 'real' && (
+            <Badge variant="warning" className="shrink-0 text-xs">
+              {session.bank === 'ext' ? '扩展题库' : '真题+扩展'}
+            </Badge>
+          )}
           <span className="shrink-0 text-sm text-muted-foreground">
             {isAll ? (
               <>
@@ -165,6 +177,32 @@ export function Practice() {
 
         {/* 第二行：快捷按钮，手机/窄屏横向滚动，桌面自动换行 */}
         <div className="mt-2 flex gap-1.5 overflow-x-auto pb-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:flex-wrap lg:overflow-visible">
+          {/* 题库切换：真题 / 扩展题 / 全部 */}
+          <div className="flex shrink-0 items-center gap-1 rounded-full border p-0.5">
+            {(
+              [
+                { k: 'real', label: '真题', title: `真题 ${questions.length} 题` },
+                { k: 'ext', label: '扩展题', title: `扩展题 ${extendedQuestions.length} 题` },
+                { k: 'all', label: '全部', title: `真题 + 扩展题 共 ${allQuestions.length} 题` },
+              ] as const
+            ).map(({ k, label, title }) => (
+              <button
+                key={k}
+                title={title}
+                onClick={() =>
+                  patch({ bank: k, index: 0, wrongOnly: false, favoriteOnly: false })
+                }
+                className={cn(
+                  'rounded-full px-2.5 py-1 text-xs transition-colors',
+                  session.bank === k
+                    ? 'bg-primary font-medium text-primary-foreground'
+                    : 'text-muted-foreground hover:bg-accent',
+                )}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
           <Preset
             icon={<ListOrdered className="h-3.5 w-3.5" />}
             label="顺序练习"
@@ -176,6 +214,7 @@ export function Practice() {
                 index: 0,
                 view: session.view,
                 multiSelect: session.multiSelect,
+                bank: session.bank,
               })
             }
           />
@@ -276,7 +315,7 @@ export function Practice() {
                 session={session}
                 patch={patch}
                 progress={progress}
-                onReset={() => patch({ ...defaultSession, view: session.view, multiSelect: session.multiSelect })}
+                onReset={() => patch({ ...defaultSession, bank: session.bank, view: session.view, multiSelect: session.multiSelect })}
               />
             </div>
             <div className="border-t p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]">
@@ -295,7 +334,7 @@ export function Practice() {
             session={session}
             patch={patch}
             progress={progress}
-            onReset={() => patch({ ...defaultSession, view: session.view, multiSelect: session.multiSelect })}
+            onReset={() => patch({ ...defaultSession, bank: session.bank, view: session.view, multiSelect: session.multiSelect })}
           />
         </aside>
 
@@ -333,7 +372,7 @@ export function Practice() {
                 </div>
               </div>
             ) : (
-              <EmptyState session={session} onReset={() => patch({ ...defaultSession, view: session.view, multiSelect: session.multiSelect })} />
+              <EmptyState session={session} onReset={() => patch({ ...defaultSession, bank: session.bank, view: session.view, multiSelect: session.multiSelect })} />
             )
           ) : current ? (
             <>
@@ -371,7 +410,7 @@ export function Practice() {
               )}
             </>
           ) : (
-            <EmptyState session={session} onReset={() => patch({ ...defaultSession, view: session.view, multiSelect: session.multiSelect })} />
+            <EmptyState session={session} onReset={() => patch({ ...defaultSession, bank: session.bank, view: session.view, multiSelect: session.multiSelect })} />
           )}
         </section>
 
@@ -385,7 +424,7 @@ export function Practice() {
           />
           <StatsPanel
             list={list}
-            allAnswered={questions}
+            allAnswered={pool}
             progress={progress}
             currentIndex={index}
             session={session}

@@ -4,8 +4,18 @@ import { cn } from '@/lib/utils'
 
 const NAV = [
   { to: '/', label: '首页', icon: Home },
-  { to: '/practice', label: '刷题', icon: PenSquare },
-  { to: '/stats', label: '统计', icon: BarChart3 },
+  {
+    to: '/practice',
+    label: '刷题',
+    icon: PenSquare,
+    preload: () => import('@/pages/Practice'),
+  },
+  {
+    to: '/stats',
+    label: '统计',
+    icon: BarChart3,
+    preload: () => import('@/pages/Stats'),
+  },
 ]
 
 export function Layout() {
@@ -32,6 +42,7 @@ export function Layout() {
                 key={n.to}
                 to={n.to}
                 aria-label={n.label}
+                onMouseEnter={n.preload}
                 className={({ isActive }) =>
                   cn(
                     'flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm transition-colors sm:px-3',

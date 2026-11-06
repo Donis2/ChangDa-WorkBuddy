@@ -8,10 +8,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.dirname(os.path.abspath(__file__))
 
 JOBS = [
-    ("真题/常大2024年真题.pdf", "paper2024"),
-    ("真题/常大2025年真题.pdf", "paper2025"),
-    ("真题答案/2024年答案.pdf", "ans2024"),
-    ("真题答案/2025年答案.pdf", "ans2025"),
+    ("真题/常大2026年真题.pdf", "paper2026"),
+    ("真题答案/2026年答案.pdf", "ans2026"),
 ]
 
 

@@ -12,14 +12,30 @@
       "options": [],
       "answer": "质径积是指转子的偏心质量与其回转半径的乘积（即 mr），用来表示不平衡量的大小。\n引入质径积概念的意义在于：可以量化转子不平衡所产生的惯性效应，为动平衡计算、振动分析和配重（平衡质量）设计提供直接依据，从而确保旋转机械的运转平稳性及使用寿命。",
       "explanation": "质径积 mr 是不平衡量的度量（单位 kg·mm 或 g·mm）。平衡计算时通过在各校正面上加/减质径积，使所有质径积的矢量和为零。",
-      "knowledge_points": ["刚性回转件的平衡（静平衡、动平衡）"],
+      "knowledge_points": [
+        "刚性回转件的平衡（静平衡、动平衡）"
+      ],
       "chapter": "第八章 回转件的平衡",
       "difficulty": "中等",
       "score": 10,
       "images": [],
       "answer_images": [],
-      "original_numbers": {"2025": "一、简答题 第3题"},
-      "tags": []
+      "original_numbers": {
+        "2025": "一、简答题 第3题"
+      },
+      "tags": [],
+      "answer_versions": {
+        "ziliao": {
+          "answer": "1. 质径积：转子的偏心质量 m 与其回转半径 r 的乘积 mr，用来表示不平衡量的大小。\n2. 意义：可量化转子不平衡产生的惯性效应，为动平衡计算、振动分析和配重设计提供直接依据。\n3. 平衡时通过在各校正平面加、减质径积，使所有质径积的矢量和为零，保证运转平稳、延长寿命。",
+          "source": "《常大855-简答题详解》（按教材整理的分点答案）",
+          "quality": "整理"
+        },
+        "kaoyanqun": {
+          "answer": "质径积是指转子的偏心质量与其回转半径的乘积。\n引入该概念的意义在于量化转子不平衡的惯性效应，为动平衡计算、振动分析和配重设计提供直接依据，确保旋转机械运行平稳性及寿命。",
+          "source": "考研群资料版本 2025 年答案",
+          "quality": "原文转录·手写识读"
+        }
+      }
     },
     {
       "id": "2025-综合-01",
@@ -32,14 +48,33 @@
         "(3) 斜齿轮 3 所受各分力 F_t3、F_r3、F_a3 的方向见答案图 14-7。其中圆周力 F_t3 由啮合点指向轮 3 的转动方向一侧、径向力 F_r3 指向轮心、轴向力 F_a3 指向由旋向与转向共同确定（右旋用右手定则）。"
       ],
       "explanation": "蜗杆传动：已知蜗杆旋向与转向，用「左右手定则」判定蜗轮转向；斜齿轮：同轴两轮一个左旋一个右旋可使轴向力抵消；分力方向判定口诀——圆周力「主反从同」，径向力指向轮心，轴向力按旋向用左/右手定则确定。",
-      "knowledge_points": ["斜齿圆柱齿轮传动", "直齿圆锥齿轮传动", "圆柱蜗杆传动的受力分析"],
+      "knowledge_points": [
+        "斜齿圆柱齿轮传动",
+        "直齿圆锥齿轮传动",
+        "圆柱蜗杆传动的受力分析"
+      ],
       "chapter": "第十一章 齿轮传动",
       "difficulty": "较难",
       "score": 15,
-      "images": ["/images/questions/2025-综合-01.png"],
-      "answer_images": ["/images/questions/2025-综合-01-ans.png"],
-      "original_numbers": {"2025": "二、综合题 第1题"},
-      "tags": ["受力分析"]
+      "images": [
+        "/images/questions/2025-综合-01.png"
+      ],
+      "answer_images": [
+        "/images/questions/2025-综合-01-ans.png"
+      ],
+      "original_numbers": {
+        "2025": "二、综合题 第1题"
+      },
+      "tags": [
+        "受力分析"
+      ],
+      "answer_versions": {
+        "kaoyanqun": {
+          "answer": "（1）各轴转动方向如答案图 14-7 中的箭头所示。\n（2）斜齿轮 3 的螺旋线方向为右旋，斜齿轮 4 的螺旋线方向为左旋。\n（3）斜齿轮 3 所受各力（$F_{t3}$、$F_{r3}$、$F_{a3}$）的方向如答案图 14-7 所示。",
+          "source": "考研群资料版本 2025 年答案",
+          "quality": "原文转录·手写识读"
+        }
+      }
     },
     {
       "id": "2025-综合-02",
@@ -59,14 +94,32 @@
         "⑩缺少调整垫片。"
       ],
       "explanation": "轴系结构改错高频考点：轴承的轴向定位与固定、套筒/轴肩高度应低于轴承内圈以便拆卸、透盖与轴之间需间隙配合并加密封、两端需调整垫片、传动件需键连接实现周向固定。",
-      "knowledge_points": ["轴的结构设计", "滚动轴承组合结构设计"],
+      "knowledge_points": [
+        "轴的结构设计",
+        "滚动轴承组合结构设计"
+      ],
       "chapter": "第十六章 滚动轴承",
       "difficulty": "较难",
       "score": 15,
-      "images": ["/images/questions/2025-综合-02.png"],
-      "answer_images": ["/images/questions/2025-综合-02-ans.png"],
-      "original_numbers": {"2025": "二、综合题 第2题"},
-      "tags": ["结构改错"]
+      "images": [
+        "/images/questions/2025-综合-02.png"
+      ],
+      "answer_images": [
+        "/images/questions/2025-综合-02-ans.png"
+      ],
+      "original_numbers": {
+        "2025": "二、综合题 第2题"
+      },
+      "tags": [
+        "结构改错"
+      ],
+      "answer_versions": {
+        "kaoyanqun": {
+          "answer": "①缺少调整垫片。②缺少键。③齿轮轴向未固定。④轴与轴承盖间应有间隙。⑤轴与轴承盖间应有密封。⑥轴承轴向未定位。⑦套筒外径高过轴承内圈。⑧挡圈多余。⑨缺少键连接。⑩缺少调整垫片。",
+          "source": "考研群资料版本 2025 年答案",
+          "quality": "原文转录·手写识读"
+        }
+      }
     },
     {
       "id": "2025-计算-01",
@@ -80,14 +133,29 @@
         "该机构的自由度为 1。"
       ],
       "explanation": "自由度计算的三个「特殊结构」必须处理：复合铰链（k 个构件汇聚折算 k−1 个转动副）、局部自由度（如滚子自转，计算时排除）、虚约束（平行导路、重复的对称约束等应去除后再数）。",
-      "knowledge_points": ["平面机构的自由度"],
+      "knowledge_points": [
+        "平面机构的自由度"
+      ],
       "chapter": "第一章 平面机构的自由度和速度分析",
       "difficulty": "较难",
       "score": 15,
-      "images": ["/images/questions/2025-计算-01.png"],
-      "answer_images": ["/images/questions/2025-计算-01-ans.png"],
-      "original_numbers": {"2025": "三、计算题 第1题"},
-      "tags": []
+      "images": [
+        "/images/questions/2025-计算-01.png"
+      ],
+      "answer_images": [
+        "/images/questions/2025-计算-01-ans.png"
+      ],
+      "original_numbers": {
+        "2025": "三、计算题 第1题"
+      },
+      "tags": [],
+      "answer_versions": {
+        "kaoyanqun": {
+          "answer": "b）F、G 两个平行移动副中有一处是虚约束，MJ//NK//ZL，去除杆 NK 及其转动副的虚约束，滚子 A 处有局部自由度（滚子的自转不影响输出运动）和一个转动副，J 点是复合铰链，如下图所示，自由度为\n$F=3n-2P_L-P_H=3\\times10-2\\times14-1=1$",
+          "source": "考研群资料版本 2025 年答案",
+          "quality": "原文转录·手写识读"
+        }
+      }
     },
     {
       "id": "2025-计算-02",
@@ -101,15 +169,33 @@
         "4）联立以上方程解得：n₁ ≈ 678.6 r/min。",
         "方向：n₁ 与齿轮 8 的转向相同。"
       ],
-      "explanation": "复合轮系求解步骤：①正确划分基本轮系（先找行星轮→找系杆→找中心轮，其余为定轴轮系）；②分别列出定轴轮系传动比与周转轮系转化机构传动比方程；③联立求解。符号由外啮合对数与转向箭头共同确定。",
-      "knowledge_points": ["定轴轮系及其传动比", "周转轮系及其传动比", "复合轮系及其传动比"],
+      "explanation": "考点：复合轮系（定轴 + 周转）的传动比求解。思路：i87 求 n7 → 用周转轮系 i_{3'6}^{7} 求 n3 → 用定轴 i31 求 n1。「本题列入待核实」：回忆版给出的齿数与随卷答案的中间结果对不上——按 $i_{63'}^{7}=\\dfrac{z_5z_{3'}}{z_6z_{5'}}=\\dfrac{15\\times24}{105\\times30}=\\dfrac{12}{105}$，而随卷答案写作 $\\dfrac{48}{105}$；同理 $i_{31}=\\dfrac{z_2z_1}{z_3z_{2'}}=\\dfrac{60\\times90}{30\\times30}=6$，随卷答案写作 $\\dfrac{3}{2}$。两个中间值均相差约 4 倍，最终 $n_1\\approx678.6$ r/min 无法复现，疑为回忆版齿数有误，需对照原卷核定后再算。",
+      "knowledge_points": [
+        "定轴轮系及其传动比",
+        "周转轮系及其传动比",
+        "复合轮系及其传动比"
+      ],
       "chapter": "第五章 轮系",
       "difficulty": "较难",
       "score": 15,
-      "images": ["/images/questions/2025-计算-02.png"],
+      "images": [
+        "/images/questions/2025-计算-02.png"
+      ],
       "answer_images": [],
-      "original_numbers": {"2025": "三、计算题 第2题"},
-      "tags": ["原书例题"]
+      "original_numbers": {
+        "2025": "三、计算题 第2题"
+      },
+      "tags": [
+        "原书例题",
+        "答案存疑"
+      ],
+      "answer_versions": {
+        "kaoyanqun": {
+          "answer": "解：齿轮 8、7 构成定轴轮系\n$i_{87}=\\dfrac{n_8}{n_7}=-\\dfrac{z_7}{z_8}=-\\dfrac{7}{6}$\n齿轮 6、5′、5、4、3′ 及齿轮（系杆）7 构成周转轮系\n$i_{63'}^{7}=\\dfrac{n_6-n_7}{n_{3'}-n_7}=\\dfrac{0-n_7}{n_3-n_7}=\\dfrac{z_{5'}\\cdot z_{3'}}{z_6 z_5}=\\dfrac{48}{105}$\n齿轮 1、2、2′、3 构成定轴轮系\n$i_{31}=\\dfrac{n_3}{n_1}=\\dfrac{z_1\\cdot z_{2'}}{z_2\\cdot z_3}=\\dfrac{3}{2}$\n联立以上方程得\n$n_1\\approx678.6\\,\\mathrm{r/min}$（与齿轮 8 同向）",
+          "source": "考研群资料版本 2025 年答案",
+          "quality": "原文转录·手写识读"
+        }
+      }
     },
     {
       "id": "2025-计算-03",
@@ -125,14 +211,31 @@
         "6）计算螺栓小径：$d_1 \\geq \\sqrt{\\dfrac{4 \\times 1.3 F_0}{\\pi [\\sigma]}} = \\sqrt{\\dfrac{4 \\times 1.3 \\times 135174.8}{\\pi \\times 120}} \\approx 43.180\\ \\mathrm{mm}$。"
       ],
       "explanation": "受横向载荷 + 旋转力矩的螺栓组：先分别求横向载荷引起的螺栓力（均分）与力矩引起的螺栓力（按到形心距离分配），再用矢量合成求最大螺栓力，最后由摩擦平衡条件求预紧力，代入强度公式求小径。",
-      "knowledge_points": ["螺纹连接的强度计算"],
+      "knowledge_points": [
+        "螺纹连接的强度计算"
+      ],
       "chapter": "第十章 连接",
       "difficulty": "较难",
       "score": 15,
-      "images": ["/images/questions/2025-计算-03.png"],
-      "answer_images": ["/images/questions/2025-计算-03-ans.png"],
-      "original_numbers": {"2025": "三、计算题 第3题"},
-      "tags": ["原书例题"]
+      "images": [
+        "/images/questions/2025-计算-03.png"
+      ],
+      "answer_images": [
+        "/images/questions/2025-计算-03-ans.png"
+      ],
+      "original_numbers": {
+        "2025": "三、计算题 第3题"
+      },
+      "tags": [
+        "原书例题"
+      ],
+      "answer_versions": {
+        "kaoyanqun": {
+          "answer": "解：1）螺栓组受力分析。将载荷向螺栓组连接的接合面形心点 O 简化，则得横向载荷\n$P=20000\\,\\mathrm{N}$\n旋转力矩\n$T=Pl=20000\\times300\\,\\mathrm{N\\cdot mm}=6000000\\,\\mathrm{N\\cdot mm}$\n计算受力最大螺栓的横向载荷 $F_s$。在横向载荷 P 作用下，各螺栓受的横向载荷 $F_{sp}$ 大小相等、方向同 P，即\n$F_{sp1}=F_{sp2}=F_{sp3}=F_{sp4}=\\dfrac{P}{4}=\\dfrac{20000}{4}\\,\\mathrm{N}=5000\\,\\mathrm{N}$\n在旋转力矩 T 作用下，因为各螺栓中心至形心点 O 距离相等，各螺栓受的由转矩引起的横向载荷 $F_{st}$ 大小也相等，方向沿着各垂直螺栓中心与形心点 O 的连线。螺栓中心至形心点 O 的距离为\n$r=\\sqrt{75^2+75^2}\\,\\mathrm{mm}=106.1\\,\\mathrm{mm}$\n故\n$F_{st1}=F_{st2}=F_{st3}=F_{st4}=\\dfrac{T}{4r}=\\dfrac{6000000}{4\\times106.1}\\,\\mathrm{N}=14137.6\\,\\mathrm{N}$\n各螺栓所受的横向载荷 $F_{sp}$ 和 $F_{st}$ 的方向如图 10-8 所示。从图中可以看出螺栓 1 和 2 受两力夹角 α 最小（α=45°），故螺栓 1 和 2 受力最大，所受总的载荷为\n$F_{s\\max}=F_{s1}=F_{s2}=\\sqrt{F_{sp1}^2+F_{st1}^2+2F_{sp1}F_{st1}\\cos\\alpha}\\,\\mathrm{N}=18023.3\\,\\mathrm{N}$\n2）计算螺栓所需预紧力。由一个螺栓受的横向力与接合面间的摩擦力相平衡的条件可得\n$fF_0=K_sF_{s\\max}$\n所以\n$F_0=\\dfrac{K_sF_{s\\max}}{f}=\\dfrac{1.2\\times18023.3}{0.16}\\,\\mathrm{N}=135174.8\\,\\mathrm{N}$\n3）计算螺栓小径\n$d_1\\geq\\sqrt{\\dfrac{4\\times1.3F_2}{\\pi[\\sigma]}}=\\sqrt{\\dfrac{4\\times1.3\\times135174.8}{\\pi\\times120}}\\,\\mathrm{mm}=43.180\\,\\mathrm{mm}$",
+          "source": "考研群资料版本 2025 年答案",
+          "quality": "原文转录·手写识读"
+        }
+      }
     },
     {
       "id": "2025-计算-04",
@@ -146,14 +249,31 @@
         "4）求安装时预紧力 F₀：由 C_m = 2C_b 得 $\\dfrac{C_b}{C_b + C_m} = \\dfrac{1}{3}$，故 $F_0 = F_2 - \\dfrac{C_b}{C_b + C_m}F = 4185 - \\dfrac{1}{3} \\times 1674 \\approx 3627\\ \\mathrm{N}$。"
       ],
       "explanation": "受轴向载荷的紧螺栓联接：工作拉力 $F$ 由总轴向力 $F_{\\Sigma}$ 均分；总拉力 $F_2 = F_1 + F$（题给 $F_1 = 1.5F$）；强度计算时按 1.3 倍放大（拉扭复合）；预紧力由刚度比 $\\dfrac{C_b}{C_b+C_m} = \\dfrac{1}{3}$ 反算 $F_0 = F_2 - \\dfrac{C_b}{C_b+C_m}F$。",
-      "knowledge_points": ["螺纹连接的强度计算"],
+      "knowledge_points": [
+        "螺纹连接的强度计算"
+      ],
       "chapter": "第十章 连接",
       "difficulty": "中等",
       "score": 15,
-      "images": ["/images/questions/2025-计算-04.png"],
-      "answer_images": ["/images/questions/2025-计算-04-ans.png"],
-      "original_numbers": {"2025": "三、计算题 第4题"},
-      "tags": ["原书例题"]
+      "images": [
+        "/images/questions/2025-计算-04.png"
+      ],
+      "answer_images": [
+        "/images/questions/2025-计算-04-ans.png"
+      ],
+      "original_numbers": {
+        "2025": "三、计算题 第4题"
+      },
+      "tags": [
+        "原书例题"
+      ],
+      "answer_versions": {
+        "kaoyanqun": {
+          "answer": "解：1、求工作拉力 F\n$F=\\dfrac{F_\\Sigma}{z}=\\dfrac{p\\dfrac{\\pi D^2}{4}}{6}=\\dfrac{2\\times\\dfrac{\\pi\\times80^2}{4}}{6}=1674\\,\\mathrm{N}$\n2、求总拉力 $F_2$\n$F_2=F_1+F=1.5F+F=2.5F=4185\\,\\mathrm{N}$\n3、求螺栓小径\n$d_1\\geq\\sqrt{\\dfrac{1.3\\times4\\times F_2}{\\pi[\\sigma]}}=\\sqrt{\\dfrac{1.3\\times4\\times4185}{\\pi\\times160}}=6.58\\,\\mathrm{mm}$\n4、求螺栓的预紧力 $F_0$\n$F_0=F_2-\\dfrac{C_b}{C_b+C_m}F=4185-\\dfrac{1}{3}\\times1674=3627\\,\\mathrm{N}$",
+          "source": "考研群资料版本 2025 年答案",
+          "quality": "原文转录·手写识读"
+        }
+      }
     }
   ]
 }

@@ -11,6 +11,21 @@ export interface Option {
   text: string
 }
 
+/** 答案版本：老魏版 / 考研群资料版 / 教材补写版 / 拓展资料版 */
+export type AnswerVersionKey = 'laowei' | 'kaoyanqun' | 'textbook' | 'ziliao'
+
+export interface AnswerVersion {
+  /** 该版本的答案正文，格式与 Question.answer 一致 */
+  answer: string[] | string | boolean[]
+  explanation?: string
+  /** 来源说明，如「老魏机械团队 2019 年参考答案」 */
+  source?: string
+  /** 原文转录 | 整理 | 补写 */
+  quality?: string
+  /** 该版本独有的答案图 */
+  answer_images?: string[]
+}
+
 export interface Question {
   id: string
   source_years: number[]
@@ -30,6 +45,57 @@ export interface Question {
   original_numbers: Record<string, string>
   tags: string[]
   merge_key?: string
+  /** 多版本答案；缺省时只显示顶层 answer */
+  answer_versions?: Partial<Record<AnswerVersionKey, AnswerVersion>>
+  /** 默认展示哪个版本；缺省显示顶层 answer */
+  answer_version_default?: AnswerVersionKey
+}
+
+/** 扩展题命中真题的记录（同一题可能多年考过） */
+export interface RealExamRef {
+  year: number
+  /** 卷面题号，如「一、选择题 第7题」 */
+  number: string
+  /** 对应真题库中的题目 id，便于跳转/比对 */
+  question_id?: string
+  score?: number
+}
+
+/** 扩展题：非真题资料中提取的题目，独立存放于 data/extended.json */
+export interface ExtendedQuestion extends Question {
+  is_extended: true
+  /** 该题若是考过的真题，这里列出所有年份与题号；纯补充题为空数组 */
+  real_exam_refs: RealExamRef[]
+  /** 原始资料文件（相对路径） */
+  source_file?: string
+  /** 来自哪一本资料的短名，如「青蛙弟弟选择题题库」 */
+  source_book?: string
+}
+
+export interface ExtendedFile {
+  meta: {
+    generated_at: string
+    total_questions: number
+    by_source: { source: string; count: number }[]
+    by_type: { type: string; label: string; count: number }[]
+    tagged_real_exam: number
+    type_labels: Record<string, string>
+  }
+  questions: ExtendedQuestion[]
+}
+
+/** data/ext_stats.json —— 扩展题统计，与真题 stats.json 口径隔离 */
+export interface ExtStatsFile {
+  generated_at: string
+  total_questions: number
+  tagged_real_exam: number
+  pure_supplement: number
+  by_source: { source: string; count: number }[]
+  by_type: { type: string; label: string; count: number }[]
+  by_chapter: { chapter: string; count: number }[]
+  knowledge_point_ranking: { name: string; chapter: string; count: number }[]
+  real_exam_year_distribution: { year: number; count: number }[]
+  issue_counts: Record<string, number>
 }
 
 export interface QuestionsFile {

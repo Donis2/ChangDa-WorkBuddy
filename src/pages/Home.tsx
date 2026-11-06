@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { Link } from 'react-router-dom'
 import {
   BookOpen,
@@ -11,6 +12,7 @@ import {
   Clock,
 } from 'lucide-react'
 import { knowledgeTree, questions, statsFile, years } from '@/lib/data'
+import { extMeta } from '@/lib/extMeta'
 import { useProgress } from '@/lib/storage'
 import { TYPE_ORDER, pct, typeLabel } from '@/lib/utils'
 import { Badge } from '@/components/ui/badge'
@@ -19,6 +21,23 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 export function Home() {
   const progress = useProgress()
+
+  // 首屏渲染完成后，空闲时预取刷题页代码块，点击「开始刷题」即点即开
+  React.useEffect(() => {
+    const idle =
+      (window as unknown as { requestIdleCallback?: (cb: () => void) => number })
+        .requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 1500))
+    const t = idle(() => {
+      void import('@/pages/Practice')
+    })
+    return () => {
+      const cancel = (window as unknown as { cancelIdleCallback?: (h: number) => void })
+        .cancelIdleCallback
+      if (cancel) cancel(t as number)
+      else window.clearTimeout(t as number)
+    }
+  }, [])
+
   const recs = Object.values(progress)
   const attempts = recs.reduce((s, r) => s + r.attempts, 0)
   const correct = recs.reduce((s, r) => s + r.correctCount, 0)
@@ -87,6 +106,48 @@ export function Home() {
         <StatCard label="错题本" value={`${wrongCount}`} sub="答错自动收录" tone="rose" />
         <StatCard label="我的收藏" value={`${favCount}`} sub="手动标记 ★" tone="amber" />
       </div>
+
+      {/* 扩展题库：非真题资料提取的题目，独立板块 */}
+      {extMeta.total_questions > 0 && (
+        <Section
+          title="扩展题库（非真题资料）"
+          icon={<Layers className="h-4 w-4" />}
+          action={
+            <Button variant="ghost" size="sm" asChild>
+              <Link to="/practice?bank=ext">
+                进入扩展题库 <ArrowRight className="ml-1 h-3.5 w-3.5" />
+              </Link>
+            </Button>
+          }
+        >
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <Link
+              to="/practice?bank=ext"
+              className="group rounded-lg border border-amber-200 bg-amber-50/50 p-4 transition-colors hover:border-amber-400 hover:bg-amber-50"
+            >
+              <div className="flex items-center justify-between">
+                <div className="text-lg font-semibold">全部扩展题</div>
+                <Badge variant="warning">{extMeta.total_questions} 题</Badge>
+              </div>
+              <p className="mt-2 text-xs text-muted-foreground">
+                其中真题原题 <span className="font-semibold text-amber-700">{extMeta.tagged_real_exam}</span> 题，
+                已标注考过的年份与题号
+              </p>
+            </Link>
+            {extMeta.by_source.map((s) => (
+              <div key={s.source} className="rounded-lg border bg-card p-4">
+                <div className="flex items-center justify-between gap-2">
+                  <div className="truncate text-sm font-semibold" title={s.source}>
+                    {s.source}
+                  </div>
+                  <Badge variant="secondary">{s.count} 题</Badge>
+                </div>
+                <p className="mt-2 text-xs text-muted-foreground">非真题补充题库</p>
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
 
       {/* 年份入口 */}
       <Section

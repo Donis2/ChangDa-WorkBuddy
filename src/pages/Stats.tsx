@@ -16,6 +16,7 @@ import {
   YAxis,
 } from 'recharts'
 import { knowledgeTree, questions, statsFile } from '@/lib/data'
+import { extStats } from '@/lib/extMeta'
 import { useProgress } from '@/lib/storage'
 import { TYPE_ORDER, pct, typeLabel } from '@/lib/utils'
 import { Badge } from '@/components/ui/badge'
@@ -362,6 +363,63 @@ export function Stats() {
           </ResponsiveContainer>
         </div>
       </ChartCard>
+
+      {/* 扩展题库统计（与真题口径隔离） */}
+      {extStats.total_questions > 0 && (
+        <ChartCard
+          title="扩展题库（不与真题统计混算）"
+          desc="非真题资料提取的题目；其中命中真题的已在题目卡片上标注年份与题号"
+        >
+          <div className="mb-4 grid gap-3 sm:grid-cols-3">
+            <MiniCard
+              label="扩展题总量"
+              value={`${extStats.total_questions}`}
+              sub="来自选择题题库与简答题资料"
+            />
+            <MiniCard
+              label="其中真题原题"
+              value={`${extStats.tagged_real_exam}`}
+              sub="已标注考过的年份与题号"
+            />
+            <MiniCard
+              label="纯补充题"
+              value={`${extStats.pure_supplement}`}
+              sub="非真题，用于拓展练习"
+            />
+          </div>
+          <div className="grid gap-6 lg:grid-cols-2">
+            <div>
+              <p className="mb-2 text-xs font-medium text-muted-foreground">来源分布</p>
+              <div className="space-y-2">
+                {extStats.by_source.map((s, i) => (
+                  <div key={s.source} className="space-y-1">
+                    <div className="flex justify-between text-xs">
+                      <span className="truncate">{s.source}</span>
+                      <span className="tabular-nums text-muted-foreground">{s.count} 题</span>
+                    </div>
+                    <Progress
+                      value={pct(s.count, extStats.total_questions)}
+                      className="h-1.5"
+                      indicatorClassName="bg-amber-500"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <p className="mb-2 text-xs font-medium text-muted-foreground">题型分布</p>
+              <div className="space-y-2">
+                {extStats.by_type.map((t) => (
+                  <div key={t.type} className="flex items-center justify-between text-xs">
+                    <span>{t.label}</span>
+                    <span className="tabular-nums text-muted-foreground">{t.count} 题</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </ChartCard>
+      )}
     </div>
   )
 }

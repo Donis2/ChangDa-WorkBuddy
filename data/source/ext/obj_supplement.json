@@ -1,0 +1,52 @@
+{
+ "source_book": "客观题册·补充题库",
+ "source_file": "题目资料来源/Trae/题库来源/选择题/常大855-客观题题目册.pdf",
+ "note": "客观题册 369 题中的「补充题库」部分（191 题），与青蛙弟弟题库高度重合，取并集。",
+ "questions": [
+  {
+   "id": "EXT-选择-0022",
+   "type": "single_choice",
+   "stem": "下列机构中不能实现间歇运动的是（ ）。",
+   "options": [
+    {
+     "key": "A",
+     "text": "棘轮机构"
+    },
+    {
+     "key": "B",
+     "text": "槽轮机构"
+    },
+    {
+     "key": "C",
+     "text": "曲柄滑块机构"
+    },
+    {
+     "key": "D",
+     "text": "不完全齿轮机构"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "explanation": "",
+   "chapter": "第三章 凸轮机构",
+   "knowledge_points": [
+    "凸轮机构的应用和分类"
+   ],
+   "source_book": "客观题册·补充题库",
+   "source_file": "题目资料来源/Trae/题库来源/选择题/常大855-客观题题目册.pdf",
+   "source_no": 295,
+   "sources": [
+    {
+     "book": "客观题册·补充题库",
+     "no": 295
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [
+    "考纲外·间歇运动机构"
+   ],
+   "difficulty": ""
+  }
+ ]
+}

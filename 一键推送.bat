@@ -5,7 +5,7 @@ title 一键推送到 GitHub
 cd /d "%~dp0"
 
 echo ==========================================================
-echo   一键推送到 GitHub  ^|  Donis2/cdu-mech-design-quiz
+echo   一键推送到 GitHub  ^|  Donis2/ChangDa-WorkBuddy
 echo ==========================================================
 echo.
 
@@ -42,7 +42,7 @@ if errorlevel 1 goto :push_failed
 
 echo.
 echo [完成] 已推送，仓库地址：
-echo        https://github.com/Donis2/cdu-mech-design-quiz
+echo        https://github.com/Donis2/ChangDa-WorkBuddy
 echo.
 pause
 exit /b 0

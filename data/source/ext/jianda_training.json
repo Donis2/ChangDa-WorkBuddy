@@ -1,0 +1,4253 @@
+{
+ "source_book": "简答题专项训练",
+ "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+ "note": "六个专项训练各 30 题共 180 题；另《简答题（30题）.docx》30 题与本套完全重复，未单独入库。",
+ "questions": [
+  {
+   "id": "EXT-简答-0002",
+   "type": "short_answer",
+   "stem": "V带型号如何选择？",
+   "options": [],
+   "answer": "根据计算功率Pca=KA·P和小带轮转速n1查选型图选取型号。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带传动的基本类型与应用",
+    "V带传动的计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 25,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 25
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0004",
+   "type": "short_answer",
+   "stem": "一对齿轮传动，如何确定大小齿轮的齿宽？",
+   "options": [],
+   "answer": "小齿轮齿宽比大齿轮宽5~10mm，以保证即使安装有轴向错位也能全齿宽接触。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "圆柱齿轮材料和参数的选取与计算方法"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 14,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 14
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0005",
+   "type": "short_answer",
+   "stem": "三角形粗牙螺纹连接一般都具有自锁性，为何还需考虑防松问题？",
+   "options": [],
+   "answer": "螺纹在冲击、振动、变载荷作用下摩擦力可能瞬时消失，出现松动。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的预紧与防松"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 14,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 14
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0008",
+   "type": "short_answer",
+   "stem": "与滑动轴承相比，滚动轴承有哪些优缺点？",
+   "options": [],
+   "answer": "优点：摩擦阻力小，容易起动，效率高，润滑好；缺点：高速噪音大，耐冲击力差，寿命\n短。\n※ 依据 2009—2026 真题及手写笔记整理，答案供复习参考",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的基本类型和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 30,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 30
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0009",
+   "type": "short_answer",
+   "stem": "与直齿圆柱齿轮相比，斜齿圆柱齿轮有哪些优缺点？",
+   "options": [],
+   "answer": "优点：①啮合性能好，传动平稳噪音低；②重合度大，承载能力强；③不发生根切的最小\n齿数小于直齿轮。缺点：易产生轴向分力，需要用人字齿轮抵消。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "平行轴斜齿轮机构"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 5,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 5
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0012",
+   "type": "short_answer",
+   "stem": "两者的主要失效形式和设计准则分别是什么？",
+   "options": [],
+   "answer": "普通螺栓：螺纹部分拉断或塑性变形，准则保证拉伸强度；铰制孔螺栓：杆身剪断、孔壁\n压溃，准则校核剪切与挤压强度。",
+   "explanation": "",
+   "chapter": "第九章 机械零件设计概论",
+   "knowledge_points": [
+    "机械设计的基本要求及设计顺序"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 3,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 3
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0013",
+   "type": "short_answer",
+   "stem": "中间轴上两斜齿轮或锥齿轮的轴向力如何配置？为什么？",
+   "options": [],
+   "answer": "使两轮轴向力方向相反（部分抵消），减小轴承所受轴向载荷；由中间轴上两轮旋向和转\n向配合确定。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "平行轴斜齿轮机构"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 22,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 22
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0014",
+   "type": "short_answer",
+   "stem": "为什么小齿轮的材料和硬度要比大齿轮高？",
+   "options": [],
+   "answer": "小齿轮应力循环次数多（约为大齿轮i倍）、齿根薄，易先失效；硬度高30~50HBW实现等\n寿命。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮材料及热处理，配对齿轮的硬度差"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 3,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 3
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0015",
+   "type": "short_answer",
+   "stem": "为什么蜗轮常用青铜制造？蜗杆常用什么材料？",
+   "options": [],
+   "answer": "滑动速度大需减摩耐磨抗胶合：锡青铜减摩性最好，低速用铝铁青铜或铸铁；蜗杆用45\n钢、40Cr表面淬火或20CrMnTi渗碳淬火。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "普通圆柱蜗杆传动的失效形式、材料和结构"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 7,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 7
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0016",
+   "type": "short_answer",
+   "stem": "为什么螺母的螺纹圈数不宜大于10？",
+   "options": [],
+   "answer": "螺纹各圈受载不均匀，第一圈承载约1/3，以后各圈递减，第10圈以后几乎不承载，增加圈\n数无意义。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的基本类型及紧固件"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 8,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 8
+    },
+    {
+     "book": "简答题专项训练",
+     "no": 12
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0017",
+   "type": "short_answer",
+   "stem": "为什么螺纹各圈载荷分布不均匀？如何改善？",
+   "options": [],
+   "answer": "螺栓受拉伸长、螺母受压缩短，两者变形差使靠近支承面第一圈载荷最大。改善：悬置螺\n母（均受拉）、环槽螺母、内斜螺母。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的基本类型及紧固件",
+    "提高螺栓连接强度的措施"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 9,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 9
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0019",
+   "type": "short_answer",
+   "stem": "为什么要限制带速？带速过高过低有何不利？",
+   "options": [],
+   "answer": "过高离心应力大摩擦力下降、每秒绕转次数多易疲劳；过低（<5m/s）传相同功率所需有\n效拉力大、根数增多。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "V带传动的计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 24,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 24
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0020",
+   "type": "short_answer",
+   "stem": "为什么角接触轴承和圆锥滚子轴承要成对使用？",
+   "options": [],
+   "answer": "各自只能承受单向轴向力，且会产生派生轴向力；成对正装或反装可平衡派生轴向力、承\n受双向轴向力。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的基本类型和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 22,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 22
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0021",
+   "type": "short_answer",
+   "stem": "为什么链节数取偶数、链传动小链轮齿数不宜过少？",
+   "options": [],
+   "answer": "奇数节需用弯板过渡链节强度低；齿数过少多边形效应严重、冲击加剧、磨损快，一般\nz1≥17。\n※ 依据 2009—2026 真题及手写笔记整理，答案供复习参考",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "链传动的特点与应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 30,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 30
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0023",
+   "type": "short_answer",
+   "stem": "为什么限制小带轮的最小直径？",
+   "options": [],
+   "answer": "直径小弯曲应力大（σb≈2hE/d），带寿命急剧下降；且包角减小。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "V带传动的计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 23,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 23
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0024",
+   "type": "short_answer",
+   "stem": "为什么高速齿轮要修缘？",
+   "options": [],
+   "answer": "补偿基节误差与受载变形，避免啮入啮出冲击，降低动载荷与噪声。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "斜齿圆柱齿轮传动"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 27,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 27
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0025",
+   "type": "short_answer",
+   "stem": "为什么齿面接触疲劳强度主要取决于齿轮直径而弯曲强度取决于模数？",
+   "options": [],
+   "answer": "接触应力由赫兹公式决定，取决于曲率半径即齿轮直径；弯曲应力与齿的截面尺寸成正\n比，取决于模数。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿根弯曲和齿面接触疲劳强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 11,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 11
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0027",
+   "type": "short_answer",
+   "stem": "为什么齿面胶合多发生在高速重载传动中？",
+   "options": [],
+   "answer": "高速重载时齿面压力大、滑动速度高，油膜破裂，两齿面金属直接粘连撕脱形成胶合。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 18,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 18
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0029",
+   "type": "short_answer",
+   "stem": "什么是不根切的最小齿数？标准直齿轮不根切的最小齿数是多少？",
+   "options": [],
+   "answer": "加工时刀具顶部超过啮合极限点将齿根渐开线切去称根切；标准直齿轮 zmin=17\n（α=20°、ha*=1）。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "根切、最少齿数及其变位齿轮",
+    "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 4,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 4
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0032",
+   "type": "short_answer",
+   "stem": "什么是动平衡？动平衡的条件是什么？",
+   "options": [],
+   "answer": "使转子的惯性力和惯性力偶矩均平衡的方法。条件：ΣF=0 且 ΣM=0，即各惯性力和惯性力\n偶矩矢量和均等于零。",
+   "explanation": "",
+   "chapter": "第八章 回转件的平衡",
+   "knowledge_points": [
+    "平衡的目的与分类"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 10,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 10
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0034",
+   "type": "short_answer",
+   "stem": "什么是周转轮系？其传动比如何计算？",
+   "options": [],
+   "answer": "至少一个齿轮（行星轮）轴线绕另一轴线（系杆H轴线）转动的轮系。用转化轮系法：给\n整个系统加一个与系杆转速反向的-nH，转化为定轴轮系，列式 i^H=(n1-nH)/(nk-nH)=±从\n动轮齿数连乘/主动轮齿数连乘，再求解。",
+   "explanation": "",
+   "chapter": "第五章 轮系",
+   "knowledge_points": [
+    "轮系的分类",
+    "周转轮系及其传动比"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 16,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 16
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0035",
+   "type": "short_answer",
+   "stem": "什么是基本额定动载荷C和基本额定静载荷C0？",
+   "options": [],
+   "answer": "C：使基本额定寿命恰为10^6转时轴承能承受的恒定载荷；C0：使受载最大滚动体与滚道\n接触处塑性变形量之和为滚动体直径万分之一的载荷。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的选择计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 16,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 16
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0040",
+   "type": "short_answer",
+   "stem": "什么是平衡精度？为什么要规定许用不平衡量？",
+   "options": [],
+   "answer": "平衡精度用偏心距[е]与角速度ω的乘积表示。完全平衡不可能实现，规定许用不平衡量以\n保证残余振动在可接受范围内。",
+   "explanation": "",
+   "chapter": "第八章 回转件的平衡",
+   "knowledge_points": [
+    "平衡的目的与分类"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 13,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 13
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0042",
+   "type": "short_answer",
+   "stem": "什么是弹性滑动？为什么不可避免？",
+   "options": [],
+   "answer": "带因两边拉力差产生弹性变形量不同，在带轮接触弧上发生局部相对滑动。拉力差是传动\n的必要条件，带是弹性体，故不可避免。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带传动弹性滑动、传动比和打滑现象"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 19,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 19
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0043",
+   "type": "short_answer",
+   "stem": "什么是打滑？如何避免？",
+   "options": [],
+   "answer": "所需有效拉力超过最大极限摩擦力时带的全面滑动。避免：增加初拉力、增大包角（加大\n中心距、加张紧轮）、增大摩擦系数、降载。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带传动弹性滑动、传动比和打滑现象"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 20,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 20
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0049",
+   "type": "short_answer",
+   "stem": "什么是标准化？机械设计中为何要尽可能采用标准件？",
+   "options": [],
+   "answer": "对零件的规格、参数、检验等作出统一规定。采用标准件可简化设计、降低成本、便于互\n换和维修、保证质量。",
+   "explanation": "",
+   "chapter": "第九章 机械零件设计概论",
+   "knowledge_points": [
+    "机械零件的工艺性及其标准化"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 29,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 29
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0052",
+   "type": "short_answer",
+   "stem": "什么是派生轴向力（内部轴向力）S？方向如何确定？",
+   "options": [],
+   "answer": "角接触轴承受纯径向载荷时，各滚动体轴向分力的合力，方向指向外圈大端；圆锥滚子轴\n承S=FR/(2Y)。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的选择计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 23,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 23
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0053",
+   "type": "short_answer",
+   "stem": "什么是液体动压润滑？什么是液体静压润滑？",
+   "options": [],
+   "answer": "动压：靠两表面相对滑动将油带入楔形间隙自行建立油压；静压：靠外部油泵供入高压油\n强制形成油膜。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "动压润滑的基本原理"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 5,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 5
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0055",
+   "type": "short_answer",
+   "stem": "什么是滚动轴承的基本额定寿命L10？",
+   "options": [],
+   "answer": "一批同型号轴承中90%在发生疲劳点蚀前能达到的总转数（或给定转速下的总小时数），\n可靠度90%。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的选择计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 15,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 15
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0056",
+   "type": "short_answer",
+   "stem": "什么是滚动轴承的当量动载荷P？如何计算？",
+   "options": [],
+   "answer": "将实际载荷换算为寿命计算相当的恒定径向载荷：P=fp(XFr+YFa)，X径向系数、Y轴向系\n数，由Fa/Fr与e比较确定；fp为冲击载荷系数。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的选择计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 17,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 17
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0058",
+   "type": "short_answer",
+   "stem": "什么是相对滑动速度vs？它对传动性能有何影响？",
+   "options": [],
+   "answer": "vs=πd1n1/(60×1000cosγ)；vs大利于形成油膜但发热磨损加剧、易胶合。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "圆柱蜗杆传动的效率、润滑与热平衡计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 14,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 14
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0060",
+   "type": "short_answer",
+   "stem": "什么是蜗杆传动的中间平面？",
+   "options": [],
+   "answer": "通过蜗杆轴线并垂直于蜗轮轴线的平面，该平面内蜗杆传动相当于齿条与齿轮啮合。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "蜗杆传动的几何尺寸、主要参数"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 4,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 4
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0063",
+   "type": "short_answer",
+   "stem": "什么是蜗杆传动的转向判断方法？",
+   "options": [],
+   "answer": "主动蜗杆右旋用右手、左旋用左手：四指顺着蜗杆转向弯曲，拇指指向即为蜗杆轴向力方\n向，也是蜗轮圆周力方向；据此判断蜗轮转向，再逐级判断后续齿轮。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "圆柱蜗杆传动的受力分析"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 19,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 19
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0064",
+   "type": "short_answer",
+   "stem": "什么是轮系？轮系如何分类？",
+   "options": [],
+   "answer": "由一系列相互啮合的齿轮组成的传动系统。分类：定轴轮系（各轴线位置固定）、周转轮\n系（至少有一个齿轮轴线绕另一轴线转动，又分差动和行星）、复合轮系。",
+   "explanation": "",
+   "chapter": "第五章 轮系",
+   "knowledge_points": [
+    "轮系的分类"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 14,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 14
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0065",
+   "type": "short_answer",
+   "stem": "什么是轮齿的过载折断？与疲劳折断有何区别？",
+   "options": [],
+   "answer": "过载折断：短期过载或冲击载荷引起的突然折断，断口粗糙；疲劳折断：循环应力作用下\n裂纹扩展折断，断口有疲劳光泽区。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 20,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 20
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0066",
+   "type": "short_answer",
+   "stem": "什么是软齿面和硬齿面？各自适用于什么场合？",
+   "options": [],
+   "answer": "软齿面≤350HBW，调质或正火，用于一般速度与载荷，工艺简单成本低；硬齿面\n>350HBW，表面淬火渗碳淬火，用于高速重载、结构紧凑要求处。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 15,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 15
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0068",
+   "type": "short_answer",
+   "stem": "什么是轴瓦的自位（调心）结构？为什么需要？",
+   "options": [],
+   "answer": "球面支承的调心轴承；轴的弯曲或安装误差使轴颈偏斜，局部磨损加剧，调心结构可使轴\n瓦随轴颈偏斜自动调整。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "轴瓦及轴承衬材料"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 10,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 10
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0075",
+   "type": "short_answer",
+   "stem": "什么是链传动的多边形效应？",
+   "options": [],
+   "answer": "链条绕上链轮呈多边形，链速周期性变化产生动载荷和冲击；齿数越少、节距越大、转速\n越高越显著。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "链传动的特点与应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 29,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 29
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0076",
+   "type": "short_answer",
+   "stem": "什么是静平衡？静平衡的条件是什么？",
+   "options": [],
+   "answer": "使转子惯性力达到平衡的方法。条件：转子各偏心质量的离心惯性力矢量和为零\n（Σmiri=0），质心位于回转轴线上。",
+   "explanation": "",
+   "chapter": "第八章 回转件的平衡",
+   "knowledge_points": [
+    "平衡的目的与分类"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 9,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 9
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0077",
+   "type": "short_answer",
+   "stem": "什么是鼓形齿？有什么作用？",
+   "options": [],
+   "answer": "齿面沿齿宽方向做成鼓形；改善载荷沿齿宽分布不均，减小偏载。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "斜齿圆柱齿轮传动"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 28,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 28
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0078",
+   "type": "short_answer",
+   "stem": "什么是齿轮的齿厚测量？常用什么方法？",
+   "options": [],
+   "answer": "用固定弦齿厚或公法线长度测量，检验齿厚偏差以保证侧隙。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 25,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 25
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0079",
+   "type": "short_answer",
+   "stem": "什么是齿轮的齿形系数YFa？与哪些因素有关？",
+   "options": [],
+   "answer": "反映轮齿几何形状对弯曲强度影响的系数，只取决于齿数（当量齿数），与模数无关；齿\n数越多YFa越小弯曲强度越高。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿根弯曲和齿面接触疲劳强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 10,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 10
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0080",
+   "type": "short_answer",
+   "stem": "从动件作凸轮机构中，从动件常用的三种运动规律是什么？请说明其在推程运动中的冲击情况。",
+   "options": [],
+   "answer": "等速运动：刚性冲击；等加速等减速运动：柔性冲击；简谐（余弦加速度）运动：柔性冲\n击；摆线（正弦加速度）：无冲击。",
+   "explanation": "",
+   "chapter": "第三章 凸轮机构",
+   "knowledge_points": [
+    "从动件常用运动规律"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 2,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 2
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0086",
+   "type": "short_answer",
+   "stem": "减速器中为什么低速轴的直径比高速轴的直径大？",
+   "options": [],
+   "answer": "功率一定时扭矩与转速成反比（T=9550P/n），低速轴转速低传递扭矩大，所需轴径大。\n※ 依据 2009—2026 真题及手写笔记整理，答案供复习参考",
+   "explanation": "",
+   "chapter": "第十四章 轴",
+   "knowledge_points": [
+    "轴的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 30,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 30
+    }
+   ],
+   "real_exam_refs": [
+    {
+     "year": 2010,
+     "number": "二、简答题 第4题",
+     "question_id": "2010-简答-04"
+    }
+   ],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0092",
+   "type": "short_answer",
+   "stem": "刚性联轴器与挠性联轴器有何区别？各用于什么场合？",
+   "options": [],
+   "answer": "刚性不能补偿两轴相对位移，要求对中良好、用于低速；挠性能补偿位移（径向、轴向、\n角位移）或兼有缓冲吸振作用，用于两轴有偏差或载荷有冲击处。",
+   "explanation": "",
+   "chapter": "第十七章 联轴器、离合器与制动器",
+   "knowledge_points": [
+    "联轴器的类型和应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 3,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 3
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0095",
+   "type": "short_answer",
+   "stem": "半圆键有何特点？用于何处？",
+   "options": [],
+   "answer": "键能在槽底摆动适应轮毂槽底，装配方便；但键槽深对轴削弱大，只传小扭矩，用于锥形\n轴端（如轮毂、电机轴端）。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "键连接和花键连接"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 19,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 19
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0097",
+   "type": "short_answer",
+   "stem": "单键强度不够时怎么办？双键为什么相隔180度布置？",
+   "options": [],
+   "answer": "用双键按1.5个键校核；180度使两键挤压力方向相反、轮毂受力平衡不偏斜，且一条键槽\n便于加工、轴削弱均匀。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "键连接和花键连接"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 18,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 18
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0099",
+   "type": "short_answer",
+   "stem": "受横向载荷时，为什么优先采用铰制孔用螺栓？",
+   "options": [],
+   "answer": "靠杆身直接剪切传力，结构紧凑，所需预紧力小，承载能力大。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 4,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 4
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0101",
+   "type": "short_answer",
+   "stem": "受轴向工作载荷的紧螺栓，其总拉力如何计算？",
+   "options": [],
+   "answer": "F0=F′+C1/(C1+C2)·FE，即预紧力加螺栓按刚度比分担的工作载荷部分；再乘1.3校核。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 6,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 6
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0103",
+   "type": "short_answer",
+   "stem": "变位齿轮的作用有哪些？",
+   "options": [],
+   "answer": "避免根切、配凑中心距、提高齿面接触与齿根弯曲强度、修复旧齿轮。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "根切、最少齿数及其变位齿轮"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 5,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 5
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0110",
+   "type": "short_answer",
+   "stem": "圆锥滚子轴承有什么特点？",
+   "options": [],
+   "answer": "滚子与滚道线接触，承载能力大，能同时承受径向与单向轴向载荷，内外圈可分离、游隙\n可调；极限转速低。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的基本类型和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 21,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 21
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0111",
+   "type": "short_answer",
+   "stem": "斜齿轮传动的轴向力方向如何确定？",
+   "options": [],
+   "answer": "用左右手定则：与旋向同向的手，四指指向齿轮转向，拇指指向即为轴向力方向。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "斜齿圆柱齿轮传动"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 21,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 21
+    },
+    {
+     "book": "简答题专项训练",
+     "no": 20
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0113",
+   "type": "short_answer",
+   "stem": "在重要的受拉紧螺栓连接中，为什么不宜用小于M12的螺栓？",
+   "options": [],
+   "answer": "尺寸过小，所需预紧力大，拧紧时易过载断裂，且不能控制预紧力时易拧断。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的基本类型及紧固件",
+    "螺纹连接的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 9,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 9
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0114",
+   "type": "short_answer",
+   "stem": "在齿轮传动的强度计算中，为什么要用计算载荷去代替名义载荷？",
+   "options": [],
+   "answer": "名义载荷未考虑工况条件（动载、载荷集中、载荷不均），计算载荷=名义载荷×载荷系数\nK，更符合实际。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿根弯曲和齿面接触疲劳强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 18,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 18
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0116",
+   "type": "short_answer",
+   "stem": "塑性变形发生在什么传动中？",
+   "options": [],
+   "answer": "低速重载、软齿面齿轮，齿面材料屈服沿摩擦力方向流动。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 19,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 19
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0117",
+   "type": "short_answer",
+   "stem": "复合轮系如何求解传动比？",
+   "options": [],
+   "answer": "先找出各基本轮系（定轴与周转），分别列传动比方程，再根据各基本轮系之间的连接条\n件（同一轴转速相同）联立求解。",
+   "explanation": "",
+   "chapter": "第五章 轮系",
+   "knowledge_points": [
+    "轮系的分类",
+    "复合轮系及其传动比"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 18,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 18
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0118",
+   "type": "short_answer",
+   "stem": "如何用压紧放松法计算两支承的轴向载荷？",
+   "options": [],
+   "answer": "先求各派生轴向力并画出方向；比较派生力与外加轴向力：被压紧轴承的轴向载荷=对方派\n生力±外力；被放松者=自身派生力。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的选择计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 24,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 24
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0119",
+   "type": "short_answer",
+   "stem": "如何确定蜗杆传动的润滑方式与润滑油的黏度？",
+   "options": [],
+   "answer": "按齿面滑动速度vs选择：vs大用喷油或高黏度油，vs小用浸油润滑；青铜蜗轮配油性好的\n矿物油。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "圆柱蜗杆传动的效率、润滑与热平衡计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 13,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 13
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0120",
+   "type": "short_answer",
+   "stem": "如何选择联轴器？",
+   "options": [],
+   "answer": "按计算扭矩Tca=KA·T≤[T]、转速n≤[n]、两轴相对位移、载荷性质、工作环境，从标准\n中选用合适型号；必要时校核装拆与轮毂强度。",
+   "explanation": "",
+   "chapter": "第十七章 联轴器、离合器与制动器",
+   "knowledge_points": [
+    "联轴器的类型和应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 6,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 6
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0121",
+   "type": "short_answer",
+   "stem": "定轴轮系传动比如何计算？转向如何确定？",
+   "options": [],
+   "answer": "传动比=所有从动轮齿数连乘/所有主动轮齿数连乘；转向用画箭头法确定，外啮合两轮转\n向相反、内啮合相同，或用（-1）^m（m为外啮合次数）。",
+   "explanation": "",
+   "chapter": "第五章 轮系",
+   "knowledge_points": [
+    "定轴轮系及其传动比"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 15,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 15
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0125",
+   "type": "short_answer",
+   "stem": "尺寸公差与配合在机械设计中有什么作用？",
+   "options": [],
+   "answer": "保证零件装配后的相互关系（间隙或过盈），满足运动、定位、密封等功能要求，同时考\n虑加工经济性。",
+   "explanation": "",
+   "chapter": "第九章 机械零件设计概论",
+   "knowledge_points": [
+    "机械零件的工艺性及其标准化"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 28,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 28
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0127",
+   "type": "short_answer",
+   "stem": "带传动中，为什么要限制包角和带速？",
+   "options": [],
+   "answer": "带速高，离心力大；包角大，有效拉应力越大（小轮包角一般不小于120度）。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带传动弹性滑动、传动比和打滑现象"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 24,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 24
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0128",
+   "type": "short_answer",
+   "stem": "带传动中带的应力有哪几种？最大应力发生在何处？",
+   "options": [],
+   "answer": "拉应力、弯曲应力、离心应力；最大应力发生在紧边绕入小带轮处。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带的应力分析"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 22,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 22
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0130",
+   "type": "short_answer",
+   "stem": "带传动中，打滑和弹性滑动现象指的是什么？产生的原因是什么？如何避免？",
+   "options": [],
+   "answer": "打滑：有效拉力达到临界值时过载，避免：张紧皮带（增加初拉力）；弹性滑动：带的弹\n性变形使得带与带轮产生相对滑动，原因：带两边拉力差；避免：调整中心距（增加包角）。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带传动弹性滑动、传动比和打滑现象"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 25,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 25
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0132",
+   "type": "short_answer",
+   "stem": "带传动为什么布置在高速级而链传动布置在低速级？",
+   "options": [],
+   "answer": "带弹性好能缓冲吸振适合高速且高速级扭矩小；链多边形效应动载荷大，高速冲击噪声严\n重，适合低速重载。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "链传动的特点与应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 27,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 27
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0136",
+   "type": "short_answer",
+   "stem": "带传动有哪些优缺点？",
+   "options": [],
+   "answer": "优点：结构简单成本低、平稳缓冲吸振、过载打滑起安全保护、适于大中心距；缺点：传\n动比不准、外廓尺寸大、寿命短、效率较低。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带传动的基本类型与应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 18,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 18
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0138",
+   "type": "short_answer",
+   "stem": "带传动的工作原理是什么？",
+   "options": [],
+   "answer": "以带作中间挠性件，套在两带轮上，靠带与带轮接触面间压紧产生的摩擦力传递运动和动\n力。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带传动的基本类型与应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 17,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 17
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0142",
+   "type": "short_answer",
+   "stem": "常用的轴瓦材料有哪些？各用于什么场合？",
+   "options": [],
+   "answer": "锡基/铅基轴承合金（巴氏合金，减摩最好但贵、强度低，作轴承衬）；铜合金\n（ZCuSn10P1等，承载大，广泛）；铝基合金（低成本，汽车用）；灰铸铁（轻载低速）；粉\n末冶金含油轴承（轻载、加油不便处）。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "轴瓦及轴承衬材料"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 8,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 8
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0143",
+   "type": "short_answer",
+   "stem": "常用联轴器有哪些？各有什么特点？",
+   "options": [],
+   "answer": "凸缘联轴器：结构简单传扭大，对中要求高；齿式联轴器：承载大、补偿能力强，用于重\n载；弹性套柱销：结构简单成本低，用于中小功率；万向联轴器：补偿大角位移，用于两轴相\n交处。",
+   "explanation": "",
+   "chapter": "第十七章 联轴器、离合器与制动器",
+   "knowledge_points": [
+    "联轴器的类型和应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 5,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 5
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0145",
+   "type": "short_answer",
+   "stem": "常用螺纹防松的方法可分为哪几类？并各举两例。",
+   "options": [],
+   "answer": "摩擦防松：自锁螺母、对顶螺母、弹簧垫圈、尼龙垫；机械防松：串联钢丝、开口销、止\n动垫圈、槽形螺母；破坏螺旋副关系防松：铆接、冲点、胶黏剂。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "机械制造常用的螺纹"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 12,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 12
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0146",
+   "type": "short_answer",
+   "stem": "平键的尺寸b×h×L如何确定？",
+   "options": [],
+   "answer": "b、h按轴径d从标准查取，L略短于轮毂长度并取标准长度系列。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "键连接和花键连接"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 17,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 17
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0147",
+   "type": "short_answer",
+   "stem": "平键连接有哪些失效形式？",
+   "options": [],
+   "answer": "压溃或剪断（静连接）；磨损（动连接）。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "键连接和花键连接"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 16,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 16
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0148",
+   "type": "short_answer",
+   "stem": "平键连接有哪些失效形式？设计准则是什么？",
+   "options": [],
+   "answer": "静连接：较弱零件工作面压溃；动连接：工作面磨损。准则：校核挤压应力σp≤[σp]（动\n连接校核压强p≤[p]）。",
+   "explanation": "",
+   "chapter": "第九章 机械零件设计概论",
+   "knowledge_points": [
+    "机械设计的基本要求及设计顺序"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 16,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 16
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0151",
+   "type": "short_answer",
+   "stem": "应用转化轮系法时应注意什么？",
+   "options": [],
+   "answer": "①只能用于齿轮轴线与系杆轴线平行的周转轮系；②n1、nk、nH均为代数量，须先假定\n正方向；③i^H的±号由转化轮系中外啮合次数确定。",
+   "explanation": "",
+   "chapter": "第五章 轮系",
+   "knowledge_points": [
+    "周转轮系及其传动比"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 17,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 17
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0152",
+   "type": "short_answer",
+   "stem": "开式齿轮传动与闭式齿轮传动的设计准则有何不同？",
+   "options": [],
+   "answer": "开式：磨损为主，按齿根弯曲疲劳强度设计，模数加大10%~20%；闭式软齿面：按接触疲\n劳强度设计、弯曲校核；闭式硬齿面：按弯曲疲劳强度设计、接触校核。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 2,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 2
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0153",
+   "type": "short_answer",
+   "stem": "张紧轮布置在何处较好？为什么？",
+   "options": [],
+   "answer": "松边内侧靠近大带轮处：压轴力小、带单向弯曲、小轮包角减小少。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "V带传动的计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 26,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 26
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0154",
+   "type": "short_answer",
+   "stem": "弹性套柱销联轴器的弹性元件起什么作用？",
+   "options": [],
+   "answer": "补偿两轴相对偏移、缓冲吸振降噪；但弹性套易磨损老化需定期更换。",
+   "explanation": "",
+   "chapter": "第十七章 联轴器、离合器与制动器",
+   "knowledge_points": [
+    "联轴器的类型和应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 4,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 4
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0155",
+   "type": "short_answer",
+   "stem": "弹性滑动对传动有何影响？",
+   "options": [],
+   "answer": "使从动轮圆周速度低于主动轮，传动比不恒定、效率降低、带磨损发热。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带传动弹性滑动、传动比和打滑现象"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 21,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 21
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0159",
+   "type": "short_answer",
+   "stem": "拧紧力矩需要克服哪些摩擦阻力矩？为什么要控制预紧力？",
+   "options": [],
+   "answer": "螺纹副摩擦力矩和螺母支承面摩擦力矩。不控制会使预紧力过大拉断小螺栓或过小连接不\n紧。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的预紧与防松",
+    "螺纹副的受力分析、效率和自锁"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 14,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 14
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0161",
+   "type": "short_answer",
+   "stem": "按弯扭合成校核时为什么要引入折合系数α？",
+   "options": [],
+   "answer": "弯曲应力为对称循环（r=-1），扭转切应力通常为脉动循环（r=0），两者循环特性不同；\nα将扭矩折算为等效的对称循环弯矩后与弯矩合成。",
+   "explanation": "",
+   "chapter": "第十四章 轴",
+   "knowledge_points": [
+    "轴的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 27,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 27
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0162",
+   "type": "short_answer",
+   "stem": "按表面润滑情况，何谓液体摩擦？有何特点？",
+   "options": [],
+   "answer": "只有液体之间的摩擦；减小摩擦磨损。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "摩擦状态"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 26,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 26
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0166",
+   "type": "short_answer",
+   "stem": "提高轮齿抗折断能力的措施？",
+   "options": [],
+   "answer": "增大模数、正变位、增大齿根圆角、采用高强度材料、表面强化（喷丸滚压）。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 21,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 21
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0168",
+   "type": "short_answer",
+   "stem": "提高齿面抗点蚀能力的措施？",
+   "options": [],
+   "answer": "提高齿面硬度、降低表面粗糙度、增大齿轮直径（减小接触应力）、改善润滑油黏度。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 22,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 22
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0171",
+   "type": "short_answer",
+   "stem": "斜齿轮传动为什么比直齿轮承载能力强？",
+   "options": [],
+   "answer": "重合度大（同时啮合齿数多）、接触线倾斜且逐渐进入退出，载荷变化平缓，单位载荷\n小。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "平行轴斜齿轮机构"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 9,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 9
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0172",
+   "type": "short_answer",
+   "stem": "斜齿轮的螺旋角大小对传动有何影响？",
+   "options": [],
+   "answer": "β大重合度大传动平稳，但轴向力大；一般取8°~20°，人字齿轮可取大值。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "平行轴斜齿轮机构"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 8,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 8
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0175",
+   "type": "short_answer",
+   "stem": "普通粗牙和普通细牙螺纹各有何特点？适用于什么场合？",
+   "options": [],
+   "answer": "细牙：螺距小，升程小，自锁性好强度高，不耐磨损易滑扣，用于薄壁零件、微调装置；\n粗牙：常用，强度高装拆方便，用于一般连接。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "机械制造常用的螺纹"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 7,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 7
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0176",
+   "type": "short_answer",
+   "stem": "普通螺栓连接与铰制孔用螺栓连接有何区别？",
+   "options": [],
+   "answer": "普通螺栓孔杆有间隙，靠预紧后摩擦传力（受拉）；铰制孔螺栓杆与孔过渡配合，靠杆身\n剪切和挤压传力。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的基本类型及紧固件"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 2,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 2
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0181",
+   "type": "short_answer",
+   "stem": "机械设计的一般步骤是什么？",
+   "options": [],
+   "answer": "①明确设计任务与要求；②方案设计（选择传动方案）；③技术设计（运动、动力、强度\n计算，结构设计）；④绘制装配图与零件图；⑤编制技术文件。\n※ 依据 2009—2026 真题及手写笔记整理，答案供复习参考",
+   "explanation": "",
+   "chapter": "第九章 机械零件设计概论",
+   "knowledge_points": [
+    "机械设计的基本要求及设计顺序"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 30,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 30
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0183",
+   "type": "short_answer",
+   "stem": "松动螺旋拧紧时，拧紧力矩要克服哪些摩擦力矩？",
+   "options": [],
+   "answer": "螺纹副表面的摩擦力矩和被连接件（螺母支承面）间的摩擦力矩。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹副的受力分析、效率和自锁"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 11,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 11
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0187",
+   "type": "short_answer",
+   "stem": "楔键与平键的工作原理有何不同？",
+   "options": [],
+   "answer": "楔键上下表面为工作面，打紧后靠楔紧摩擦传力，能轴向固定单件但对中性差；平键侧面\n工作，靠挤压传力，对中性好。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "键连接和花键连接"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 20,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 20
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0189",
+   "type": "short_answer",
+   "stem": "正变位齿轮的齿厚、齿顶厚、分度圆直径如何变化？",
+   "options": [],
+   "answer": "分度圆不变（刀具位移但节线不同），齿厚增大、齿顶变尖；齿根变厚弯曲强度提高。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸",
+    "根切、最少齿数及其变位齿轮"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 6,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 6
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0190",
+   "type": "short_answer",
+   "stem": "残余预紧力F″为什么必须大于零？",
+   "options": [],
+   "answer": "F″≤0时结合面出现缝隙、被连接件分离，失去紧固密封作用，且螺栓每次卸载受冲击、疲\n劳寿命急剧下降；有密封要求时F″≥(1.5~1.8)FE。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的强度计算",
+    "螺纹连接的预紧与防松"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 7,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 7
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0192",
+   "type": "short_answer",
+   "stem": "气缸盖螺栓组的计算步骤是什么？",
+   "options": [],
+   "answer": "①按气压和工作螺栓数求单个螺栓工作拉力FE=pπD²/(4z)；②按连接要求确定残余预紧力\nF″；③求总拉力F0=FE+F″，按σca=1.3F0/(πd1²/4)≤[σ]校核并选螺栓规格；④脉动载荷下考\n虑疲劳强度。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 26,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 26
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0193",
+   "type": "short_answer",
+   "stem": "液体动压润滑油膜形成的必要条件是什么？",
+   "options": [],
+   "answer": "①两表面有足够相对滑动速度且使油从大口带入小口；②润滑油有一定黏度且供油充分；\n③两表面间形成收敛的楔形间隙。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "动压润滑的基本原理"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 3,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 3
+    }
+   ],
+   "real_exam_refs": [
+    {
+     "year": 2012,
+     "number": "三、简答题 第3题",
+     "question_id": "2012-简答-03"
+    },
+    {
+     "year": 2015,
+     "number": "二、简答题 第3题",
+     "question_id": "2012-简答-03"
+    },
+    {
+     "year": 2019,
+     "number": "二、简答题 第4题",
+     "question_id": "2019-简答-04"
+    },
+    {
+     "year": 2024,
+     "number": "二、简答题 第2题",
+     "question_id": "2012-简答-03"
+    },
+    {
+     "year": 2025,
+     "number": "一、简答题 第2题",
+     "question_id": "2012-简答-03"
+    }
+   ],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0195",
+   "type": "short_answer",
+   "stem": "深沟球轴承与角接触球轴承有何区别？",
+   "options": [],
+   "answer": "深沟球：接触角0，主要受径向，可受少量双向轴向力；角接触：接触角15°/25°/40°，可受\n径向与单向较大轴向力，须成对使用。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的基本类型和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 20,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 20
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0200",
+   "type": "short_answer",
+   "stem": "滑动轴承与滚动轴承相比有何特点？何时选用滑动轴承？",
+   "options": [],
+   "answer": "滑动轴承承载大、平稳、噪声小、可剖分、耐冲击、径向尺寸小，用于高速高精度重载\n（主轴、曲轴）、剖分安装处；滚动轴承摩擦小、启动灵活、互换性好、维护方便，一般场合\n优先。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "滑动轴承的结构形式"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 6,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 6
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0201",
+   "type": "short_answer",
+   "stem": "滑动轴承工作时，形成动压油膜的必要条件是什么？",
+   "options": [],
+   "answer": "①两表面有足够相对滑动速度且方向使油从大口带入小口；②润滑油有一定黏度且供油充\n分；③有收敛的楔形间隙。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "动压润滑的基本原理"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 29,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 29
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0203",
+   "type": "short_answer",
+   "stem": "滑动轴承的主要失效形式有哪些？",
+   "options": [],
+   "answer": "磨损、胶合（非液体摩擦）；疲劳剥落、腐蚀（液体摩擦）；还有刮伤、气蚀。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "非液体摩擦滑动轴承的设计计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 1,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 1
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0204",
+   "type": "short_answer",
+   "stem": "滑动轴承的润滑方式有哪些？",
+   "options": [],
+   "answer": "间歇：油壶、油杯；连续：油绳式、针阀式油杯、油环润滑、飞溅润滑、压力循环供油。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "润滑剂和润滑装置"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 11,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 11
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0206",
+   "type": "short_answer",
+   "stem": "滚动轴承为什么要预紧？预紧的作用是什么？",
+   "options": [],
+   "answer": "安装时消除内部游隙并施加预变形；作用：提高支承刚度和旋转精度、减少振动噪声、使\n滚动体受力均匀防止轻载打滑。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承组合结构设计"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 18,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 18
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0207",
+   "type": "short_answer",
+   "stem": "滚动轴承密封的目的与常用方式？",
+   "options": [],
+   "answer": "防尘、防水、防润滑剂流失。接触式：毡圈、唇形密封圈（速度较低）；非接触式：间隙\n式、迷宫式（高速）。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的润滑与密封"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 28,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 28
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0208",
+   "type": "short_answer",
+   "stem": "滚动轴承寿命公式中温度系数ft和载荷系数fp各起什么作用？",
+   "options": [],
+   "answer": "ft修正工作温度对材料承载能力的影响（高温下降）；fp考虑冲击、振动等实际工况对当量\n动载荷的影响。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的选择计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 24,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 24
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0213",
+   "type": "short_answer",
+   "stem": "滚动轴承由哪些元件组成？各元件的作用？",
+   "options": [],
+   "answer": "内圈（与轴配合）、外圈（与座孔配合）、滚动体（滚动承载）、保持架（隔离滚动体并\n引导其运动）。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的基本类型和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 12,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 12
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0214",
+   "type": "short_answer",
+   "stem": "滚动轴承的两端固定和一端固定一端游动各用于什么场合？",
+   "options": [],
+   "answer": "温升小的短轴用两端单向固定；温升大或长轴用一端双向固定、一端游动，补偿热伸长。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承组合结构设计"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 25,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 25
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0215",
+   "type": "short_answer",
+   "stem": "滚动轴承的主要失效形式是什么？对应的设计准则？",
+   "options": [],
+   "answer": "疲劳点蚀（主要）→按基本额定动载荷寿命计算；塑性变形（静止、摆动、重载低速）→\n按额定静载荷计算；磨损胶合→限制极限转速、正确润滑密封。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的基本类型和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 14,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 14
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0216",
+   "type": "short_answer",
+   "stem": "滚动轴承的代号由哪几部分组成？举例说明。",
+   "options": [],
+   "answer": "基本代号（类型+尺寸+内径）+后置代号+前置代号；如6208：6-深沟球轴承，2-尺寸系列\n（宽度2直径系列轻），08-内径40mm。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的代号"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 13,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 13
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0220",
+   "type": "short_answer",
+   "stem": "滚动轴承的润滑方式如何选择？",
+   "options": [],
+   "answer": "按dn值（内径×转速）：dn小用脂润滑（便于密封不流失），dn大或高速用油润滑（油\n浴、滴油、喷油、油气）。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的润滑与密封"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 27,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 27
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0221",
+   "type": "short_answer",
+   "stem": "滚动轴承的类型选择主要考虑哪些因素？",
+   "options": [],
+   "answer": "载荷大小与方向、转速高低、调心要求、刚度要求、安装空间与拆卸要求、经济性。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的基本类型和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 19,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 19
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0222",
+   "type": "short_answer",
+   "stem": "滚动轴承的配合如何选择？原则是什么？",
+   "options": [],
+   "answer": "旋转圈（通常内圈）选较紧的过盈/过渡配合；固定圈（外圈）选较松的过渡配合；载荷大\n转速高冲击大选紧些。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承组合结构设计"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 26,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 26
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0223",
+   "type": "short_answer",
+   "stem": "滚动轴承装拆时应注意什么？",
+   "options": [],
+   "answer": "不允许通过滚动体传力拆卸；用专门拆卸工具（拉马）钩住内圈；轴肩高度小于内圈厚度\n的2/3；配合面清洁、均匀敲击。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承组合结构设计"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 29,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 29
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0227",
+   "type": "short_answer",
+   "stem": "牙嵌式离合器与摩擦式离合器各有何特点？",
+   "options": [],
+   "answer": "牙嵌式：靠牙的嵌合传力，结构简单传扭大、无相对滑动，但只能在低速或停车时接合；\n摩擦式：靠摩擦力传力，可在运转中接合、过载打滑保护，但发热磨损大。",
+   "explanation": "",
+   "chapter": "第十七章 联轴器、离合器与制动器",
+   "knowledge_points": [
+    "离合器的分类和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 8,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 8
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0228",
+   "type": "short_answer",
+   "stem": "球轴承和滚子轴承的寿命指数分别为多少？",
+   "options": [],
+   "answer": "球轴承ε=3；滚子轴承ε=10/3。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的选择计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 25,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 25
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0229",
+   "type": "short_answer",
+   "stem": "用高强度合金钢代替45钢能否提高轴的刚度？为什么？",
+   "options": [],
+   "answer": "不能。刚度取决于材料的弹性模量E，各种钢的E基本相同，只能靠增大轴径、缩短跨距等\n结构措施提高刚度。",
+   "explanation": "",
+   "chapter": "第九章 机械零件设计概论",
+   "knowledge_points": [
+    "机械零件常用的材料及其选择",
+    "机械零件的强度、接触强度、耐磨性"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 25,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 25
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0230",
+   "type": "short_answer",
+   "stem": "电动机转子为什么要进行动平衡？",
+   "options": [],
+   "answer": "转子轴向尺寸较大，各偏心质量不在同一回转平面内，工作时产生惯性力偶使支承产生周\n期性振动和附加动反力，故必须在两个校正平面内加（减）平衡质量做动平衡。",
+   "explanation": "",
+   "chapter": "第八章 回转件的平衡",
+   "knowledge_points": [
+    "平衡的目的与分类"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 12,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 12
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0231",
+   "type": "short_answer",
+   "stem": "直齿轮、斜齿轮、圆锥齿轮正确啮合的条件是什么？",
+   "options": [],
+   "answer": "直齿轮：两轮模数和压力角分别相等；斜齿轮：法面模数和法面压力角相等，螺旋角相等\n（外啮合旋向相反）；圆锥齿轮：大端模数和压力角分别相等，锥距相等，锥顶重合。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "锥齿轮机构",
+    "平行轴斜齿轮机构"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 6,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 6
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0233",
+   "type": "short_answer",
+   "stem": "离合器对离合元件有哪些基本要求？",
+   "options": [],
+   "answer": "接合平稳、分离迅速彻底、操纵省力、调整维修方便、耐磨散热好、有足够强度和寿命。",
+   "explanation": "",
+   "chapter": "第十七章 联轴器、离合器与制动器",
+   "knowledge_points": [
+    "离合器的分类和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 7,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 7
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0239",
+   "type": "short_answer",
+   "stem": "简述带传动的优缺点。",
+   "options": [],
+   "answer": "优点：①结构简单运行平稳噪音小，能够吸收振动能量缓和冲击载荷；②存在弹性打滑对\n零件起到保护作用；③价格低、精度低、易于生产。缺点：①存在弹性滑动，无法保持定传动\n比，降低效率；②寿命短；③不适合远距离传动，需要张紧装置张紧。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "带传动的基本类型与应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 23,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 23
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0242",
+   "type": "short_answer",
+   "stem": "简述轴承的功用？",
+   "options": [],
+   "answer": "支撑作用（支承轴及轴上零件，保持轴的旋转精度，减少摩擦磨损）。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的基本类型和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 28,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 28
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0243",
+   "type": "short_answer",
+   "stem": "简述键的功用。",
+   "options": [],
+   "answer": "承受周向固定并传递扭矩。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "键连接和花键连接"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 15,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 15
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0244",
+   "type": "short_answer",
+   "stem": "简述齿轮传动中重合度的物理意义。中心距变化时，对重合度有何影响？",
+   "options": [],
+   "answer": "重合度：同时啮合的轮齿对数；中心距变大，实际啮合线变短，重合度降低。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "渐开线标准圆柱齿轮传动的啮合"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 4,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 4
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0245",
+   "type": "short_answer",
+   "stem": "简述齿轮机构的主要特点。",
+   "options": [],
+   "answer": "优点：圆周速度和功率范围广，效率高，寿命长，传动比稳定，工作可靠，可实现平行\n轴、相交轴、交错轴的传动；缺点：加工制造精度高、成本高，不适合远距离传动。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "齿轮机构的应用和类型"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 3,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 3
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0247",
+   "type": "short_answer",
+   "stem": "紧螺栓连接计算时为什么要把螺栓所受轴向总拉力增大30%？",
+   "options": [],
+   "answer": "拧紧时螺纹副摩擦力矩使螺栓受扭转切应力，按第四强度理论折合，相当于拉应力增大\n30%。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的基本类型及紧固件",
+    "螺纹连接的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 5,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 5
+    }
+   ],
+   "real_exam_refs": [
+    {
+     "year": 2006,
+     "number": "一、简答题 第9题",
+     "question_id": "2006-简答-09"
+    },
+    {
+     "year": 2010,
+     "number": "二、简答题 第2题",
+     "question_id": "2010-简答-02"
+    }
+   ],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0248",
+   "type": "short_answer",
+   "stem": "联轴器与离合器在功能和结构上有何异同？",
+   "options": [],
+   "answer": "相同：都连接两轴传递运动和扭矩。区别：联轴器只有在机器停车并经拆卸后才能分离；\n离合器可在机器运转过程中随时接合或分离。",
+   "explanation": "",
+   "chapter": "第十七章 联轴器、离合器与制动器",
+   "knowledge_points": [
+    "联轴器的类型和应用",
+    "离合器的分类和特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 1,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 1
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0249",
+   "type": "short_answer",
+   "stem": "联轴器可分为哪几类？",
+   "options": [],
+   "answer": "刚性联轴器（凸缘、套筒、夹壳）和挠性联轴器（无弹性元件：齿式、十字滑块、万向；\n有弹性元件：弹性套柱销、弹性柱销、轮胎式）。",
+   "explanation": "",
+   "chapter": "第十七章 联轴器、离合器与制动器",
+   "knowledge_points": [
+    "联轴器的类型和应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 2,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 2
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0252",
+   "type": "short_answer",
+   "stem": "花键的定心方式有哪些？",
+   "options": [],
+   "answer": "小径定心（常用，便于磨削加工精度高）、大径定心、齿侧定心。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "键连接和花键连接"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 22,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 22
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0253",
+   "type": "short_answer",
+   "stem": "花键连接与平键连接相比有何特点？",
+   "options": [],
+   "answer": "多齿工作承载大、定心性和导向性好、对轴削弱小；但需专用设备加工、成本高。用于重\n载、定心要求高或滑动连接。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "键连接和花键连接"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 21,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 21
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0257",
+   "type": "short_answer",
+   "stem": "蜗杆传动中，将蜗杆直径系数q标准化系列化的原因是什么？q的大小与蜗杆传动总效率、蜗杆结构强度之间有何关系？",
+   "options": [],
+   "answer": "使滚刀标准化、限制滚刀数量；q越小导程角越大效率高，但蜗杆强度小；q越大蜗杆刚度\n强度大。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "蜗杆传动的几何尺寸、主要参数"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 21,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 21
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0258",
+   "type": "short_answer",
+   "stem": "蜗杆传动中，齿面相对滑动速度Vs对传动有何影响？",
+   "options": [],
+   "answer": "Vs越大，越容易形成油膜，不易散热，增大磨损，且易发生胶合。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "圆柱蜗杆传动的效率、润滑与热平衡计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 22,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 22
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0260",
+   "type": "short_answer",
+   "stem": "蜗杆传动有哪些特点？",
+   "options": [],
+   "answer": "优点：单级传动比大（8~100）、传动平稳噪声小、可自锁、结构紧凑；缺点：效率低发热\n大、齿面相对滑动速度大易磨损胶合、蜗轮需贵重青铜成本高。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "蜗杆传动的类型、特点"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 1,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 1
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0261",
+   "type": "short_answer",
+   "stem": "蜗杆传动的中间平面是什么？其正确啮合条件是什么？",
+   "options": [],
+   "answer": "通过蜗杆轴线并垂直于蜗轮轴线的平面（对阿基米德蜗杆为直线齿廓）；中间平面内蜗杆\n轴向模数、压力角与蜗轮端面模数、压力角分别相等，导程角=螺旋角且旋向相同。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "蜗杆传动的几何尺寸、主要参数"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 20,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 20
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0263",
+   "type": "short_answer",
+   "stem": "蜗杆传动的失效形式有哪些？为什么？",
+   "options": [],
+   "answer": "蜗轮齿面胶合、点蚀、磨损为主（轮齿弯曲折断较少），因蜗轮材料弱、齿面滑动速度\n大。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "普通圆柱蜗杆传动的失效形式、材料和结构"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 10,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 10
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0264",
+   "type": "short_answer",
+   "stem": "蜗杆传动的效率由哪几部分组成？",
+   "options": [],
+   "answer": "啮合效率（主要，按螺旋副公式计算）、轴承摩擦效率、搅油损耗效率三部分。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "圆柱蜗杆传动的效率、润滑与热平衡计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 12,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 12
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0265",
+   "type": "short_answer",
+   "stem": "蜗杆传动的正确啮合条件是什么？",
+   "options": [],
+   "answer": "中间平面内蜗杆轴向模数=蜗轮端面模数、轴向压力角=端面压力角，导程角γ=蜗轮螺旋角\nβ且旋向相同。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "蜗杆传动的几何尺寸、主要参数"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 3,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 3
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0268",
+   "type": "short_answer",
+   "stem": "蜗杆传动的设计准则是什么？",
+   "options": [],
+   "answer": "按蜗轮齿面接触疲劳强度设计，按齿根弯曲疲劳强度校核；闭式传动还需热平衡计算；必\n要时校核蜗杆刚度。",
+   "explanation": "",
+   "chapter": "第九章 机械零件设计概论",
+   "knowledge_points": [
+    "机械设计的基本要求及设计顺序"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 11,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 11
+    }
+   ],
+   "real_exam_refs": [
+    {
+     "year": 2018,
+     "number": "二、简答题 第3题",
+     "question_id": "2018-简答-03"
+    }
+   ],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0269",
+   "type": "short_answer",
+   "stem": "蜗杆传动自锁的条件是什么？自锁时效率如何？",
+   "options": [],
+   "answer": "导程角γ≤当量摩擦角φv；此时效率低于50%，只宜小功率间歇工作。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "圆柱蜗杆传动的效率、润滑与热平衡计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 6,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 6
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0270",
+   "type": "short_answer",
+   "stem": "蜗杆刚度不足有什么危害？如何提高？",
+   "options": [],
+   "answer": "蜗杆弯曲变形使啮合不良、偏载。提高：增大d1（q）、缩短支承跨距、两端固定支承。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "圆柱蜗杆传动的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 15,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 15
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0271",
+   "type": "short_answer",
+   "stem": "蜗杆头数z1如何选择？",
+   "options": [],
+   "answer": "要求效率高取2~4；要求自锁或大传动比取1；z1大会使制造困难和蜗轮直径增大。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "蜗杆传动的几何尺寸、主要参数"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 8,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 8
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0272",
+   "type": "short_answer",
+   "stem": "蜗杆直径系数q为什么要标准化？",
+   "options": [],
+   "answer": "切制蜗轮的滚刀必须与蜗杆参数对应，为限制滚刀规格数量，将d1（即q=d1/m）标准\n化。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "蜗杆传动的几何尺寸、主要参数"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 5,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 5
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0273",
+   "type": "short_answer",
+   "stem": "蜗轮的结构形式有哪些？如何选择？",
+   "options": [],
+   "answer": "整体式（铸铁或小尺寸青铜）、齿圈式（青铜齿圈配铸铁轮芯，过盈+螺栓）、螺栓连接式\n（大尺寸）。青铜贵，尽量省材。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "普通圆柱蜗杆传动的失效形式、材料和结构"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 16,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 16
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0274",
+   "type": "short_answer",
+   "stem": "蜗轮齿数z2为什么不宜过多或过少？",
+   "options": [],
+   "answer": "过少会根切且传动不平稳；过多蜗轮直径大、蜗杆跨距长刚度差，且啮合精度下降。",
+   "explanation": "",
+   "chapter": "第十二章 蜗杆传动",
+   "knowledge_points": [
+    "蜗杆传动的几何尺寸、主要参数"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 9,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 9
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0276",
+   "type": "short_answer",
+   "stem": "螺栓的主要失效形式有哪些？",
+   "options": [],
+   "answer": "螺栓拉断、螺纹部分塑性变形或剪断、磨损而滑扣。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 10,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 10
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0279",
+   "type": "short_answer",
+   "stem": "螺纹连接为什么要防松？",
+   "options": [],
+   "answer": "在冲击、振动、变载荷或温度变化下，螺纹副摩擦力可能瞬时消失而松动，导致连接失效\n甚至事故。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的预紧与防松"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 10,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 10
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0282",
+   "type": "short_answer",
+   "stem": "螺纹连接有哪些基本类型？各用于什么场合？",
+   "options": [],
+   "answer": "螺栓连接（通孔，装拆方便，最常用）、双头螺柱连接（被连接件之一太厚需经常拆\n装）、螺钉连接（太厚且不常拆）、紧定螺钉连接（固定零件相对位置，传小扭矩）。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的基本类型及紧固件"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 1,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 1
+    }
+   ],
+   "real_exam_refs": [
+    {
+     "year": 2024,
+     "number": "二、简答题 第3题",
+     "question_id": "2024-简答-03"
+    }
+   ],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0283",
+   "type": "short_answer",
+   "stem": "螺纹防松的方法分哪几类？各举例。",
+   "options": [],
+   "answer": "摩擦防松：弹簧垫圈、双螺母、自锁螺母；机械防松：开口销+开槽螺母、止动垫圈、串联\n钢丝；永久防松：冲点、焊接、粘接。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的预紧与防松"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 11,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 11
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0288",
+   "type": "short_answer",
+   "stem": "计算油膜最小厚度hmin的目的是什么？",
+   "options": [],
+   "answer": "校核hmin≥[h]（与两表面粗糙度有关），判断能否实现完全液体润滑。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "动压润滑的基本原理"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 4,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 4
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0296",
+   "type": "short_answer",
+   "stem": "轴上零件的轴向定位方法有哪些？",
+   "options": [],
+   "answer": "轴肩、轴环、套筒、圆螺母+止动垫圈、轴端挡圈、弹性挡圈、紧定螺钉、圆锥面。",
+   "explanation": "",
+   "chapter": "第十四章 轴",
+   "knowledge_points": [
+    "轴的结构设计"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 28,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 28
+    },
+    {
+     "book": "简答题专项训练",
+     "no": 29
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0298",
+   "type": "short_answer",
+   "stem": "轴承合金（巴氏合金）可分为哪几类？其特点与适用场合？",
+   "options": [],
+   "answer": "锡锑和铅锑两大类。锡基：摩擦系数小抗胶合好，耐蚀、易跑合，但价格贵、机械强度\n差，常浇铸在钢瓦上作轴承衬，用于高速重载；铅基：性能相近但较脆，不宜承受较大冲击，\n用于中速中载。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "轴瓦及轴承衬材料"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 9,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 9
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0299",
+   "type": "short_answer",
+   "stem": "轴承寿命计算中如何判断危险轴承？",
+   "options": [],
+   "answer": "分别计算两支承的当量动载荷P1、P2，取P较大者（当量动载荷大、寿命短）作为危险轴\n承计算其寿命。",
+   "explanation": "",
+   "chapter": "第十六章 滚动轴承",
+   "knowledge_points": [
+    "滚动轴承的选择计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 23,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 23
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0300",
+   "type": "short_answer",
+   "stem": "轴承润滑的目的是什么？润滑剂可分为哪几类？",
+   "options": [],
+   "answer": "降低摩擦功耗减小磨损，起到冷却吸振防锈作用；液体润滑（润滑油）、固体润滑（润滑\n脂）、半固体润滑。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "润滑剂和润滑装置"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 27,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 27
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0301",
+   "type": "short_answer",
+   "stem": "轴按承载情况分哪几类？",
+   "options": [],
+   "answer": "转轴（既受弯又受扭，最常见）、心轴（只受弯：转动心轴如火车轮轴、固定心轴如自行\n车前轴）、传动轴（主要受扭，如汽车传动轴）。",
+   "explanation": "",
+   "chapter": "第十四章 轴",
+   "knowledge_points": [
+    "轴的类型与应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 23,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 23
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0302",
+   "type": "short_answer",
+   "stem": "轴瓦材料有哪些要求？",
+   "options": [],
+   "answer": "减摩耐磨性好、抗胶合、顺应性和嵌藏性好、导热性好、有足够强度和耐腐蚀性。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "轴瓦及轴承衬材料"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 7,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 7
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0303",
+   "type": "short_answer",
+   "stem": "轴的常用材料有哪些？",
+   "options": [],
+   "answer": "35、45、40Cr等碳素钢和合金钢（调质或正火）；球墨铸铁用于形状复杂轴；合金钢用于\n高速重载或要求减小尺寸处。",
+   "explanation": "",
+   "chapter": "第十四章 轴",
+   "knowledge_points": [
+    "轴的材料"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 24,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 24
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0305",
+   "type": "short_answer",
+   "stem": "轴的强度计算方法有哪些？各用于什么阶段？",
+   "options": [],
+   "answer": "①按扭转强度估算最小直径（初步设计）；②按弯扭合成（当量弯矩）校核危险截面；③\n重要轴按疲劳强度安全系数精确校核。",
+   "explanation": "",
+   "chapter": "第十四章 轴",
+   "knowledge_points": [
+    "轴的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 26,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 26
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0306",
+   "type": "short_answer",
+   "stem": "轴的结构设计应考虑哪些问题？常见结构错误？",
+   "options": [],
+   "answer": "①零件定位可靠；②便于装拆（阶梯轴径向端面递增、轴肩高度小于轴承内圈厚2/3）；③\n减小应力集中（圆角过渡、避免横孔）；④工艺性好（退刀槽、砂轮越程槽、两键槽共线、轴\n段长度比轮毂短2~3mm使套筒顶紧）。\n※ 依据 2009—2026 真题及手写笔记整理，答案供复习参考",
+   "explanation": "",
+   "chapter": "第十四章 轴",
+   "knowledge_points": [
+    "轴的结构设计"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 30,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 30
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0307",
+   "type": "short_answer",
+   "stem": "轴系结构改错题的检查要点有哪些？",
+   "options": [],
+   "answer": "轴端零件有无轴向定位；套筒能否顶紧轮毂（轴段应比轮毂短2~3mm）；轴承游隙能否调\n整（垫片）；轴承内外圈固定方式；两键槽是否共线；脂润滑有无挡油环、密封是否可靠；轴\n肩高度是否小于轴承内圈厚度的2/3；过渡圆角是否合理。",
+   "explanation": "",
+   "chapter": "第十四章 轴",
+   "knowledge_points": [
+    "轴的结构设计"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 27,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 27
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0309",
+   "type": "short_answer",
+   "stem": "重要的受拉紧螺栓为什么不宜小于M12？",
+   "options": [],
+   "answer": "尺寸小则所需预紧力相对大，拧紧时易过载断裂；且小螺栓不易控制预紧力。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "螺纹连接的强度计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 13,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 13
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0312",
+   "type": "short_answer",
+   "stem": "铰链四杆机构有整转副的条件是什么？",
+   "options": [],
+   "answer": "最短杆+最长杆≤其余两杆之和；整转副由最短杆及其相邻边组成。最短杆为连架杆得曲柄\n摇杆机构，为机架得双曲柄机构，为连杆得双摇杆机构。",
+   "explanation": "",
+   "chapter": "第二章 平面连杆机构",
+   "knowledge_points": [
+    "平面连杆机构的基本类型及其应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 1,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 1
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0314",
+   "type": "short_answer",
+   "stem": "链传动与带传动相比有何特点？",
+   "options": [],
+   "answer": "啮合传动：平均传动比准确、无弹性滑动打滑、压轴力小、耐高温油污；但瞬时传动比变\n化（多边形效应）、有冲击噪声、不宜高速。",
+   "explanation": "",
+   "chapter": "第十三章 带传动和链传动",
+   "knowledge_points": [
+    "链传动的特点与应用"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 28,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 28
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0321",
+   "type": "short_answer",
+   "stem": "锥齿轮传动与圆柱齿轮传动相比有何特点？",
+   "options": [],
+   "answer": "轮齿分布在锥面上，尺寸沿齿宽变化，以大端参数为标准；制造精度低、有轴向力，用于\n相交轴（多90°）传动，不宜高速。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "直齿圆锥齿轮传动"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 23,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 23
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0323",
+   "type": "short_answer",
+   "stem": "锥齿轮的当量齿数如何计算？用途？",
+   "options": [],
+   "answer": "zv=z/cosδ，用于弯曲强度计算和选铣刀、判断根切。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "平行轴斜齿轮机构",
+    "锥齿轮机构"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 24,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 24
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0324",
+   "type": "short_answer",
+   "stem": "键连接的功用是什么？",
+   "options": [],
+   "answer": "实现轴与轴上零件的周向固定并传递扭矩，有些还能实现轴向固定或导向。",
+   "explanation": "",
+   "chapter": "第十章 连接",
+   "knowledge_points": [
+    "键连接和花键连接"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 15,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 15
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0325",
+   "type": "short_answer",
+   "stem": "闭式硬齿面和闭式软齿面齿轮传动的主要失效形式分别是什么？并简述其设计计算准则。",
+   "options": [],
+   "answer": "硬齿轮：折断为主，按齿根弯曲疲劳强度设计，齿面接触疲劳强度校核；软齿轮：点蚀为\n主，按齿面接触疲劳强度设计，齿根弯曲疲劳强度校核。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 19,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 19
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0329",
+   "type": "short_answer",
+   "stem": "静平衡与动平衡分别适用于什么样的转子？",
+   "options": [],
+   "answer": "静平衡适用于宽径比 b/D<0.2 的盘状转子（如齿轮、飞轮）；动平衡适用于 b/D>0.2 的长\n转子（如电机转子、曲轴、多缸机曲轴）。",
+   "explanation": "",
+   "chapter": "第八章 回转件的平衡",
+   "knowledge_points": [
+    "平衡的目的与分类"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 11,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 11
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0333",
+   "type": "short_answer",
+   "stem": "非液体摩擦滑动轴承的验算准则是什么？",
+   "options": [],
+   "answer": "压强p≤[p]（防磨损）、pV≤[pV]（防温升胶合）、滑动速度v≤[v]（防局部磨损过\n快）。",
+   "explanation": "",
+   "chapter": "第十五章 滑动轴承",
+   "knowledge_points": [
+    "摩擦状态",
+    "非液体摩擦滑动轴承的设计计算"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 2,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 2
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0335",
+   "type": "short_answer",
+   "stem": "齿轮传动与蜗杆传动在效率上的主要差别是什么？为什么？",
+   "options": [],
+   "answer": "蜗杆传动效率低（0.7~0.9，自锁时<0.5），因齿面相对滑动速度大、摩擦损耗大；齿轮传\n动啮合为滚动为主，效率高（0.94~0.99）。\n※ 依据 2009—2026 真题及手写笔记整理，答案供复习参考",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动润滑和效率"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 30,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 30
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0336",
+   "type": "short_answer",
+   "stem": "齿轮传动中为什么小齿轮宽度要略大于大齿轮？",
+   "options": [],
+   "answer": "补偿轴向安装误差，保证有效接触宽度达到设计齿宽。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "圆柱齿轮材料和参数的选取与计算方法"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 29,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 29
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0338",
+   "type": "short_answer",
+   "stem": "齿轮传动为什么会发热？如何控制？",
+   "options": [],
+   "answer": "啮合摩擦损失与搅油损失转化为热。控制：良好润滑、提高效率、箱体散热。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动润滑和效率"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 17,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 17
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0339",
+   "type": "short_answer",
+   "stem": "齿轮传动的主要失效形式有哪些？",
+   "options": [],
+   "answer": "轮齿折断、齿面疲劳点蚀、齿面磨损、齿面胶合、齿面塑性变形。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 1,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 1
+    }
+   ],
+   "real_exam_refs": [
+    {
+     "year": 2008,
+     "number": "一、选择题 第7题",
+     "question_id": "2008-选择-07"
+    },
+    {
+     "year": 2017,
+     "number": "一、选择题 第7题",
+     "question_id": "2008-选择-07"
+    }
+   ],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0341",
+   "type": "short_answer",
+   "stem": "齿轮传动的效率与精度等级之间有何关系？",
+   "options": [],
+   "answer": "精度越高，动载荷与摩擦损失越小，效率越高；低速低精度齿轮误差大、动载大。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动润滑和效率",
+    "齿轮传动的精度"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 13,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 13
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0342",
+   "type": "short_answer",
+   "stem": "齿轮传动的润滑方式有哪些？如何选择？",
+   "options": [],
+   "answer": "闭式v<12m/s浸油润滑（浸油约一个齿高且≥10mm）；v大或多级传动喷油润滑；开式定\n期涂润滑脂。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动润滑和效率"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 12,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 12
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0343",
+   "type": "short_answer",
+   "stem": "齿轮侧隙的作用是什么？如何获得？",
+   "options": [],
+   "answer": "补偿制造安装误差、温升热膨胀、储存润滑油；通过减薄齿厚（中心距不变）获得。",
+   "explanation": "",
+   "chapter": "第四章 齿轮机构",
+   "knowledge_points": [
+    "渐开线标准圆柱齿轮传动的啮合"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 26,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 26
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0346",
+   "type": "short_answer",
+   "stem": "齿轮毛坯有哪些形式？如何选择？",
+   "options": [],
+   "answer": "齿顶圆直径d_a≤160mm用锻毛坯（棒料）；d_a≤500mm用锻造毛坯（腹板式）；\nd_a>500mm用铸造毛坯（轮辐式）。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮的构造"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 16,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 16
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  },
+  {
+   "id": "EXT-简答-0347",
+   "type": "short_answer",
+   "stem": "齿面点蚀是怎样产生的？为什么开式传动一般看不到点蚀现象？",
+   "options": [],
+   "answer": "重复作用的齿面接触疲劳强度超越了材料的接触疲劳强度，表层疲劳剥落形成点蚀；开式\n传动点蚀未形成就已被磨掉。",
+   "explanation": "",
+   "chapter": "第十一章 齿轮传动",
+   "knowledge_points": [
+    "齿轮传动的主要失效形式和设计计算准则"
+   ],
+   "source_book": "简答题专项训练",
+   "source_file": "题目资料来源/Trae/题库来源/简答题/常州大学855简答题专项训练（一~六）.pdf",
+   "source_no": 17,
+   "sources": [
+    {
+     "book": "简答题专项训练",
+     "no": 17
+    }
+   ],
+   "real_exam_refs": [],
+   "tags": [],
+   "difficulty": ""
+  }
+ ]
+}

@@ -1,9 +1,119 @@
 {
-  "generated_at": "2026-10-20T23:21:07+08:00",
+  "generated_at": "2026-11-06T11:19:26+08:00",
   "subject": "855 机械设计基础",
-  "total_questions": 130,
-  "total_score": 1115,
+  "total_questions": 371,
+  "total_score": 2731,
   "by_year": [
+    {
+      "year": 2004,
+      "count": 12,
+      "types": {
+        "short_answer": 7,
+        "calculation": 5
+      }
+    },
+    {
+      "year": 2006,
+      "count": 18,
+      "types": {
+        "short_answer": 13,
+        "calculation": 5
+      }
+    },
+    {
+      "year": 2007,
+      "count": 10,
+      "types": {
+        "calculation": 5,
+        "short_answer": 5
+      }
+    },
+    {
+      "year": 2008,
+      "count": 21,
+      "types": {
+        "true_false": 5,
+        "multiple_choice": 1,
+        "short_answer": 1,
+        "single_choice": 9,
+        "calculation": 5
+      }
+    },
+    {
+      "year": 2009,
+      "count": 16,
+      "types": {
+        "single_choice": 7,
+        "short_answer": 3,
+        "calculation": 6
+      }
+    },
+    {
+      "year": 2010,
+      "count": 26,
+      "types": {
+        "fill_blank": 15,
+        "short_answer": 6,
+        "calculation": 5
+      }
+    },
+    {
+      "year": 2011,
+      "count": 29,
+      "types": {
+        "short_answer": 3,
+        "fill_blank": 11,
+        "true_false": 10,
+        "calculation": 5
+      }
+    },
+    {
+      "year": 2012,
+      "count": 30,
+      "types": {
+        "single_choice": 16,
+        "fill_blank": 5,
+        "short_answer": 4,
+        "calculation": 5
+      }
+    },
+    {
+      "year": 2013,
+      "count": 26,
+      "types": {
+        "single_choice": 10,
+        "fill_blank": 9,
+        "calculation": 7
+      }
+    },
+    {
+      "year": 2014,
+      "count": 20,
+      "types": {
+        "multiple_choice": 1,
+        "single_choice": 9,
+        "short_answer": 5,
+        "calculation": 5
+      }
+    },
+    {
+      "year": 2015,
+      "count": 16,
+      "types": {
+        "short_answer": 3,
+        "fill_blank": 7,
+        "calculation": 6
+      }
+    },
+    {
+      "year": 2017,
+      "count": 21,
+      "types": {
+        "single_choice": 10,
+        "short_answer": 5,
+        "calculation": 6
+      }
+    },
     {
       "year": 2018,
       "count": 22,
@@ -61,8 +171,8 @@
       "year": 2024,
       "count": 17,
       "types": {
-        "single_choice": 7,
         "short_answer": 3,
+        "single_choice": 7,
         "calculation": 7
       }
     },
@@ -73,104 +183,133 @@
         "short_answer": 3,
         "calculation": 6
       }
+    },
+    {
+      "year": 2026,
+      "count": 9,
+      "types": {
+        "single_choice": 4,
+        "short_answer": 3,
+        "calculation": 2
+      }
     }
   ],
   "by_type": [
     {
       "type": "single_choice",
       "label": "单选题",
-      "count": 39,
-      "score": 94
+      "count": 99,
+      "score": 203
+    },
+    {
+      "type": "multiple_choice",
+      "label": "多选题",
+      "count": 1,
+      "score": 0
     },
     {
       "type": "fill_blank",
       "label": "填空题",
-      "count": 10,
-      "score": 20
+      "count": 57,
+      "score": 132
+    },
+    {
+      "type": "true_false",
+      "label": "判断题",
+      "count": 15,
+      "score": 10
     },
     {
       "type": "short_answer",
       "label": "简答题",
-      "count": 32,
-      "score": 200
+      "count": 84,
+      "score": 412
     },
     {
       "type": "calculation",
       "label": "计算题",
-      "count": 49,
-      "score": 801
+      "count": 115,
+      "score": 1974
     }
   ],
   "by_difficulty": [
     {
       "difficulty": "简单",
-      "count": 42
+      "count": 147
     },
     {
       "difficulty": "中等",
-      "count": 59
+      "count": 165
     },
     {
       "difficulty": "较难",
-      "count": 29
+      "count": 59
     }
   ],
   "by_chapter": [
     {
+      "chapter": "绪论",
+      "count": 3
+    },
+    {
       "chapter": "第一章 平面机构的自由度和速度分析",
-      "count": 8
+      "count": 26
     },
     {
       "chapter": "第二章 平面连杆机构",
-      "count": 8
+      "count": 26
     },
     {
       "chapter": "第三章 凸轮机构",
-      "count": 8
+      "count": 20
     },
     {
       "chapter": "第四章 齿轮机构",
-      "count": 15
+      "count": 37
     },
     {
       "chapter": "第五章 轮系",
-      "count": 8
+      "count": 20
     },
     {
       "chapter": "第七章 机器的运转速度波动的调节",
-      "count": 2
+      "count": 3
     },
     {
       "chapter": "第八章 回转件的平衡",
       "count": 7
     },
     {
+      "chapter": "第九章 机械零件设计概论",
+      "count": 4
+    },
+    {
       "chapter": "第十章 连接",
-      "count": 20
+      "count": 50
     },
     {
       "chapter": "第十一章 齿轮传动",
-      "count": 8
+      "count": 36
     },
     {
       "chapter": "第十二章 蜗杆传动",
-      "count": 11
+      "count": 24
     },
     {
       "chapter": "第十三章 带传动和链传动",
-      "count": 14
+      "count": 40
     },
     {
       "chapter": "第十四章 轴",
-      "count": 11
+      "count": 37
     },
     {
       "chapter": "第十五章 滑动轴承",
-      "count": 6
+      "count": 10
     },
     {
       "chapter": "第十六章 滚动轴承",
-      "count": 16
+      "count": 44
     },
     {
       "chapter": "第十七章 联轴器、离合器与制动器",
@@ -179,14 +318,129 @@
   ],
   "knowledge_point_ranking": [
     {
+      "name": "螺纹连接的强度计算",
+      "chapter": "第十章 连接",
+      "count": 21
+    },
+    {
+      "name": "滚动轴承的选择计算",
+      "chapter": "第十六章 滚动轴承",
+      "count": 21
+    },
+    {
+      "name": "平面机构的自由度",
+      "chapter": "第一章 平面机构的自由度和速度分析",
+      "count": 19
+    },
+    {
+      "name": "平面四杆机构的基本特性",
+      "chapter": "第二章 平面连杆机构",
+      "count": 18
+    },
+    {
+      "name": "轴的结构设计",
+      "chapter": "第十四章 轴",
+      "count": 17
+    },
+    {
+      "name": "轴的类型与应用",
+      "chapter": "第十四章 轴",
+      "count": 15
+    },
+    {
+      "name": "滚动轴承的代号",
+      "chapter": "第十六章 滚动轴承",
+      "count": 13
+    },
+    {
       "name": "滚动轴承组合结构设计",
       "chapter": "第十六章 滚动轴承",
+      "count": 13
+    },
+    {
+      "name": "斜齿圆柱齿轮传动",
+      "chapter": "第十一章 齿轮传动",
+      "count": 12
+    },
+    {
+      "name": "圆柱蜗杆传动的受力分析",
+      "chapter": "第十二章 蜗杆传动",
+      "count": 12
+    },
+    {
+      "name": "齿根弯曲和齿面接触疲劳强度计算",
+      "chapter": "第十一章 齿轮传动",
+      "count": 12
+    },
+    {
+      "name": "键连接和花键连接",
+      "chapter": "第十章 连接",
+      "count": 11
+    },
+    {
+      "name": "周转轮系及其传动比",
+      "chapter": "第五章 轮系",
+      "count": 11
+    },
+    {
+      "name": "平行轴斜齿轮机构",
+      "chapter": "第四章 齿轮机构",
       "count": 10
     },
     {
-      "name": "螺纹连接的强度计算",
-      "chapter": "第十章 连接",
+      "name": "平面运动副及其分类",
+      "chapter": "第一章 平面机构的自由度和速度分析",
       "count": 10
+    },
+    {
+      "name": "齿轮传动的主要失效形式和设计计算准则",
+      "chapter": "第十一章 齿轮传动",
+      "count": 9
+    },
+    {
+      "name": "带传动的受力分析",
+      "chapter": "第十三章 带传动和链传动",
+      "count": 9
+    },
+    {
+      "name": "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸",
+      "chapter": "第四章 齿轮机构",
+      "count": 9
+    },
+    {
+      "name": "螺纹连接的基本类型及紧固件",
+      "chapter": "第十章 连接",
+      "count": 9
+    },
+    {
+      "name": "从动件常用运动规律",
+      "chapter": "第三章 凸轮机构",
+      "count": 9
+    },
+    {
+      "name": "平面连杆机构的基本类型及其应用",
+      "chapter": "第二章 平面连杆机构",
+      "count": 9
+    },
+    {
+      "name": "链传动的特点与应用",
+      "chapter": "第十三章 带传动和链传动",
+      "count": 7
+    },
+    {
+      "name": "渐开线标准圆柱齿轮传动的啮合",
+      "chapter": "第四章 齿轮机构",
+      "count": 7
+    },
+    {
+      "name": "带传动的基本类型与应用",
+      "chapter": "第十三章 带传动和链传动",
+      "count": 7
+    },
+    {
+      "name": "V带传动的计算",
+      "chapter": "第十三章 带传动和链传动",
+      "count": 7
     },
     {
       "name": "刚性回转件的平衡（静平衡、动平衡）",
@@ -194,48 +448,73 @@
       "count": 7
     },
     {
-      "name": "平面机构的自由度",
-      "chapter": "第一章 平面机构的自由度和速度分析",
-      "count": 7
-    },
-    {
-      "name": "平行轴斜齿轮机构",
-      "chapter": "第四章 齿轮机构",
-      "count": 7
-    },
-    {
-      "name": "轴的结构设计",
-      "chapter": "第十四章 轴",
-      "count": 7
-    },
-    {
-      "name": "周转轮系及其传动比",
-      "chapter": "第五章 轮系",
+      "name": "带传动弹性滑动、传动比和打滑现象",
+      "chapter": "第十三章 带传动和链传动",
       "count": 6
     },
     {
-      "name": "滚动轴承的选择计算",
-      "chapter": "第十六章 滚动轴承",
+      "name": "带的应力分析",
+      "chapter": "第十三章 带传动和链传动",
       "count": 6
     },
     {
-      "name": "圆柱蜗杆传动的受力分析",
+      "name": "蜗杆传动的几何尺寸、主要参数",
       "chapter": "第十二章 蜗杆传动",
       "count": 6
     },
     {
-      "name": "平面四杆机构的基本特性",
-      "chapter": "第二章 平面连杆机构",
+      "name": "复合轮系及其传动比",
+      "chapter": "第五章 轮系",
       "count": 6
     },
     {
-      "name": "带传动的受力分析",
-      "chapter": "第十三章 带传动和链传动",
+      "name": "螺纹副的受力分析、效率和自锁",
+      "chapter": "第十章 连接",
       "count": 5
     },
     {
-      "name": "从动件常用运动规律",
+      "name": "直齿圆锥齿轮传动",
+      "chapter": "第十一章 齿轮传动",
+      "count": 5
+    },
+    {
+      "name": "凸轮机构的压力角",
       "chapter": "第三章 凸轮机构",
+      "count": 5
+    },
+    {
+      "name": "定轴轮系及其传动比",
+      "chapter": "第五章 轮系",
+      "count": 5
+    },
+    {
+      "name": "渐开线齿廓及其性质",
+      "chapter": "第四章 齿轮机构",
+      "count": 5
+    },
+    {
+      "name": "动压润滑的基本原理",
+      "chapter": "第十五章 滑动轴承",
+      "count": 4
+    },
+    {
+      "name": "轴的强度计算",
+      "chapter": "第十四章 轴",
+      "count": 4
+    },
+    {
+      "name": "轮系的分类",
+      "chapter": "第五章 轮系",
+      "count": 4
+    },
+    {
+      "name": "凸轮机构的应用和分类",
+      "chapter": "第三章 凸轮机构",
+      "count": 4
+    },
+    {
+      "name": "圆柱蜗杆传动的效率、润滑与热平衡计算",
+      "chapter": "第十二章 蜗杆传动",
       "count": 4
     },
     {
@@ -244,53 +523,43 @@
       "count": 4
     },
     {
-      "name": "平面连杆机构的基本类型及其应用",
-      "chapter": "第二章 平面连杆机构",
-      "count": 4
+      "name": "机械设计的基本要求及设计顺序",
+      "chapter": "第九章 机械零件设计概论",
+      "count": 3
     },
     {
-      "name": "轴的类型与应用",
-      "chapter": "第十四章 轴",
-      "count": 4
+      "name": "机械零件的强度、接触强度、耐磨性",
+      "chapter": "第九章 机械零件设计概论",
+      "count": 3
     },
     {
-      "name": "V带传动的计算",
-      "chapter": "第十三章 带传动和链传动",
-      "count": 4
-    },
-    {
-      "name": "复合轮系及其传动比",
-      "chapter": "第五章 轮系",
-      "count": 4
-    },
-    {
-      "name": "蜗杆传动的几何尺寸、主要参数",
-      "chapter": "第十二章 蜗杆传动",
-      "count": 4
-    },
-    {
-      "name": "键连接和花键连接",
+      "name": "提高螺栓连接强度的措施",
       "chapter": "第十章 连接",
       "count": 3
     },
     {
-      "name": "齿根弯曲和齿面接触疲劳强度计算",
-      "chapter": "第十一章 齿轮传动",
+      "name": "本课程的研究对象（机械、机器、机构）",
+      "chapter": "绪论",
       "count": 3
     },
     {
-      "name": "带的应力分析",
+      "name": "蜗杆传动的类型、特点",
+      "chapter": "第十二章 蜗杆传动",
+      "count": 3
+    },
+    {
+      "name": "滑动轴承的结构形式",
+      "chapter": "第十五章 滑动轴承",
+      "count": 3
+    },
+    {
+      "name": "V带轮结构",
       "chapter": "第十三章 带传动和链传动",
       "count": 3
     },
     {
-      "name": "平面运动副及其分类",
-      "chapter": "第一章 平面机构的自由度和速度分析",
-      "count": 3
-    },
-    {
-      "name": "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸",
-      "chapter": "第四章 齿轮机构",
+      "name": "非液体摩擦滑动轴承的设计计算",
+      "chapter": "第十五章 滑动轴承",
       "count": 3
     },
     {
@@ -299,43 +568,23 @@
       "count": 3
     },
     {
-      "name": "凸轮机构的压力角",
+      "name": "图解法设计凸轮轮廓",
       "chapter": "第三章 凸轮机构",
-      "count": 3
+      "count": 2
     },
     {
-      "name": "螺纹连接的基本类型及紧固件",
-      "chapter": "第十章 连接",
-      "count": 3
+      "name": "平面四杆机构的设计",
+      "chapter": "第二章 平面连杆机构",
+      "count": 2
     },
     {
-      "name": "动压润滑的基本原理",
-      "chapter": "第十五章 滑动轴承",
-      "count": 3
-    },
-    {
-      "name": "滚动轴承的代号",
+      "name": "滚动轴承的基本类型和特点",
       "chapter": "第十六章 滚动轴承",
-      "count": 3
-    },
-    {
-      "name": "直齿圆锥齿轮传动",
-      "chapter": "第十一章 齿轮传动",
-      "count": 3
-    },
-    {
-      "name": "斜齿圆柱齿轮传动",
-      "chapter": "第十一章 齿轮传动",
-      "count": 3
+      "count": 2
     },
     {
       "name": "螺纹参数",
       "chapter": "第十章 连接",
-      "count": 2
-    },
-    {
-      "name": "V带轮结构",
-      "chapter": "第十三章 带传动和链传动",
       "count": 2
     },
     {
@@ -344,48 +593,58 @@
       "count": 2
     },
     {
-      "name": "非液体摩擦滑动轴承的设计计算",
-      "chapter": "第十五章 滑动轴承",
-      "count": 2
-    },
-    {
-      "name": "螺纹副的受力分析、效率和自锁",
-      "chapter": "第十章 连接",
-      "count": 2
-    },
-    {
-      "name": "齿轮传动的主要失效形式和设计计算准则",
-      "chapter": "第十一章 齿轮传动",
-      "count": 2
-    },
-    {
       "name": "螺栓的材料和许用应力",
       "chapter": "第十章 连接",
       "count": 2
     },
     {
-      "name": "定轴轮系及其传动比",
-      "chapter": "第五章 轮系",
+      "name": "机器运转速度波动调节的目的和方法",
+      "chapter": "第七章 机器的运转速度波动的调节",
       "count": 2
     },
     {
-      "name": "带传动的基本类型与应用",
-      "chapter": "第十三章 带传动和链传动",
-      "count": 2
-    },
-    {
-      "name": "链传动的特点与应用",
-      "chapter": "第十三章 带传动和链传动",
+      "name": "齿廓实现定角速比传动的条件",
+      "chapter": "第四章 齿轮机构",
       "count": 1
     },
     {
-      "name": "蜗杆传动的类型、特点",
-      "chapter": "第十二章 蜗杆传动",
+      "name": "齿轮材料及热处理，配对齿轮的硬度差",
+      "chapter": "第十一章 齿轮传动",
       "count": 1
     },
     {
-      "name": "圆柱蜗杆传动的效率、润滑与热平衡计算",
-      "chapter": "第十二章 蜗杆传动",
+      "name": "齿轮传动润滑和效率",
+      "chapter": "第十一章 齿轮传动",
+      "count": 1
+    },
+    {
+      "name": "齿轮机构的应用和类型",
+      "chapter": "第四章 齿轮机构",
+      "count": 1
+    },
+    {
+      "name": "机械制造常用的螺纹",
+      "chapter": "第十章 连接",
+      "count": 1
+    },
+    {
+      "name": "渐开线齿轮的切齿原理",
+      "chapter": "第四章 齿轮机构",
+      "count": 1
+    },
+    {
+      "name": "标准直齿圆柱齿轮的受力分析",
+      "chapter": "第十一章 齿轮传动",
+      "count": 1
+    },
+    {
+      "name": "轴的材料",
+      "chapter": "第十四章 轴",
+      "count": 1
+    },
+    {
+      "name": "圆柱齿轮材料和参数的选取与计算方法",
+      "chapter": "第十一章 齿轮传动",
       "count": 1
     },
     {
@@ -399,128 +658,118 @@
       "count": 1
     },
     {
-      "name": "轮系的分类",
-      "chapter": "第五章 轮系",
-      "count": 1
-    },
-    {
-      "name": "提高螺栓连接强度的措施",
-      "chapter": "第十章 连接",
-      "count": 1
-    },
-    {
       "name": "平衡的目的与分类",
       "chapter": "第八章 回转件的平衡",
-      "count": 1
-    },
-    {
-      "name": "滚动轴承的基本类型和特点",
-      "chapter": "第十六章 滚动轴承",
-      "count": 1
-    },
-    {
-      "name": "渐开线标准圆柱齿轮传动的啮合",
-      "chapter": "第四章 齿轮机构",
-      "count": 1
-    },
-    {
-      "name": "滑动轴承的结构形式",
-      "chapter": "第十五章 滑动轴承",
-      "count": 1
-    },
-    {
-      "name": "机器运转速度波动调节的目的和方法",
-      "chapter": "第七章 机器的运转速度波动的调节",
       "count": 1
     },
     {
       "name": "飞轮设计的近似方法",
       "chapter": "第七章 机器的运转速度波动的调节",
       "count": 1
-    },
-    {
-      "name": "凸轮机构的应用和分类",
-      "chapter": "第三章 凸轮机构",
-      "count": 1
-    },
-    {
-      "name": "渐开线齿廓及其性质",
-      "chapter": "第四章 齿轮机构",
-      "count": 1
-    },
-    {
-      "name": "带传动弹性滑动、传动比和打滑现象",
-      "chapter": "第十三章 带传动和链传动",
-      "count": 1
     }
   ],
   "calculation_analysis": {
-    "total": 49,
-    "score": 801,
+    "total": 115,
+    "score": 1974,
     "by_knowledge_point": [
       {
-        "name": "螺纹连接的强度计算",
-        "chapter": "第十章 连接",
-        "count": 8
+        "name": "滚动轴承的选择计算",
+        "chapter": "第十六章 滚动轴承",
+        "count": 18
       },
       {
         "name": "平面机构的自由度",
         "chapter": "第一章 平面机构的自由度和速度分析",
-        "count": 7
+        "count": 16
       },
       {
-        "name": "滚动轴承组合结构设计",
-        "chapter": "第十六章 滚动轴承",
-        "count": 7
+        "name": "螺纹连接的强度计算",
+        "chapter": "第十章 连接",
+        "count": 14
       },
       {
         "name": "轴的结构设计",
         "chapter": "第十四章 轴",
-        "count": 7
-      },
-      {
-        "name": "滚动轴承的选择计算",
-        "chapter": "第十六章 滚动轴承",
-        "count": 6
+        "count": 13
       },
       {
         "name": "圆柱蜗杆传动的受力分析",
         "chapter": "第十二章 蜗杆传动",
-        "count": 6
+        "count": 12
+      },
+      {
+        "name": "斜齿圆柱齿轮传动",
+        "chapter": "第十一章 齿轮传动",
+        "count": 11
       },
       {
         "name": "周转轮系及其传动比",
         "chapter": "第五章 轮系",
+        "count": 10
+      },
+      {
+        "name": "滚动轴承组合结构设计",
+        "chapter": "第十六章 滚动轴承",
+        "count": 9
+      },
+      {
+        "name": "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸",
+        "chapter": "第四章 齿轮机构",
+        "count": 7
+      },
+      {
+        "name": "复合轮系及其传动比",
+        "chapter": "第五章 轮系",
+        "count": 6
+      },
+      {
+        "name": "直齿圆锥齿轮传动",
+        "chapter": "第十一章 齿轮传动",
         "count": 5
       },
       {
         "name": "平行轴斜齿轮机构",
         "chapter": "第四章 齿轮机构",
-        "count": 4
+        "count": 5
       },
       {
-        "name": "复合轮系及其传动比",
+        "name": "定轴轮系及其传动比",
         "chapter": "第五章 轮系",
         "count": 4
       },
       {
-        "name": "渐开线标准直齿圆柱齿轮的基本参数和几何尺寸",
-        "chapter": "第四章 齿轮机构",
-        "count": 3
-      },
-      {
-        "name": "直齿圆锥齿轮传动",
-        "chapter": "第十一章 齿轮传动",
-        "count": 3
-      },
-      {
-        "name": "斜齿圆柱齿轮传动",
-        "chapter": "第十一章 齿轮传动",
-        "count": 3
-      },
-      {
         "name": "平面运动副及其分类",
         "chapter": "第一章 平面机构的自由度和速度分析",
+        "count": 3
+      },
+      {
+        "name": "平面连杆机构的基本类型及其应用",
+        "chapter": "第二章 平面连杆机构",
+        "count": 3
+      },
+      {
+        "name": "滚动轴承的代号",
+        "chapter": "第十六章 滚动轴承",
+        "count": 3
+      },
+      {
+        "name": "平面四杆机构的设计",
+        "chapter": "第二章 平面连杆机构",
+        "count": 2
+      },
+      {
+        "name": "渐开线标准圆柱齿轮传动的啮合",
+        "chapter": "第四章 齿轮机构",
+        "count": 2
+      },
+      {
+        "name": "螺纹连接的基本类型及紧固件",
+        "chapter": "第十章 连接",
+        "count": 2
+      },
+      {
+        "name": "轴的类型与应用",
+        "chapter": "第十四章 轴",
         "count": 2
       },
       {
@@ -534,18 +783,8 @@
         "count": 2
       },
       {
-        "name": "平面连杆机构的基本类型及其应用",
-        "chapter": "第二章 平面连杆机构",
-        "count": 2
-      },
-      {
         "name": "平面四杆机构的基本特性",
         "chapter": "第二章 平面连杆机构",
-        "count": 2
-      },
-      {
-        "name": "滚动轴承的代号",
-        "chapter": "第十六章 滚动轴承",
         "count": 2
       },
       {
@@ -554,18 +793,23 @@
         "count": 2
       },
       {
-        "name": "定轴轮系及其传动比",
-        "chapter": "第五章 轮系",
-        "count": 2
+        "name": "键连接和花键连接",
+        "chapter": "第十章 连接",
+        "count": 1
+      },
+      {
+        "name": "螺纹副的受力分析、效率和自锁",
+        "chapter": "第十章 连接",
+        "count": 1
+      },
+      {
+        "name": "标准直齿圆柱齿轮的受力分析",
+        "chapter": "第十一章 齿轮传动",
+        "count": 1
       },
       {
         "name": "轮系的分类",
         "chapter": "第五章 轮系",
-        "count": 1
-      },
-      {
-        "name": "渐开线标准圆柱齿轮传动的啮合",
-        "chapter": "第四章 齿轮机构",
         "count": 1
       },
       {
@@ -587,19 +831,19 @@
     "by_type_shape": [
       {
         "shape": "机构自由度计算",
-        "count": 7
+        "count": 16
       },
       {
         "shape": "轮系传动比计算",
-        "count": 7
+        "count": 15
       },
       {
         "shape": "螺栓组强度计算",
-        "count": 8
+        "count": 14
       },
       {
         "shape": "齿轮几何尺寸计算",
-        "count": 4
+        "count": 8
       },
       {
         "shape": "平衡（回转件）计算",
@@ -607,11 +851,11 @@
       },
       {
         "shape": "结构改错（轴系）",
-        "count": 3
+        "count": 7
       },
       {
         "shape": "传动系统受力分析",
-        "count": 3
+        "count": 12
       }
     ]
   },
@@ -620,6 +864,942 @@
   },
   "source_distribution": [
     {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2004",
+      "year": 2004
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2006、2007",
+      "year": 2006
+    },
+    {
+      "source": "2006",
+      "year": 2006
+    },
+    {
+      "source": "2007",
+      "year": 2007
+    },
+    {
+      "source": "2007",
+      "year": 2007
+    },
+    {
+      "source": "2007",
+      "year": 2007
+    },
+    {
+      "source": "2007",
+      "year": 2007
+    },
+    {
+      "source": "2007",
+      "year": 2007
+    },
+    {
+      "source": "2007",
+      "year": 2007
+    },
+    {
+      "source": "2007",
+      "year": 2007
+    },
+    {
+      "source": "2007",
+      "year": 2007
+    },
+    {
+      "source": "2007",
+      "year": 2007
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008、2014",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008、2014",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008、2014",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008、2017",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008、2014、2017",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2008",
+      "year": 2008
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009、2011、2024、2025",
+      "year": 2009
+    },
+    {
+      "source": "2009、2011、2015",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2009",
+      "year": 2009
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2010",
+      "year": 2010
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2011",
+      "year": 2011
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012、2015、2024、2025",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2012",
+      "year": 2012
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2013",
+      "year": 2013
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2014",
+      "year": 2014
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2015",
+      "year": 2015
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
+      "source": "2017",
+      "year": 2017
+    },
+    {
       "source": "2018",
       "year": 2018
     },
@@ -1072,14 +2252,6 @@
       "year": 2024
     },
     {
-      "source": "2024、2025",
-      "year": 2024
-    },
-    {
-      "source": "2024、2025",
-      "year": 2024
-    },
-    {
       "source": "2024",
       "year": 2024
     },
@@ -1138,6 +2310,42 @@
     {
       "source": "2025",
       "year": 2025
+    },
+    {
+      "source": "2026",
+      "year": 2026
+    },
+    {
+      "source": "2026",
+      "year": 2026
+    },
+    {
+      "source": "2026",
+      "year": 2026
+    },
+    {
+      "source": "2026",
+      "year": 2026
+    },
+    {
+      "source": "2026",
+      "year": 2026
+    },
+    {
+      "source": "2026",
+      "year": 2026
+    },
+    {
+      "source": "2026",
+      "year": 2026
+    },
+    {
+      "source": "2026",
+      "year": 2026
+    },
+    {
+      "source": "2026",
+      "year": 2026
     }
   ]
 }

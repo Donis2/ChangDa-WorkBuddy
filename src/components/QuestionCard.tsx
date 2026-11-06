@@ -10,8 +10,16 @@ import {
   ImageIcon,
   Link2,
 } from 'lucide-react'
-import type { ProgressRecord, Question } from '@/lib/types'
-import { cn, imgUrl, isObjective, typeLabel } from '@/lib/utils'
+import type { AnswerVersionKey, ExtendedQuestion, ProgressRecord, Question } from '@/lib/types'
+import {
+  ANSWER_VERSION_LABELS,
+  ANSWER_VERSION_ORDER,
+  cn,
+  formatAnswerValue,
+  imgUrl,
+  isObjective,
+  typeLabel,
+} from '@/lib/utils'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { KatexBlock, KatexText } from '@/components/KatexText'
@@ -43,6 +51,34 @@ export function QuestionCard({
   const [selected, setSelected] = React.useState<string[]>([])
   const [judged, setJudged] = React.useState(false)
   const [revealed, setRevealed] = React.useState(false)
+
+  /** 可用的答案版本（按固定顺序），至少 0 个 */
+  const versions = React.useMemo(() => {
+    const map = q.answer_versions ?? {}
+    return ANSWER_VERSION_ORDER.filter((k) => Boolean(map[k as AnswerVersionKey])).map((k) => ({
+      key: k as AnswerVersionKey,
+      label: ANSWER_VERSION_LABELS[k] ?? k,
+      ...map[k as AnswerVersionKey]!,
+    }))
+  }, [q])
+
+  const [versionKey, setVersionKey] = React.useState<AnswerVersionKey | null>(null)
+
+  // 换题时重置为默认版本
+  React.useEffect(() => {
+    const def = q.answer_version_default
+    if (def && q.answer_versions?.[def]) {
+      setVersionKey(def)
+    } else {
+      setVersionKey(versions[0]?.key ?? null)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [q.id])
+
+  const activeVersion = versionKey ? q.answer_versions?.[versionKey] : undefined
+
+  /** 扩展题标注的真题来源 */
+  const realRefs = (q as ExtendedQuestion).real_exam_refs ?? []
 
   // 展开状态在「全显示」模式下由上层 forceReveal 双向受控；未受控时由用户手动切换
   React.useEffect(() => {
@@ -95,7 +131,13 @@ export function QuestionCard({
   }
 
   const showAnswerArea = objective ? judged || revealed : revealed
-  const answerText = React.useMemo(() => formatAnswer(q), [q])
+  const answerText = React.useMemo(
+    () => formatAnswerValue(q.type, activeVersion?.answer ?? q.answer),
+    [q, activeVersion],
+  )
+  const explanation = activeVersion?.explanation ?? (activeVersion ? undefined : q.explanation)
+  const answerImages =
+    activeVersion?.answer_images?.length ? activeVersion.answer_images : q.answer_images
 
   return (
     <div className="space-y-4">
@@ -112,6 +154,14 @@ export function QuestionCard({
             {y}年
           </Badge>
         ))}
+        {realRefs.length > 0 && (
+          <Badge
+            variant="warning"
+            title={realRefs.map((r) => `${r.year} 年 ${r.number}`).join('\n')}
+          >
+            真题原题 · {realRefs.map((r) => r.year).join('/')}
+          </Badge>
+        )}
         {q.difficulty && (
           <Badge variant={DIFF_VARIANT[q.difficulty] ?? 'secondary'}>{q.difficulty}</Badge>
         )}
@@ -272,9 +322,36 @@ export function QuestionCard({
       {showAnswerArea && (
         <div className="space-y-3 rounded-lg border border-primary/20 bg-primary/5 p-4">
           <div>
-            <div className="mb-1 flex items-center gap-1.5 text-sm font-semibold text-primary">
-              <Lightbulb className="h-4 w-4" /> 参考答案
+            <div className="mb-1 flex flex-wrap items-center gap-1.5">
+              <span className="flex items-center gap-1.5 text-sm font-semibold text-primary">
+                <Lightbulb className="h-4 w-4" /> 参考答案
+              </span>
+              {versions.length > 0 && (
+                <div className="ml-auto flex flex-wrap items-center gap-1">
+                  {versions.map((v) => (
+                    <button
+                      key={v.key}
+                      onClick={() => setVersionKey(v.key)}
+                      title={v.source || v.label}
+                      className={cn(
+                        'rounded-full border px-2 py-0.5 text-xs transition-colors',
+                        versionKey === v.key
+                          ? 'border-primary bg-primary font-medium text-primary-foreground'
+                          : 'text-muted-foreground hover:border-primary/40 hover:bg-accent',
+                      )}
+                    >
+                      {v.label}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
+            {activeVersion?.source && (
+              <p className="mb-1 text-xs text-muted-foreground">
+                来源：{activeVersion.source}
+                {activeVersion.quality ? `（${activeVersion.quality}）` : ''}
+              </p>
+            )}
             {answerText.trim() ? (
               <KatexBlock text={answerText} className="text-sm text-foreground" />
             ) : (
@@ -284,9 +361,9 @@ export function QuestionCard({
             )}
           </div>
 
-          {q.answer_images?.length > 0 && (
+          {answerImages?.length > 0 && (
             <div className="space-y-2">
-              {q.answer_images.map((src) => (
+              {answerImages.map((src) => (
                 <figure key={src} className="overflow-hidden rounded-md border bg-white p-1.5">
                   <img
                     src={imgUrl(src)}
@@ -300,10 +377,10 @@ export function QuestionCard({
             </div>
           )}
 
-          {q.explanation && (
+          {explanation && (
             <div className="border-t border-primary/15 pt-3">
               <div className="mb-1 text-sm font-semibold text-primary">解析 / 考点</div>
-              <KatexBlock text={q.explanation} className="text-sm text-muted-foreground" />
+              <KatexBlock text={explanation} className="text-sm text-muted-foreground" />
             </div>
           )}
 
@@ -316,14 +393,26 @@ export function QuestionCard({
             {q.chapter && <Badge variant="outline">{q.chapter}</Badge>}
           </div>
 
-          <div className="flex flex-wrap gap-3 text-xs text-muted-foreground">
-            <span className="flex items-center gap-1">
-              <Link2 className="h-3 w-3" />
-              题号来源：
-              {Object.entries(q.original_numbers)
-                .map(([y, n]) => `${y}年 ${n}`)
-                .join('；')}
-            </span>
+          <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted-foreground">
+            {Object.keys(q.original_numbers || {}).length > 0 && (
+              <span className="flex items-center gap-1">
+                <Link2 className="h-3 w-3" />
+                题号来源：
+                {Object.entries(q.original_numbers)
+                  .map(([y, n]) => `${y}年 ${n}`)
+                  .join('；')}
+              </span>
+            )}
+            {realRefs.length > 0 && (
+              <span className="flex items-center gap-1">
+                <Link2 className="h-3 w-3" />
+                真题出处：
+                {realRefs.map((r) => `${r.year}年 ${r.number}`).join('；')}
+              </span>
+            )}
+            {'is_extended' in q && (q as ExtendedQuestion).source_book && (
+              <span>扩展题来源：{(q as ExtendedQuestion).source_book}</span>
+            )}
           </div>
         </div>
       )}
@@ -360,13 +449,4 @@ function WrongBookButton({
 
 function toggle(arr: string[], v: string) {
   return arr.includes(v) ? arr.filter((x) => x !== v) : [...arr, v]
-}
-
-function formatAnswer(q: Question): string {
-  if (q.type === 'true_false') {
-    const a = Array.isArray(q.answer) ? q.answer[0] : q.answer
-    return a ? '正确' : '错误'
-  }
-  if (Array.isArray(q.answer)) return (q.answer as string[]).join('\n')
-  return String(q.answer)
 }

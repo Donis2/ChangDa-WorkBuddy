@@ -116,8 +116,12 @@ export function resetAll() {
 }
 
 /** ---------- 刷题会话（记住进度，刷新不丢） ---------- */
+export type BankKey = 'real' | 'ext' | 'all'
+
 export interface SessionState {
   mode: string
+  /** 当前题库：real = 真题，ext = 扩展题，all = 两者合并 */
+  bank: BankKey
   yearFilter: number[]
   typeFilter: string[]
   /** 章节筛选（存章节名，如「第五章 轮系」）；点章节名即可看该章全部题目 */
@@ -141,6 +145,7 @@ export interface SessionState {
 
 export const defaultSession: SessionState = {
   mode: 'sequence',
+  bank: 'real',
   yearFilter: [],
   typeFilter: [],
   chapterFilter: [],
