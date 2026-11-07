@@ -1,0 +1,4210 @@
+{
+ "_source": "归档 Trae data.json ↔ WB questions.json 确定性映射（键=(年份,卷面号)，386/386 全匹配，见 docs/合并差异核对报告.md）",
+ "_note": "key = WB question id。sub_codes 为 Trae 细分知识点码；chapter_codes 为 Trae A–O 章码；trae_exam_ids 为该题对应的 Trae 卷面题次 id（跨年合并题会有多条）。",
+ "questions": {
+  "2004-简答-01": {
+   "sub_codes": [
+    "G3"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2004-一-1"
+   ]
+  },
+  "2004-简答-02": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2004-一-2"
+   ]
+  },
+  "2004-简答-03": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2004-一-3"
+   ]
+  },
+  "2004-简答-04": {
+   "sub_codes": [
+    "M2"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2004-一-4"
+   ]
+  },
+  "2004-简答-05": {
+   "sub_codes": [
+    "G4"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2004-一-5"
+   ]
+  },
+  "2004-简答-06": {
+   "sub_codes": [
+    "E8"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2004-一-6"
+   ]
+  },
+  "2004-计算-01": {
+   "sub_codes": [
+    "I4",
+    "I5"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2004-二-1"
+   ]
+  },
+  "2004-计算-02": {
+   "sub_codes": [
+    "E5"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2004-二-2"
+   ]
+  },
+  "2004-计算-03": {
+   "sub_codes": [
+    "L2"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2004-二-3"
+   ]
+  },
+  "2004-计算-04": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2004-二-4"
+   ]
+  },
+  "2004-论述-01": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2004-三-1"
+   ]
+  },
+  "2004-论述-02": {
+   "sub_codes": [
+    "A2"
+   ],
+   "chapter_codes": [
+    "A"
+   ],
+   "trae_exam_ids": [
+    "2004-三-2"
+   ]
+  },
+  "2006-分析-01": {
+   "sub_codes": [
+    "E6",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2006-二-3"
+   ]
+  },
+  "2006-分析-02": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2006-二-6"
+   ]
+  },
+  "2006-简答-01": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2006-一-1"
+   ]
+  },
+  "2006-简答-02": {
+   "sub_codes": [
+    "G2",
+    "G5"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2006-一-2"
+   ]
+  },
+  "2006-简答-03": {
+   "sub_codes": [
+    "E11"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2006-一-3"
+   ]
+  },
+  "2006-简答-04": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2006-一-4"
+   ]
+  },
+  "2006-简答-05": {
+   "sub_codes": [
+    "E8",
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2006-一-5"
+   ]
+  },
+  "2006-简答-06": {
+   "sub_codes": [
+    "J2"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2006-一-6"
+   ]
+  },
+  "2006-简答-07": {
+   "sub_codes": [
+    "H2"
+   ],
+   "chapter_codes": [
+    "H"
+   ],
+   "trae_exam_ids": [
+    "2006-一-7"
+   ]
+  },
+  "2006-简答-08": {
+   "sub_codes": [
+    "E12",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2006-一-8"
+   ]
+  },
+  "2006-简答-09": {
+   "sub_codes": [
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2006-一-9"
+   ]
+  },
+  "2006-简答-10": {
+   "sub_codes": [
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2006-一-10"
+   ]
+  },
+  "2006-简答-11": {
+   "sub_codes": [
+    "E1"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2006-一-11"
+   ]
+  },
+  "2006-简答-12": {
+   "sub_codes": [
+    "I6"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2006-一-12"
+   ]
+  },
+  "2006-计算-01": {
+   "sub_codes": [
+    "A2"
+   ],
+   "chapter_codes": [
+    "A"
+   ],
+   "trae_exam_ids": [
+    "2006-二-1"
+   ]
+  },
+  "2006-计算-02": {
+   "sub_codes": [
+    "L2",
+    "L3",
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2006-二-2"
+   ]
+  },
+  "2006-计算-04": {
+   "sub_codes": [
+    "I5"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2006-二-4"
+   ]
+  },
+  "2006-计算-05": {
+   "sub_codes": [
+    "J2"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2006-二-5",
+    "2007-二-6"
+   ]
+  },
+  "2007-分析-01": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2007-二-3"
+   ]
+  },
+  "2007-分析-02": {
+   "sub_codes": [
+    "E5",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2007-二-4"
+   ]
+  },
+  "2007-简答-01": {
+   "sub_codes": [
+    "A2"
+   ],
+   "chapter_codes": [
+    "A"
+   ],
+   "trae_exam_ids": [
+    "2007-一-1"
+   ]
+  },
+  "2007-简答-02": {
+   "sub_codes": [
+    "G4"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2007-一-2"
+   ]
+  },
+  "2007-简答-03": {
+   "sub_codes": [
+    "K2"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2007-一-3"
+   ]
+  },
+  "2007-简答-04": {
+   "sub_codes": [
+    "K2"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2007-一-4"
+   ]
+  },
+  "2007-简答-05": {
+   "sub_codes": [
+    "E11",
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2007-一-5"
+   ]
+  },
+  "2007-计算-01": {
+   "sub_codes": [
+    "I4",
+    "I5"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2007-二-1"
+   ]
+  },
+  "2007-计算-02": {
+   "sub_codes": [
+    "L3",
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2007-二-2"
+   ]
+  },
+  "2008-分析-01": {
+   "sub_codes": [
+    "E5",
+    "E6"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2008-五-1"
+   ]
+  },
+  "2008-分析-02": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2008-八-1"
+   ]
+  },
+  "2008-判断-01": {
+   "sub_codes": [
+    "H2"
+   ],
+   "chapter_codes": [
+    "H"
+   ],
+   "trae_exam_ids": [
+    "2008-二-1"
+   ]
+  },
+  "2008-判断-02": {
+   "sub_codes": [
+    "A1"
+   ],
+   "chapter_codes": [
+    "A"
+   ],
+   "trae_exam_ids": [
+    "2008-二-2"
+   ]
+  },
+  "2008-判断-03": {
+   "sub_codes": [
+    "L2"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2008-二-3"
+   ]
+  },
+  "2008-判断-04": {
+   "sub_codes": [
+    "B4"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2008-二-4"
+   ]
+  },
+  "2008-判断-05": {
+   "sub_codes": [
+    "C3"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2008-二-5"
+   ]
+  },
+  "2008-多选-02": {
+   "sub_codes": [
+    "E2"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2008-一-2",
+    "2014-一-2"
+   ]
+  },
+  "2008-简答-01": {
+   "sub_codes": [
+    "E5",
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2008-七-1"
+   ]
+  },
+  "2008-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2008-三-1"
+   ]
+  },
+  "2008-计算-02": {
+   "sub_codes": [
+    "F2",
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2008-四-1"
+   ]
+  },
+  "2008-计算-03": {
+   "sub_codes": [
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2008-六-1"
+   ]
+  },
+  "2008-选择-01": {
+   "sub_codes": [
+    "B1"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2008-一-1",
+    "2014-一-1"
+   ]
+  },
+  "2008-选择-03": {
+   "sub_codes": [
+    "E3"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2008-一-3"
+   ]
+  },
+  "2008-选择-04": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2008-一-4"
+   ]
+  },
+  "2008-选择-05": {
+   "sub_codes": [
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2008-一-5",
+    "2014-一-5"
+   ]
+  },
+  "2008-选择-06": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2008-一-6"
+   ]
+  },
+  "2008-选择-07": {
+   "sub_codes": [
+    "E8"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2008-一-7",
+    "2017-一-7"
+   ]
+  },
+  "2008-选择-08": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2008-一-8"
+   ]
+  },
+  "2008-选择-09": {
+   "sub_codes": [
+    "C1",
+    "C2"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2008-一-9",
+    "2014-一-9",
+    "2017-一-3"
+   ]
+  },
+  "2008-选择-10": {
+   "sub_codes": [
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2008-一-10"
+   ]
+  },
+  "2009-分析-01": {
+   "sub_codes": [
+    "B3",
+    "C5"
+   ],
+   "chapter_codes": [
+    "B",
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2009-三-1"
+   ]
+  },
+  "2009-分析-02": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2009-三-2"
+   ]
+  },
+  "2009-分析-03": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2009-五-1"
+   ]
+  },
+  "2009-简答-01": {
+   "sub_codes": [
+    "G3"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2009-二-1",
+    "2011-三-1",
+    "2024-二-1",
+    "2025-一-1"
+   ]
+  },
+  "2009-简答-02": {
+   "sub_codes": [
+    "A2",
+    "E8"
+   ],
+   "chapter_codes": [
+    "A",
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2009-二-2",
+    "2011-三-2",
+    "2015-二-2"
+   ]
+  },
+  "2009-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2009-四-1"
+   ]
+  },
+  "2009-计算-02": {
+   "sub_codes": [
+    "E11"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2009-四-2"
+   ]
+  },
+  "2009-计算-03": {
+   "sub_codes": [
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2009-四-3"
+   ]
+  },
+  "2009-计算-04": {
+   "sub_codes": [
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2009-四-4"
+   ]
+  },
+  "2009-选择-01": {
+   "sub_codes": [
+    "C3"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2009-一-1"
+   ]
+  },
+  "2009-选择-02": {
+   "sub_codes": [
+    "C2"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2009-一-2"
+   ]
+  },
+  "2009-选择-03": {
+   "sub_codes": [
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2009-一-3"
+   ]
+  },
+  "2009-选择-04": {
+   "sub_codes": [
+    "D1",
+    "D4"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2009-一-4"
+   ]
+  },
+  "2009-选择-05": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2009-一-5"
+   ]
+  },
+  "2009-选择-06": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2009-一-6"
+   ]
+  },
+  "2009-选择-07": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2009-一-7"
+   ]
+  },
+  "2010-填空-01": {
+   "sub_codes": [
+    "F3",
+    "F4"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2010-一-1"
+   ]
+  },
+  "2010-填空-02": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2010-一-2"
+   ]
+  },
+  "2010-填空-03": {
+   "sub_codes": [
+    "C3"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2010-一-3"
+   ]
+  },
+  "2010-填空-04": {
+   "sub_codes": [
+    "C4"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2010-一-4"
+   ]
+  },
+  "2010-填空-05": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2010-一-5"
+   ]
+  },
+  "2010-填空-06": {
+   "sub_codes": [
+    "D1",
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2010-一-6"
+   ]
+  },
+  "2010-填空-07": {
+   "sub_codes": [
+    "D3"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2010-一-7"
+   ]
+  },
+  "2010-填空-08": {
+   "sub_codes": [
+    "G4"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2010-一-8"
+   ]
+  },
+  "2010-填空-09": {
+   "sub_codes": [
+    "G3"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2010-一-9"
+   ]
+  },
+  "2010-填空-10": {
+   "sub_codes": [
+    "B1"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2010-一-10"
+   ]
+  },
+  "2010-填空-11": {
+   "sub_codes": [
+    "E3"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2010-一-11"
+   ]
+  },
+  "2010-填空-12": {
+   "sub_codes": [
+    "E8"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2010-一-12"
+   ]
+  },
+  "2010-填空-13": {
+   "sub_codes": [
+    "E2"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2010-一-13"
+   ]
+  },
+  "2010-填空-14": {
+   "sub_codes": [
+    "E10"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2010-一-14"
+   ]
+  },
+  "2010-填空-15": {
+   "sub_codes": [
+    "C1"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2010-一-15"
+   ]
+  },
+  "2010-简答-01": {
+   "sub_codes": [
+    "G1"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2010-二-1"
+   ]
+  },
+  "2010-简答-02": {
+   "sub_codes": [
+    "I2",
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2010-二-2"
+   ]
+  },
+  "2010-简答-03": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2010-二-3"
+   ]
+  },
+  "2010-简答-04": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2010-二-4"
+   ]
+  },
+  "2010-简答-05": {
+   "sub_codes": [
+    "E11"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2010-二-5"
+   ]
+  },
+  "2010-计算-01": {
+   "sub_codes": [
+    "B2",
+    "B3"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2010-三-1"
+   ]
+  },
+  "2010-计算-02": {
+   "sub_codes": [
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2010-三-2"
+   ]
+  },
+  "2010-计算-03": {
+   "sub_codes": [
+    "E11",
+    "E3"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2010-三-3"
+   ]
+  },
+  "2010-计算-04": {
+   "sub_codes": [
+    "E5",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2010-三-4"
+   ]
+  },
+  "2010-计算-05": {
+   "sub_codes": [
+    "L3",
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2010-三-5"
+   ]
+  },
+  "2010-计算-06": {
+   "sub_codes": [
+    "J3",
+    "K4"
+   ],
+   "chapter_codes": [
+    "J",
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2010-三-6"
+   ]
+  },
+  "2011-判断-01": {
+   "sub_codes": [
+    "E1"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2011-二-1"
+   ]
+  },
+  "2011-判断-02": {
+   "sub_codes": [
+    "C2"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2011-二-2"
+   ]
+  },
+  "2011-判断-03": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2011-二-3"
+   ]
+  },
+  "2011-判断-04": {
+   "sub_codes": [
+    "C4"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2011-二-4"
+   ]
+  },
+  "2011-判断-05": {
+   "sub_codes": [
+    "D1",
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2011-二-5"
+   ]
+  },
+  "2011-判断-06": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2011-二-6"
+   ]
+  },
+  "2011-判断-07": {
+   "sub_codes": [
+    "J1"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2011-二-7"
+   ]
+  },
+  "2011-判断-08": {
+   "sub_codes": [
+    "E12"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2011-二-8"
+   ]
+  },
+  "2011-判断-09": {
+   "sub_codes": [
+    "E3",
+    "F3",
+    "H1"
+   ],
+   "chapter_codes": [
+    "E",
+    "F",
+    "H"
+   ],
+   "trae_exam_ids": [
+    "2011-二-9"
+   ]
+  },
+  "2011-判断-10": {
+   "sub_codes": [
+    "H2"
+   ],
+   "chapter_codes": [
+    "H"
+   ],
+   "trae_exam_ids": [
+    "2011-二-10"
+   ]
+  },
+  "2011-填空-01": {
+   "sub_codes": [
+    "A1"
+   ],
+   "chapter_codes": [
+    "A"
+   ],
+   "trae_exam_ids": [
+    "2011-一-1"
+   ]
+  },
+  "2011-填空-02": {
+   "sub_codes": [
+    "B1"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2011-一-2"
+   ]
+  },
+  "2011-填空-03": {
+   "sub_codes": [
+    "F3",
+    "F4"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2011-一-3"
+   ]
+  },
+  "2011-填空-04": {
+   "sub_codes": [
+    "G5"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2011-一-4"
+   ]
+  },
+  "2011-填空-05": {
+   "sub_codes": [
+    "J2"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2011-一-5"
+   ]
+  },
+  "2011-填空-06": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2011-一-6"
+   ]
+  },
+  "2011-填空-07": {
+   "sub_codes": [
+    "D5"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2011-一-7"
+   ]
+  },
+  "2011-填空-08": {
+   "sub_codes": [
+    "C2"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2011-一-8"
+   ]
+  },
+  "2011-填空-09": {
+   "sub_codes": [
+    "E7",
+    "F3"
+   ],
+   "chapter_codes": [
+    "E",
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2011-一-9"
+   ]
+  },
+  "2011-填空-10": {
+   "sub_codes": [
+    "E2"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2011-一-10"
+   ]
+  },
+  "2011-填空-11": {
+   "sub_codes": [
+    "L5"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2011-一-11"
+   ]
+  },
+  "2011-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2011-四-1"
+   ]
+  },
+  "2011-计算-02": {
+   "sub_codes": [
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2011-四-2"
+   ]
+  },
+  "2011-计算-03": {
+   "sub_codes": [
+    "E1",
+    "E11"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2011-四-3"
+   ]
+  },
+  "2011-计算-04": {
+   "sub_codes": [
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2011-四-4"
+   ]
+  },
+  "2011-计算-05": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2011-四-5"
+   ]
+  },
+  "2011-计算-06": {
+   "sub_codes": [
+    "L3",
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2011-四-6"
+   ]
+  },
+  "2012-分析-01": {
+   "sub_codes": [
+    "E6",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2012-四-1"
+   ]
+  },
+  "2012-填空-01": {
+   "sub_codes": [
+    "C1"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2012-二-1"
+   ]
+  },
+  "2012-填空-02": {
+   "sub_codes": [
+    "M1"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2012-二-2"
+   ]
+  },
+  "2012-填空-03": {
+   "sub_codes": [
+    "J1"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2012-二-3"
+   ]
+  },
+  "2012-填空-04": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2012-二-4"
+   ]
+  },
+  "2012-填空-05": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2012-二-5"
+   ]
+  },
+  "2012-简答-01": {
+   "sub_codes": [
+    "A2",
+    "E8"
+   ],
+   "chapter_codes": [
+    "A",
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2012-三-1"
+   ]
+  },
+  "2012-简答-02": {
+   "sub_codes": [
+    "I2",
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2012-三-2"
+   ]
+  },
+  "2012-简答-03": {
+   "sub_codes": [
+    "M2"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2012-三-3",
+    "2015-二-3",
+    "2024-二-2",
+    "2025-一-2"
+   ]
+  },
+  "2012-简答-04": {
+   "sub_codes": [
+    "G3"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2012-三-4"
+   ]
+  },
+  "2012-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2012-五-1"
+   ]
+  },
+  "2012-计算-02": {
+   "sub_codes": [
+    "E11",
+    "E5"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2012-五-2"
+   ]
+  },
+  "2012-计算-03": {
+   "sub_codes": [
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2012-五-3"
+   ]
+  },
+  "2012-计算-04": {
+   "sub_codes": [
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2012-五-4"
+   ]
+  },
+  "2012-选择-01": {
+   "sub_codes": [
+    "C1"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2012-一-1"
+   ]
+  },
+  "2012-选择-02": {
+   "sub_codes": [
+    "E1"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2012-一-2"
+   ]
+  },
+  "2012-选择-03": {
+   "sub_codes": [
+    "C3"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2012-一-3"
+   ]
+  },
+  "2012-选择-04": {
+   "sub_codes": [
+    "C1"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2012-一-4"
+   ]
+  },
+  "2012-选择-05": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2012-一-5"
+   ]
+  },
+  "2012-选择-06": {
+   "sub_codes": [
+    "G1"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2012-一-6"
+   ]
+  },
+  "2012-选择-07": {
+   "sub_codes": [
+    "A1"
+   ],
+   "chapter_codes": [
+    "A"
+   ],
+   "trae_exam_ids": [
+    "2012-一-7"
+   ]
+  },
+  "2012-选择-08": {
+   "sub_codes": [
+    "B1"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2012-一-8"
+   ]
+  },
+  "2012-选择-09": {
+   "sub_codes": [
+    "G1"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2012-一-9"
+   ]
+  },
+  "2012-选择-10": {
+   "sub_codes": [
+    "G1"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2012-一-10"
+   ]
+  },
+  "2012-选择-11": {
+   "sub_codes": [
+    "A1"
+   ],
+   "chapter_codes": [
+    "A"
+   ],
+   "trae_exam_ids": [
+    "2012-一-11"
+   ]
+  },
+  "2012-选择-12": {
+   "sub_codes": [
+    "F3",
+    "F4"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2012-一-12"
+   ]
+  },
+  "2012-选择-13": {
+   "sub_codes": [
+    "F1"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2012-一-13"
+   ]
+  },
+  "2012-选择-14": {
+   "sub_codes": [
+    "E6"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2012-一-14"
+   ]
+  },
+  "2012-选择-15": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2012-一-15"
+   ]
+  },
+  "2012-选择-16": {
+   "sub_codes": [
+    "D1"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2012-一-16"
+   ]
+  },
+  "2013-分析-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2013-三-1"
+   ]
+  },
+  "2013-分析-02": {
+   "sub_codes": [
+    "E5",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2013-七-1"
+   ]
+  },
+  "2013-分析-03": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2013-八-1"
+   ]
+  },
+  "2013-填空-01": {
+   "sub_codes": [
+    "I1"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2013-二-1"
+   ]
+  },
+  "2013-填空-02": {
+   "sub_codes": [
+    "I1"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2013-二-2"
+   ]
+  },
+  "2013-填空-03": {
+   "sub_codes": [
+    "E2"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2013-二-3"
+   ]
+  },
+  "2013-填空-04": {
+   "sub_codes": [
+    "E1"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2013-二-4"
+   ]
+  },
+  "2013-填空-05": {
+   "sub_codes": [
+    "J2"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2013-二-5"
+   ]
+  },
+  "2013-填空-06": {
+   "sub_codes": [
+    "G6"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2013-二-6"
+   ]
+  },
+  "2013-填空-07": {
+   "sub_codes": [
+    "G6"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2013-二-7"
+   ]
+  },
+  "2013-填空-08": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2013-二-8"
+   ]
+  },
+  "2013-填空-09": {
+   "sub_codes": [
+    "E2"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2013-二-9"
+   ]
+  },
+  "2013-计算-01": {
+   "sub_codes": [
+    "E1",
+    "E11"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2013-四-1"
+   ]
+  },
+  "2013-计算-02": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2013-五-1"
+   ]
+  },
+  "2013-计算-03": {
+   "sub_codes": [
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2013-六-1"
+   ]
+  },
+  "2013-计算-04": {
+   "sub_codes": [
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2013-九-1"
+   ]
+  },
+  "2013-选择-01": {
+   "sub_codes": [
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2013-一-1"
+   ]
+  },
+  "2013-选择-02": {
+   "sub_codes": [
+    "C3"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2013-一-2"
+   ]
+  },
+  "2013-选择-03": {
+   "sub_codes": [
+    "G5"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2013-一-3"
+   ]
+  },
+  "2013-选择-04": {
+   "sub_codes": [
+    "G1"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2013-一-4"
+   ]
+  },
+  "2013-选择-05": {
+   "sub_codes": [
+    "K2"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2013-一-5"
+   ]
+  },
+  "2013-选择-06": {
+   "sub_codes": [
+    "L2"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2013-一-6"
+   ]
+  },
+  "2013-选择-07": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2013-一-7"
+   ]
+  },
+  "2013-选择-08": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2013-一-8"
+   ]
+  },
+  "2013-选择-09": {
+   "sub_codes": [
+    "E8"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2013-一-9"
+   ]
+  },
+  "2013-选择-10": {
+   "sub_codes": [
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2013-一-10"
+   ]
+  },
+  "2014-分析-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2014-三-1"
+   ]
+  },
+  "2014-分析-02": {
+   "sub_codes": [
+    "E5",
+    "E6"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2014-四-1"
+   ]
+  },
+  "2014-分析-03": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2014-七-1"
+   ]
+  },
+  "2014-简答-01": {
+   "sub_codes": [
+    "G5"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2014-二-1"
+   ]
+  },
+  "2014-简答-02": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2014-二-2"
+   ]
+  },
+  "2014-简答-03": {
+   "sub_codes": [
+    "H1"
+   ],
+   "chapter_codes": [
+    "H"
+   ],
+   "trae_exam_ids": [
+    "2014-二-3"
+   ]
+  },
+  "2014-简答-04": {
+   "sub_codes": [
+    "L2"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2014-二-4"
+   ]
+  },
+  "2014-简答-05": {
+   "sub_codes": [
+    "I1"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2014-二-5"
+   ]
+  },
+  "2014-计算-01": {
+   "sub_codes": [
+    "F2"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2014-五-1"
+   ]
+  },
+  "2014-计算-02": {
+   "sub_codes": [
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2014-六-1"
+   ]
+  },
+  "2014-选择-03": {
+   "sub_codes": [
+    "E3"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2014-一-3"
+   ]
+  },
+  "2014-选择-04": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2014-一-4"
+   ]
+  },
+  "2014-选择-06": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2014-一-6"
+   ]
+  },
+  "2014-选择-07": {
+   "sub_codes": [
+    "E8"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2014-一-7"
+   ]
+  },
+  "2014-选择-08": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2014-一-8"
+   ]
+  },
+  "2014-选择-10": {
+   "sub_codes": [
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2014-一-10"
+   ]
+  },
+  "2015-分析-01": {
+   "sub_codes": [
+    "B3",
+    "C5"
+   ],
+   "chapter_codes": [
+    "B",
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2015-三-1"
+   ]
+  },
+  "2015-分析-02": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2015-四-1"
+   ]
+  },
+  "2015-分析-03": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2015-五-1"
+   ]
+  },
+  "2015-填空-01": {
+   "sub_codes": [
+    "B4"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2015-一-1"
+   ]
+  },
+  "2015-填空-02": {
+   "sub_codes": [
+    "B1"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2015-一-2"
+   ]
+  },
+  "2015-填空-03": {
+   "sub_codes": [
+    "D1",
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2015-一-3"
+   ]
+  },
+  "2015-填空-04": {
+   "sub_codes": [
+    "E5"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2015-一-4"
+   ]
+  },
+  "2015-填空-05": {
+   "sub_codes": [
+    "E1"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2015-一-5"
+   ]
+  },
+  "2015-填空-06": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2015-一-6"
+   ]
+  },
+  "2015-填空-07": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2015-一-7"
+   ]
+  },
+  "2015-简答-01": {
+   "sub_codes": [
+    "G1",
+    "G3"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2015-二-1"
+   ]
+  },
+  "2015-计算-01": {
+   "sub_codes": [
+    "E11"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2015-四-2"
+   ]
+  },
+  "2015-计算-02": {
+   "sub_codes": [
+    "E5",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2015-四-3"
+   ]
+  },
+  "2015-计算-03": {
+   "sub_codes": [
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2015-四-4"
+   ]
+  },
+  "2017-分析-01": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2017-三-1"
+   ]
+  },
+  "2017-分析-02": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2017-四-1"
+   ]
+  },
+  "2017-分析-03": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2017-八-1"
+   ]
+  },
+  "2017-简答-01": {
+   "sub_codes": [
+    "E8"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2017-二-1"
+   ]
+  },
+  "2017-简答-02": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2017-二-2"
+   ]
+  },
+  "2017-简答-03": {
+   "sub_codes": [
+    "I2",
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2017-二-3"
+   ]
+  },
+  "2017-简答-04": {
+   "sub_codes": [
+    "G1",
+    "G3"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2017-二-4"
+   ]
+  },
+  "2017-简答-05": {
+   "sub_codes": [
+    "M3"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2017-二-5"
+   ]
+  },
+  "2017-计算-01": {
+   "sub_codes": [
+    "E5",
+    "E6"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2017-五-1"
+   ]
+  },
+  "2017-计算-02": {
+   "sub_codes": [
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2017-六-1"
+   ]
+  },
+  "2017-计算-03": {
+   "sub_codes": [
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2017-七-1"
+   ]
+  },
+  "2017-选择-01": {
+   "sub_codes": [
+    "C1"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2017-一-1"
+   ]
+  },
+  "2017-选择-02": {
+   "sub_codes": [
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2017-一-2"
+   ]
+  },
+  "2017-选择-04": {
+   "sub_codes": [
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2017-一-4"
+   ]
+  },
+  "2017-选择-05": {
+   "sub_codes": [
+    "M1"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2017-一-5"
+   ]
+  },
+  "2017-选择-06": {
+   "sub_codes": [
+    "K2"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2017-一-6"
+   ]
+  },
+  "2017-选择-08": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2017-一-8"
+   ]
+  },
+  "2017-选择-09": {
+   "sub_codes": [
+    "J2"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2017-一-9"
+   ]
+  },
+  "2017-选择-10": {
+   "sub_codes": [
+    "G1"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2017-一-10"
+   ]
+  },
+  "2018-分析-01": {
+   "sub_codes": [
+    "E6",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2018-八-1"
+   ]
+  },
+  "2018-分析-02": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2018-九-1"
+   ]
+  },
+  "2018-简答-01": {
+   "sub_codes": [
+    "E10",
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2018-二-1"
+   ]
+  },
+  "2018-简答-02": {
+   "sub_codes": [
+    "O1"
+   ],
+   "chapter_codes": [
+    "O"
+   ],
+   "trae_exam_ids": [
+    "2018-二-2"
+   ]
+  },
+  "2018-简答-03": {
+   "sub_codes": [
+    "G6"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2018-二-3"
+   ]
+  },
+  "2018-简答-04": {
+   "sub_codes": [
+    "N1"
+   ],
+   "chapter_codes": [
+    "N"
+   ],
+   "trae_exam_ids": [
+    "2018-二-4"
+   ]
+  },
+  "2018-简答-05": {
+   "sub_codes": [
+    "L5"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2018-二-5"
+   ]
+  },
+  "2018-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2018-三-1"
+   ]
+  },
+  "2018-计算-02": {
+   "sub_codes": [
+    "E11",
+    "E5"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2018-四-1"
+   ]
+  },
+  "2018-计算-03": {
+   "sub_codes": [
+    "F2"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2018-五-1"
+   ]
+  },
+  "2018-计算-04": {
+   "sub_codes": [
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2018-六-1"
+   ]
+  },
+  "2018-计算-05": {
+   "sub_codes": [
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2018-七-1"
+   ]
+  },
+  "2018-选择-01": {
+   "sub_codes": [
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2018-一-1"
+   ]
+  },
+  "2018-选择-02": {
+   "sub_codes": [
+    "E4"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2018-一-2"
+   ]
+  },
+  "2018-选择-03": {
+   "sub_codes": [
+    "C1"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2018-一-3"
+   ]
+  },
+  "2018-选择-04": {
+   "sub_codes": [
+    "H2"
+   ],
+   "chapter_codes": [
+    "H"
+   ],
+   "trae_exam_ids": [
+    "2018-一-4"
+   ]
+  },
+  "2018-选择-05": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2018-一-5"
+   ]
+  },
+  "2018-选择-06": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2018-一-6"
+   ]
+  },
+  "2018-选择-07": {
+   "sub_codes": [
+    "J2"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2018-一-7"
+   ]
+  },
+  "2018-选择-08": {
+   "sub_codes": [
+    "I1"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2018-一-8"
+   ]
+  },
+  "2018-选择-09": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2018-一-9"
+   ]
+  },
+  "2018-选择-10": {
+   "sub_codes": [
+    "G1"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2018-一-10"
+   ]
+  },
+  "2019-分析-01": {
+   "sub_codes": [
+    "C1"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2019-三-1"
+   ]
+  },
+  "2019-分析-02": {
+   "sub_codes": [
+    "E6",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2019-四-1"
+   ]
+  },
+  "2019-分析-03": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2019-五-1"
+   ]
+  },
+  "2019-简答-01": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2019-二-1"
+   ]
+  },
+  "2019-简答-02": {
+   "sub_codes": [
+    "G2"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2019-二-2"
+   ]
+  },
+  "2019-简答-03": {
+   "sub_codes": [
+    "E8"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2019-二-3"
+   ]
+  },
+  "2019-简答-04": {
+   "sub_codes": [
+    "M2"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2019-二-4"
+   ]
+  },
+  "2019-简答-05": {
+   "sub_codes": [
+    "O1"
+   ],
+   "chapter_codes": [
+    "O"
+   ],
+   "trae_exam_ids": [
+    "2019-二-5"
+   ]
+  },
+  "2019-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2019-六-1"
+   ]
+  },
+  "2019-计算-02": {
+   "sub_codes": [
+    "L2",
+    "L3",
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2019-七-1"
+   ]
+  },
+  "2019-计算-03": {
+   "sub_codes": [
+    "I4",
+    "I5"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2019-八-1"
+   ]
+  },
+  "2019-计算-04": {
+   "sub_codes": [
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2019-九-1"
+   ]
+  },
+  "2019-选择-01": {
+   "sub_codes": [
+    "D1"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2019-一-1"
+   ]
+  },
+  "2019-选择-02": {
+   "sub_codes": [
+    "E3",
+    "E5"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2019-一-2"
+   ]
+  },
+  "2019-选择-03": {
+   "sub_codes": [
+    "G2"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2019-一-3"
+   ]
+  },
+  "2019-选择-04": {
+   "sub_codes": [
+    "L5"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2019-一-4"
+   ]
+  },
+  "2019-选择-05": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2019-一-5"
+   ]
+  },
+  "2019-选择-06": {
+   "sub_codes": [
+    "J2"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2019-一-6"
+   ]
+  },
+  "2019-选择-07": {
+   "sub_codes": [
+    "M1",
+    "M3"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2019-一-7"
+   ]
+  },
+  "2019-选择-08": {
+   "sub_codes": [
+    "I1"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2019-一-8"
+   ]
+  },
+  "2019-选择-09": {
+   "sub_codes": [
+    "C4"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2019-一-9"
+   ]
+  },
+  "2019-选择-10": {
+   "sub_codes": [
+    "F2"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2019-一-10"
+   ]
+  },
+  "2020-分析-01": {
+   "sub_codes": [
+    "E5",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2020-三-1"
+   ]
+  },
+  "2020-分析-02": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2020-四-1"
+   ]
+  },
+  "2020-填空-01": {
+   "sub_codes": [
+    "C2",
+    "C3",
+    "C4"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2020-一-1"
+   ]
+  },
+  "2020-填空-02": {
+   "sub_codes": [
+    "D3"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2020-一-2"
+   ]
+  },
+  "2020-填空-03": {
+   "sub_codes": [
+    "E1",
+    "E4"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2020-一-3"
+   ]
+  },
+  "2020-填空-04": {
+   "sub_codes": [
+    "E2",
+    "E5"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2020-一-4"
+   ]
+  },
+  "2020-填空-05": {
+   "sub_codes": [
+    "I5",
+    "I6"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2020-一-5"
+   ]
+  },
+  "2020-填空-06": {
+   "sub_codes": [
+    "E10"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2020-一-6"
+   ]
+  },
+  "2020-填空-07": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2020-一-7"
+   ]
+  },
+  "2020-填空-08": {
+   "sub_codes": [
+    "G4"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2020-一-8"
+   ]
+  },
+  "2020-填空-09": {
+   "sub_codes": [
+    "M1",
+    "M3"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2020-一-9"
+   ]
+  },
+  "2020-填空-10": {
+   "sub_codes": [
+    "L5"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2020-一-10"
+   ]
+  },
+  "2020-简答-01": {
+   "sub_codes": [
+    "O1"
+   ],
+   "chapter_codes": [
+    "O"
+   ],
+   "trae_exam_ids": [
+    "2020-二-1"
+   ]
+  },
+  "2020-简答-02": {
+   "sub_codes": [
+    "G2",
+    "G6"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2020-二-2"
+   ]
+  },
+  "2020-简答-03": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2020-二-3"
+   ]
+  },
+  "2020-简答-04": {
+   "sub_codes": [
+    "D1",
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2020-二-4"
+   ]
+  },
+  "2020-简答-05": {
+   "sub_codes": [
+    "L1"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2020-二-5"
+   ]
+  },
+  "2020-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2020-五-1"
+   ]
+  },
+  "2020-计算-02": {
+   "sub_codes": [
+    "F2"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2020-六-1"
+   ]
+  },
+  "2020-计算-03": {
+   "sub_codes": [
+    "E11",
+    "E3"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2020-七-1"
+   ]
+  },
+  "2020-计算-04": {
+   "sub_codes": [
+    "L2",
+    "L3"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2020-八-1"
+   ]
+  },
+  "2020-计算-05": {
+   "sub_codes": [
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2020-九-1"
+   ]
+  },
+  "2021-分析-01": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2021-二-1"
+   ]
+  },
+  "2021-分析-02": {
+   "sub_codes": [
+    "C1",
+    "C2"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2021-二-2"
+   ]
+  },
+  "2021-分析-03": {
+   "sub_codes": [
+    "E5",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2021-二-3"
+   ]
+  },
+  "2021-简答-01": {
+   "sub_codes": [
+    "D1",
+    "D3"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2021-一-1"
+   ]
+  },
+  "2021-简答-02": {
+   "sub_codes": [
+    "E1",
+    "E4"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2021-一-2"
+   ]
+  },
+  "2021-简答-03": {
+   "sub_codes": [
+    "G1",
+    "G4"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2021-一-3"
+   ]
+  },
+  "2021-简答-04": {
+   "sub_codes": [
+    "M1"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2021-一-4"
+   ]
+  },
+  "2021-简答-05": {
+   "sub_codes": [
+    "O1",
+    "O2"
+   ],
+   "chapter_codes": [
+    "O"
+   ],
+   "trae_exam_ids": [
+    "2021-一-5"
+   ]
+  },
+  "2021-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2021-三-1"
+   ]
+  },
+  "2021-计算-02": {
+   "sub_codes": [
+    "L1",
+    "L3",
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2021-三-2"
+   ]
+  },
+  "2021-计算-03": {
+   "sub_codes": [
+    "I4",
+    "I5"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2021-三-3"
+   ]
+  },
+  "2022-简答-01": {
+   "sub_codes": [
+    "C4"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2022-二-1"
+   ]
+  },
+  "2022-简答-02": {
+   "sub_codes": [
+    "G2"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2022-二-2"
+   ]
+  },
+  "2022-简答-03": {
+   "sub_codes": [
+    "A2",
+    "E8"
+   ],
+   "chapter_codes": [
+    "A",
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2022-二-3"
+   ]
+  },
+  "2022-简答-04": {
+   "sub_codes": [
+    "O1"
+   ],
+   "chapter_codes": [
+    "O"
+   ],
+   "trae_exam_ids": [
+    "2022-二-4"
+   ]
+  },
+  "2022-简答-05": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2022-二-5"
+   ]
+  },
+  "2022-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2022-三-1"
+   ]
+  },
+  "2022-计算-02": {
+   "sub_codes": [
+    "E4",
+    "E5"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2022-四-1"
+   ]
+  },
+  "2022-计算-03": {
+   "sub_codes": [
+    "F2"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2022-五-1"
+   ]
+  },
+  "2022-计算-04": {
+   "sub_codes": [
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2022-六-1"
+   ]
+  },
+  "2022-计算-05": {
+   "sub_codes": [
+    "E5",
+    "E6"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2022-七-1"
+   ]
+  },
+  "2022-计算-06": {
+   "sub_codes": [
+    "L2",
+    "L3"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2022-八-1"
+   ]
+  },
+  "2022-计算-07": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2022-九-1"
+   ]
+  },
+  "2022-选择-01": {
+   "sub_codes": [
+    "C1"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2022-一-1"
+   ]
+  },
+  "2022-选择-02": {
+   "sub_codes": [
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2022-一-2"
+   ]
+  },
+  "2022-选择-03": {
+   "sub_codes": [
+    "E5"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2022-一-3"
+   ]
+  },
+  "2022-选择-04": {
+   "sub_codes": [
+    "O2"
+   ],
+   "chapter_codes": [
+    "O"
+   ],
+   "trae_exam_ids": [
+    "2022-一-4"
+   ]
+  },
+  "2022-选择-05": {
+   "sub_codes": [
+    "I3"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2022-一-5"
+   ]
+  },
+  "2022-选择-06": {
+   "sub_codes": [
+    "J2"
+   ],
+   "chapter_codes": [
+    "J"
+   ],
+   "trae_exam_ids": [
+    "2022-一-6"
+   ]
+  },
+  "2022-选择-07": {
+   "sub_codes": [
+    "G5"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2022-一-7"
+   ]
+  },
+  "2022-选择-08": {
+   "sub_codes": [
+    "E9"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2022-一-8"
+   ]
+  },
+  "2022-选择-09": {
+   "sub_codes": [
+    "A3",
+    "E7"
+   ],
+   "chapter_codes": [
+    "A",
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2022-一-9"
+   ]
+  },
+  "2022-选择-10": {
+   "sub_codes": [
+    "M2"
+   ],
+   "chapter_codes": [
+    "M"
+   ],
+   "trae_exam_ids": [
+    "2022-一-10"
+   ]
+  },
+  "2023-简答-01": {
+   "sub_codes": [
+    "G1"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2023-二-1"
+   ]
+  },
+  "2023-简答-02": {
+   "sub_codes": [
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2023-二-2"
+   ]
+  },
+  "2023-简答-03": {
+   "sub_codes": [
+    "G5"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2023-二-3"
+   ]
+  },
+  "2023-计算-02": {
+   "sub_codes": [
+    "L3",
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2023-三-2"
+   ]
+  },
+  "2023-计算-03": {
+   "sub_codes": [
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2023-三-3"
+   ]
+  },
+  "2023-选择-01": {
+   "sub_codes": [
+    "B1"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2023-一-1"
+   ]
+  },
+  "2023-选择-02": {
+   "sub_codes": [
+    "D1"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2023-一-2"
+   ]
+  },
+  "2024-简答-03": {
+   "sub_codes": [
+    "I2"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2024-二-3"
+   ]
+  },
+  "2024-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2024-三-1"
+   ]
+  },
+  "2024-计算-02": {
+   "sub_codes": [
+    "O1"
+   ],
+   "chapter_codes": [
+    "O"
+   ],
+   "trae_exam_ids": [
+    "2024-三-2"
+   ]
+  },
+  "2024-计算-03": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2024-三-3"
+   ]
+  },
+  "2024-计算-04": {
+   "sub_codes": [
+    "I4",
+    "I5"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2024-三-4"
+   ]
+  },
+  "2024-计算-05": {
+   "sub_codes": [
+    "E5",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2024-三-5"
+   ]
+  },
+  "2024-计算-06": {
+   "sub_codes": [
+    "E11"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2024-三-6"
+   ]
+  },
+  "2024-计算-07": {
+   "sub_codes": [
+    "F2"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2024-三-7"
+   ]
+  },
+  "2024-选择-01": {
+   "sub_codes": [
+    "K1"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2024-一-1"
+   ]
+  },
+  "2024-选择-02": {
+   "sub_codes": [
+    "I1"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2024-一-2"
+   ]
+  },
+  "2024-选择-03": {
+   "sub_codes": [
+    "D2"
+   ],
+   "chapter_codes": [
+    "D"
+   ],
+   "trae_exam_ids": [
+    "2024-一-3"
+   ]
+  },
+  "2024-选择-04": {
+   "sub_codes": [
+    "E1"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2024-一-4"
+   ]
+  },
+  "2024-选择-05": {
+   "sub_codes": [
+    "I2",
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2024-一-5"
+   ]
+  },
+  "2024-选择-06": {
+   "sub_codes": [
+    "G5"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2024-一-6"
+   ]
+  },
+  "2024-选择-07": {
+   "sub_codes": [
+    "C2"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2024-一-7"
+   ]
+  },
+  "2025-简答-03": {
+   "sub_codes": [
+    "O1"
+   ],
+   "chapter_codes": [
+    "O"
+   ],
+   "trae_exam_ids": [
+    "2025-一-3"
+   ]
+  },
+  "2025-综合-01": {
+   "sub_codes": [
+    "E5",
+    "E7"
+   ],
+   "chapter_codes": [
+    "E"
+   ],
+   "trae_exam_ids": [
+    "2025-二-1"
+   ]
+  },
+  "2025-综合-02": {
+   "sub_codes": [
+    "K4",
+    "L5"
+   ],
+   "chapter_codes": [
+    "K",
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2025-二-2"
+   ]
+  },
+  "2025-计算-01": {
+   "sub_codes": [
+    "B2"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2025-三-1"
+   ]
+  },
+  "2025-计算-02": {
+   "sub_codes": [
+    "F1",
+    "F2",
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2025-三-2"
+   ]
+  },
+  "2025-计算-03": {
+   "sub_codes": [
+    "I4",
+    "I5"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2025-三-3"
+   ]
+  },
+  "2025-计算-04": {
+   "sub_codes": [
+    "I4"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2025-三-4"
+   ]
+  },
+  "2026-简答-04": {
+   "sub_codes": [
+    "C1",
+    "C3"
+   ],
+   "chapter_codes": [
+    "C"
+   ],
+   "trae_exam_ids": [
+    "2026-二-4"
+   ]
+  },
+  "2026-简答-05": {
+   "sub_codes": [
+    "E1",
+    "G5",
+    "H1"
+   ],
+   "chapter_codes": [
+    "E",
+    "G",
+    "H"
+   ],
+   "trae_exam_ids": [
+    "2026-二-5"
+   ]
+  },
+  "2026-综合-03": {
+   "sub_codes": [
+    "F2",
+    "F3"
+   ],
+   "chapter_codes": [
+    "F"
+   ],
+   "trae_exam_ids": [
+    "2026-三-6"
+   ]
+  },
+  "2026-综合-04": {
+   "sub_codes": [
+    "L4"
+   ],
+   "chapter_codes": [
+    "L"
+   ],
+   "trae_exam_ids": [
+    "2026-三-4"
+   ]
+  },
+  "2026-综合-06": {
+   "sub_codes": [
+    "K4"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2026-三-7"
+   ]
+  },
+  "2026-选择-06": {
+   "sub_codes": [
+    "B1"
+   ],
+   "chapter_codes": [
+    "B"
+   ],
+   "trae_exam_ids": [
+    "2026-一-6"
+   ]
+  },
+  "2026-选择-07": {
+   "sub_codes": [
+    "K2"
+   ],
+   "chapter_codes": [
+    "K"
+   ],
+   "trae_exam_ids": [
+    "2026-一-7"
+   ]
+  },
+  "2026-选择-08": {
+   "sub_codes": [
+    "G1"
+   ],
+   "chapter_codes": [
+    "G"
+   ],
+   "trae_exam_ids": [
+    "2026-一-8"
+   ]
+  },
+  "2026-选择-09": {
+   "sub_codes": [
+    "I6"
+   ],
+   "chapter_codes": [
+    "I"
+   ],
+   "trae_exam_ids": [
+    "2026-一-9"
+   ]
+  }
+ }
+}

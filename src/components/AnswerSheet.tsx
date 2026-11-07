@@ -21,7 +21,7 @@ export function AnswerSheet({
         <CardTitle className="text-sm">答题卡</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="grid grid-cols-6 gap-1.5">
+        <div className="grid grid-cols-5 gap-1.5 sm:grid-cols-6">
           {list.map((q, i) => {
             const rec = progress[q.id]
             const answered = (rec?.attempts ?? 0) > 0

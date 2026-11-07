@@ -1,0 +1,403 @@
+{
+ "_source": "归档 Trae版本_只读/常大真题电子版/web/data/data.json 的 meta.chapters / meta.subs",
+ "_note": "64 个细分知识点（二级知识点）与 A–O 共 15 个 Trae 章节。由确定性映射挂到 WB 371 道真题上；不替代 WB 考纲章节体系。",
+ "chapters": [
+  {
+   "code": "A",
+   "name": "机械设计总论",
+   "order": null
+  },
+  {
+   "code": "B",
+   "name": "机构组成与自由度",
+   "order": null
+  },
+  {
+   "code": "C",
+   "name": "平面连杆机构",
+   "order": null
+  },
+  {
+   "code": "D",
+   "name": "凸轮机构",
+   "order": null
+  },
+  {
+   "code": "E",
+   "name": "齿轮传动",
+   "order": null
+  },
+  {
+   "code": "F",
+   "name": "轮系",
+   "order": null
+  },
+  {
+   "code": "G",
+   "name": "带传动",
+   "order": null
+  },
+  {
+   "code": "H",
+   "name": "链传动",
+   "order": null
+  },
+  {
+   "code": "I",
+   "name": "螺纹联接",
+   "order": null
+  },
+  {
+   "code": "J",
+   "name": "键联接与其他联接",
+   "order": null
+  },
+  {
+   "code": "K",
+   "name": "轴与轴系结构",
+   "order": null
+  },
+  {
+   "code": "L",
+   "name": "滚动轴承",
+   "order": null
+  },
+  {
+   "code": "M",
+   "name": "滑动轴承",
+   "order": null
+  },
+  {
+   "code": "N",
+   "name": "联轴器与离合器",
+   "order": null
+  },
+  {
+   "code": "O",
+   "name": "机械平衡与运转",
+   "order": null
+  }
+ ],
+ "points": [
+  {
+   "code": "A1",
+   "name": "机器、机构与零件",
+   "chapter": "A"
+  },
+  {
+   "code": "A2",
+   "name": "失效形式与设计准则",
+   "chapter": "A"
+  },
+  {
+   "code": "A3",
+   "name": "标准化与系列化",
+   "chapter": "A"
+  },
+  {
+   "code": "B1",
+   "name": "运动副与机构组成",
+   "chapter": "B"
+  },
+  {
+   "code": "B2",
+   "name": "自由度计算",
+   "chapter": "B"
+  },
+  {
+   "code": "B3",
+   "name": "机构运动简图",
+   "chapter": "B"
+  },
+  {
+   "code": "B4",
+   "name": "确定运动条件",
+   "chapter": "B"
+  },
+  {
+   "code": "C1",
+   "name": "四杆机构类型与曲柄条件",
+   "chapter": "C"
+  },
+  {
+   "code": "C2",
+   "name": "急回特性与行程速比",
+   "chapter": "C"
+  },
+  {
+   "code": "C3",
+   "name": "死点位置",
+   "chapter": "C"
+  },
+  {
+   "code": "C4",
+   "name": "压力角与传动角",
+   "chapter": "C"
+  },
+  {
+   "code": "C5",
+   "name": "四杆机构设计",
+   "chapter": "C"
+  },
+  {
+   "code": "D1",
+   "name": "凸轮机构类型与从动件",
+   "chapter": "D"
+  },
+  {
+   "code": "D2",
+   "name": "从动件运动规律",
+   "chapter": "D"
+  },
+  {
+   "code": "D3",
+   "name": "压力角、基圆与自锁",
+   "chapter": "D"
+  },
+  {
+   "code": "D4",
+   "name": "凸轮轮廓与滚子半径",
+   "chapter": "D"
+  },
+  {
+   "code": "D5",
+   "name": "凸轮机构组成",
+   "chapter": "D"
+  },
+  {
+   "code": "E1",
+   "name": "渐开线齿廓与标准齿轮",
+   "chapter": "E"
+  },
+  {
+   "code": "E2",
+   "name": "正确啮合与连续传动",
+   "chapter": "E"
+  },
+  {
+   "code": "E3",
+   "name": "中心距与节圆",
+   "chapter": "E"
+  },
+  {
+   "code": "E4",
+   "name": "根切与变位齿轮",
+   "chapter": "E"
+  },
+  {
+   "code": "E5",
+   "name": "斜齿圆柱齿轮",
+   "chapter": "E"
+  },
+  {
+   "code": "E6",
+   "name": "圆锥齿轮",
+   "chapter": "E"
+  },
+  {
+   "code": "E7",
+   "name": "蜗杆传动",
+   "chapter": "E"
+  },
+  {
+   "code": "E8",
+   "name": "齿轮失效形式",
+   "chapter": "E"
+  },
+  {
+   "code": "E9",
+   "name": "齿面接触强度",
+   "chapter": "E"
+  },
+  {
+   "code": "E10",
+   "name": "齿根弯曲强度",
+   "chapter": "E"
+  },
+  {
+   "code": "E11",
+   "name": "齿轮几何尺寸计算",
+   "chapter": "E"
+  },
+  {
+   "code": "E12",
+   "name": "齿轮润滑与传动效率",
+   "chapter": "E"
+  },
+  {
+   "code": "F1",
+   "name": "定轴轮系传动比",
+   "chapter": "F"
+  },
+  {
+   "code": "F2",
+   "name": "周转轮系传动比",
+   "chapter": "F"
+  },
+  {
+   "code": "F3",
+   "name": "复合轮系传动比",
+   "chapter": "F"
+  },
+  {
+   "code": "F4",
+   "name": "轮系分类",
+   "chapter": "F"
+  },
+  {
+   "code": "G1",
+   "name": "带传动类型与特点",
+   "chapter": "G"
+  },
+  {
+   "code": "G2",
+   "name": "有效拉力与影响因素",
+   "chapter": "G"
+  },
+  {
+   "code": "G3",
+   "name": "弹性滑动与打滑",
+   "chapter": "G"
+  },
+  {
+   "code": "G4",
+   "name": "应力分布与最大应力",
+   "chapter": "G"
+  },
+  {
+   "code": "G5",
+   "name": "包角、张紧与带轮直径",
+   "chapter": "G"
+  },
+  {
+   "code": "G6",
+   "name": "带传动设计",
+   "chapter": "G"
+  },
+  {
+   "code": "H1",
+   "name": "链传动运动不均匀性",
+   "chapter": "H"
+  },
+  {
+   "code": "H2",
+   "name": "链条参数与节数",
+   "chapter": "H"
+  },
+  {
+   "code": "I1",
+   "name": "螺纹类型与自锁",
+   "chapter": "I"
+  },
+  {
+   "code": "I2",
+   "name": "螺纹联接基本类型",
+   "chapter": "I"
+  },
+  {
+   "code": "I3",
+   "name": "预紧与防松",
+   "chapter": "I"
+  },
+  {
+   "code": "I4",
+   "name": "螺栓强度计算",
+   "chapter": "I"
+  },
+  {
+   "code": "I5",
+   "name": "螺栓组受力与变载荷",
+   "chapter": "I"
+  },
+  {
+   "code": "I6",
+   "name": "提高螺栓联接强度",
+   "chapter": "I"
+  },
+  {
+   "code": "J1",
+   "name": "键的类型与工作面",
+   "chapter": "J"
+  },
+  {
+   "code": "J2",
+   "name": "键的尺寸与失效",
+   "chapter": "J"
+  },
+  {
+   "code": "J3",
+   "name": "过盈、销与铆焊联接",
+   "chapter": "J"
+  },
+  {
+   "code": "K1",
+   "name": "轴的分类与受力",
+   "chapter": "K"
+  },
+  {
+   "code": "K2",
+   "name": "轴的强度与刚度",
+   "chapter": "K"
+  },
+  {
+   "code": "K4",
+   "name": "轴系结构设计与改错",
+   "chapter": "K"
+  },
+  {
+   "code": "L1",
+   "name": "轴承代号与类型",
+   "chapter": "L"
+  },
+  {
+   "code": "L2",
+   "name": "基本额定寿命",
+   "chapter": "L"
+  },
+  {
+   "code": "L3",
+   "name": "当量动载荷",
+   "chapter": "L"
+  },
+  {
+   "code": "L4",
+   "name": "轴向力与派生轴向力",
+   "chapter": "L"
+  },
+  {
+   "code": "L5",
+   "name": "轴承组合设计",
+   "chapter": "L"
+  },
+  {
+   "code": "M1",
+   "name": "滑动轴承类型与结构",
+   "chapter": "M"
+  },
+  {
+   "code": "M2",
+   "name": "动压油膜形成条件",
+   "chapter": "M"
+  },
+  {
+   "code": "M3",
+   "name": "非液体摩擦轴承校核",
+   "chapter": "M"
+  },
+  {
+   "code": "N1",
+   "name": "联轴器与离合器",
+   "chapter": "N"
+  },
+  {
+   "code": "O1",
+   "name": "静平衡与动平衡",
+   "chapter": "O"
+  },
+  {
+   "code": "O2",
+   "name": "飞轮与速度波动",
+   "chapter": "O"
+  }
+ ]
+}

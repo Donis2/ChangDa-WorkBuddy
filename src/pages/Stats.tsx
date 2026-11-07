@@ -1,4 +1,6 @@
 import * as React from 'react'
+import { Link } from 'react-router-dom'
+import { ArrowRight } from 'lucide-react'
 import {
   Bar,
   BarChart,
@@ -16,12 +18,14 @@ import {
   YAxis,
 } from 'recharts'
 import { statsFile } from '@/lib/data'
+import { subKnowledgeTree, SUB_TOTAL_POINTS, SUB_TOTAL_CHAPTERS } from '@/lib/subKnowledgeData'
 import { questions } from '@/lib/questionData'
 import { extStats } from '@/lib/extMeta'
 import type { Question } from '@/lib/types'
 import { useProgress } from '@/lib/storage'
 import { TYPE_ORDER, pct, typeLabel } from '@/lib/utils'
 import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Progress } from '@/components/ui/progress'
 
@@ -69,6 +73,7 @@ export function Stats() {
     value: k.count,
   }))
 
+  /** Trae 版 64 个细分知识点，按真题命中数降序 */
   const calcKp = statsFile.calculation_analysis.by_knowledge_point.map((k) => ({
     name: k.name.length > 14 ? k.name.slice(0, 13) + '…' : k.name,
     full: k.name,
@@ -384,6 +389,24 @@ export function Stats() {
           </ResponsiveContainer>
         </div>
       </ChartCard>
+
+      {/* 细分知识点覆盖：明细已独立到 /knowledge，这里只留入口 */}
+      <Card>
+        <CardHeader className="pb-2">
+          <CardTitle className="text-sm">细分知识点覆盖（Trae 版 {SUB_TOTAL_POINTS} 点）</CardTitle>
+          <p className="text-xs text-muted-foreground">
+            {SUB_TOTAL_CHAPTERS} 章 / {SUB_TOTAL_POINTS} 个知识点 · 覆盖 {subKnowledgeTree.total_questions} 道真题；
+            逐点题量与你自己的正确率见「知识点」页。
+          </p>
+        </CardHeader>
+        <CardContent>
+          <Button variant="outline" size="sm" asChild>
+            <Link to="/knowledge">
+              打开知识点统计 <ArrowRight className="ml-1 h-3.5 w-3.5" />
+            </Link>
+          </Button>
+        </CardContent>
+      </Card>
 
       {/* 扩展题库统计（与真题口径隔离） */}
       {extStats.total_questions > 0 && (

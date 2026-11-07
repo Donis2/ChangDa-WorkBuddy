@@ -47,6 +47,7 @@ export function Practice() {
     const chapter = params.get('chapter')
     const mode = params.get('mode')
     const bank = params.get('bank')
+    const subkp = params.get('subkp')
     // 沿用当前的显示方式（单题 / 全显示），只替换筛选条件
     setSession((prev) => {
       const next: SessionState = {
@@ -63,6 +64,7 @@ export function Practice() {
       if (type) next.typeFilter = type.split(',')
       if (chapter) next.chapterFilter = chapter.split(',')
       if (kp) next.kpFilter = kp.split(',')
+      if (subkp) next.subKpFilter = subkp.split(',')
       if (mode === 'wrong') next.wrongOnly = true
       if (mode === 'favorite') next.favoriteOnly = true
       if (mode === 'random') next.order = 'random'
@@ -121,6 +123,7 @@ export function Practice() {
     session.typeFilter.join(','),
     session.chapterFilter.join(','),
     session.kpFilter.join(','),
+    session.subKpFilter.join(','),
     session.order,
     session.wrongOnly,
     session.favoriteOnly,
@@ -170,7 +173,7 @@ export function Practice() {
   return (
     <div className={cn('space-y-4', !isAll && 'pb-24 lg:pb-0')}>
       {/* 顶部模式条：第一行状态 + 视图切换，第二行可横向滚动的快捷按钮 */}
-      <div className="sticky top-14 z-20 -mx-3 border-b bg-background/95 px-3 py-2 backdrop-blur sm:-mx-4 sm:px-4">
+      <div className="sticky top-14 z-20 -mx-3 border-b border-border/70 bg-background/90 px-3 py-2 shadow-sm backdrop-blur-md sm:-mx-4 sm:px-4">
         <div className="flex items-center gap-2">
           <Badge variant="default" className="shrink-0 text-xs">
             {modeLabel(session)}
@@ -206,12 +209,12 @@ export function Practice() {
             onClick={() => setDrawerOpen(true)}
             aria-expanded={drawerOpen}
             aria-label="打开筛选"
-            className="ml-auto flex shrink-0 items-center gap-1 rounded-full border px-2.5 py-1 text-xs text-muted-foreground transition-colors hover:border-primary/40 hover:bg-accent lg:hidden"
+            className="ml-auto flex shrink-0 items-center gap-1 rounded-full border bg-card px-3 py-1.5 text-xs text-muted-foreground shadow-sm transition-colors hover:border-primary/40 hover:bg-accent lg:hidden"
           >
             <SlidersHorizontal className="h-3.5 w-3.5" aria-hidden="true" /> 筛选
-            {(session.yearFilter.length + session.typeFilter.length + session.chapterFilter.length + session.kpFilter.length) > 0 && (
+            {(session.yearFilter.length + session.typeFilter.length + session.chapterFilter.length + session.kpFilter.length + session.subKpFilter.length) > 0 && (
               <span className="flex h-4 w-4 items-center justify-center rounded-full bg-primary text-[10px] font-semibold text-primary-foreground">
-                {session.yearFilter.length + session.typeFilter.length + session.chapterFilter.length + session.kpFilter.length}
+                {session.yearFilter.length + session.typeFilter.length + session.chapterFilter.length + session.kpFilter.length + session.subKpFilter.length}
               </span>
             )}
           </button>
@@ -259,6 +262,7 @@ export function Practice() {
                     typeFilter: [],
                     chapterFilter: [],
                     kpFilter: [],
+                    subKpFilter: [],
                   })
                 }
                 className={cn(
@@ -364,11 +368,11 @@ export function Practice() {
       {drawerOpen && (
         <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="筛选条件">
           <div
-            className="absolute inset-0 bg-black/40"
+            className="absolute inset-0 bg-slate-900/45 backdrop-blur-[2px]"
             onClick={() => setDrawerOpen(false)}
             aria-hidden="true"
           />
-          <div className="absolute inset-y-0 left-0 flex w-[88%] max-w-sm flex-col bg-background shadow-xl">
+          <div className="absolute inset-y-0 left-0 flex w-[88%] max-w-sm flex-col rounded-r-2xl bg-background shadow-2xl">
             <div className="flex items-center justify-between border-b px-4 py-3">
               <span className="text-sm font-semibold">筛选条件</span>
               <button
@@ -421,7 +425,7 @@ export function Practice() {
                       key={q.id}
                       id={`q-${q.id}`}
                       className={cn(
-                        'scroll-mt-32 rounded-lg border bg-card p-4 shadow-sm transition-shadow sm:scroll-mt-28 sm:p-5',
+                        'scroll-mt-32 rounded-xl border bg-card p-4 shadow-card transition-shadow sm:scroll-mt-28 sm:p-5',
                         globalIndex === index && 'ring-2 ring-primary/40',
                       )}
                     >
@@ -473,7 +477,7 @@ export function Practice() {
             )
           ) : current ? (
             <>
-              <div className="rounded-lg border bg-card p-4 shadow-sm sm:p-5">
+              <div className="rounded-xl border bg-card p-4 shadow-card sm:p-5">
                 <QuestionCard
                   key={current.id}
                   question={current}
@@ -531,7 +535,7 @@ export function Practice() {
 
       {/* 手机：底部翻页条 */}
       {!isAll && current && list.length > 1 && (
-        <div className="fixed inset-x-0 bottom-0 z-30 border-t bg-background/95 px-3 pb-[calc(0.5rem+env(safe-area-inset-bottom))] pt-2 backdrop-blur lg:hidden">
+        <div className="fixed inset-x-0 bottom-0 z-30 border-t border-border/70 bg-card/95 px-3 pb-[calc(0.5rem+env(safe-area-inset-bottom))] pt-2 shadow-[0_-4px_16px_rgba(15,23,42,0.06)] backdrop-blur-md lg:hidden">
           <div className="mx-auto flex max-w-lg items-center gap-2">
             <Button
               variant="outline"
@@ -567,7 +571,7 @@ function EmptyState({
   onReset: () => void
 }) {
   return (
-    <div className="rounded-lg border bg-card p-10 text-center shadow-sm">
+    <div className="rounded-xl border border-dashed bg-card p-8 text-center shadow-card sm:p-10">
       <p className="text-sm text-muted-foreground">
         {session.wrongOnly
           ? '错题本还是空的 —— 去刷题吧，答错的题会自动收进这里。'
@@ -597,10 +601,10 @@ function Preset({
     <button
       onClick={onClick}
       className={cn(
-        'flex shrink-0 items-center gap-1 rounded-full border px-2.5 py-1 text-xs transition-colors',
+        'flex shrink-0 items-center gap-1 rounded-full border bg-card px-3 py-1.5 text-xs shadow-sm transition-all duration-150 hover:border-primary/40 hover:bg-accent',
         active
           ? 'border-primary bg-primary/10 font-medium text-primary'
-          : 'text-muted-foreground hover:border-primary/40 hover:bg-accent',
+          : 'text-muted-foreground',
       )}
     >
       {icon}

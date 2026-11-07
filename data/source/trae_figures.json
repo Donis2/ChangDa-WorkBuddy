@@ -1,0 +1,682 @@
+{
+ "_source": "归档 Trae 原卷插图迁移；经内容抽查，Trae 卷面号图与 Workbuddy 题型 id 图为两套独立裁切（内容不同），按「不擅自取舍、两者并存」全量挂载。",
+ "_note": "build_data.py 在校验前把这些路径追加到对应题的 images / answer_images。卷面号命名原样保留；Workbuddy 原有 /images/questions/<WB题ID>.png 保持不变。",
+ "questions": {
+  "2004-计算-01": {
+   "images": [
+    "2004-二-1.png"
+   ],
+   "answer_images": []
+  },
+  "2004-计算-02": {
+   "images": [
+    "2004-二-2.png"
+   ],
+   "answer_images": []
+  },
+  "2004-计算-04": {
+   "images": [
+    "2004-二-4.png"
+   ],
+   "answer_images": []
+  },
+  "2004-论述-01": {
+   "images": [
+    "2004-三-1.png"
+   ],
+   "answer_images": []
+  },
+  "2006-分析-01": {
+   "images": [
+    "2006-二-3.png"
+   ],
+   "answer_images": []
+  },
+  "2006-分析-02": {
+   "images": [
+    "2006-二-6.png"
+   ],
+   "answer_images": []
+  },
+  "2006-计算-01": {
+   "images": [
+    "2006-二-1.png"
+   ],
+   "answer_images": []
+  },
+  "2006-计算-02": {
+   "images": [
+    "2006-二-2.png"
+   ],
+   "answer_images": []
+  },
+  "2006-计算-04": {
+   "images": [
+    "2006-二-4.png"
+   ],
+   "answer_images": []
+  },
+  "2007-分析-01": {
+   "images": [
+    "2007-二-3.png"
+   ],
+   "answer_images": []
+  },
+  "2007-分析-02": {
+   "images": [
+    "2007-二-4.png"
+   ],
+   "answer_images": []
+  },
+  "2007-简答-01": {
+   "images": [
+    "2007-一-1.png"
+   ],
+   "answer_images": []
+  },
+  "2007-计算-01": {
+   "images": [
+    "2007-二-1.png"
+   ],
+   "answer_images": []
+  },
+  "2007-计算-02": {
+   "images": [
+    "2007-二-2.png"
+   ],
+   "answer_images": []
+  },
+  "2008-分析-01": {
+   "images": [
+    "2008-五-1.png"
+   ],
+   "answer_images": []
+  },
+  "2008-分析-02": {
+   "images": [
+    "2008-八-1.png"
+   ],
+   "answer_images": []
+  },
+  "2008-计算-01": {
+   "images": [
+    "2008-三-1.png"
+   ],
+   "answer_images": []
+  },
+  "2008-计算-02": {
+   "images": [
+    "2008-四-1.png"
+   ],
+   "answer_images": []
+  },
+  "2008-计算-03": {
+   "images": [
+    "2008-六-1.png"
+   ],
+   "answer_images": []
+  },
+  "2009-分析-02": {
+   "images": [
+    "2009-3-2a.png",
+    "2009-3-2b.png"
+   ],
+   "answer_images": []
+  },
+  "2009-分析-03": {
+   "images": [
+    "2009-5-1.png"
+   ],
+   "answer_images": []
+  },
+  "2009-计算-01": {
+   "images": [
+    "2009-4-1.png"
+   ],
+   "answer_images": []
+  },
+  "2009-计算-03": {
+   "images": [
+    "2009-4-3.png"
+   ],
+   "answer_images": []
+  },
+  "2009-计算-04": {
+   "images": [
+    "2009-4-4.png"
+   ],
+   "answer_images": []
+  },
+  "2010-填空-15": {
+   "images": [
+    "2010-1-15.png"
+   ],
+   "answer_images": []
+  },
+  "2010-计算-01": {
+   "images": [
+    "2010-3-1.png"
+   ],
+   "answer_images": []
+  },
+  "2010-计算-02": {
+   "images": [
+    "2010-3-2.png"
+   ],
+   "answer_images": []
+  },
+  "2010-计算-04": {
+   "images": [
+    "2010-3-4.png"
+   ],
+   "answer_images": []
+  },
+  "2010-计算-05": {
+   "images": [
+    "2010-3-5.png"
+   ],
+   "answer_images": []
+  },
+  "2010-计算-06": {
+   "images": [
+    "2010-3-6-1.png",
+    "2010-3-6-2.png",
+    "2010-3-6-3.png",
+    "2010-3-6-4.png",
+    "2010-3-6-5.png"
+   ],
+   "answer_images": []
+  },
+  "2011-计算-01": {
+   "images": [
+    "2011-4-1a.png",
+    "2011-4-1b.png"
+   ],
+   "answer_images": []
+  },
+  "2011-计算-02": {
+   "images": [
+    "2011-4-2.png"
+   ],
+   "answer_images": []
+  },
+  "2011-计算-05": {
+   "images": [
+    "2011-4-5.png"
+   ],
+   "answer_images": []
+  },
+  "2011-计算-06": {
+   "images": [
+    "2011-4-6.png"
+   ],
+   "answer_images": []
+  },
+  "2012-分析-01": {
+   "images": [
+    "2012-4-1.png"
+   ],
+   "answer_images": []
+  },
+  "2012-计算-01": {
+   "images": [
+    "2012-5-1a.png",
+    "2012-5-1b.png"
+   ],
+   "answer_images": []
+  },
+  "2012-计算-03": {
+   "images": [
+    "2012-5-3.png"
+   ],
+   "answer_images": []
+  },
+  "2012-计算-04": {
+   "images": [
+    "2012-5-4.png"
+   ],
+   "answer_images": []
+  },
+  "2013-分析-01": {
+   "images": [
+    "2013-3-1.png"
+   ],
+   "answer_images": []
+  },
+  "2013-分析-02": {
+   "images": [
+    "2013-7-1.png",
+    "2013-7-2.png"
+   ],
+   "answer_images": []
+  },
+  "2013-分析-03": {
+   "images": [
+    "2013-8-1.png"
+   ],
+   "answer_images": []
+  },
+  "2013-计算-02": {
+   "images": [
+    "2013-5-1.png",
+    "2013-5-2.png"
+   ],
+   "answer_images": []
+  },
+  "2013-计算-03": {
+   "images": [
+    "2013-6-1.png"
+   ],
+   "answer_images": []
+  },
+  "2013-计算-04": {
+   "images": [
+    "2013-9-1.png"
+   ],
+   "answer_images": []
+  },
+  "2014-分析-01": {
+   "images": [
+    "2014-3-1a.png",
+    "2014-3-1b.png"
+   ],
+   "answer_images": []
+  },
+  "2014-分析-02": {
+   "images": [
+    "2014-4-1a.png",
+    "2014-4-1b.png"
+   ],
+   "answer_images": []
+  },
+  "2014-分析-03": {
+   "images": [
+    "2014-7-1.png"
+   ],
+   "answer_images": []
+  },
+  "2014-计算-01": {
+   "images": [
+    "2014-5-1.png"
+   ],
+   "answer_images": []
+  },
+  "2014-计算-02": {
+   "images": [
+    "2014-6-1.png"
+   ],
+   "answer_images": []
+  },
+  "2015-分析-02": {
+   "images": [
+    "2015-4-1.png"
+   ],
+   "answer_images": []
+  },
+  "2015-分析-03": {
+   "images": [
+    "2015-5-1.png"
+   ],
+   "answer_images": []
+  },
+  "2015-计算-02": {
+   "images": [
+    "2015-4-3.png"
+   ],
+   "answer_images": []
+  },
+  "2015-计算-03": {
+   "images": [
+    "2015-4-4.png"
+   ],
+   "answer_images": []
+  },
+  "2017-分析-01": {
+   "images": [
+    "2017-3-1.png"
+   ],
+   "answer_images": []
+  },
+  "2017-分析-02": {
+   "images": [
+    "2017-4-1.png"
+   ],
+   "answer_images": []
+  },
+  "2017-分析-03": {
+   "images": [
+    "2017-8-1.png"
+   ],
+   "answer_images": []
+  },
+  "2017-计算-01": {
+   "images": [
+    "2017-5-1.png"
+   ],
+   "answer_images": []
+  },
+  "2017-计算-02": {
+   "images": [
+    "2017-6-1.png"
+   ],
+   "answer_images": []
+  },
+  "2017-计算-03": {
+   "images": [
+    "2017-7-1.png"
+   ],
+   "answer_images": []
+  },
+  "2018-分析-01": {
+   "images": [
+    "2018-8-1.png"
+   ],
+   "answer_images": []
+  },
+  "2018-分析-02": {
+   "images": [
+    "2018-9-1.png"
+   ],
+   "answer_images": []
+  },
+  "2018-简答-02": {
+   "images": [
+    "2018-2-2.png"
+   ],
+   "answer_images": []
+  },
+  "2018-简答-05": {
+   "images": [
+    "2018-2-5.png"
+   ],
+   "answer_images": []
+  },
+  "2018-计算-01": {
+   "images": [
+    "2018-3-1.png"
+   ],
+   "answer_images": []
+  },
+  "2018-计算-03": {
+   "images": [
+    "2018-5-1.png"
+   ],
+   "answer_images": []
+  },
+  "2018-计算-04": {
+   "images": [
+    "2018-6-1.png"
+   ],
+   "answer_images": []
+  },
+  "2018-计算-05": {
+   "images": [
+    "2018-7-1.png"
+   ],
+   "answer_images": []
+  },
+  "2018-选择-10": {
+   "images": [
+    "2018-1-10.png"
+   ],
+   "answer_images": []
+  },
+  "2019-分析-01": {
+   "images": [
+    "2019-3-1.png"
+   ],
+   "answer_images": []
+  },
+  "2019-分析-02": {
+   "images": [
+    "2019-4-1.png"
+   ],
+   "answer_images": []
+  },
+  "2019-分析-03": {
+   "images": [
+    "2019-5-1.png"
+   ],
+   "answer_images": []
+  },
+  "2019-简答-05": {
+   "images": [
+    "2019-2-5.png"
+   ],
+   "answer_images": []
+  },
+  "2019-计算-01": {
+   "images": [
+    "2019-6-1.png"
+   ],
+   "answer_images": []
+  },
+  "2019-计算-02": {
+   "images": [
+    "2019-7-1.png"
+   ],
+   "answer_images": []
+  },
+  "2019-计算-03": {
+   "images": [
+    "2019-8-1.png"
+   ],
+   "answer_images": []
+  },
+  "2019-计算-04": {
+   "images": [
+    "2019-9-1.png"
+   ],
+   "answer_images": []
+  },
+  "2020-分析-01": {
+   "images": [
+    "2020-3-1.png"
+   ],
+   "answer_images": []
+  },
+  "2020-分析-02": {
+   "images": [
+    "2020-4-1.png"
+   ],
+   "answer_images": []
+  },
+  "2020-计算-01": {
+   "images": [
+    "2020-5-1.png"
+   ],
+   "answer_images": []
+  },
+  "2020-计算-02": {
+   "images": [
+    "2020-6-1.png"
+   ],
+   "answer_images": []
+  },
+  "2020-计算-04": {
+   "images": [
+    "2020-8-1.png"
+   ],
+   "answer_images": []
+  },
+  "2020-计算-05": {
+   "images": [
+    "2020-9-1.png"
+   ],
+   "answer_images": []
+  },
+  "2021-分析-01": {
+   "images": [
+    "2021-2-1.png"
+   ],
+   "answer_images": []
+  },
+  "2021-分析-03": {
+   "images": [
+    "2021-2-3.png"
+   ],
+   "answer_images": []
+  },
+  "2021-计算-01": {
+   "images": [
+    "2021-3-1a.png",
+    "2021-3-1b.png"
+   ],
+   "answer_images": []
+  },
+  "2021-计算-02": {
+   "images": [
+    "2021-3-2.png"
+   ],
+   "answer_images": []
+  },
+  "2022-简答-04": {
+   "images": [
+    "2022-2-4.png"
+   ],
+   "answer_images": []
+  },
+  "2022-计算-01": {
+   "images": [
+    "2022-3-1.png"
+   ],
+   "answer_images": []
+  },
+  "2022-计算-03": {
+   "images": [
+    "2022-5-1.png"
+   ],
+   "answer_images": []
+  },
+  "2022-计算-05": {
+   "images": [
+    "2022-7-1.png"
+   ],
+   "answer_images": []
+  },
+  "2022-计算-06": {
+   "images": [
+    "2022-8-1.png"
+   ],
+   "answer_images": []
+  },
+  "2022-计算-07": {
+   "images": [
+    "2022-9-1.png"
+   ],
+   "answer_images": []
+  },
+  "2023-计算-02": {
+   "images": [
+    "2023-3-2.png"
+   ],
+   "answer_images": []
+  },
+  "2023-计算-03": {
+   "images": [
+    "2023-3-3.png"
+   ],
+   "answer_images": []
+  },
+  "2024-计算-01": {
+   "images": [
+    "2024-3-1.png"
+   ],
+   "answer_images": []
+  },
+  "2024-计算-02": {
+   "images": [
+    "2024-3-2.png"
+   ],
+   "answer_images": []
+  },
+  "2024-计算-03": {
+   "images": [
+    "2024-3-3.png"
+   ],
+   "answer_images": []
+  },
+  "2024-计算-04": {
+   "images": [
+    "2024-3-4.png"
+   ],
+   "answer_images": []
+  },
+  "2024-计算-05": {
+   "images": [
+    "2024-3-5.png"
+   ],
+   "answer_images": []
+  },
+  "2024-计算-07": {
+   "images": [
+    "2024-3-7.png"
+   ],
+   "answer_images": []
+  },
+  "2025-综合-01": {
+   "images": [
+    "2025-2-1.png"
+   ],
+   "answer_images": [
+    "2025-2-1-ans.png"
+   ]
+  },
+  "2025-综合-02": {
+   "images": [
+    "2025-2-2.png"
+   ],
+   "answer_images": [
+    "2025-2-2-ans.png"
+   ]
+  },
+  "2025-计算-01": {
+   "images": [
+    "2025-3-1.png"
+   ],
+   "answer_images": [
+    "2025-3-1-ans.png"
+   ]
+  },
+  "2025-计算-02": {
+   "images": [
+    "2025-3-2.png"
+   ],
+   "answer_images": []
+  },
+  "2025-计算-03": {
+   "images": [
+    "2025-3-3.png"
+   ],
+   "answer_images": [
+    "2025-3-3-ans.png"
+   ]
+  },
+  "2025-计算-04": {
+   "images": [
+    "2025-3-4.png"
+   ],
+   "answer_images": [
+    "2025-3-4-ans.png"
+   ]
+  },
+  "2026-综合-03": {
+   "images": [
+    "2026-三-6.png"
+   ],
+   "answer_images": []
+  },
+  "2026-综合-04": {
+   "images": [
+    "2026-三-4.png"
+   ],
+   "answer_images": []
+  },
+  "2026-综合-06": {
+   "images": [
+    "2026-三-7.png"
+   ],
+   "answer_images": []
+  }
+ }
+}

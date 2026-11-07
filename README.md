@@ -2,6 +2,8 @@
 
 参考「研可岸」刷题体验实现的真题刷题网站：选择题/判断题点击选项即时判分，填空/简答/计算题点击「显示答案」查看答案与解析，自动记录错题，并支持按年份、题型、知识点、错题、收藏筛选与统计。
 
+> **项目状态（2026-11-07 合并）**：本目录是两项目合并后的**唯一活跃站点**。原 Trae 版本地归档已删除（合并时曾短暂归档以核对），历史见远端 `https://github.com/Donis2/ChangDa-Trae.git`；其独有资产（整卷双版本答案扫描图、64 个细分知识点、4 册导出 PDF、原卷插图）已迁入本站。两仓库 HEAD / remote 与迁移清单见工作区根 `归档说明.md`；逐项数字核对见 [`合并差异核对报告.md`](./docs/合并差异核对报告.md)。合并详情见本文第九节。
+
 - 院校 / 科目：常州大学 **855 机械设计基础**（机械工程）
 - 当前题库：**2004 ~ 2026 年共 21 个年份（2016 年无真题），合计 371 题**（跨年重复题已合并；题型：单选 99 / 多选 1 / 填空 57 / 判断 15 / 简答 84 / 计算 115）。有真题 PDF 的年份卷面题目已全部录入（2023/2025/2026 为官方回忆版，卷面本身缺题）
 - 各年题数与录入完备性、题目/答案来源文件、答案质量标记、待补清单，**统一见 [`题目来源与统计说明.md`](./docs/题目来源与统计说明.md)**
@@ -53,24 +55,31 @@ ChangDa-WorkBuddy/
 │  ├─ extended.json             # 扩展题库（585 题，独立文件，按需加载）
 │  ├─ ext_meta.json ext_stats.json  # 扩展题元信息与统计（进首屏，轻量）
 │  ├─ knowledge_tree.json       # 知识点树（含各知识点/章节题量）
+│  ├─ sub_knowledge_tree.json   # 【合并新增】Trae 版 64 细分知识点 / A–O 15 章（第二套知识点视图）
 │  ├─ stats.json                # 题库统计（题型/知识点/年份/计算题考点/分值）
-│  ├─ validation.json           # 校验报告（机器可读）
+│  ├─ validation.json           # 校验报告（机器可读，含 trae_assets 段与「整卷答案图缺失」校验项）
 │  └─ source/                   # 【原始数据】唯一手工维护入口
 │     ├─ 2022.json ...          # 每年一份真题（2004~2026 共 21 份）
 │     ├─ ext/                   # 扩展题源（按来源书分文件）
-│     └─ knowledge_tree.json    # 考纲知识点树（人工维护）
+│     ├─ knowledge_tree.json    # 考纲知识点树（人工维护）
+│     ├─ sub_knowledge.json     # 【合并新增】64 细分知识点 + A–O 15 章定义
+│     ├─ trae_map.json          # 【合并新增】371 题 ↔ Trae 386 卷面题次的确定性映射
+│     └─ trae_figures.json      # 【合并新增】109 题挂载 121 张题图 + 5 张答案图
 ├─ scripts/
-│  └─ build_data.py             # 合并 + 校验 + 生成统计（数据构建唯一入口）
+│  ├─ build_data.py             # 合并 + 校验 + 生成统计（数据构建唯一入口）
+│  └─ build_answer_pages.py     # 【合并新增·可选】手动重建 120 张答案 webp + manifest（不进一键启动/Netlify）
 ├─ public/
 │  ├─ favicon.svg
-│  └─ images/questions/         # 题目/答案图形（{questionId}.png）
+│  ├─ answers/                  # 【合并新增】整卷扫描答案 120 张 webp（laowei/kaoyanqun）+ manifest.json
+│  ├─ pdfs/                     # 【合并新增】4 册导出 PDF
+│  └─ images/questions/         # 题目/答案图形（122 张原有 + 126 张 Trae 迁入，共 248 张，另含 trae_figs.json 清单）
 ├─ src/
 │  ├─ components/               # 组件（ui/ 为 shadcn/ui 风格基础组件）
 │  ├─ lib/                      # 数据加载、本地存储、判分与筛选逻辑
 │  │  ├─ data.ts                # 轻量元数据（知识点树 / 统计，进首屏）
 │  │  ├─ questionData.ts        # 完整真题库（只在刷题页 / 统计页加载）
 │  │  └─ extData.ts             # 扩展题库（切到扩展题库时动态 import）
-│  ├─ pages/                    # 首页 / 刷题页 / 统计页
+│  ├─ pages/                    # 首页 / 刷题页 / 知识点页 / 统计页 / 整卷答案页
 │  ├─ App.tsx  main.tsx  index.css
 ├─ docs/                        # 项目文档
 │  ├─ 需求.md                    # 最初的产品需求
@@ -95,13 +104,19 @@ ChangDa-WorkBuddy/
 └─ README.md
 ```
 
-> 过时的历史文档、已执行完的一次性脚本、构建产物与渲染缓存**已移出项目**，
-> 归档在 `../_归档_20261107/`，回档方法见其中的《回档说明.md》。
+> 过时的历史文档、已执行完的一次性脚本、构建产物与渲染缓存已移出项目；原 Trae 版本地归档已删除（合并时曾短暂归档以核对），历史见远端 `https://github.com/Donis2/ChangDa-Trae.git`。
+> 两仓库 HEAD / remote 记录与迁移清单见工作区根 `归档说明.md`。
 
 **数据加载约定（改前端时别破坏）**：首屏只加载 `data.ts`（知识点树 + 统计，约 90KB，首屏 chunk 233KB / gzip 76KB）。
 `questions.json`（888KB）经 `questionData.ts` 进入刷题页 / 统计页的 lazy chunk，
 `extended.json`（777KB）只在用户切到「扩展题 / 全部」或打开统计页时动态加载。
 **不要把这两份 JSON 静态 import 回首页或 `data.ts`**，否则首屏会退回 629KB。
+
+合并后新增的两处数据同样遵守首屏约束（首屏 chunk 目标仍为 233KB / gzip 76KB）：
+- `data/sub_knowledge_tree.json`（27KB）只允许被 `src/lib/subKnowledgeData.ts` 静态 import，且该文件只被 lazy chunk（刷题页 / 统计页 / `FilterSidebar`）引用，不得从首页或 `data.ts` 引入；
+- `public/answers/manifest.json` 走运行时 `fetch`（`src/lib/answerData.ts`），不进首屏 chunk；整卷答案扫描图与 `public/pdfs/` 的 PDF 均为静态文件按需请求。
+
+**Netlify 部署提醒**：`public/answers/`、`public/pdfs/`、`data/*.json` 必须是已落地文件随仓库提交；部署环境无 Python、不重建数据，站点直接读静态文件。`netlify.toml` 无需改动（SPA 回退只对不存在的路径生效，已存在的静态文件正常返回）。
 
 ---
 
@@ -110,6 +125,9 @@ ChangDa-WorkBuddy/
 **首页**
 - 题库总览（题量、年份、考纲信息）、我的进度（已作答 / 正确率 / 错题 / 收藏）
 - 年份入口、题型入口、知识点入口（对照考纲章节），点击即带筛选条件进入刷题页；**点章节标题**进入该章全部题目
+- **【合并新增】整卷扫描答案入口**：跳转 `/answers`「历年整卷答案（扫描版）」，按版本 / 年份切换 + 灯箱查看
+- **【合并新增】4 册导出 PDF 下载**：`public/pdfs/`（客观题题目册 / 客观题答案册 / 简答题记忆版 / 简答题详解）
+- **【合并新增】第二套知识点入口**：Trae 版 64 个细分知识点（A–O 共 15 章），示例链接 `?subkp=G3`
 
 **刷题页**
 - 左侧：年份、题型、知识点（按考纲章节分组、可搜索）、错题本、收藏筛选
@@ -127,8 +145,19 @@ ChangDa-WorkBuddy/
 - **填空 / 简答 / 计算题**：默认只显示题目，点「显示答案」后展开答案、解析/考点、知识点标签、年份来源；并可用「我答对了 / 我答错了」自评
 - **题库切换：真题 / 扩展题 / 全部**（刷题页顶部）——扩展题是独立题库，带「真题原题 · 2012 一、选择题第7题」徽标，多年考过会列出全部年份
 - **答案多版本切换**：答案区顶部的「老魏版 / 考研群版 / 资料版」标签，只显示有内容的版本；切换不记忆（每次进题默认版）
+- **【合并新增】查看整卷扫描答案**：题目卡新增「查看整卷扫描答案」跳转，带 `?year=<年份>` 进入 `/answers`；答案页用 `useSearchParams` 读取 `year` 参数并优先选中该年份
+- **【合并新增】第二套知识点筛选**：左侧筛选与统计页同时接入 Trae 版 64 个细分知识点（A–O 共 15 章），与考纲章节并存、不替代；支持 URL 参数 `?subkp=G3` 直达
+- **【合并新增】题图并存**：`public/images/questions/` 从 122 张增至 248 张（迁入 Trae 独有 126 张，零覆盖），清单 `public/images/questions/trae_figs.json`；Trae 卷面号图与 Workbuddy 题型 id 图为两套独立裁切，按「两者并存、不取舍」全量挂载
 - **错题本**：答错自动收录；可按年份/题型/知识点组合筛选重做；每题可手动「加入 / 移除错题本」
 - 刷题进度、筛选条件、显示方式（单题 / 全显示）、答题记录全部写入 `localStorage`，刷新不丢
+
+**知识点页（`/knowledge`）**
+- 两套知识点体系逐点统计：**考纲知识点**（17 章 / 88 点，教材章节口径）与**细分知识点**（15 章 / 64 点，Trae 逐题标注口径），顶部 tab 切换
+- 页首统计卡：每套体系的章 / 点数、我的覆盖（已练过的点数 / 总数）、总体正确率（按去重后的真题 id 汇总）
+- 每个知识点显示：知识点码（细分体系）、名称、命中的真题数、我的作答次数与正确率进度条（**未练习**标灰）；点名称或「刷题」按钮带 `?kp=<名称>` / `?subkp=<码>` 直达刷题页
+- 工具条：搜索（知识点名 / 章名 / 知识点码）、三种排序（按章序 / 按命中题数 / 按正确率低→高）、「只看待加强」过滤（待加强 = 有真题可练且没练过或正确率 < 60%，无真题的点不计入）
+- 顶部「需要加强的知识点」速览（最多 6 个，按命中题数降序），下方按章节分组展开全部明细
+- **零额外数据加载**：直接用两套知识点树自带的 `questionIds` 与本机 `localStorage` 作答记录计算正确率，不加载 `questions.json`、不引图表库；页面为独立 lazy chunk（8.7KB / gzip 3.4KB），首屏 chunk 不变
 
 **统计页**
 - 题型数量（饼图 + 柱状图）、年份分布、知识点频次排行 TOP15
@@ -152,8 +181,11 @@ ChangDa-WorkBuddy/
    npm run build:data      # 等价于 python scripts/build_data.py
    ```
 
-   脚本会：合并各年份题目 → 处理跨年重复题（`merge_key`）→ 校验 → 重新生成
+   脚本会：合并各年份题目 → 处理跨年重复题（`merge_key`）→ 校验（含新增的「整卷答案图缺失」项）→ 重新生成
    `data/questions.json`、`data/knowledge_tree.json`、`data/stats.json`、`data/validation.json`。
+   同时读取 `data/source/{sub_knowledge.json,trae_map.json,trae_figures.json}` 追加题图与细分知识点字段，
+   生成 `data/sub_knowledge_tree.json`（数据链路详见第九节）。
+   合并后的数据与静态资产（`public/answers/`、`public/pdfs/`）均已落地，运行 `npm run build:data` 即可重建，无需改前端代码。
 6. 刷新浏览器即可。首页年份入口、筛选器、统计图表都会自动带上新试卷，**无需改前端代码**。
 
 ### 跨年份重复题怎么合并
@@ -225,7 +257,12 @@ ChangDa-WorkBuddy/
     "laowei":    { "answer": "老魏版答案", "source": "老魏机械团队 2019 年参考答案", "quality": "原文转录" },
     "kaoyanqun": { "answer": "考研群版答案", "source": "考研群资料版本 2019 年答案", "quality": "原文转录·手写识读" },
     "ziliao":    { "answer": "资料版答案", "source": "《常大855-简答题详解》", "quality": "整理" }
-  }
+  },
+
+  // ---- 以下为合并后新增字段，全部可选、向后兼容（见第九节） ----
+  "sub_knowledge": ["G3"],            // Trae 版二级知识点码（64 个，A–O）
+  "trae_chapters": ["G"],             // Trae 版 A–O 章码
+  "trae_exam_ids": ["2012-一-7"]      // 该题对应的 Trae 卷面题次（可多个）
 }
 ```
 
@@ -268,7 +305,8 @@ Recharts（统计图）+ KaTeX（公式）+ react-router-dom。
 A：机构运动简图、轮系图、轴系结构图、螺栓组受力图等工程图无法用文字表达，按需求「只在无法文本提取时用图片」的原则，从原始扫描件中裁切保留。纯文字与公式题目均为文本 + LaTeX。
 
 **Q：答题记录存在哪里？换浏览器会丢吗？**
-A：存在浏览器 `localStorage`（键名 `cdu-mech-progress-v1`），换浏览器或清缓存会丢。刷题页左侧「清空筛选」只重置筛选，如需清空答题记录可在浏览器控制台执行 `localStorage.clear()`。
+A：存在浏览器 `localStorage`（进度键 `cdu-mech-progress-v1`、筛选/会话键 `cdu-mech-session-v1`），换浏览器或清缓存会丢。刷题页左侧「清空筛选」只重置筛选，如需清空答题记录可在浏览器控制台执行 `localStorage.clear()`。
+合并后**不迁移**原 Trae 静态站的答题进度：其 `localStorage` 键为 `cx855_quiz_v1`，与本项目的键互不通用，本站不读取、不导入该进度。
 
 **Q：分值是怎么定的？**
 A：2022 年为打印版真题，卷面有明确分值（选择 2 分/题、简答 5 分/题、计算题 14~16 分/题，满分 150），按卷面录入。
@@ -281,3 +319,62 @@ A：2023 年卷面注明「常大不公开初试真题，只回忆到部分题�
 **Q：双击 bat 后窗口一闪而过/报错怎么办？**
 A：bat 需要 Node.js 与 Python 在环境里可用（Python 优先使用 `C:\Users\HUAWEI\.workbuddy\binaries\python\envs\default\Scripts\python.exe`，不存在则回退系统 `python`）。
 若依赖安装卡住，可在 bat 里把 `https://registry.npmmirror.com` 换成你可用的镜像源，或先手动执行 `npm install` 再双击。
+
+---
+
+## 九、两项目合并说明（2026-11-07）
+
+本目录为合并后的**唯一活跃站点**；原 Trae 版本地归档已删除（合并时曾短暂归档以核对），历史见远端 `https://github.com/Donis2/ChangDa-Trae.git`。两仓库 HEAD / remote、迁移清单见工作区根 `归档说明.md`；逐项数字的机读核对见 [`合并差异核对报告.md`](./docs/合并差异核对报告.md)。两版题干经逐题比对为同一套题，确定性键 =(年份, 规范化卷面号)，映射 386/386 全匹配、未匹配 0、模糊兜底 0。
+
+### 9.1 新增入口与功能
+
+| 入口 / 功能 | 内容 | 数据来源 |
+| --- | --- | --- |
+| `/answers`「历年整卷答案（扫描版）」 | 老魏版 2009–2024（缺 2023）60 页 + 考研群资料版 2009–2026（缺 2016）60 页，共 120 张 webp；按版本 / 年份切换 + 灯箱 | `public/answers/manifest.json`（运行时 fetch，不进首屏 chunk） |
+| 4 册导出 PDF 下载（首页入口） | 常大855-客观题答案册 / 客观题题目册 / 简答题记忆版 / 简答题详解 | `public/pdfs/` |
+| 64 个 Trae 二级知识点（A–O 共 15 章） | 接入刷题筛选与统计页，URL 参数 `?subkp=G3`；题面新增 `sub_knowledge` / `trae_chapters` / `trae_exam_ids` 三个可选字段 | `data/sub_knowledge_tree.json`、`data/source/sub_knowledge.json` |
+| 题图补齐 | `public/images/questions/` 从 122 张增至 248 张（迁入 Trae 独有 126 张，零覆盖），清单 `public/images/questions/trae_figs.json`；两套裁切图并存、不取舍 | `data/source/trae_figures.json` |
+| 题目卡「查看整卷扫描答案」 | 跳转 `/answers?year=<年份>`；答案页 `AnswerPages.tsx` 用 `useSearchParams` 读取 `year` 并优先选中该年份 | `src/components/QuestionCard.tsx`、`src/pages/AnswerPages.tsx` |
+
+### 9.2 新增数据链路（`scripts/build_data.py` 已改造，运行 `npm run build:data` 即可重建，无需改前端）
+
+- `data/source/sub_knowledge.json`：15 章 / 64 细分点定义
+- `data/source/trae_map.json`：371 题 ↔ Trae 386 卷面题次的确定性映射
+- `data/source/trae_figures.json`：109 题挂载 121 张题图 + 5 张答案图
+- 产物新增 `data/sub_knowledge_tree.json`（27KB）；`data/validation.json` 新增 `trae_assets` 段（`figure_questions: 109`、`figure_images: 121`、`figure_answer_images: 5`、`mapped_questions: 371`、`sub_chapters: 15`、`sub_points: 64`、`answer_pages: 120`）与「整卷答案图缺失」校验项
+- **可选手动脚本** `scripts/build_answer_pages.py`（`npm run build:answers`）：从资料母库 PDF 重新渲染 120 张 webp 并重建 `public/answers/manifest.json`，仅本机需 `pip install PyMuPDF Pillow`。**该脚本不参与 `一键启动.bat`，也不参与 Netlify 构建**——`public/answers/` 下的静态文件已随仓库落地，日常启动与部署都不需要它
+
+### 9.3 数据口径（不要混用）
+
+- 真题 **371 条唯一题 / 386 个卷面题次**：9 组跨年重复合并，涉及 24 个卷面题次；`validation.json` 的 `total_questions` 为 371
+- 扩展题 **585 道**：以 WB 为主体，Trae 540 不整批并入；Trae 独有 11 条题干均与 WB 近似（>=0.85），无 WB 无近似的真空缺
+- `2017-简答-05` 等补题均在 WB（Trae 无对应卷面题）
+- 题型映射：Trae 中文 7 类（分析 / 计算 / 结构 → `calculation`），卷面号保留 `original_numbers`；64 细分知识点与 A–O 章码作为「第二套知识点视图」并存引入，不替代 WB 考纲章节
+
+### 9.4 已知缺口与不虚构项
+
+- `2015-分析-03`（Trae 的 `2015-五-1`）螺纹联接作图改错**两边都缺文字答案**；`validation.json` 当前仅此 1 条「缺答案」issue
+- 老魏版整卷答案缺 2023 年、无 2025 / 2026；考研群资料版覆盖至 2026
+- 两版同名页面 42 对中内容相同 19、内容不同 23；差异**原样各存、交人工核对，不自动取舍**。文字版答案覆盖 `{laowei: 278, kaoyanqun: 268, ziliao: 77}`（340/371 题有 `answer_versions`）
+- 沿用第五节冲突原则原文：「**两版答案冲突时不要擅自取舍**——原文各存一份，把差异写进 `答案版本覆盖与差异报告.md`，交人工核对。」缺口与差异清单见 [`合并差异核对报告.md`](./docs/合并差异核对报告.md)、`docs/答案版本覆盖与差异报告.md`、`docs/待核实清单.md`；**保留为已知缺口，不虚构、不补写**
+
+### 9.5 资料母库与工作副本（不要删）
+
+- 唯一**权威**母库：`Workbuddy版本/题目资料来源/`（124 个文件，约 470 MB，被 `.gitignore` 排除，不入库）
+- 合并时归档副本内原本也有一份 `题目资料来源/`（全量 SHA256 比对 0 mismatches、逐字节一致）；2026-11-07 收尾清理时已删除该副本以回收约 470 MB，删除前重新校验哈希一致，且整个归档目录此后也已删除，均不影响站点运行与任何 git 历史
+- `资料/`、`真题/`、`真题答案/` 是 `_scan/` 工具链输入路径的母库**工作副本**，与权威母库并存，不要删
+- 收尾清理同时删除了可再生产物：`dist/`（`npm run build` 再生）、`node_modules/`（`npm install` 再生）、合并时归档副本内 `_build/archive/`、`.trae-html-share-packages/`、`.screenshots/.tmp/` 等中间产物，以及空的 `_scan/cache/`（保留 `.gitkeep`）；此后整个归档目录也已删除，Trae 版本地归档已删除、历史见远端仓库，站点、数据与两仓库 git 历史均未受影响
+
+### 9.6 部署与性能约束
+
+- 首屏性能硬约束见第二节原文：`questions.json`（888KB）、`extended.json`（777KB）不得静态 import 回首页或 `data.ts`；新增的 `sub_knowledge_tree.json`（27KB）只允许被 `src/lib/subKnowledgeData.ts` 静态 import 且该文件只被 lazy chunk（Practice / Stats / FilterSidebar）引用；`answers/manifest.json` 走运行时 fetch。首屏 chunk 目标仍为 233KB / gzip 76KB
+- `localStorage` 键 `cdu-mech-progress-v1` / `cdu-mech-session-v1` 不变，不迁移 Trae 的 `cx855_quiz_v1` 进度
+- Netlify：`public/answers/`、`public/pdfs/`、`data/*.json` 必须是已落地文件随仓库提交，部署时无 Python、不重建；`netlify.toml` 无需改动（SPA 回退对已存在的静态文件不生效）
+
+### 9.7 验收结果（2026-11-07）
+
+- `npm run typecheck`：零错误
+- `npm run build`：成功。首屏 index chunk 237.21 KB / gzip 76.48 KB，AnswerPages 独立 lazy chunk 7.75 KB，未把大 JSON 拉进首屏
+- `python scripts/build_data.py`：成功。`validation.json` 仅 1 条已知缺答案 issue（`2015-分析-03`）；`trae_assets` 汇总 `figure_questions: 109`、`figure_images: 121`、`figure_answer_images: 5`、`mapped_questions: 371`、`sub_chapters: 15`、`sub_points: 64`、`answer_pages: 120`
+- `dist/` 构建时已包含 `answers/`（120 webp + manifest）、`pdfs/`（4 册）、`images/questions/`（249 项）；收尾清理时删除该可再生产物，需要时用 `npm run build` 重建，Netlify 部署按 `npm run build` 自动生成
+- 浏览器手测通过：导航第 4 项「整卷答案」、`/answers` 两版本切换、`?year=2009` 优先选中、`?subkp=G3` 筛出 6 题且 64 个知识点全展示、题目卡「查看整卷扫描答案」跳转 `/answers?year=2009` 生效

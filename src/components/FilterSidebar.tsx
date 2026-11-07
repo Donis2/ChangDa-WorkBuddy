@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { RotateCcw, Search, Filter, ChevronDown } from 'lucide-react'
 import { knowledgeTree } from '@/lib/data'
+import { subKnowledgeTree, SUB_TOTAL_POINTS, SUB_TOTAL_CHAPTERS } from '@/lib/subKnowledgeData'
 import type { ProgressMap, SessionState } from '@/lib/storage'
 import type { Question } from '@/lib/types'
 import { TYPE_ORDER, cn, typeLabel } from '@/lib/utils'
@@ -14,12 +15,19 @@ function useCounts(pool: Question[]) {
     const byType: Record<string, number> = {}
     const byYear: Record<string, number> = {}
     const byKp: Record<string, number> = {}
+    // 先把全部细分知识点码预置为 0：切换扩展题库时（无题带 sub_knowledge）
+    // 仍能命中该 key 并显示 0，而不是回退到树里的静态题量。
+    const bySubKp: Record<string, number> = {}
+    for (const ch of subKnowledgeTree.chapters) {
+      for (const p of ch.points) bySubKp[p.code] = 0
+    }
     for (const q of pool) {
       byType[q.type] = (byType[q.type] ?? 0) + 1
       for (const y of q.source_years) byYear[y] = (byYear[y] ?? 0) + 1
       for (const k of q.knowledge_points) byKp[k] = (byKp[k] ?? 0) + 1
+      for (const c of q.sub_knowledge ?? []) bySubKp[c] = (bySubKp[c] ?? 0) + 1
     }
-    return { byType, byYear, byKp }
+    return { byType, byYear, byKp, bySubKp }
   }, [pool])
 }
 
@@ -39,6 +47,7 @@ export function FilterSidebar({
 }) {
   const counts = useCounts(pool)
   const [kpQuery, setKpQuery] = React.useState('')
+  const [subQuery, setSubQuery] = React.useState<string>('')
   const [openChapters, setOpenChapters] = React.useState<string[]>([])
 
   const wrongCount = React.useMemo(
@@ -68,6 +77,26 @@ export function FilterSidebar({
       .filter((ch) => ch.points.length > 0)
   }, [kpQuery])
 
+  /** 当前题库是否根本没有带细分知识点标注的题目（即纯扩展题库） */
+  const noSubInPool = React.useMemo(
+    () => !pool.some((q) => (q.sub_knowledge ?? []).length > 0),
+    [pool],
+  )
+
+  /** 按章分组 + 按 name / code / 章 name 搜索过滤后的细分知识点 */
+  const filteredSubChapters = React.useMemo(() => {
+    const kw = subQuery.trim()
+    if (!kw) return subKnowledgeTree.chapters
+    return subKnowledgeTree.chapters
+      .map((ch) => ({
+        ...ch,
+        points: ch.points.filter(
+          (p) => p.name.includes(kw) || p.code.includes(kw) || ch.name.includes(kw),
+        ),
+      }))
+      .filter((ch) => ch.points.length > 0)
+  }, [subQuery])
+
   return (
     <div className="space-y-3">
       <Card>
@@ -82,7 +111,7 @@ export function FilterSidebar({
             <button
               onClick={() => patch({ wrongOnly: !session.wrongOnly, favoriteOnly: false, index: 0 })}
               className={cn(
-                'rounded-md border px-2 py-1.5 text-xs font-medium transition-colors',
+                'rounded-md border px-2 py-2 text-xs font-medium shadow-sm transition-colors',
                 session.wrongOnly
                   ? 'border-rose-400 bg-rose-50 text-rose-700'
                   : 'hover:bg-accent',
@@ -93,7 +122,7 @@ export function FilterSidebar({
             <button
               onClick={() => patch({ favoriteOnly: !session.favoriteOnly, wrongOnly: false, index: 0 })}
               className={cn(
-                'rounded-md border px-2 py-1.5 text-xs font-medium transition-colors',
+                'rounded-md border px-2 py-2 text-xs font-medium shadow-sm transition-colors',
                 session.favoriteOnly
                   ? 'border-amber-400 bg-amber-50 text-amber-700'
                   : 'hover:bg-accent',
@@ -349,6 +378,100 @@ export function FilterSidebar({
           </div>
         </CardContent>
       </Card>
+
+      {/* 细分知识点（Trae 版 A–O 15 章 / 64 点） */}
+      <Card>
+        <CardHeader className="pb-3">
+          <div className="flex items-center justify-between gap-2">
+            <CardTitle className="flex items-center gap-2 text-sm">
+              细分知识点（Trae 版）
+              <Badge variant="secondary" className="text-[10px]">
+                {SUB_TOTAL_CHAPTERS} 章 / {SUB_TOTAL_POINTS} 点
+              </Badge>
+            </CardTitle>
+            {session.subKpFilter.length > 0 && (
+              <span className="shrink-0 text-xs font-normal text-primary">
+                已选 {session.subKpFilter.length}
+              </span>
+            )}
+          </div>
+          <p className="text-[11px] leading-snug text-muted-foreground">
+            与考纲章节并存的另一套细分体系，来自 Trae 版逐题标注；点击知识点码筛选，可多选（并集）。扩展题未标注细分知识点。
+          </p>
+        </CardHeader>
+        <CardContent className="space-y-2">
+          {noSubInPool && (
+            <p className="text-[11px] text-muted-foreground">
+              当前为扩展题库，真题的细分知识点标注不适用
+            </p>
+          )}
+          <div className="relative">
+            <Search className="absolute left-2 top-2.5 h-3.5 w-3.5 text-muted-foreground" />
+            <input
+              value={subQuery}
+              onChange={(e) => setSubQuery(e.target.value)}
+              placeholder="搜索细分知识点码 / 名称 / 章名"
+              className="h-9 w-full rounded-md border border-input bg-background pl-7 pr-2 text-sm outline-none focus:ring-2 focus:ring-ring"
+            />
+          </div>
+
+          {session.subKpFilter.length > 0 && (
+            <div className="flex flex-wrap gap-1">
+              {session.subKpFilter.map((code) => (
+                <Badge
+                  key={code}
+                  variant="info"
+                  className="cursor-pointer"
+                  onClick={() =>
+                    patch({
+                      subKpFilter: session.subKpFilter.filter((x) => x !== code),
+                      index: 0,
+                    })
+                  }
+                >
+                  {code} ✕
+                </Badge>
+              ))}
+            </div>
+          )}
+
+          <div className="max-h-[320px] space-y-1 overflow-y-auto pr-1">
+            {filteredSubChapters.map((ch) => (
+              <div key={ch.code}>
+                <div className="flex items-center gap-2 py-1 text-xs font-medium text-muted-foreground">
+                  <span>{ch.code} · {ch.name}</span>
+                  <Badge variant="outline" className="text-[10px]">{ch.questionCount}</Badge>
+                </div>
+                <div className="flex flex-wrap gap-1">
+                  {ch.points.map((p) => {
+                    const count = counts.bySubKp[p.code] ?? p.questionCount
+                    const active = session.subKpFilter.includes(p.code)
+                    return (
+                      <Chip
+                        key={p.code}
+                        active={active}
+                        onClick={() =>
+                          patch({
+                            subKpFilter: toggle(session.subKpFilter, p.code),
+                            index: 0,
+                          })
+                        }
+                      >
+                        {p.code} {p.name} · {count}
+                      </Chip>
+                    )
+                  })}
+                </div>
+              </div>
+            ))}
+            {filteredSubChapters.length === 0 && (
+              <p className="py-4 text-center text-xs text-muted-foreground">
+                无匹配的细分知识点
+              </p>
+            )}
+          </div>
+        </CardContent>
+      </Card>
     </div>
   )
 }
@@ -375,7 +498,7 @@ function Chip({
     <button
       onClick={onClick}
       className={cn(
-        'rounded-full border px-2.5 py-1 text-xs transition-colors',
+        'rounded-full border px-3 py-1.5 text-[11px] shadow-sm transition-colors sm:text-xs',
         active
           ? 'border-primary bg-primary/10 font-medium text-primary'
           : 'hover:border-primary/40 hover:bg-accent',

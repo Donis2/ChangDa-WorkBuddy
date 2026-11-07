@@ -49,6 +49,12 @@ export interface Question {
   answer_versions?: Partial<Record<AnswerVersionKey, AnswerVersion>>
   /** 默认展示哪个版本；缺省显示顶层 answer */
   answer_version_default?: AnswerVersionKey
+  /** Trae 版二级知识点码（如 G3）；扩展题无此字段 */
+  sub_knowledge?: string[]
+  /** Trae 版 A–O 章码 */
+  trae_chapters?: string[]
+  /** Trae 卷面题 id（如 2004-一-1） */
+  trae_exam_ids?: string[]
 }
 
 /** 扩展题命中真题的记录（同一题可能多年考过） */
@@ -144,6 +150,29 @@ export interface KnowledgeTree {
   }
   chapters: Chapter[]
   total_questions: number
+}
+
+/** Trae 版二级知识点体系（data/sub_knowledge_tree.json） */
+export interface SubKnowledgePoint {
+  code: string
+  name: string
+  questionCount: number
+  questionIds: string[]
+}
+
+export interface SubKnowledgeChapter {
+  code: string
+  name: string
+  questionCount: number
+  points: SubKnowledgePoint[]
+}
+
+export interface SubKnowledgeTree {
+  subject: string
+  school: string
+  note: string
+  total_questions: number
+  chapters: SubKnowledgeChapter[]
 }
 
 export interface StatsFile {

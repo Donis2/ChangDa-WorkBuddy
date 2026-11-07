@@ -24,8 +24,8 @@
 | `cache/` | 可再生缓存 | 渲染页、裁图草稿；可随时删除，`.gitignore` 已忽略 |
 
 > 已执行完的 `patch_*.py` 与早期工具 `bands.py` / `crop.py` 已移出项目，
-> 归档在 `../_归档_20261107/20261107_清理/scan_archive/`，
-> 也可 `git restore --source=787496d -- _scan/archive` 找回。
+> 合并时曾短暂归档于 Trae 版归档目录，该归档目录已删除、历史见远端仓库；
+> 这些脚本也可 `git restore --source=787496d -- _scan/archive` 从本站 git 历史找回。
 
 ## 常用命令
 

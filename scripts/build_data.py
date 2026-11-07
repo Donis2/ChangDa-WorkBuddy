@@ -94,6 +94,132 @@ def check_answer_versions(q, issues):
             {"id": q["id"], "reason": "默认版本 %s 不存在" % default})
 
 
+# ---------------------------------------------------------------------------
+# 合并 Trae 独有资产（2026-11-07 两项目合并）
+#   data/source/trae_figures.json   归档 Trae 原卷插图（卷面号命名）
+#   data/source/trae_map.json       确定性映射：WB题 -> 64细分知识点 / A–O章 / 卷面题次
+#   data/source/sub_knowledge.json  64 细分知识点 + 15 章定义
+# 三份源文件都不存在时脚本仍可按纯 Workbuddy 数据构建（向后兼容）。
+# ---------------------------------------------------------------------------
+
+def apply_trae_assets(questions, tree_src):
+    """把 Trae 独有资产挂到合并后的题目上，并生成二级知识点树。
+
+    返回 (sub_knowledge_tree, summary)。不改动题干 / 答案 / 考纲章节，
+    只追加：images / answer_images（并存）、sub_knowledge / trae_chapters /
+    trae_exam_ids（溯源字段）。
+    """
+    by_id = {q["id"]: q for q in questions}
+    fig_path = os.path.join(SRC, "trae_figures.json")
+    map_path = os.path.join(SRC, "trae_map.json")
+    sub_path = os.path.join(SRC, "sub_knowledge.json")
+
+    # 1) 原卷插图：卷面号命名的图与 WB 原有 <题ID>.png 并存，不去重、不取舍
+    n_img = n_ans = n_img_q = 0
+    if os.path.exists(fig_path):
+        for wid, v in (load_json(fig_path).get("questions") or {}).items():
+            q = by_id.get(wid)
+            if not q:
+                continue
+            touched = False
+            for f in v.get("images") or []:
+                p = "/images/questions/" + str(f).lstrip("/")
+                if p not in q["images"]:
+                    q["images"].append(p)
+                    n_img += 1
+                    touched = True
+            for f in v.get("answer_images") or []:
+                p = "/images/questions/" + str(f).lstrip("/")
+                if p not in q["answer_images"]:
+                    q["answer_images"].append(p)
+                    n_ans += 1
+                    touched = True
+            if touched:
+                n_img_q += 1
+
+    # 2) 细分知识点 + 卷面题次映射（溯源）
+    sub_codes = {}
+    n_map_q = 0
+    if os.path.exists(map_path):
+        for wid, v in (load_json(map_path).get("questions") or {}).items():
+            q = by_id.get(wid)
+            if not q:
+                continue
+            q["sub_knowledge"] = v.get("sub_codes", [])
+            q["trae_chapters"] = v.get("chapter_codes", [])
+            q["trae_exam_ids"] = v.get("trae_exam_ids", [])
+            sub_codes[wid] = v.get("sub_codes", [])
+            n_map_q += 1
+
+    # 3) 二级知识点树（结构与 knowledge_tree.json 对齐，供前端 lazy 加载）
+    sub_tree = None
+    n_points = n_chapters = 0
+    if os.path.exists(sub_path):
+        src = load_json(sub_path)
+        cnt = Counter()
+        qids = {}
+        for wid, codes in sub_codes.items():
+            for c in codes:
+                cnt[c] += 1
+                qids.setdefault(c, []).append(wid)
+        chapters = []
+        for c in src.get("chapters", []):
+            pts = []
+            for p in src.get("points", []):
+                if p.get("chapter") != c["code"]:
+                    continue
+                pts.append({
+                    "code": p["code"],
+                    "name": p["name"],
+                    "questionCount": cnt.get(p["code"], 0),
+                    "questionIds": sorted(qids.get(p["code"], [])),
+                })
+            n_points += len(pts)
+            chapters.append({
+                "code": c["code"],
+                "name": c["name"],
+                "questionCount": sum(pp["questionCount"] for pp in pts),
+                "points": pts,
+            })
+        n_chapters = len(chapters)
+        sub_tree = {
+            "subject": tree_src.get("subject", ""),
+            "school": tree_src.get("school", ""),
+            "note": "Trae 版 64 个细分知识点（二级知识点）与 A–O 共 15 章；"
+                    "与考纲章节体系并存，不替代。",
+            "total_questions": len(questions),
+            "chapters": chapters,
+        }
+
+    return sub_tree, {
+        "figure_questions": n_img_q,
+        "figure_images": n_img,
+        "figure_answer_images": n_ans,
+        "mapped_questions": n_map_q,
+        "sub_chapters": n_chapters,
+        "sub_points": n_points,
+    }
+
+
+def check_answer_pages(issues):
+    """核对 public/answers/manifest.json 里引用的整卷扫描答案图全部存在。"""
+    mf = os.path.join(ROOT, "public", "answers", "manifest.json")
+    if not os.path.exists(mf):
+        issues["整卷答案图缺失"].append({"reason": "public/answers/manifest.json 不存在"})
+        return 0
+    doc = load_json(mf)
+    base = os.path.join(ROOT, "public", "answers")
+    n = 0
+    for ver in ("laowei", "kaoyanqun"):
+        for year, files in (doc.get(ver) or {}).items():
+            for f in files:
+                n += 1
+                if not os.path.exists(os.path.join(base, ver, f)):
+                    issues["整卷答案图缺失"].append(
+                        {"version": ver, "year": year, "file": f})
+    return n
+
+
 def build_extended(questions, tree_src, kp_chapter):
     """合并 data/source/ext/*.json -> data/extended.json + data/ext_stats.json
 
@@ -319,12 +445,16 @@ def main():
 
     questions = list(merged.values())
 
+    # ---------------- 合并 Trae 独有资产（在校验之前追加，确保图片文件存在性被校验） ----------------
+    sub_tree, trae_summary = apply_trae_assets(questions, tree_src)
+
     # ---------------- 校验 ----------------
     issues = {
         "缺题号": [], "缺答案": [], "缺选项": [], "重复题": [],
         "年份不明": [], "知识点未标注": [], "知识点不在考纲": [], "图片文件缺失": [],
-        "答案版本异常": [],
+        "答案版本异常": [], "整卷答案图缺失": [],
     }
+    answer_page_count = check_answer_pages(issues)
     for q in questions:
         if not q["original_numbers"]:
             issues["缺题号"].append(q["id"])
@@ -483,6 +613,8 @@ def main():
     dump_json(os.path.join(OUT, "questions.json"), payload)
     dump_json(os.path.join(OUT, "knowledge_tree.json"), tree)
     dump_json(os.path.join(OUT, "stats.json"), stats)
+    if sub_tree is not None:
+        dump_json(os.path.join(OUT, "sub_knowledge_tree.json"), sub_tree)
 
     ext_result = build_extended(questions, tree_src, kp_chapter)
 
@@ -491,6 +623,7 @@ def main():
         "total_questions": len(questions),
         "issue_counts": {k: len(v) for k, v in issues.items()},
         "issues": issues,
+        "trae_assets": dict(trae_summary, answer_pages=answer_page_count),
         "extended": None if ext_result is None else {
             "total_questions": ext_result["count"],
             "by_source": ext_result["books"],
@@ -502,6 +635,7 @@ def main():
     print("题库构建完成：共 %d 题，年度 %s" % (
         len(questions), "、".join(str(m["year"]) for m in year_meta)))
     print("题型分布：", dict(type_c))
+    print("Trae 资产：", trae_summary, "整卷答案图", answer_page_count)
     print("校验：", {k: len(v) for k, v in issues.items()})
 
 

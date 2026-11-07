@@ -9,6 +9,14 @@ const Practice = lazy(() =>
   import('@/pages/Practice').then((m) => ({ default: m.Practice })),
 )
 const Stats = lazy(() => import('@/pages/Stats').then((m) => ({ default: m.Stats })))
+// 知识点统计页：复用两套知识点树自带的 questionIds 算正确率，不加载题库、不带图表库
+const KnowledgeLazy = lazy(() =>
+  import('@/pages/Knowledge').then((m) => ({ default: m.Knowledge })),
+)
+// 整卷答案扫描图页：清单走运行时 fetch，页面本身也按需加载，不进首屏 chunk
+const AnswerPagesLazy = lazy(() =>
+  import('@/pages/AnswerPages').then((m) => ({ default: m.AnswerPages })),
+)
 
 function PageFallback() {
   return (
@@ -43,6 +51,22 @@ export default function App() {
           element={
             <Suspense fallback={<PageFallback />}>
               <Stats />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/knowledge"
+          element={
+            <Suspense fallback={<PageFallback />}>
+              <KnowledgeLazy />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/answers"
+          element={
+            <Suspense fallback={<PageFallback />}>
+              <AnswerPagesLazy />
             </Suspense>
           }
         />

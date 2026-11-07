@@ -2,7 +2,7 @@
   "meta": {
     "subject": "855 机械设计基础",
     "school": "常州大学",
-    "generated_at": "2026-11-06T11:37:07+08:00",
+    "generated_at": "2026-11-07T20:55:54+08:00",
     "years": [
       {
         "year": 2004,
@@ -214,7 +214,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "G3"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2004-一-1"
+      ]
     },
     {
       "id": "2004-论述-02",
@@ -247,7 +256,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "A2"
+      ],
+      "trae_chapters": [
+        "A"
+      ],
+      "trae_exam_ids": [
+        "2004-三-2"
+      ]
     },
     {
       "id": "2004-简答-02",
@@ -279,7 +297,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2004-一-2"
+      ]
     },
     {
       "id": "2004-简答-03",
@@ -311,7 +338,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2004-一-3"
+      ]
     },
     {
       "id": "2004-简答-04",
@@ -343,7 +379,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "M2"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2004-一-4"
+      ]
     },
     {
       "id": "2004-简答-05",
@@ -375,7 +420,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "G4"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2004-一-5"
+      ]
     },
     {
       "id": "2004-简答-06",
@@ -407,7 +461,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E8"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2004-一-6"
+      ]
     },
     {
       "id": "2004-计算-01",
@@ -424,7 +487,8 @@
         "2004": "二、计算题 第1题"
       },
       "images": [
-        "/images/questions/2004-计算-01.png"
+        "/images/questions/2004-计算-01.png",
+        "/images/questions/2004-二-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -436,7 +500,17 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "I4",
+        "I5"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2004-二-1"
+      ]
     },
     {
       "id": "2004-计算-02",
@@ -453,7 +527,8 @@
         "2004": "二、计算题 第2题"
       },
       "images": [
-        "/images/questions/2004-计算-02.png"
+        "/images/questions/2004-计算-02.png",
+        "/images/questions/2004-二-2.png"
       ],
       "answer_images": [],
       "tags": [
@@ -465,7 +540,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E5"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2004-二-2"
+      ]
     },
     {
       "id": "2004-计算-03",
@@ -491,7 +575,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "L2"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2004-二-3"
+      ]
     },
     {
       "id": "2004-计算-04",
@@ -508,7 +601,8 @@
         "2004": "二、计算题 第4题"
       },
       "images": [
-        "/images/questions/2004-计算-04.png"
+        "/images/questions/2004-计算-04.png",
+        "/images/questions/2004-二-4.png"
       ],
       "answer_images": [],
       "tags": [
@@ -519,7 +613,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2004-二-4"
+      ]
     },
     {
       "id": "2004-论述-01",
@@ -537,7 +640,8 @@
         "2004": "三、论述题 第1题"
       },
       "images": [
-        "/images/questions/2004-论述-01.png"
+        "/images/questions/2004-论述-01.png",
+        "/images/questions/2004-三-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -549,7 +653,16 @@
         2004
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2004-三-1"
+      ]
     },
     {
       "id": "2006-简答-01",
@@ -581,7 +694,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2006-一-1"
+      ]
     },
     {
       "id": "2006-简答-02",
@@ -613,7 +735,17 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "G2",
+        "G5"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2006-一-2"
+      ]
     },
     {
       "id": "2006-简答-03",
@@ -645,7 +777,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E11"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2006-一-3"
+      ]
     },
     {
       "id": "2006-简答-04",
@@ -677,7 +818,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2006-一-4"
+      ]
     },
     {
       "id": "2006-简答-05",
@@ -709,7 +859,17 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E8",
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2006-一-5"
+      ]
     },
     {
       "id": "2006-简答-06",
@@ -741,7 +901,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "J2"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2006-一-6"
+      ]
     },
     {
       "id": "2006-简答-07",
@@ -773,7 +942,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "H2"
+      ],
+      "trae_chapters": [
+        "H"
+      ],
+      "trae_exam_ids": [
+        "2006-一-7"
+      ]
     },
     {
       "id": "2006-简答-08",
@@ -805,7 +983,17 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E12",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2006-一-8"
+      ]
     },
     {
       "id": "2006-简答-09",
@@ -837,7 +1025,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2006-一-9"
+      ]
     },
     {
       "id": "2006-简答-10",
@@ -869,7 +1066,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2006-一-10"
+      ]
     },
     {
       "id": "2006-简答-11",
@@ -901,7 +1107,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E1"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2006-一-11"
+      ]
     },
     {
       "id": "2006-简答-12",
@@ -933,7 +1148,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "I6"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2006-一-12"
+      ]
     },
     {
       "id": "2006-计算-01",
@@ -950,7 +1174,8 @@
         "2006": "二、计算分析题 第1题"
       },
       "images": [
-        "/images/questions/2006-计算-01.png"
+        "/images/questions/2006-计算-01.png",
+        "/images/questions/2006-二-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -961,7 +1186,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "A2"
+      ],
+      "trae_chapters": [
+        "A"
+      ],
+      "trae_exam_ids": [
+        "2006-二-1"
+      ]
     },
     {
       "id": "2006-计算-02",
@@ -978,7 +1212,8 @@
         "2006": "二、计算分析题 第2题"
       },
       "images": [
-        "/images/questions/2006-计算-02.png"
+        "/images/questions/2006-计算-02.png",
+        "/images/questions/2006-二-2.png"
       ],
       "answer_images": [],
       "tags": [
@@ -990,7 +1225,18 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2006-二-2"
+      ]
     },
     {
       "id": "2006-分析-01",
@@ -1007,7 +1253,8 @@
         "2006": "二、计算分析题 第3题"
       },
       "images": [
-        "/images/questions/2006-分析-01.png"
+        "/images/questions/2006-分析-01.png",
+        "/images/questions/2006-二-3.png"
       ],
       "answer_images": [],
       "tags": [
@@ -1019,7 +1266,17 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E6",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2006-二-3"
+      ]
     },
     {
       "id": "2006-计算-04",
@@ -1036,7 +1293,8 @@
         "2006": "二、计算分析题 第4题"
       },
       "images": [
-        "/images/questions/2006-计算-04.png"
+        "/images/questions/2006-计算-04.png",
+        "/images/questions/2006-二-4.png"
       ],
       "answer_images": [],
       "tags": [
@@ -1047,7 +1305,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "I5"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2006-二-4"
+      ]
     },
     {
       "id": "2006-计算-05",
@@ -1076,7 +1343,17 @@
       ],
       "score": 15,
       "source": "2006年855机械设计基础真题、2007年855机械设计基础真题",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "J2"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2006-二-5",
+        "2007-二-6"
+      ]
     },
     {
       "id": "2006-分析-02",
@@ -1094,7 +1371,8 @@
         "2006": "二、计算分析题 第6题"
       },
       "images": [
-        "/images/questions/2006-分析-02.png"
+        "/images/questions/2006-分析-02.png",
+        "/images/questions/2006-二-6.png"
       ],
       "answer_images": [],
       "tags": [
@@ -1106,7 +1384,16 @@
         2006
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2006-二-6"
+      ]
     },
     {
       "id": "2007-简答-01",
@@ -1123,7 +1410,9 @@
       "original_numbers": {
         "2007": "一、简答题 第1题"
       },
-      "images": [],
+      "images": [
+        "/images/questions/2007-一-1.png"
+      ],
       "answer_images": [],
       "tags": [
         "答案按拓展资料整理"
@@ -1139,7 +1428,16 @@
         2007
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "A2"
+      ],
+      "trae_chapters": [
+        "A"
+      ],
+      "trae_exam_ids": [
+        "2007-一-1"
+      ]
     },
     {
       "id": "2007-简答-02",
@@ -1171,7 +1469,16 @@
         2007
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "G4"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2007-一-2"
+      ]
     },
     {
       "id": "2007-简答-03",
@@ -1203,7 +1510,16 @@
         2007
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "K2"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2007-一-3"
+      ]
     },
     {
       "id": "2007-简答-04",
@@ -1235,7 +1551,16 @@
         2007
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "K2"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2007-一-4"
+      ]
     },
     {
       "id": "2007-简答-05",
@@ -1267,7 +1592,17 @@
         2007
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E11",
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2007-一-5"
+      ]
     },
     {
       "id": "2007-计算-01",
@@ -1285,7 +1620,8 @@
         "2007": "二、计算分析题 第1题"
       },
       "images": [
-        "/images/questions/2007-计算-01.png"
+        "/images/questions/2007-计算-01.png",
+        "/images/questions/2007-二-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -1297,7 +1633,17 @@
         2007
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "I4",
+        "I5"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2007-二-1"
+      ]
     },
     {
       "id": "2007-计算-02",
@@ -1314,7 +1660,8 @@
         "2007": "二、计算分析题 第2题"
       },
       "images": [
-        "/images/questions/2007-计算-02.png"
+        "/images/questions/2007-计算-02.png",
+        "/images/questions/2007-二-2.png"
       ],
       "answer_images": [],
       "tags": [
@@ -1326,7 +1673,17 @@
         2007
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "L3",
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2007-二-2"
+      ]
     },
     {
       "id": "2007-分析-01",
@@ -1343,7 +1700,8 @@
         "2007": "二、计算分析题 第3题"
       },
       "images": [
-        "/images/questions/2007-分析-01.png"
+        "/images/questions/2007-分析-01.png",
+        "/images/questions/2007-二-3.png"
       ],
       "answer_images": [],
       "tags": [
@@ -1355,7 +1713,16 @@
         2007
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2007-二-3"
+      ]
     },
     {
       "id": "2007-分析-02",
@@ -1373,7 +1740,8 @@
         "2007": "二、计算分析题 第4题"
       },
       "images": [
-        "/images/questions/2007-分析-02.png"
+        "/images/questions/2007-分析-02.png",
+        "/images/questions/2007-二-4.png"
       ],
       "answer_images": [],
       "tags": [
@@ -1385,7 +1753,17 @@
         2007
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E5",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2007-二-4"
+      ]
     },
     {
       "id": "2008-判断-01",
@@ -1421,7 +1799,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "H2"
+      ],
+      "trae_chapters": [
+        "H"
+      ],
+      "trae_exam_ids": [
+        "2008-二-1"
+      ]
     },
     {
       "id": "2008-判断-02",
@@ -1457,7 +1844,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "A1"
+      ],
+      "trae_chapters": [
+        "A"
+      ],
+      "trae_exam_ids": [
+        "2008-二-2"
+      ]
     },
     {
       "id": "2008-判断-03",
@@ -1493,7 +1889,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "L2"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2008-二-3"
+      ]
     },
     {
       "id": "2008-判断-04",
@@ -1529,7 +1934,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "B4"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2008-二-4"
+      ]
     },
     {
       "id": "2008-判断-05",
@@ -1565,7 +1979,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "C3"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2008-二-5"
+      ]
     },
     {
       "id": "2008-多选-02",
@@ -1634,7 +2057,17 @@
           "quality": "原文转录",
           "note": "原卷记作 2、BD"
         }
-      }
+      },
+      "sub_knowledge": [
+        "E2"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2008-一-2",
+        "2014-一-2"
+      ]
     },
     {
       "id": "2008-简答-01",
@@ -1666,7 +2099,17 @@
         2008
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E5",
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2008-七-1"
+      ]
     },
     {
       "id": "2008-选择-01",
@@ -1732,7 +2175,17 @@
           "quality": "原文转录",
           "note": "原卷记作 1、D。册中提示：高副引入 1 个约束"
         }
-      }
+      },
+      "sub_knowledge": [
+        "B1"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2008-一-1",
+        "2014-一-1"
+      ]
     },
     {
       "id": "2008-选择-03",
@@ -1776,7 +2229,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "E3"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2008-一-3"
+      ]
     },
     {
       "id": "2008-选择-04",
@@ -1820,7 +2282,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2008-一-4"
+      ]
     },
     {
       "id": "2008-选择-05",
@@ -1886,7 +2357,17 @@
           "quality": "原文转录",
           "note": "原卷记作 5、A。册中提示：等加速等减速、余弦加速度运动规律存在柔性冲击"
         }
-      }
+      },
+      "sub_knowledge": [
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2008-一-5",
+        "2014-一-5"
+      ]
     },
     {
       "id": "2008-选择-06",
@@ -1930,7 +2411,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2008-一-6"
+      ]
     },
     {
       "id": "2008-选择-07",
@@ -1987,7 +2477,17 @@
           "source": "考研群资料版本 2017 年答案（手写）",
           "quality": "原文转录·手写识读"
         }
-      }
+      },
+      "sub_knowledge": [
+        "E8"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2008-一-7",
+        "2017-一-7"
+      ]
     },
     {
       "id": "2008-选择-08",
@@ -2031,7 +2531,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2008-一-8"
+      ]
     },
     {
       "id": "2008-选择-09",
@@ -2099,7 +2608,19 @@
           "quality": "原文转录",
           "note": "原卷记作 9、B"
         }
-      }
+      },
+      "sub_knowledge": [
+        "C1",
+        "C2"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2008-一-9",
+        "2014-一-9",
+        "2017-一-3"
+      ]
     },
     {
       "id": "2008-选择-10",
@@ -2143,7 +2664,16 @@
       "source_years": [
         2008
       ],
-      "source": "拓展资料包（2026-11-04 整理版）"
+      "source": "拓展资料包（2026-11-04 整理版）",
+      "sub_knowledge": [
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2008-一-10"
+      ]
     },
     {
       "id": "2008-计算-01",
@@ -2161,7 +2691,8 @@
         "2008": "三、计算题（图题三）"
       },
       "images": [
-        "/images/questions/2008-计算-01.png"
+        "/images/questions/2008-计算-01.png",
+        "/images/questions/2008-三-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -2172,7 +2703,16 @@
         2008
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2008-三-1"
+      ]
     },
     {
       "id": "2008-计算-02",
@@ -2189,7 +2729,8 @@
         "2008": "四、计算题（图题四）"
       },
       "images": [
-        "/images/questions/2008-计算-02.png"
+        "/images/questions/2008-计算-02.png",
+        "/images/questions/2008-四-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -2200,7 +2741,17 @@
         2008
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "F2",
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2008-四-1"
+      ]
     },
     {
       "id": "2008-分析-01",
@@ -2218,7 +2769,8 @@
         "2008": "五、计算题（图题五）"
       },
       "images": [
-        "/images/questions/2008-分析-01.png"
+        "/images/questions/2008-分析-01.png",
+        "/images/questions/2008-五-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -2230,7 +2782,17 @@
         2008
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "E5",
+        "E6"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2008-五-1"
+      ]
     },
     {
       "id": "2008-计算-03",
@@ -2247,7 +2809,8 @@
         "2008": "六、计算题（图题六）"
       },
       "images": [
-        "/images/questions/2008-计算-03.png"
+        "/images/questions/2008-计算-03.png",
+        "/images/questions/2008-六-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -2259,7 +2822,16 @@
         2008
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2008-六-1"
+      ]
     },
     {
       "id": "2008-分析-02",
@@ -2276,7 +2848,8 @@
         "2008": "八、结构改错题"
       },
       "images": [
-        "/images/questions/2008-分析-02.png"
+        "/images/questions/2008-分析-02.png",
+        "/images/questions/2008-八-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -2288,7 +2861,16 @@
         2008
       ],
       "source": "拓展资料包（2026-11-04 整理版）",
-      "options": []
+      "options": [],
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2008-八-1"
+      ]
     },
     {
       "id": "2009-选择-01",
@@ -2351,7 +2933,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "C3"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2009-一-1"
+      ]
     },
     {
       "id": "2009-选择-02",
@@ -2414,7 +3005,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "C2"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2009-一-2"
+      ]
     },
     {
       "id": "2009-选择-03",
@@ -2477,7 +3077,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2009-一-3"
+      ]
     },
     {
       "id": "2009-选择-04",
@@ -2540,7 +3149,17 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "D1",
+        "D4"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2009-一-4"
+      ]
     },
     {
       "id": "2009-选择-05",
@@ -2603,7 +3222,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2009-一-5"
+      ]
     },
     {
       "id": "2009-选择-06",
@@ -2666,7 +3294,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2009-一-6"
+      ]
     },
     {
       "id": "2009-选择-07",
@@ -2729,7 +3366,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2009-一-7"
+      ]
     },
     {
       "id": "2009-简答-01",
@@ -2782,7 +3428,19 @@
         2024,
         2025
       ],
-      "source": "2009年855机械设计基础真题、2011年855机械设计基础真题、2024年855机械设计基础真题、2025年855机械设计基础真题"
+      "source": "2009年855机械设计基础真题、2011年855机械设计基础真题、2024年855机械设计基础真题、2025年855机械设计基础真题",
+      "sub_knowledge": [
+        "G3"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2009-二-1",
+        "2011-三-1",
+        "2024-二-1",
+        "2025-一-1"
+      ]
     },
     {
       "id": "2009-简答-02",
@@ -2832,7 +3490,20 @@
         2011,
         2015
       ],
-      "source": "2009年855机械设计基础真题、2011年855机械设计基础真题、2015年855机械设计基础真题"
+      "source": "2009年855机械设计基础真题、2011年855机械设计基础真题、2015年855机械设计基础真题",
+      "sub_knowledge": [
+        "A2",
+        "E8"
+      ],
+      "trae_chapters": [
+        "A",
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2009-二-2",
+        "2011-三-2",
+        "2015-二-2"
+      ]
     },
     {
       "id": "2009-分析-01",
@@ -2872,7 +3543,18 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "B3",
+        "C5"
+      ],
+      "trae_chapters": [
+        "B",
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2009-三-1"
+      ]
     },
     {
       "id": "2009-分析-02",
@@ -2891,7 +3573,9 @@
         "2009": "三、分析题 第2题"
       },
       "images": [
-        "/images/questions/2009-分析-02.png"
+        "/images/questions/2009-分析-02.png",
+        "/images/questions/2009-3-2a.png",
+        "/images/questions/2009-3-2b.png"
       ],
       "answer_images": [
         "/images/questions/2009-分析-02-ans.png"
@@ -2916,7 +3600,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2009-三-2"
+      ]
     },
     {
       "id": "2009-计算-01",
@@ -2935,7 +3628,8 @@
         "2009": "四、计算题 第1题"
       },
       "images": [
-        "/images/questions/2009-计算-01.png"
+        "/images/questions/2009-计算-01.png",
+        "/images/questions/2009-4-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -2958,7 +3652,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2009-四-1"
+      ]
     },
     {
       "id": "2009-计算-02",
@@ -2998,7 +3701,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E11"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2009-四-2"
+      ]
     },
     {
       "id": "2009-计算-03",
@@ -3017,7 +3729,8 @@
         "2009": "四、计算题 第3题"
       },
       "images": [
-        "/images/questions/2009-计算-03.png"
+        "/images/questions/2009-计算-03.png",
+        "/images/questions/2009-4-3.png"
       ],
       "answer_images": [],
       "tags": [
@@ -3040,7 +3753,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2009-四-3"
+      ]
     },
     {
       "id": "2009-计算-04",
@@ -3059,7 +3781,8 @@
         "2009": "四、计算题 第4题"
       },
       "images": [
-        "/images/questions/2009-计算-04.png"
+        "/images/questions/2009-计算-04.png",
+        "/images/questions/2009-4-4.png"
       ],
       "answer_images": [],
       "tags": [
@@ -3082,7 +3805,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2009-四-4"
+      ]
     },
     {
       "id": "2009-分析-03",
@@ -3101,7 +3833,8 @@
         "2009": "五、结构分析题"
       },
       "images": [
-        "/images/questions/2009-分析-03.png"
+        "/images/questions/2009-分析-03.png",
+        "/images/questions/2009-5-1.png"
       ],
       "answer_images": [
         "/images/questions/2009-分析-03-ans.png"
@@ -3126,7 +3859,16 @@
       "source_years": [
         2009
       ],
-      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2009年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2009-五-1"
+      ]
     },
     {
       "id": "2010-填空-01",
@@ -3166,7 +3908,17 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "F3",
+        "F4"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2010-一-1"
+      ]
     },
     {
       "id": "2010-填空-02",
@@ -3206,7 +3958,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2010-一-2"
+      ]
     },
     {
       "id": "2010-填空-03",
@@ -3246,7 +4007,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "C3"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2010-一-3"
+      ]
     },
     {
       "id": "2010-填空-04",
@@ -3286,7 +4056,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "C4"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2010-一-4"
+      ]
     },
     {
       "id": "2010-填空-05",
@@ -3326,7 +4105,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2010-一-5"
+      ]
     },
     {
       "id": "2010-填空-06",
@@ -3366,7 +4154,17 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "D1",
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2010-一-6"
+      ]
     },
     {
       "id": "2010-填空-07",
@@ -3406,7 +4204,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "D3"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2010-一-7"
+      ]
     },
     {
       "id": "2010-填空-08",
@@ -3446,7 +4253,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "G4"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2010-一-8"
+      ]
     },
     {
       "id": "2010-填空-09",
@@ -3486,7 +4302,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "G3"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2010-一-9"
+      ]
     },
     {
       "id": "2010-填空-10",
@@ -3526,7 +4351,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "B1"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2010-一-10"
+      ]
     },
     {
       "id": "2010-填空-11",
@@ -3566,7 +4400,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E3"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2010-一-11"
+      ]
     },
     {
       "id": "2010-填空-12",
@@ -3606,7 +4449,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E8"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2010-一-12"
+      ]
     },
     {
       "id": "2010-填空-13",
@@ -3646,7 +4498,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E2"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2010-一-13"
+      ]
     },
     {
       "id": "2010-填空-14",
@@ -3686,7 +4547,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E10"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2010-一-14"
+      ]
     },
     {
       "id": "2010-填空-15",
@@ -3704,7 +4574,9 @@
       "original_numbers": {
         "2010": "一、填空题 第15条"
       },
-      "images": [],
+      "images": [
+        "/images/questions/2010-1-15.png"
+      ],
       "answer_images": [],
       "tags": [
         "答案按老魏版整理"
@@ -3726,7 +4598,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "C1"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2010-一-15"
+      ]
     },
     {
       "id": "2010-简答-01",
@@ -3771,7 +4652,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "G1"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2010-二-1"
+      ]
     },
     {
       "id": "2010-简答-02",
@@ -3816,7 +4706,17 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "I2",
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2010-二-2"
+      ]
     },
     {
       "id": "2010-简答-03",
@@ -3861,7 +4761,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2010-二-3"
+      ]
     },
     {
       "id": "2010-简答-04",
@@ -3906,7 +4815,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2010-二-4"
+      ]
     },
     {
       "id": "2010-简答-05",
@@ -3951,7 +4869,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E11"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2010-二-5"
+      ]
     },
     {
       "id": "2010-计算-01",
@@ -3970,7 +4897,8 @@
         "2010": "三、分析计算题 第1题"
       },
       "images": [
-        "/images/questions/2010-计算-01.png"
+        "/images/questions/2010-计算-01.png",
+        "/images/questions/2010-3-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -3994,7 +4922,17 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "B2",
+        "B3"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2010-三-1"
+      ]
     },
     {
       "id": "2010-计算-02",
@@ -4013,7 +4951,8 @@
         "2010": "三、分析计算题 第2题"
       },
       "images": [
-        "/images/questions/2010-计算-02.png"
+        "/images/questions/2010-计算-02.png",
+        "/images/questions/2010-3-2.png"
       ],
       "answer_images": [],
       "tags": [
@@ -4036,7 +4975,16 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2010-三-2"
+      ]
     },
     {
       "id": "2010-计算-03",
@@ -4076,7 +5024,17 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E11",
+        "E3"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2010-三-3"
+      ]
     },
     {
       "id": "2010-计算-04",
@@ -4095,7 +5053,8 @@
         "2010": "三、分析计算题 第4题"
       },
       "images": [
-        "/images/questions/2010-计算-04.png"
+        "/images/questions/2010-计算-04.png",
+        "/images/questions/2010-3-4.png"
       ],
       "answer_images": [
         "/images/questions/2010-计算-04-ans.png"
@@ -4120,7 +5079,17 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "E5",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2010-三-4"
+      ]
     },
     {
       "id": "2010-计算-05",
@@ -4139,7 +5108,8 @@
         "2010": "三、分析计算题 第5题"
       },
       "images": [
-        "/images/questions/2010-计算-05.png"
+        "/images/questions/2010-计算-05.png",
+        "/images/questions/2010-3-5.png"
       ],
       "answer_images": [],
       "tags": [
@@ -4162,7 +5132,17 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "L3",
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2010-三-5"
+      ]
     },
     {
       "id": "2010-计算-06",
@@ -4181,7 +5161,12 @@
         "2010": "三、分析计算题 第6题"
       },
       "images": [
-        "/images/questions/2010-计算-06.png"
+        "/images/questions/2010-计算-06.png",
+        "/images/questions/2010-3-6-1.png",
+        "/images/questions/2010-3-6-2.png",
+        "/images/questions/2010-3-6-3.png",
+        "/images/questions/2010-3-6-4.png",
+        "/images/questions/2010-3-6-5.png"
       ],
       "answer_images": [
         "/images/questions/2010-计算-06-ans.png"
@@ -4206,7 +5191,18 @@
       "source_years": [
         2010
       ],
-      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）"
+      "source": "2010年855机械设计基础真题（A 卷，江苏工业学院）",
+      "sub_knowledge": [
+        "J3",
+        "K4"
+      ],
+      "trae_chapters": [
+        "J",
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2010-三-6"
+      ]
     },
     {
       "id": "2011-填空-01",
@@ -4246,7 +5242,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "A1"
+      ],
+      "trae_chapters": [
+        "A"
+      ],
+      "trae_exam_ids": [
+        "2011-一-1"
+      ]
     },
     {
       "id": "2011-填空-02",
@@ -4286,7 +5291,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B1"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2011-一-2"
+      ]
     },
     {
       "id": "2011-填空-03",
@@ -4326,7 +5340,17 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F3",
+        "F4"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2011-一-3"
+      ]
     },
     {
       "id": "2011-填空-04",
@@ -4366,7 +5390,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G5"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2011-一-4"
+      ]
     },
     {
       "id": "2011-填空-05",
@@ -4406,7 +5439,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "J2"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2011-一-5"
+      ]
     },
     {
       "id": "2011-填空-06",
@@ -4446,7 +5488,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2011-一-6"
+      ]
     },
     {
       "id": "2011-填空-07",
@@ -4486,7 +5537,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D5"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2011-一-7"
+      ]
     },
     {
       "id": "2011-填空-08",
@@ -4526,7 +5586,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C2"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2011-一-8"
+      ]
     },
     {
       "id": "2011-填空-09",
@@ -4566,7 +5635,18 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E7",
+        "F3"
+      ],
+      "trae_chapters": [
+        "E",
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2011-一-9"
+      ]
     },
     {
       "id": "2011-填空-10",
@@ -4606,7 +5686,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E2"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2011-一-10"
+      ]
     },
     {
       "id": "2011-填空-11",
@@ -4646,7 +5735,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L5"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2011-一-11"
+      ]
     },
     {
       "id": "2011-判断-01",
@@ -4701,7 +5799,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E1"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2011-二-1"
+      ]
     },
     {
       "id": "2011-判断-02",
@@ -4756,7 +5863,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C2"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2011-二-2"
+      ]
     },
     {
       "id": "2011-判断-03",
@@ -4811,7 +5927,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2011-二-3"
+      ]
     },
     {
       "id": "2011-判断-04",
@@ -4866,7 +5991,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C4"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2011-二-4"
+      ]
     },
     {
       "id": "2011-判断-05",
@@ -4921,7 +6055,17 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D1",
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2011-二-5"
+      ]
     },
     {
       "id": "2011-判断-06",
@@ -4976,7 +6120,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2011-二-6"
+      ]
     },
     {
       "id": "2011-判断-07",
@@ -5031,7 +6184,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "J1"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2011-二-7"
+      ]
     },
     {
       "id": "2011-判断-08",
@@ -5086,7 +6248,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E12"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2011-二-8"
+      ]
     },
     {
       "id": "2011-判断-09",
@@ -5141,7 +6312,20 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E3",
+        "F3",
+        "H1"
+      ],
+      "trae_chapters": [
+        "E",
+        "F",
+        "H"
+      ],
+      "trae_exam_ids": [
+        "2011-二-9"
+      ]
     },
     {
       "id": "2011-判断-10",
@@ -5196,7 +6380,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "H2"
+      ],
+      "trae_chapters": [
+        "H"
+      ],
+      "trae_exam_ids": [
+        "2011-二-10"
+      ]
     },
     {
       "id": "2011-计算-01",
@@ -5215,7 +6408,9 @@
         "2011": "四、分析计算题 第1题"
       },
       "images": [
-        "/images/questions/2011-计算-01.png"
+        "/images/questions/2011-计算-01.png",
+        "/images/questions/2011-4-1a.png",
+        "/images/questions/2011-4-1b.png"
       ],
       "answer_images": [],
       "tags": [
@@ -5238,7 +6433,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2011-四-1"
+      ]
     },
     {
       "id": "2011-计算-02",
@@ -5257,7 +6461,8 @@
         "2011": "四、分析计算题 第2题"
       },
       "images": [
-        "/images/questions/2011-计算-02.png"
+        "/images/questions/2011-计算-02.png",
+        "/images/questions/2011-4-2.png"
       ],
       "answer_images": [],
       "tags": [
@@ -5280,7 +6485,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2011-四-2"
+      ]
     },
     {
       "id": "2011-计算-03",
@@ -5321,7 +6535,17 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E1",
+        "E11"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2011-四-3"
+      ]
     },
     {
       "id": "2011-计算-04",
@@ -5361,7 +6585,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2011-四-4"
+      ]
     },
     {
       "id": "2011-计算-05",
@@ -5380,7 +6613,8 @@
         "2011": "四、分析计算题 第5题"
       },
       "images": [
-        "/images/questions/2011-计算-05.png"
+        "/images/questions/2011-计算-05.png",
+        "/images/questions/2011-4-5.png"
       ],
       "answer_images": [],
       "tags": [
@@ -5403,7 +6637,16 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2011-四-5"
+      ]
     },
     {
       "id": "2011-计算-06",
@@ -5422,7 +6665,8 @@
         "2011": "四、分析计算题 第6题"
       },
       "images": [
-        "/images/questions/2011-计算-06.png"
+        "/images/questions/2011-计算-06.png",
+        "/images/questions/2011-4-6.png"
       ],
       "answer_images": [],
       "tags": [
@@ -5445,7 +6689,17 @@
       "source_years": [
         2011
       ],
-      "source": "2011年855机械设计基础真题（A 卷）"
+      "source": "2011年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L3",
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2011-四-6"
+      ]
     },
     {
       "id": "2012-选择-01",
@@ -5508,7 +6762,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C1"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2012-一-1"
+      ]
     },
     {
       "id": "2012-选择-02",
@@ -5571,7 +6834,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E1"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2012-一-2"
+      ]
     },
     {
       "id": "2012-选择-03",
@@ -5634,7 +6906,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C3"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2012-一-3"
+      ]
     },
     {
       "id": "2012-选择-04",
@@ -5697,7 +6978,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C1"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2012-一-4"
+      ]
     },
     {
       "id": "2012-选择-05",
@@ -5760,7 +7050,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2012-一-5"
+      ]
     },
     {
       "id": "2012-选择-06",
@@ -5823,7 +7122,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G1"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2012-一-6"
+      ]
     },
     {
       "id": "2012-选择-07",
@@ -5886,7 +7194,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "A1"
+      ],
+      "trae_chapters": [
+        "A"
+      ],
+      "trae_exam_ids": [
+        "2012-一-7"
+      ]
     },
     {
       "id": "2012-选择-08",
@@ -5949,7 +7266,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B1"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2012-一-8"
+      ]
     },
     {
       "id": "2012-选择-09",
@@ -6012,7 +7338,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G1"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2012-一-9"
+      ]
     },
     {
       "id": "2012-选择-10",
@@ -6075,7 +7410,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G1"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2012-一-10"
+      ]
     },
     {
       "id": "2012-选择-11",
@@ -6138,7 +7482,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "A1"
+      ],
+      "trae_chapters": [
+        "A"
+      ],
+      "trae_exam_ids": [
+        "2012-一-11"
+      ]
     },
     {
       "id": "2012-选择-12",
@@ -6201,7 +7554,17 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F3",
+        "F4"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2012-一-12"
+      ]
     },
     {
       "id": "2012-选择-13",
@@ -6264,7 +7627,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F1"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2012-一-13"
+      ]
     },
     {
       "id": "2012-选择-14",
@@ -6327,7 +7699,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E6"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2012-一-14"
+      ]
     },
     {
       "id": "2012-选择-15",
@@ -6390,7 +7771,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2012-一-15"
+      ]
     },
     {
       "id": "2012-选择-16",
@@ -6453,7 +7843,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D1"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2012-一-16"
+      ]
     },
     {
       "id": "2012-填空-01",
@@ -6493,7 +7892,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C1"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2012-二-1"
+      ]
     },
     {
       "id": "2012-填空-02",
@@ -6533,7 +7941,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "M1"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2012-二-2"
+      ]
     },
     {
       "id": "2012-填空-03",
@@ -6573,7 +7990,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "J1"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2012-二-3"
+      ]
     },
     {
       "id": "2012-填空-04",
@@ -6613,7 +8039,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2012-二-4"
+      ]
     },
     {
       "id": "2012-填空-05",
@@ -6653,7 +8088,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2012-二-5"
+      ]
     },
     {
       "id": "2012-简答-01",
@@ -6698,7 +8142,18 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "A2",
+        "E8"
+      ],
+      "trae_chapters": [
+        "A",
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2012-三-1"
+      ]
     },
     {
       "id": "2012-简答-02",
@@ -6743,7 +8198,17 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I2",
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2012-三-2"
+      ]
     },
     {
       "id": "2012-简答-03",
@@ -6796,7 +8261,19 @@
         2024,
         2025
       ],
-      "source": "2012年855机械设计基础真题、2015年855机械设计基础真题、2024年855机械设计基础真题、2025年855机械设计基础真题"
+      "source": "2012年855机械设计基础真题、2015年855机械设计基础真题、2024年855机械设计基础真题、2025年855机械设计基础真题",
+      "sub_knowledge": [
+        "M2"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2012-三-3",
+        "2015-二-3",
+        "2024-二-2",
+        "2025-一-2"
+      ]
     },
     {
       "id": "2012-简答-04",
@@ -6841,7 +8318,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G3"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2012-三-4"
+      ]
     },
     {
       "id": "2012-分析-01",
@@ -6860,7 +8346,8 @@
         "2012": "四、分析讨论题 第1题"
       },
       "images": [
-        "/images/questions/2012-分析-01.png"
+        "/images/questions/2012-分析-01.png",
+        "/images/questions/2012-4-1.png"
       ],
       "answer_images": [
         "/images/questions/2012-分析-01-ans.png"
@@ -6885,7 +8372,17 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E6",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2012-四-1"
+      ]
     },
     {
       "id": "2012-计算-01",
@@ -6904,7 +8401,9 @@
         "2012": "五、计算题 第1题"
       },
       "images": [
-        "/images/questions/2012-计算-01.png"
+        "/images/questions/2012-计算-01.png",
+        "/images/questions/2012-5-1a.png",
+        "/images/questions/2012-5-1b.png"
       ],
       "answer_images": [],
       "tags": [
@@ -6927,7 +8426,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2012-五-1"
+      ]
     },
     {
       "id": "2012-计算-02",
@@ -6967,7 +8475,17 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E11",
+        "E5"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2012-五-2"
+      ]
     },
     {
       "id": "2012-计算-03",
@@ -6986,7 +8504,8 @@
         "2012": "五、计算题 第3题"
       },
       "images": [
-        "/images/questions/2012-计算-03.png"
+        "/images/questions/2012-计算-03.png",
+        "/images/questions/2012-5-3.png"
       ],
       "answer_images": [],
       "tags": [
@@ -7009,7 +8528,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2012-五-3"
+      ]
     },
     {
       "id": "2012-计算-04",
@@ -7028,7 +8556,8 @@
         "2012": "五、计算题 第4题"
       },
       "images": [
-        "/images/questions/2012-计算-04.png"
+        "/images/questions/2012-计算-04.png",
+        "/images/questions/2012-5-4.png"
       ],
       "answer_images": [],
       "tags": [
@@ -7051,7 +8580,16 @@
       "source_years": [
         2012
       ],
-      "source": "2012年855机械设计基础真题（A 卷）"
+      "source": "2012年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2012-五-4"
+      ]
     },
     {
       "id": "2013-选择-01",
@@ -7108,7 +8646,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2013-一-1"
+      ]
     },
     {
       "id": "2013-选择-02",
@@ -7165,7 +8712,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C3"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2013-一-2"
+      ]
     },
     {
       "id": "2013-选择-03",
@@ -7222,7 +8778,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G5"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2013-一-3"
+      ]
     },
     {
       "id": "2013-选择-04",
@@ -7279,7 +8844,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G1"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2013-一-4"
+      ]
     },
     {
       "id": "2013-选择-05",
@@ -7342,7 +8916,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K2"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2013-一-5"
+      ]
     },
     {
       "id": "2013-选择-06",
@@ -7399,7 +8982,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L2"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2013-一-6"
+      ]
     },
     {
       "id": "2013-选择-07",
@@ -7460,7 +9052,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2013-一-7"
+      ]
     },
     {
       "id": "2013-选择-08",
@@ -7517,7 +9118,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2013-一-8"
+      ]
     },
     {
       "id": "2013-选择-09",
@@ -7574,7 +9184,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E8"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2013-一-9"
+      ]
     },
     {
       "id": "2013-选择-10",
@@ -7631,7 +9250,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2013-一-10"
+      ]
     },
     {
       "id": "2013-填空-01",
@@ -7669,7 +9297,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I1"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2013-二-1"
+      ]
     },
     {
       "id": "2013-填空-02",
@@ -7707,7 +9344,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I1"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2013-二-2"
+      ]
     },
     {
       "id": "2013-填空-03",
@@ -7745,7 +9391,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E2"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2013-二-3"
+      ]
     },
     {
       "id": "2013-填空-04",
@@ -7783,7 +9438,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E1"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2013-二-4"
+      ]
     },
     {
       "id": "2013-填空-05",
@@ -7821,7 +9485,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "J2"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2013-二-5"
+      ]
     },
     {
       "id": "2013-填空-06",
@@ -7859,7 +9532,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G6"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2013-二-6"
+      ]
     },
     {
       "id": "2013-填空-07",
@@ -7897,7 +9579,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G6"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2013-二-7"
+      ]
     },
     {
       "id": "2013-填空-08",
@@ -7935,7 +9626,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2013-二-8"
+      ]
     },
     {
       "id": "2013-填空-09",
@@ -7975,7 +9675,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E2"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2013-二-9"
+      ]
     },
     {
       "id": "2013-分析-01",
@@ -7984,7 +9693,8 @@
       "difficulty": "较难",
       "stem": "图示机构。（1）该机构若存在复合铰链、局部自由度和虚约束，试在图上指出；（2）求该机构的自由度（要求有具体计算过程）。",
       "images": [
-        "/images/questions/2013-分析-01.png"
+        "/images/questions/2013-分析-01.png",
+        "/images/questions/2013-3-1.png"
       ],
       "answer": "（1）三类特殊结构：\n- 「虚约束」：最上方那根水平横杆。它的两端都插在机架的导路里、与机架组成「移动副」，两条导路重合，属重复约束——计算时只按 1 个移动副计，多出的 1 个应扣除。\n- 「复合铰链」：斜杆下端与两根连杆汇交的那个铰点（图中部偏下，三构件汇交，按 2 个转动副计）。\n- 「局部自由度」：无（本机构中没有滚子）。\n（2）去除虚约束后：活动构件数 $n=6$（横杆、斜杆、连齿轮 1 的杆、连齿轮 2 的杆、齿轮 1、齿轮 2）；低副 $P_L=8$（横杆与机架的移动副 1 + 横杆中部铰 1 + 中下复合铰 2 + 齿轮 1 中心 1 + 齿轮 1 上铰点 1 + 齿轮 2 中心 1 + 齿轮 2 上铰点 1）；高副 $P_H=1$（两齿轮啮合）。\n$$F=3n-2P_L-P_H=3\\times6-2\\times8-1=1$$\n故机构自由度为 1，需要 1 个原动件即可有确定运动。",
       "explanation": "考点：复合铰链、局部自由度、虚约束的识别与自由度计算。本题的虚约束是「同一构件与机架组成两个导路重合的移动副」，计算时只能算一个，否则会得到 $F=0$ 的错误结果；复合铰链在斜杆下端的三杆汇交处（$m=3$，转动副数为 $m-1=2$），不在顶部横杆与斜杆的铰点上（那里只有 2 个构件）。原手写答案：$F=3\\times6-2\\times8-1=1$、「虚约束＝最上面两个之一」、「复合铰链＝三杆连接处」，与本答案一致（原库曾把复合铰链误记到顶部横杆中部，已更正）。",
@@ -8015,7 +9725,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2013-三-1"
+      ]
     },
     {
       "id": "2013-计算-01",
@@ -8053,7 +9772,17 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E1",
+        "E11"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2013-四-1"
+      ]
     },
     {
       "id": "2013-计算-02",
@@ -8062,7 +9791,9 @@
       "difficulty": "中等",
       "stem": "说明以下两种螺纹连接方法的名称、优缺点及应用的场合。",
       "images": [
-        "/images/questions/2013-计算-02.png"
+        "/images/questions/2013-计算-02.png",
+        "/images/questions/2013-5-1.png",
+        "/images/questions/2013-5-2.png"
       ],
       "answer": "左图为「普通螺栓连接」（螺栓与孔之间有间隙，被连接件通孔不带螺纹）。\n优点：结构简单、装拆方便、成本低，可多次装拆而不损坏；缺点：孔与螺栓间有间隙，不能精确固定被连接件的相对位置，承受横向载荷时需靠预紧产生的摩擦力（或加套筒、键等）。\n应用：常用于被连接件不太厚、能加工通孔、需经常装拆的场合。\n\n右图为「铰制孔用螺栓连接」（螺栓杆与孔为配合的铰制孔，螺栓杆受剪切和挤压）。\n优点：能精确固定被连接件的相对位置，靠螺栓杆直接承受横向载荷，承载能力大、可省去预紧；缺点：孔的加工精度要求高（需铰孔），装拆不便，成本较高。\n应用：用于承受横向载荷、要求精确对中或需承受冲击的场合。",
       "explanation": "考点：螺纹连接的基本类型。区分要点是看螺栓杆与孔是否配合、横向载荷靠摩擦还是靠杆的剪切传递。",
@@ -8093,7 +9824,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2013-五-1"
+      ]
     },
     {
       "id": "2013-计算-03",
@@ -8102,7 +9842,8 @@
       "difficulty": "较难",
       "stem": "图示轮系，已知各轮齿数 $z_1=1$（蜗杆），$z_2=40$，$z_{2'}=24$，$z_3=72$，$z_{3'}=18$，$z_4=114$，蜗杆 1 左旋，转向 $n_1$ 如图。试计算传动比 $i_{1B}$，并确定输出杆 $B$ 的转向。",
       "images": [
-        "/images/questions/2013-计算-03.png"
+        "/images/questions/2013-计算-03.png",
+        "/images/questions/2013-6-1.png"
       ],
       "answer": "① 定轴部分（蜗杆 1—蜗轮 2）：\n$$i_{12}=\\dfrac{n_1}{n_2}=z_2=\\dfrac{40}{1}=40$$\n② 周转部分（$2'$、3、$3'$、4 与系杆 $B$）：内齿圈 4 固定，$n_4=0$\n$$i_{2'4}^{B}=\\dfrac{n_{2'}-n_B}{n_4-n_B}=-\\dfrac{z_3\\,z_4}{z_{2'}\\,z_{3'}}=-\\dfrac{72\\times114}{24\\times18}=-19$$\n代入 $n_4=0$：$\\dfrac{n_{2'}-n_B}{-n_B}=-19\\Rightarrow n_{2'}=20n_B$，即 $i_{2'B}=20$\n③ 合并（$2'$ 与 2 同轴，$n_{2'}=n_2$）：\n$$i_{1B}=i_{12}\\cdot i_{2'B}=40\\times20=800$$\n④ 转向：$n_2$ 与 $n_B$ 同向，故输出杆 $B$ 与蜗轮 2 同向。按图示 $n_1$ 方向用左（右）手定则判定：蜗杆 1 为左旋，用左手，四指弯曲方向与 $n_1$ 一致，拇指指向即蜗轮啮合点的圆周速度方向，得蜗轮 2 的转向；因 $2'$ 与 2 同轴，系杆 $B$ 随之同向转动。",
       "explanation": "考点：复合轮系按「定轴 + 周转」拆分。注意蜗杆副的传动比只按齿数比 $z_2/z_1$ 计算，转向必须用左右手定则单独判定；周转轮系中，$i_{2'4}^{B}$ 的符号由外啮合次数决定（此处 2'—3 外啮合、3'—4 内啮合，共 1 次外啮合，取负）。",
@@ -8133,7 +9874,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2013-六-1"
+      ]
     },
     {
       "id": "2013-分析-02",
@@ -8142,7 +9892,9 @@
       "difficulty": "较难",
       "stem": "图示为蜗杆—斜齿轮传动。（1）指出蜗轮 4 的螺旋线旋向；（2）在斜齿轮 2 上画出螺旋线旋向；（3）指出蜗杆 3 和蜗轮 4 的转动方向；（4）在图示轴 Ⅱ 上画出各力方向，直接画在各啮合点。",
       "images": [
-        "/images/questions/2013-分析-02.png"
+        "/images/questions/2013-分析-02.png",
+        "/images/questions/2013-7-1.png",
+        "/images/questions/2013-7-2.png"
       ],
       "answer": "（1）蜗轮 4 为「右旋」。\n（2）斜齿轮 2 也取「右旋」——与蜗轮 4 同旋向。判断依据：轴 Ⅱ 上装着蜗轮 4（由蜗杆 3 驱动，是从动件）与斜齿轮 2（驱动斜齿轮 1，是主动件），二者转向相同、一主一从；同旋向时两轮的轴向力方向相反，可以相互抵消，轴 Ⅱ 所受轴向力最小。（若取相反旋向，两轴向力会同向叠加。）\n（3）蜗杆 3 的转向按图示向下；蜗轮 4 逆时针回转。\n（4）轴 Ⅱ 上各啮合点的受力：蜗轮 4 与蜗杆 3 的啮合点处，$F_{t4}$ 与蜗轮转向同向、$F_{r4}$ 指向轮心、$F_{a4}$ 沿轴线方向（由蜗杆的转向与旋向按左右手定则判定）；斜齿轮 2 与斜齿轮 1 的啮合点处，$F_{t2}$ 与转向相反（主动轮）、$F_{r2}$ 指向轮心、$F_{a2}$ 沿轴向。同一轴上两轮的轴向力方向相反、互相抵消。",
       "explanation": "考点：蜗杆传动的旋向与转向判定 + 斜齿轮轴向力判定。要点：① 蜗轮与配对蜗杆的旋向相同，故蜗杆 3 也为右旋；② 判断蜗轮转向用左右手定则（右旋蜗杆用右手：四指顺着蜗杆转向弯曲，拇指指向即蜗轮啮合点的圆周速度方向）；③ 同轴上一主一从的两个斜齿类零件，螺旋线方向相同时轴向力才反向抵消——这与 2017 年第五题（二级斜齿轮传动）的结论完全一致。原手写答案给「蜗轮 4 右旋、蜗杆向下、蜗轮 4 逆时针、斜齿轮 2 画右旋」，本答案与之核对一致（原库曾误记为「斜齿轮 2 与蜗轮 4 旋向应相反」「蜗轮 4 顺时针」，已更正）。",
@@ -8174,7 +9926,17 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E5",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2013-七-1"
+      ]
     },
     {
       "id": "2013-分析-03",
@@ -8183,7 +9945,8 @@
       "difficulty": "中等",
       "stem": "根据承载情况，下列六根轴分别为何种类型？（图示减速器—卷筒传动系统）",
       "images": [
-        "/images/questions/2013-分析-03.png"
+        "/images/questions/2013-分析-03.png",
+        "/images/questions/2013-8-1.png"
       ],
       "answer": "$O$：「传动轴」（电动机与减速器之间，只传递转矩，不承受弯矩）。\n$\\mathrm{II}$：「心轴」（轴上的齿轮为惰轮，只改变转向、不传递转矩，轴只承受弯矩）。\n$\\mathrm{I}$、$\\mathrm{III}$、$\\mathrm{IV}$：「转轴」（既承受弯矩又传递转矩）。\n$\\mathrm{V}$（卷筒轴）：「心轴」。转矩由大齿轮直接传给卷筒，卷筒再带动钢丝绳，轴只起支承作用、不传递转矩，故只承受弯矩；轴随卷筒一起转动时属「转动心轴」。",
       "explanation": "考点：按承载情况给轴分类——只受弯矩为心轴（转动心轴 / 固定心轴），只受转矩为传动轴，两者都受为转轴。本题的关键是 $\\mathrm{V}$：卷筒轴虽随卷筒转动，但转矩走的是「大齿轮 $\\rightarrow$ 卷筒」这条路径，轴本身不传转矩，因此是心轴而不是转轴。原手写答案把 $\\mathrm{V}$ 归为转轴，按教材口径应为心轴，此处按原理更正；其余 $O$、$\\mathrm{I}\\sim\\mathrm{IV}$ 的判定与原答案一致。",
@@ -8216,7 +9979,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2013-八-1"
+      ]
     },
     {
       "id": "2013-计算-04",
@@ -8225,7 +9997,8 @@
       "difficulty": "较难",
       "stem": "已知某轴承受轴向力 $F_{ae}=800$ N，径向力 $F_R=1500$ N，$F_R$ 距轴承 1 的距离等于距轴承 2 距离的两倍。在图上画出二端轴承的内部轴向力 $F_{d1}$、$F_{d2}$，并求出两轴承所受的轴向力 $F_{a1}$、$F_{a2}$。（已知内部轴向力 $F_d=0.68F_r$，$F_r$ 为轴承承受的径向载荷）若 $F_{ae}=200$ N，则 $F_{a1}$、$F_{a2}$ 又为多少？",
       "images": [
-        "/images/questions/2013-计算-04.png"
+        "/images/questions/2013-计算-04.png",
+        "/images/questions/2013-9-1.png"
       ],
       "answer": "① 径向载荷分配（$F_R$ 距轴承 1 为 $2a$、距轴承 2 为 $a$，总跨距 $3a$）：\n$$F_{R1}=F_R\\dfrac{a}{3a}=\\dfrac{1500}{3}=500\\ \\text{N},\\qquad F_{R2}=F_R\\dfrac{2a}{3a}=1000\\ \\text{N}$$\n② 内部（派生）轴向力：\n$$F_{d1}=0.68F_{R1}=340\\ \\text{N},\\qquad F_{d2}=0.68F_{R2}=680\\ \\text{N}$$\n方向：派生力各指向「使内、外圈分离」的一侧，画在图上时两力相背或相向取决于安装方式（本题为面对面/正装，$F_{d1}$ 向左、$F_{d2}$ 向右）。\n\n③ 当 $F_{ae}=800$ N：\n- 若 $F_{ae}$ 指向轴承 1（近端为轴承 1）：\n$$F_{a1}=F_{d2}+F_{ae}=680+800=1480\\ \\text{N},\\qquad F_{a2}=F_{d2}=680\\ \\text{N}$$\n- 若 $F_{ae}$ 指向轴承 2（近端为轴承 2）：\n$$F_{a2}=F_{d1}+F_{ae}=340+800=1140\\ \\text{N},\\qquad F_{a1}=F_{d1}=340\\ \\text{N}$$\n\n④ 当 $F_{ae}=200$ N：外载荷较小，压紧端不再随 $F_{ae}$ 的方向改变，两种方向下结果相同：\n$$F_{a1}=F_{d2}+F_{ae}=680+200=880\\ \\text{N},\\qquad F_{a2}=F_{d2}=680\\ \\text{N}$$\n校核：$F_{a1}=880\\ge F_{d1}=340$ ✓、$F_{a2}=680=F_{d2}$ ✓、$F_{a1}-F_{a2}=200=F_{ae}$ ✓，满足全部条件。",
       "explanation": "考点：成对角接触轴承的轴向力计算。「统一判据」：$F_{ae}$ 指向哪一端，压紧端就是哪一端，压紧端 $F_a$ = 另一端的派生力 + $F_{ae}$，放松端 $F_a$ = 自身派生力；随后必须用两组条件校核——① 各轴承 $F_a\\ge$ 自身派生力（否则该端根本不会被压紧）；② 轴上轴向力平衡 $F_{a近}-F_{a远}=F_{ae}$。本题 $F_{ae}=200$ N 时，若按「指向轴承 2」机械套公式会得到 $F_{a2}=540<F_{d2}=680$，明显违反条件①，说明此时压紧端并未改变，应取 $F_{a1}=880$、$F_{a2}=680$（原库此处给 540/340，已更正）。",
@@ -8256,7 +10029,16 @@
       "source_years": [
         2013
       ],
-      "source": "2013年855机械设计基础真题（A 卷）"
+      "source": "2013年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2013-九-1"
+      ]
     },
     {
       "id": "2014-选择-03",
@@ -8317,7 +10099,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E3"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2014-一-3"
+      ]
     },
     {
       "id": "2014-选择-04",
@@ -8378,7 +10169,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2014-一-4"
+      ]
     },
     {
       "id": "2014-选择-06",
@@ -8439,7 +10239,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2014-一-6"
+      ]
     },
     {
       "id": "2014-选择-07",
@@ -8500,7 +10309,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E8"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2014-一-7"
+      ]
     },
     {
       "id": "2014-选择-08",
@@ -8561,7 +10379,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2014-一-8"
+      ]
     },
     {
       "id": "2014-选择-10",
@@ -8622,7 +10449,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2014-一-10"
+      ]
     },
     {
       "id": "2014-简答-01",
@@ -8661,7 +10497,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G5"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2014-二-1"
+      ]
     },
     {
       "id": "2014-简答-02",
@@ -8700,7 +10545,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2014-二-2"
+      ]
     },
     {
       "id": "2014-简答-03",
@@ -8739,7 +10593,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "H1"
+      ],
+      "trae_chapters": [
+        "H"
+      ],
+      "trae_exam_ids": [
+        "2014-二-3"
+      ]
     },
     {
       "id": "2014-简答-04",
@@ -8778,7 +10641,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L2"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2014-二-4"
+      ]
     },
     {
       "id": "2014-简答-05",
@@ -8817,7 +10689,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I1"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2014-二-5"
+      ]
     },
     {
       "id": "2014-分析-01",
@@ -8826,7 +10707,9 @@
       "difficulty": "较难",
       "stem": "指出图示机构中的复合铰链、局部自由度和虚约束，计算机构的自由度，说明机构具有确定运动的条件。（a、b 两小题，分别 10 分、11 分）",
       "images": [
-        "/images/questions/2014-分析-01.png"
+        "/images/questions/2014-分析-01.png",
+        "/images/questions/2014-3-1a.png",
+        "/images/questions/2014-3-1b.png"
       ],
       "answer": "（a）该机构存在「虚约束」与「复合铰链」：\n- 虚约束：最右侧那根竖直杆，它的上下两端都与机架组成移动副、两条导路重合，是重复约束，计算时只按 1 个移动副计，多出的一个应扣除；\n- 复合铰链：两根斜杆与滑块汇交的那个铰点（三构件汇交，按 2 个转动副计）。\n去除虚约束后 $n=5$、$P_L=7$、$P_H=0$：\n$$F=3n-2P_L-P_H=3\\times5-2\\times7=1$$\n\n（b）该机构有「2 个局部自由度」（两处滚子的自转），计算时应把滚子与相连构件视为一体（此时 $n=5$、$P_L=6$、$P_H=2$）：\n$$F=3n-2P_L-P_H=3\\times5-2\\times6-2=1$$\n\n两机构自由度均为 1，故各需 1 个原动件即可有确定运动（机构具有确定运动的条件是：原动件数 = 自由度数）。",
       "explanation": "考点：复合铰链、局部自由度、虚约束的识别与自由度计算。判断要领：① 同一构件与机架组成两个导路重合的移动副、或两端都铰接机架的杆件，都属虚约束，计算时只能算一个；② 滚子自转只影响局部运动、不改变输出，按局部自由度扣除；③ 同一铰点汇交 $m$ 个构件时转动副数为 $m-1$。原手写答案只给了自由度结果，本答案补全了特殊结构的定位与副数分解。",
@@ -8859,7 +10742,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2014-三-1"
+      ]
     },
     {
       "id": "2014-分析-02",
@@ -8868,7 +10760,9 @@
       "difficulty": "较难",
       "stem": "图（a）所示为直齿圆锥—斜齿圆柱齿轮两级减速器。在图（b）中：（1）分别标出这三个齿轮受力作用点和三个分力（圆周力 $F_t$、径向力 $F_r$、轴向力 $F_a$）的方向（若某力作用线垂直纸面，则说明垂直纸面箭头朝里或朝外）；（2）用文字说明斜齿圆柱齿轮是左旋齿轮还是右旋齿轮。",
       "images": [
-        "/images/questions/2014-分析-02.png"
+        "/images/questions/2014-分析-02.png",
+        "/images/questions/2014-4-1a.png",
+        "/images/questions/2014-4-1b.png"
       ],
       "answer": "（1）各啮合点受力方向：\n- 锥齿轮 1（主动）：$F_{t1}$ 垂直纸面向里（$\\otimes$），$F_{r1}$ 由啮合点指向自身轴线，$F_{a1}$ 沿轴线指向锥顶（小端）方向。\n- 锥齿轮 2：$F_{t2}$ 与 $F_{t1}$ 等值反向，垂直纸面向外（$\\odot$）；$F_{r2}$ 指向其轴线；$F_{a2}$ 沿轴向、与 $F_{a1}$ 反向。\n- 斜齿轮 3：$F_{t3}$ 与转向相反（主动轮），$F_{r3}$ 指向轮心，$F_{a3}$ 沿轴向。\n（2）斜齿轮 3 为「右旋」，斜齿轮 4 为「左旋」。\n理由：3 与 4 是外啮合的一对斜齿轮，两者的旋向必须相反（外啮合的正确啮合条件）；而 3 具体取左还是取右，要由「使轴 Ⅱ 轴向力最小」确定——轴 Ⅱ 上还装着锥齿轮 2，斜齿轮 3 的轴向力应与锥齿轮 2 的轴向力方向相反、相互抵消，按图示 $n_1$ 方向判定即得斜齿轮 3 取右旋。",
       "explanation": "考点：锥齿轮与斜齿轮的受力分析。要点：① 锥齿轮的 $F_a$ 恒指向锥顶（大端）、$F_r$ 指向自身轴线，两轮对应分力等值反向；② 圆周力 $F_t$ 方向：主动轮与转向相反、从动轮与转向相同；③ 斜齿轮旋向由「同轴两轮的轴向力相互抵消」这一条件反推，再按外啮合旋向必须相反而定配对轮的旋向。（原答案的结论正确，但把理由写成「同一轴上两轮旋向相反」，实际 3 与 4 是啮合的一对、不在同一轴上，此处已更正表述。）",
@@ -8901,7 +10795,17 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E5",
+        "E6"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2014-四-1"
+      ]
     },
     {
       "id": "2014-计算-01",
@@ -8910,7 +10814,8 @@
       "difficulty": "较难",
       "stem": "图示为一个大传动比的减速器，已知各轮齿数为 $z_1=100$，$z_2=101$，$z_3=100$，$z_4=99$，求原动件 $H$ 对从动件 1 的传动比 $i_{H1}$，并说明两者的转向是相同还是相反。",
       "images": [
-        "/images/questions/2014-计算-01.png"
+        "/images/questions/2014-计算-01.png",
+        "/images/questions/2014-5-1.png"
       ],
       "answer": "该轮系为行星轮系（系杆 $H$ 为原动件，中心轮 4 固定，$n_4=0$）。转化轮系传动比：\n$$i_{14}^{H}=\\dfrac{n_1-n_H}{n_4-n_H}=+\\dfrac{z_2\\,z_4}{z_1\\,z_3}=\\dfrac{101\\times99}{100\\times100}=\\dfrac{9999}{10000}=0.9999$$\n（符号取正：1 为内齿圈与行星轮 2 内啮合、3 与中心轮 4 外啮合，一次内啮合一次外啮合，转化轮系中 1、4 转向相同。）\n代入 $n_4=0$：\n$$\\dfrac{n_1-n_H}{-n_H}=0.9999\\Rightarrow n_1-n_H=-0.9999\\,n_H\\Rightarrow n_1=0.0001\\,n_H$$\n$$\\therefore\\ i_{H1}=\\dfrac{n_H}{n_1}=10000$$\n$n_1$ 与 $n_H$ 同号，故两者「转向相同」。",
       "explanation": "考点：行星轮系（大传动比、少齿差型）的转化机构法。关键在于 $i_{14}^{H}$ 的符号：本例 1 是内齿圈、4 是中心轮，一次内啮合 + 一次外啮合，转化轮系中 1 与 4 同向，故取正号 $+0.9999$；若误取负号会得到 $i_{H1}\\approx0.5$ 的荒谬结果。齿数差只有 1 齿（100 与 99、101 与 100），所以 $i_{H1}$ 极大（$=10000$），这正是少齿差行星传动能获得大传动比的原因。",
@@ -8941,7 +10846,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F2"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2014-五-1"
+      ]
     },
     {
       "id": "2014-计算-02",
@@ -8950,7 +10864,8 @@
       "difficulty": "较难",
       "stem": "一轴支承在一对角接触球轴承上，轴承布置如图，已知两轴承所受径向载荷 $F_{R1}=F_{R2}=600$ N，轴另受有轴向外载荷 $F_{ae}=1000$ N，试计算两轴承所受的轴向力 $F_{a1}$、$F_{a2}$（内部轴向力 $F_{d1}=F_{d2}=0.5F_R$）。",
       "images": [
-        "/images/questions/2014-计算-02.png"
+        "/images/questions/2014-计算-02.png",
+        "/images/questions/2014-6-1.png"
       ],
       "answer": "① 派生（内部）轴向力：\n$$F_{d1}=F_{d2}=0.5\\times600=300\\ \\text{N}$$\n② 判压紧端：图上轴承 2 在左、轴承 1 在右，$F_{ae}$ 箭头指向右（即指向轴承 1），与轴承 1 的受压方向一致。\n$$F_{d1}+F_{ae}=300+1000=1300\\ \\text{N}>F_{d2}=300\\ \\text{N}$$\n故轴有向右窜动的趋势，「轴承 1 被压紧、轴承 2 被放松」。\n③ 轴向力：\n$$F_{a1}=F_{d2}+F_{ae}=300+1000=1300\\ \\text{N},\\qquad F_{a2}=F_{d2}=300\\ \\text{N}$$\n校核：$F_{a1}-F_{a2}=1300-300=1000\\ \\text{N}=F_{ae}$，轴向力平衡。",
       "explanation": "考点：成对角接触轴承的轴向力计算。方法：① 先算派生力 $F_d=0.5F_R$；② 比较「一端派生力 + 外载荷」与另一端派生力，较大的一端对应的另一侧被压紧；③ 压紧端 $F_a$ = 放松端 $F_d$ + 外载荷，放松端 $F_a$ = 自身 $F_d$；④ 用 $\\sum F_a=F_{ae}$ 校核。本题的易错点是轴承编号——图上 2 在左、1 在右，$F_{ae}$ 指向右，压紧的是「轴承 1」，（原库曾把两轴承的编号弄反，写成 $F_{a1}=300$、$F_{a2}=1300$，已更正。）",
@@ -8981,7 +10896,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2014-六-1"
+      ]
     },
     {
       "id": "2014-分析-03",
@@ -8990,7 +10914,8 @@
       "difficulty": "较难",
       "stem": "改错题。依次以 A、B、C、D 四个区域中，说明图中轴的结构设计有哪些错误处，至少说明 6 个错因，并在答题纸上画图说明。",
       "images": [
-        "/images/questions/2014-分析-03.png"
+        "/images/questions/2014-分析-03.png",
+        "/images/questions/2014-7-1.png"
       ],
       "answer": "A 区：\n① 联轴器左端无轴向固定——应设置轴端挡圈（或圆螺母）；\n② 联轴器与轴无周向固定——应加设平键。\nB 区：\n③ 轴承端盖与箱体之间无凸台（加工面过大）——应在箱体上设计凸台，减小精加工面；\n④ 套筒（或轴肩）高度高于轴承内圈高度——不便轴承拆卸，应低于内圈端面。\nC 区：\n⑤ 齿轮与轴无周向固定——应加设平键；\n⑥ 与齿轮配合的轴段长度等于齿轮轮毂宽度——应略短于轮毂宽度（一般短 1~2 mm），以保证轴肩/套筒可靠压紧齿轮端面。\nD 区（原答案未作答，以下按标准方法补写）：\n⑦ 轴承端盖与轴之间应留有间隙，并设置密封装置（毡圈/唇形密封圈）；\n⑧ 右端轴承内圈外端无轴向固定（应加轴用弹性挡圈或圆螺母）。",
       "explanation": "考点：轴系结构设计常见错误。归纳为四类——定位与固定（轴向、周向）、装拆工艺（轴肩高度、轴段长度、倒角）、加工工艺（凸台、越程槽）、密封与润滑。原手写答案只给了 A、B、C 三区共 6 处，D 区两处为按标准方法补写。",
@@ -9023,7 +10948,16 @@
       "source_years": [
         2014
       ],
-      "source": "2014年855机械设计基础真题（A 卷）"
+      "source": "2014年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2014-七-1"
+      ]
     },
     {
       "id": "2015-填空-01",
@@ -9060,7 +10994,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B4"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2015-一-1"
+      ]
     },
     {
       "id": "2015-填空-02",
@@ -9096,7 +11039,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B1"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2015-一-2"
+      ]
     },
     {
       "id": "2015-填空-03",
@@ -9133,7 +11085,17 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D1",
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2015-一-3"
+      ]
     },
     {
       "id": "2015-填空-04",
@@ -9172,7 +11134,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E5"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2015-一-4"
+      ]
     },
     {
       "id": "2015-填空-05",
@@ -9208,7 +11179,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E1"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2015-一-5"
+      ]
     },
     {
       "id": "2015-填空-06",
@@ -9244,7 +11224,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2015-一-6"
+      ]
     },
     {
       "id": "2015-填空-07",
@@ -9282,7 +11271,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2015-一-7"
+      ]
     },
     {
       "id": "2015-简答-01",
@@ -9320,7 +11318,17 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G1",
+        "G3"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2015-二-1"
+      ]
     },
     {
       "id": "2015-分析-01",
@@ -9363,7 +11371,18 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B3",
+        "C5"
+      ],
+      "trae_chapters": [
+        "B",
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2015-三-1"
+      ]
     },
     {
       "id": "2015-分析-02",
@@ -9372,7 +11391,8 @@
       "difficulty": "较难",
       "stem": "计算图示机构的自由度，并判断机构是否具有确定的运动。（画箭头的为原动件，如有复合铰链、虚约束、局部自由度须指出）",
       "images": [
-        "/images/questions/2015-分析-02.png"
+        "/images/questions/2015-分析-02.png",
+        "/images/questions/2015-4-1.png"
       ],
       "answer": "识别特殊结构：\n- 「复合铰链」：$D$ 处（杆 $GD$、杆 $DE$、杆 $DC$ 三构件汇交，按 2 个转动副计）；\n- 「局部自由度」：滚子 $A$（自转不影响输出运动，计算时与摆杆 $CA$ 视为一体）；\n- 「虚约束」：顶部水平杆的两端 $H$、$K$ 都与机架组成移动副、两条导路重合，属重复约束，计算时只计 1 个移动副（$G$ 是水平杆上的铰点，不是机架点）。\n\n去除虚约束后：$n=7$（水平杆、杆 $GD$、杆 $DE$、杆 $FE$、杆 $DC$、杆 $CA$、凸轮），$P_L=9$（$H$ 处移动副 1 + $G$ 处铰 1 + $D$ 处 2 + $E$ 处 1 + $F$ 处 1 + $C$ 处 1 + $A$ 处 1 + 凸轮中心 1），$P_H=1$（滚子 $A$ 与凸轮）：\n$$F=3n-2P_L-P_H=3\\times7-2\\times9-1=2$$\n原动件数 $W=1<F=2$，故机构「没有确定的运动」（运动不确定）。",
       "explanation": "考点：复合铰链、局部自由度、虚约束的识别与自由度计算。本题的虚约束是「同一构件（顶部水平杆）与机架组成两个导路重合的移动副」，位置在 $H$、$K$ 两端；$G$ 只是水平杆上的一个铰点，把虚约束记到 $G$ 上是错的。算得 $F=2$ 而原动件只有 1 个，运动才不确定——这正是本题的落脚点。（原库把虚约束位置误记为「$G$、$H$ 之一」，已更正。）",
@@ -9401,7 +11421,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2015-四-1"
+      ]
     },
     {
       "id": "2015-计算-01",
@@ -9433,7 +11462,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E11"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2015-四-2"
+      ]
     },
     {
       "id": "2015-计算-02",
@@ -9442,7 +11480,8 @@
       "difficulty": "较难",
       "stem": "图示传动。（1）确定并画出各齿轮的转动方向；（2）欲使中间轴 Ⅱ 所受轴向力 $F_a$ 最小，斜齿轮 3、4 轮的旋向如何？（3）画图标出两对齿轮所受径向力 $F_r$、圆周力 $F_t$ 及轴向力 $F_a$ 的方向。",
       "images": [
-        "/images/questions/2015-计算-02.png"
+        "/images/questions/2015-计算-02.png",
+        "/images/questions/2015-4-3.png"
       ],
       "answer": "（1）各轮转向：按 $n_1$ 方向，锥齿轮 1 与锥齿轮 2 啮合，$n_2$ 的方向由锥齿轮啮合点处圆周速度方向确定；斜齿轮 3 与锥齿轮 2 同轴，故 $n_3=n_2$；3、4 为外啮合，故 $n_4$ 与 $n_3$ 相反。即 Ⅱ 轴与 Ⅲ 轴转向相反（画箭头时注意 3、4 外啮合，两轮在啮合点处的圆周速度同向）。\n（2）旋向：轴 Ⅱ 上装着的是「锥齿轮 2」与「斜齿轮 3」（不是两个斜齿轮）。\n- 锥齿轮 2 的轴向力 $F_{a2}$ 由其啮合关系确定，方向沿轴线指向大端；\n- 要使 Ⅱ 轴轴向力最小，斜齿轮 3 的轴向力 $F_{a3}$ 必须与 $F_{a2}$ 方向相反，据此用左右手定则由 $n_3$ 的转向反推斜齿轮 3 的旋向；\n- 斜齿轮 4 与斜齿轮 3 外啮合，两者的旋向必须相反。\n按图示 $n_1$ 方向判定，斜齿轮 3 取「右旋」、斜齿轮 4 取「左旋」（若 $n_1$ 反向，则两轮旋向同时取反）。\n（3）受力方向：主动轮 1 的 $F_{t1}$ 与其转向相反，从动轮 2 的 $F_{t2}$ 与其转向相同；$F_r$ 一律指向各自轮心；$F_a$ 按旋向与转向用左右手定则判定。中间轴 Ⅱ 上锥齿轮 2 与斜齿轮 3 的 $F_a$ 方向相反、相互抵消。",
       "explanation": "考点：锥齿轮 + 斜齿轮组合传动的受力与旋向。核心结论与 2013 年第七题、2017 年第五题一致：「同一轴上一主一从的两个斜齿类零件，要使轴向力相互抵消，其螺旋线方向应取相同（这里表现为「斜齿轮 3 的轴向力与锥齿轮 2 的轴向力反向」）」；而外啮合的一对斜齿轮（3 与 4）旋向必须相反。本题的易错点是把轴 Ⅱ 上的锥齿轮 2 误当成斜齿轮（原库写成「两个斜齿轮 2 与 3」，已更正），锥齿轮的轴向力方向规则与斜齿轮不同。",
@@ -9467,7 +11506,17 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E5",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2015-四-3"
+      ]
     },
     {
       "id": "2015-计算-03",
@@ -9476,7 +11525,8 @@
       "difficulty": "较难",
       "stem": "如图所示一对轴承支承的轴系，轴承反装（背靠背），已知两个轴承的径向载荷分别为 $F_{R1}=2500$ N，$F_{R2}=5000$ N，轴上作用的轴向外载荷 $F_A=1000$ N，轴承内部轴向力 $F_S=0.7F_R$。试求轴承 1 和轴承 2 的轴向载荷 $F_{a1}$、$F_{a2}$。",
       "images": [
-        "/images/questions/2015-计算-03.png"
+        "/images/questions/2015-计算-03.png",
+        "/images/questions/2015-4-4.png"
       ],
       "answer": "① 内部（派生）轴向力：\n$$F_{S1}=0.7F_{R1}=0.7\\times2500=1750\\ \\text{N},\\qquad F_{S2}=0.7F_{R2}=0.7\\times5000=3500\\ \\text{N}$$\n② 判压紧端：$F_A$ 指向左（轴承 1 一侧），压紧端就在轴承 1 一侧，压紧端 $F_a$ 取「另一端派生力 + $F_A$」：\n$$F_{a1}=F_{S2}+F_A=3500+1000=4500\\ \\text{N},\\qquad F_{a2}=F_{S2}=3500\\ \\text{N}$$\n③ 校核：\n- $F_{a1}=4500\\ge F_{S1}=1750$ ✓，$F_{a2}=3500=F_{S2}$ ✓；\n- 轴向力平衡：$F_{a1}-F_{a2}=4500-3500=1000\\ \\text{N}=F_A$ ✓。\n故 $F_{a1}=4500\\ \\text{N}$、$F_{a2}=3500\\ \\text{N}$。",
       "explanation": "考点：成对圆锥滚子轴承（反装）的轴向载荷计算。「统一判据」：$F_A$ 指向哪一端，压紧端就是哪一端；压紧端 $F_a$ = 另一端的派生力 + $F_A$，放松端 $F_a$ = 自身派生力；再用「$F_a\\ge$ 自身派生力」与「轴向力平衡」两条校核。本题 $F_A$ 指向轴承 1，故 $F_{a1}=F_{S2}+F_A=4500$、$F_{a2}=F_{S2}=3500$。随卷手写答案给 3500/2500、原库曾改成 1750/2750，两组都不满足以上校核（1750/2750 甚至出现 $F_{a2}=2750<F_{S2}=3500$，轴承 2 承受的轴向载荷不可能小于它自己产生的派生力），已更正。",
@@ -9503,7 +11553,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2015-四-4"
+      ]
     },
     {
       "id": "2015-分析-03",
@@ -9512,7 +11571,8 @@
       "difficulty": "中等",
       "stem": "作图改错：图所示为三种螺纹连接的画法，均有错误。请把正确的螺纹连接图分别画在答题纸上。",
       "images": [
-        "/images/questions/2015-分析-03.png"
+        "/images/questions/2015-分析-03.png",
+        "/images/questions/2015-5-1.png"
       ],
       "answer": "",
       "explanation": "考点：螺纹连接的画法规定（三个常见错误）。① 螺栓连接：被连接件通孔直径应略大于螺纹大径（约 1.1d），两被连接件的剖面线方向应相反，螺栓与孔之间应有间隙；螺母、螺栓头六角形的三个可见面要正确表达，螺纹终止线、倒角要画全。② 双头螺柱连接：旋入端螺纹应全部旋入被连接件的螺纹孔内，螺纹终止线与结合面平齐，钻孔底部应画出钻头锥角（约 120°），螺纹孔深度大于旋入深度。③ 螺钉连接：螺钉末端应画出倒角或锥端，螺纹终止线应高于被连接件孔口 2~3 个螺距，螺钉头部不得与被连接件表面贴合过紧（应有间隙表达）。",
@@ -9531,7 +11591,16 @@
       "source_years": [
         2015
       ],
-      "source": "2015年855机械设计基础真题（A 卷）"
+      "source": "2015年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2015-五-1"
+      ]
     },
     {
       "id": "2017-选择-01",
@@ -9584,7 +11653,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C1"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2017-一-1"
+      ]
     },
     {
       "id": "2017-选择-02",
@@ -9636,7 +11714,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2017-一-2"
+      ]
     },
     {
       "id": "2017-选择-04",
@@ -9691,7 +11778,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2017-一-4"
+      ]
     },
     {
       "id": "2017-选择-05",
@@ -9743,7 +11839,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "M1"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2017-一-5"
+      ]
     },
     {
       "id": "2017-选择-06",
@@ -9798,7 +11903,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K2"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2017-一-6"
+      ]
     },
     {
       "id": "2017-选择-08",
@@ -9850,7 +11964,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2017-一-8"
+      ]
     },
     {
       "id": "2017-选择-09",
@@ -9902,7 +12025,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "J2"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2017-一-9"
+      ]
     },
     {
       "id": "2017-选择-10",
@@ -9954,7 +12086,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G1"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2017-一-10"
+      ]
     },
     {
       "id": "2017-简答-01",
@@ -9987,7 +12128,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E8"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2017-二-1"
+      ]
     },
     {
       "id": "2017-简答-02",
@@ -10020,7 +12170,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2017-二-2"
+      ]
     },
     {
       "id": "2017-简答-03",
@@ -10059,7 +12218,17 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I2",
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2017-二-3"
+      ]
     },
     {
       "id": "2017-简答-04",
@@ -10097,7 +12266,17 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G1",
+        "G3"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2017-二-4"
+      ]
     },
     {
       "id": "2017-简答-05",
@@ -10135,7 +12314,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "M3"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2017-二-5"
+      ]
     },
     {
       "id": "2017-分析-01",
@@ -10144,7 +12332,8 @@
       "difficulty": "中等",
       "stem": "图示中 Ⅰ、Ⅱ、Ⅲ、Ⅳ 轴是心轴、转轴、还是传动轴？",
       "images": [
-        "/images/questions/2017-分析-01.png"
+        "/images/questions/2017-分析-01.png",
+        "/images/questions/2017-3-1.png"
       ],
       "answer": "$\\mathrm{I}$、$\\mathrm{III}$、$\\mathrm{IV}$：「转轴」（既承受弯矩又传递转矩）。\n$\\mathrm{II}$：「心轴」（轴上的齿轮为惰轮，只改变转向、不传递转矩，故该轴只承受弯矩）。\n（补充：图中 $O$ 为电动机与减速器之间的轴，只传转矩，属传动轴；$\\mathrm{V}$ 为卷筒轴，一般也是心轴。）",
       "explanation": "考点：按承载情况给轴分类。判断关键是看轴上零件与轴之间是否传递转矩：齿轮（带轮）与轴用键固连 → 传递转矩 → 转轴；齿轮空套在轴上（惰轮）或轴本身不转 → 只受弯矩 → 心轴。",
@@ -10174,7 +12363,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2017-三-1"
+      ]
     },
     {
       "id": "2017-分析-02",
@@ -10183,7 +12381,8 @@
       "difficulty": "较难",
       "stem": "指出图示机构中的复合铰链、局部自由度和虚约束，计算机构的自由度，并判断机构的运动是否确定（凸轮为原动件）。",
       "images": [
-        "/images/questions/2017-分析-02.png"
+        "/images/questions/2017-分析-02.png",
+        "/images/questions/2017-4-1.png"
       ],
       "answer": "识别特殊结构：\n- 「复合铰链」：$B$ 处与 $C$ 处各有一个。$B$ 处由凸轮（及其上的杆）、杆 $CB$、杆 $BF$ 三构件汇交，按 2 个转动副计；$C$ 处由杆 $CE$、杆 $CD$、杆 $CB$ 三构件汇交，同样按 2 个转动副计。\n- 「局部自由度」：滚子 $D$（只绕自身轴线自转，不影响输出运动，计算时与杆 $CD$ 视为一个构件）。\n- 「虚约束」：下部的杆 $GH$ 两端 $G$、$H$ 都铰接在机架上，是多余约束，计算时去除；去除后 $F$ 处按与机架铰接计 1 个转动副。\n\n去除虚约束、扣除局部自由度后：$n=6$（凸轮、滑块 $E$、杆 $CE$、杆 $CD$（含滚子 $D$）、杆 $CB$、杆 $BF$），$P_L=8$（$A$ 处 1 + $E$ 处移动副 1 + $E$ 处转动副 1 + $B$ 处 2 + $C$ 处 2 + $F$ 处 1），$P_H=1$（滚子 $D$ 与凸轮）。\n$$F=3n-2P_L-P_H=3\\times6-2\\times8-1=1$$\n原动件（凸轮）数为 1，等于自由度数，故机构「具有确定的运动」。",
       "explanation": "考点：三类特殊结构的识别。判断依据：① 复合铰链看同一铰点汇交的构件数 $m$，转动副数为 $m-1$；② 局部自由度看滚子是否只自转而不影响输出；③ 虚约束看是否存在「两端都连机架」的杆件。原手写答案给「复合铰链＝$B$、虚约束＝滚子 $D$、局部自由度＝$G$、$H$ 之一」，其中只有「$B$ 处是复合铰链」一项成立（本答案另补出 $C$ 处）；滚子 $D$ 只自转，应归为局部自由度；$G$、$H$ 是机架上的固定铰点，不是局部自由度，真正的虚约束是两端都铰接机架的杆 $GH$，此处已按图更正。计算结果 $F=1$、结论「有确定运动」与之一致。",
@@ -10215,7 +12414,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2017-四-1"
+      ]
     },
     {
       "id": "2017-计算-01",
@@ -10224,7 +12432,8 @@
       "difficulty": "较难",
       "stem": "图（3）所示二级齿轮传动。1、确定并画出各齿轮的转动方向；2、欲使中间轴 Ⅱ 所受轴向力 $F_a$ 最小，斜齿轮 3、4 轮齿的旋向如何？3、画图标出两对齿轮所受径向力 $F_r$、$F_t$ 及轴向力 $F_a$ 的方向。",
       "images": [
-        "/images/questions/2017-计算-01.png"
+        "/images/questions/2017-计算-01.png",
+        "/images/questions/2017-5-1.png"
       ],
       "answer": "（1）转向：1、2 外啮合，Ⅱ 轴转向与 Ⅰ 轴相反；3、4 外啮合，Ⅲ 轴转向与 Ⅱ 轴相反。即「轮 2、轮 3 转向向左，轮 4 转向向右」。\n（2）旋向：中间轴 Ⅱ 上同时装着齿轮 2 与齿轮 3，二者转向相同，但齿轮 2 是从动轮、齿轮 3 是主动轮，判定轴向力时必须用相反的手（主动轮右旋用右手、从动轮右旋用左手）。因此只要两轮的「螺旋线方向相同」，$F_{a2}$ 与 $F_{a3}$ 就方向相反、相互抵消，Ⅱ 轴所受轴向力最小。\n再看啮合条件：1 与 2 外啮合、3 与 4 外啮合，两对外啮合齿轮的旋向都必须相反。由图中齿轮 1 的齿线方向（左旋）推出：齿轮 2 右旋 $\\rightarrow$ 齿轮 3 右旋 $\\rightarrow$ 齿轮 4 左旋。\n故「斜齿轮 3 取右旋、斜齿轮 4 取左旋」（若齿轮 1 为右旋，则 3、4 的旋向整体互换）。\n（3）受力方向：主动轮 1 的 $F_{t1}$ 与转向相反、从动轮 2 的 $F_{t2}$ 与转向相同；$F_r$ 一律沿半径指向轮心；$F_a$ 按旋向用左右手定则判定，中间轴两轮的 $F_a$ 方向相反、相互抵消。",
       "explanation": "考点：斜齿轮传动的转向与轴向力。核心结论：同一轴上两个斜齿轮（一主一从）「螺旋线方向相同」时，轴向力方向相反、可相互抵消；而外啮合的两轮旋向必须相反（1 与 2、3 与 4）。两者合起来即：齿轮 3 与齿轮 2 同旋向、齿轮 4 与齿轮 1 同旋向。原手写答案给出的「轮 3 右旋、轮 4 左旋」，正是由「齿轮 1 左旋」推得的正确结果（齿轮 2 右旋、齿轮 3 右旋、齿轮 4 左旋），已核对无误，予以保留。",
@@ -10255,7 +12464,17 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E5",
+        "E6"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2017-五-1"
+      ]
     },
     {
       "id": "2017-计算-02",
@@ -10264,7 +12483,8 @@
       "difficulty": "较难",
       "stem": "图示轮系中，已知各轮齿数为 $z_1=z_5=z_4=z_{4'}=20$，$z_2=80$，$z_3=60$，试求 $i_{1B}$，并说明 A、B 的转向关系。",
       "images": [
-        "/images/questions/2017-计算-02.png"
+        "/images/questions/2017-计算-02.png",
+        "/images/questions/2017-6-1.png"
       ],
       "answer": "① 定轴部分（1—2）：\n$$i_{12}=\\dfrac{n_1}{n_2}=-\\dfrac{z_2}{z_1}=-\\dfrac{80}{20}=-4$$\n② 周转部分：3、4、$4'$、5 与系杆 $B$ 组成行星轮系。其中 3 是内齿圈（$z_3=60$），与行星轮 4 内啮合；4 与 $4'$ 固连成双联行星轮；$4'$ 与中心轮 5 外啮合；中心轮 5 固定，$n_5=0$。\n中心距校核：$a_{34}=\\dfrac{(z_3-z_4)m}{2}=\\dfrac{(60-20)m}{2}=20m$，$a_{4'5}=\\dfrac{(z_{4'}+z_5)m}{2}=\\dfrac{(20+20)m}{2}=20m$，两者相等，结构成立。\n$$i_{35}^{B}=\\dfrac{n_3-n_B}{n_5-n_B}=-\\dfrac{z_4\\,z_5}{z_3\\,z_{4'}}=-\\dfrac{20\\times20}{60\\times20}=-\\dfrac{1}{3}$$\n代入 $n_5=0$：$\\dfrac{n_3-n_B}{-n_B}=-\\dfrac{1}{3}\\Rightarrow n_3=\\dfrac{4}{3}n_B$\n③ 因 $n_2=n_3$，得 $n_1=-4n_3=-4\\times\\dfrac{4}{3}n_B=-\\dfrac{16}{3}n_B$\n$$\\therefore\\ i_{1B}=\\dfrac{n_1}{n_B}=-\\dfrac{16}{3}\\approx-5.33$$\n负号说明 「A 与 B 的转向相反」。",
       "explanation": "考点：复合轮系（定轴 + 周转）。要点：① $i_{12}$ 为外啮合，取负号；② $i_{35}^{B}$ 的路径是 3（内齿圈）$\\rightarrow 4$（内啮合，取 +）$\\rightarrow 4'$（同轴）$\\rightarrow 5$（外啮合，取 $-$），故 $i_{35}^{B}=-\\dfrac{z_4z_5}{z_3z_{4'}}=-\\dfrac{1}{3}$；③ 把 $n_5=0$ 代入后得 $n_3=\\dfrac{4}{3}n_B$。原手写答案写的是 $i_{35}^{B}=-3$（把 $\\dfrac{1}{3}$ 误当成 3），由此得 $n_3=4n_B$、$i_{1B}=-16$，数值不对；按本题齿数应为 $i_{1B}=-\\dfrac{16}{3}\\approx-5.33$，转向关系（A、B 反向）与之一致。\n（交叉验证：老魏版答案册此题结果为 $i_{1B}=-16$，系把转化轮系传动比误写为 $-3$——3→4 为内啮合、4'→5 为外啮合，应为 $-\\dfrac{z_4z_5}{z_3z_{4'}}=-\\dfrac{1}{3}$ 而非 $-3$。本答案按转化轮系法复核，维持 $-\\dfrac{16}{3}$。）",
@@ -10293,7 +12513,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2017-六-1"
+      ]
     },
     {
       "id": "2017-计算-03",
@@ -10302,7 +12531,8 @@
       "difficulty": "较难",
       "stem": "图示螺栓连接中采用 4 个 M20 的螺栓（M20 小径 $d_1=17.294$ mm），其许用拉应力 $[\\sigma]=160$ MPa，被连接件接合面间的摩擦系数 $f=0.2$，若考虑摩擦传力的可靠性系数 $C=1.2$，试计算该连接允许传递的静载荷 $F$。",
       "images": [
-        "/images/questions/2017-计算-03.png"
+        "/images/questions/2017-计算-03.png",
+        "/images/questions/2017-7-1.png"
       ],
       "answer": "由图可知为双摩擦面（中间板受 $F$，上、下板各受 $F/2$），故接合面数 $m=2$，螺栓数 $z=4$。\n① 螺栓的强度条件（紧螺栓，拉应力放大 1.3 倍）：\n$$\\sigma=\\dfrac{1.3F_0}{\\dfrac{\\pi d_1^2}{4}}\\le[\\sigma]$$\n$$F_0\\le\\dfrac{\\pi d_1^2[\\sigma]}{4\\times1.3}=\\dfrac{\\pi\\times17.294^2\\times160}{4\\times1.3}\\approx2.891\\times10^{4}\\ \\text{N}=28.91\\ \\text{kN}$$\n② 由摩擦传力条件（防滑条件）：\n$$F\\le\\dfrac{f\\,z\\,m\\,F_0}{C}=\\dfrac{0.2\\times4\\times2\\times28911}{1.2}\\approx3.85\\times10^{4}\\ \\text{N}=38.5\\ \\text{kN}$$\n故该连接允许传递的静载荷约为 $F\\approx38.5$ kN。",
       "explanation": "考点：普通螺栓组承受横向载荷。① 强度条件中必须计入拧紧时的扭转切应力，即乘以 1.3；② 防滑条件 $F\\le\\dfrac{fzmF_0}{C}$，其中 $m$ 为摩擦面数（本题为 2）、$z$ 为螺栓数、$C$ 为可靠性系数（防滑系数）。原手写答案漏乘 1.3（取 $F_0\\le37565$ N），得 $F\\approx50086$ N，已更正。\n（交叉验证：老魏版答案册结果为 $F \\le 19.27\\ \\mathrm{kN}$，系摩擦传力条件中漏乘摩擦面数 $m=2$ 所致——题图为中间板受 $F$、上/下板各受 $F/2$ 的双摩擦面结构。本答案经复核维持原答案。）",
@@ -10335,7 +12565,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2017-七-1"
+      ]
     },
     {
       "id": "2017-分析-03",
@@ -10344,7 +12583,8 @@
       "difficulty": "较难",
       "stem": "图示轴系结构设计中存在错误，请指出（至少 7 处），并在错误处标上序号，按序号说明错误原因。（注：齿轮用油润滑，轴承用脂润滑）",
       "images": [
-        "/images/questions/2017-分析-03.png"
+        "/images/questions/2017-分析-03.png",
+        "/images/questions/2017-8-1.png"
       ],
       "answer": "① 左侧轴承右侧的轴肩高度高于轴承内圈高度——不便于轴承拆卸，轴肩应低于内圈端面；\n② 两处键槽没有布置在同一母线上——应设计在同一轴线上，便于一次装夹加工；\n③ 齿轮左右两端均用轴肩（套筒）作轴向固定——齿轮无法装拆，应一端用轴肩、另一端用套筒（或弹性挡圈）；\n④ 轴承端盖与轴之间没有间隙——端盖孔与轴之间应留有间隙，避免与轴摩擦；\n⑤ 轴承端盖内未设密封装置——应设置毡圈或唇形密封圈（防止脂泄漏、灰尘进入）；\n⑥ 右侧轴承所在轴段的配合轴径过长——应设计台阶（轴肩），减少精加工面、便于装配；\n⑦ 带轮（或联轴器）右端无轴向固定——应设置轴端挡圈（或圆螺母）。",
       "explanation": "考点：轴系结构改错。按「定位固定 → 装拆工艺 → 加工工艺 → 润滑密封」四条线索逐段检查：轴向定位是否重复或不足、键槽是否同母线、轴肩高度与轴段长度是否便于装拆、端盖与轴的间隙与密封是否合理。齿轮油润滑与轴承脂润滑需用挡油环隔开，也是常见考点。",
@@ -10374,7 +12614,16 @@
       "source_years": [
         2017
       ],
-      "source": "2017年855机械设计基础真题（A 卷）"
+      "source": "2017年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2017-八-1"
+      ]
     },
     {
       "options": [
@@ -10434,7 +12683,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2018-一-1"
+      ]
     },
     {
       "options": [
@@ -10493,7 +12751,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E4"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2018-一-2"
+      ]
     },
     {
       "options": [
@@ -10552,7 +12819,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C1"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2018-一-3"
+      ]
     },
     {
       "options": [
@@ -10611,7 +12887,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "H2"
+      ],
+      "trae_chapters": [
+        "H"
+      ],
+      "trae_exam_ids": [
+        "2018-一-4"
+      ]
     },
     {
       "options": [
@@ -10670,7 +12955,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2018-一-5"
+      ]
     },
     {
       "options": [
@@ -10726,7 +13020,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2018-一-6"
+      ]
     },
     {
       "options": [
@@ -10781,7 +13084,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "J2"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2018-一-7"
+      ]
     },
     {
       "options": [
@@ -10840,7 +13152,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I1"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2018-一-8"
+      ]
     },
     {
       "options": [
@@ -10899,7 +13220,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2018-一-9"
+      ]
     },
     {
       "options": [
@@ -10921,7 +13251,8 @@
         }
       ],
       "images": [
-        "/images/questions/2018-选择-10.png"
+        "/images/questions/2018-选择-10.png",
+        "/images/questions/2018-1-10.png"
       ],
       "answer_images": [],
       "tags": [
@@ -10964,7 +13295,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G1"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2018-一-10"
+      ]
     },
     {
       "options": [],
@@ -11002,12 +13342,23 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E10",
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2018-二-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2018-简答-02.png"
+        "/images/questions/2018-简答-02.png",
+        "/images/questions/2018-2-2.png"
       ],
       "answer_images": [],
       "tags": [
@@ -11042,7 +13393,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "O1"
+      ],
+      "trae_chapters": [
+        "O"
+      ],
+      "trae_exam_ids": [
+        "2018-二-2"
+      ]
     },
     {
       "options": [],
@@ -11081,7 +13441,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G6"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2018-二-3"
+      ]
     },
     {
       "options": [],
@@ -11120,12 +13489,22 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "N1"
+      ],
+      "trae_chapters": [
+        "N"
+      ],
+      "trae_exam_ids": [
+        "2018-二-4"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2018-简答-05.png"
+        "/images/questions/2018-简答-05.png",
+        "/images/questions/2018-2-5.png"
       ],
       "answer_images": [],
       "tags": [
@@ -11160,12 +13539,22 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L5"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2018-二-5"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2018-计算-01.png"
+        "/images/questions/2018-计算-01.png",
+        "/images/questions/2018-3-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -11202,7 +13591,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2018-三-1"
+      ]
     },
     {
       "options": [],
@@ -11242,12 +13640,23 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E11",
+        "E5"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2018-四-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2018-计算-03.png"
+        "/images/questions/2018-计算-03.png",
+        "/images/questions/2018-5-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -11284,12 +13693,22 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F2"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2018-五-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2018-计算-04.png"
+        "/images/questions/2018-计算-04.png",
+        "/images/questions/2018-6-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -11326,12 +13745,22 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2018-六-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2018-计算-05.png"
+        "/images/questions/2018-计算-05.png",
+        "/images/questions/2018-7-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -11369,12 +13798,22 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2018-七-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2018-分析-01.png"
+        "/images/questions/2018-分析-01.png",
+        "/images/questions/2018-8-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -11412,12 +13851,23 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E6",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2018-八-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2018-分析-02.png"
+        "/images/questions/2018-分析-02.png",
+        "/images/questions/2018-9-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -11453,7 +13903,16 @@
       "source_years": [
         2018
       ],
-      "source": "2018年855机械设计基础真题（A 卷）"
+      "source": "2018年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2018-九-1"
+      ]
     },
     {
       "options": [
@@ -11509,7 +13968,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D1"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2019-一-1"
+      ]
     },
     {
       "options": [
@@ -11564,7 +14032,17 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E3",
+        "E5"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2019-一-2"
+      ]
     },
     {
       "options": [
@@ -11619,7 +14097,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G2"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2019-一-3"
+      ]
     },
     {
       "options": [
@@ -11674,7 +14161,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L5"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2019-一-4"
+      ]
     },
     {
       "options": [
@@ -11729,7 +14225,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2019-一-5"
+      ]
     },
     {
       "options": [
@@ -11785,7 +14290,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "J2"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2019-一-6"
+      ]
     },
     {
       "options": [
@@ -11840,7 +14354,17 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "M1",
+        "M3"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2019-一-7"
+      ]
     },
     {
       "options": [
@@ -11895,7 +14419,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I1"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2019-一-8"
+      ]
     },
     {
       "options": [
@@ -11952,7 +14485,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C4"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2019-一-9"
+      ]
     },
     {
       "options": [
@@ -12007,7 +14549,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F2"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2019-一-10"
+      ]
     },
     {
       "options": [],
@@ -12046,7 +14597,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2019-二-1"
+      ]
     },
     {
       "options": [],
@@ -12086,7 +14646,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G2"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2019-二-2"
+      ]
     },
     {
       "options": [],
@@ -12124,7 +14693,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E8"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2019-二-3"
+      ]
     },
     {
       "options": [],
@@ -12162,12 +14740,22 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "M2"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2019-二-4"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2019-简答-05.png"
+        "/images/questions/2019-简答-05.png",
+        "/images/questions/2019-2-5.png"
       ],
       "answer_images": [],
       "tags": [
@@ -12202,12 +14790,22 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "O1"
+      ],
+      "trae_chapters": [
+        "O"
+      ],
+      "trae_exam_ids": [
+        "2019-二-5"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2019-分析-01.png"
+        "/images/questions/2019-分析-01.png",
+        "/images/questions/2019-3-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -12244,12 +14842,22 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C1"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2019-三-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2019-分析-02.png"
+        "/images/questions/2019-分析-02.png",
+        "/images/questions/2019-4-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -12287,12 +14895,23 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E6",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2019-四-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2019-分析-03.png"
+        "/images/questions/2019-分析-03.png",
+        "/images/questions/2019-5-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -12328,12 +14947,22 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2019-五-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2019-计算-01.png"
+        "/images/questions/2019-计算-01.png",
+        "/images/questions/2019-6-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -12368,12 +14997,22 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2019-六-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2019-计算-02.png"
+        "/images/questions/2019-计算-02.png",
+        "/images/questions/2019-7-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -12409,12 +15048,24 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2019-七-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2019-计算-03.png"
+        "/images/questions/2019-计算-03.png",
+        "/images/questions/2019-8-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -12450,12 +15101,23 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I4",
+        "I5"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2019-八-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2019-计算-04.png"
+        "/images/questions/2019-计算-04.png",
+        "/images/questions/2019-9-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -12492,7 +15154,16 @@
       "source_years": [
         2019
       ],
-      "source": "2019年855机械设计基础真题（A 卷）"
+      "source": "2019年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2019-九-1"
+      ]
     },
     {
       "options": [],
@@ -12526,7 +15197,18 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2020-一-1"
+      ]
     },
     {
       "options": [],
@@ -12559,7 +15241,16 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D3"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2020-一-2"
+      ]
     },
     {
       "options": [],
@@ -12592,7 +15283,17 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E1",
+        "E4"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2020-一-3"
+      ]
     },
     {
       "options": [],
@@ -12627,7 +15328,17 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E2",
+        "E5"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2020-一-4"
+      ]
     },
     {
       "options": [],
@@ -12661,7 +15372,17 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I5",
+        "I6"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2020-一-5"
+      ]
     },
     {
       "options": [],
@@ -12694,7 +15415,16 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E10"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2020-一-6"
+      ]
     },
     {
       "options": [],
@@ -12727,7 +15457,16 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2020-一-7"
+      ]
     },
     {
       "options": [],
@@ -12760,7 +15499,16 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G4"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2020-一-8"
+      ]
     },
     {
       "options": [],
@@ -12793,7 +15541,17 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "M1",
+        "M3"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2020-一-9"
+      ]
     },
     {
       "options": [],
@@ -12828,7 +15586,16 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L5"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2020-一-10"
+      ]
     },
     {
       "options": [],
@@ -12868,7 +15635,16 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "O1"
+      ],
+      "trae_chapters": [
+        "O"
+      ],
+      "trae_exam_ids": [
+        "2020-二-1"
+      ]
     },
     {
       "options": [],
@@ -12908,7 +15684,17 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G2",
+        "G6"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2020-二-2"
+      ]
     },
     {
       "options": [],
@@ -12947,7 +15733,16 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2020-二-3"
+      ]
     },
     {
       "options": [],
@@ -12986,7 +15781,17 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D1",
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2020-二-4"
+      ]
     },
     {
       "options": [],
@@ -13026,12 +15831,22 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L1"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2020-二-5"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2020-分析-01.png"
+        "/images/questions/2020-分析-01.png",
+        "/images/questions/2020-3-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13069,12 +15884,23 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E5",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2020-三-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2020-分析-02.png"
+        "/images/questions/2020-分析-02.png",
+        "/images/questions/2020-4-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13111,12 +15937,22 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2020-四-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2020-计算-01.png"
+        "/images/questions/2020-计算-01.png",
+        "/images/questions/2020-5-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13152,12 +15988,22 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2020-五-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2020-计算-02.png"
+        "/images/questions/2020-计算-02.png",
+        "/images/questions/2020-6-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13195,7 +16041,16 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "F2"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2020-六-1"
+      ]
     },
     {
       "options": [],
@@ -13235,12 +16090,23 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E11",
+        "E3"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2020-七-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2020-计算-04.png"
+        "/images/questions/2020-计算-04.png",
+        "/images/questions/2020-8-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13277,12 +16143,23 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L2",
+        "L3"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2020-八-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2020-计算-05.png"
+        "/images/questions/2020-计算-05.png",
+        "/images/questions/2020-9-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13320,7 +16197,16 @@
       "source_years": [
         2020
       ],
-      "source": "2020年855机械设计基础真题（A 卷）"
+      "source": "2020年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2020-九-1"
+      ]
     },
     {
       "options": [],
@@ -13359,7 +16245,17 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "D1",
+        "D3"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2021-一-1"
+      ]
     },
     {
       "options": [],
@@ -13397,7 +16293,17 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E1",
+        "E4"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2021-一-2"
+      ]
     },
     {
       "options": [],
@@ -13435,7 +16341,17 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "G1",
+        "G4"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2021-一-3"
+      ]
     },
     {
       "options": [],
@@ -13473,7 +16389,16 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "M1"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2021-一-4"
+      ]
     },
     {
       "options": [],
@@ -13512,12 +16437,23 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "O1",
+        "O2"
+      ],
+      "trae_chapters": [
+        "O"
+      ],
+      "trae_exam_ids": [
+        "2021-一-5"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2021-分析-01.png"
+        "/images/questions/2021-分析-01.png",
+        "/images/questions/2021-2-1.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13555,7 +16491,16 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2021-二-1"
+      ]
     },
     {
       "options": [],
@@ -13595,12 +16540,23 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "C1",
+        "C2"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2021-二-2"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2021-分析-03.png"
+        "/images/questions/2021-分析-03.png",
+        "/images/questions/2021-2-3.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13639,12 +16595,24 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "E5",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2021-二-3"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2021-计算-01.png"
+        "/images/questions/2021-计算-01.png",
+        "/images/questions/2021-3-1a.png",
+        "/images/questions/2021-3-1b.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13682,12 +16650,22 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2021-三-1"
+      ]
     },
     {
       "options": [],
       "images": [
-        "/images/questions/2021-计算-02.png"
+        "/images/questions/2021-计算-02.png",
+        "/images/questions/2021-3-2.png"
       ],
       "answer_images": [],
       "tags": [
@@ -13723,7 +16701,18 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "L1",
+        "L3",
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2021-三-2"
+      ]
     },
     {
       "options": [],
@@ -13762,7 +16751,17 @@
       "source_years": [
         2021
       ],
-      "source": "2021年855机械设计基础真题（A 卷）"
+      "source": "2021年855机械设计基础真题（A 卷）",
+      "sub_knowledge": [
+        "I4",
+        "I5"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2021-三-3"
+      ]
     },
     {
       "id": "2022-选择-01",
@@ -13822,7 +16821,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "C1"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2022-一-1"
+      ]
     },
     {
       "id": "2022-选择-02",
@@ -13883,7 +16891,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2022-一-2"
+      ]
     },
     {
       "id": "2022-选择-03",
@@ -13943,7 +16960,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "E5"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2022-一-3"
+      ]
     },
     {
       "id": "2022-选择-04",
@@ -14004,7 +17030,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "O2"
+      ],
+      "trae_chapters": [
+        "O"
+      ],
+      "trae_exam_ids": [
+        "2022-一-4"
+      ]
     },
     {
       "id": "2022-选择-05",
@@ -14064,7 +17099,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "I3"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2022-一-5"
+      ]
     },
     {
       "id": "2022-选择-06",
@@ -14125,7 +17169,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "J2"
+      ],
+      "trae_chapters": [
+        "J"
+      ],
+      "trae_exam_ids": [
+        "2022-一-6"
+      ]
     },
     {
       "id": "2022-选择-07",
@@ -14186,7 +17239,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "G5"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2022-一-7"
+      ]
     },
     {
       "id": "2022-选择-08",
@@ -14247,7 +17309,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "E9"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2022-一-8"
+      ]
     },
     {
       "id": "2022-选择-09",
@@ -14307,7 +17378,18 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "A3",
+        "E7"
+      ],
+      "trae_chapters": [
+        "A",
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2022-一-9"
+      ]
     },
     {
       "id": "2022-选择-10",
@@ -14367,7 +17449,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "M2"
+      ],
+      "trae_chapters": [
+        "M"
+      ],
+      "trae_exam_ids": [
+        "2022-一-10"
+      ]
     },
     {
       "id": "2022-简答-01",
@@ -14406,7 +17497,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "C4"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2022-二-1"
+      ]
     },
     {
       "id": "2022-简答-02",
@@ -14444,7 +17544,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "G2"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2022-二-2"
+      ]
     },
     {
       "id": "2022-简答-03",
@@ -14483,7 +17592,18 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "A2",
+        "E8"
+      ],
+      "trae_chapters": [
+        "A",
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2022-二-3"
+      ]
     },
     {
       "id": "2022-简答-04",
@@ -14499,7 +17619,8 @@
       "difficulty": "中等",
       "score": 5,
       "images": [
-        "/images/questions/2022-简答-04.png"
+        "/images/questions/2022-简答-04.png",
+        "/images/questions/2022-2-4.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -14524,7 +17645,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "O1"
+      ],
+      "trae_chapters": [
+        "O"
+      ],
+      "trae_exam_ids": [
+        "2022-二-4"
+      ]
     },
     {
       "id": "2022-简答-05",
@@ -14562,7 +17692,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2022-二-5"
+      ]
     },
     {
       "id": "2022-计算-01",
@@ -14586,7 +17725,8 @@
       "difficulty": "中等",
       "score": 14,
       "images": [
-        "/images/questions/2022-计算-01.png"
+        "/images/questions/2022-计算-01.png",
+        "/images/questions/2022-3-1.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -14608,7 +17748,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2022-三-1"
+      ]
     },
     {
       "id": "2022-计算-02",
@@ -14648,7 +17797,17 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "E4",
+        "E5"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2022-四-1"
+      ]
     },
     {
       "id": "2022-计算-03",
@@ -14673,7 +17832,8 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2022-计算-03.png"
+        "/images/questions/2022-计算-03.png",
+        "/images/questions/2022-5-1.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -14695,7 +17855,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "F2"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2022-五-1"
+      ]
     },
     {
       "id": "2022-计算-04",
@@ -14734,7 +17903,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2022-六-1"
+      ]
     },
     {
       "id": "2022-计算-05",
@@ -14757,7 +17935,8 @@
       "difficulty": "中等",
       "score": 15,
       "images": [
-        "/images/questions/2022-计算-05.png"
+        "/images/questions/2022-计算-05.png",
+        "/images/questions/2022-7-1.png"
       ],
       "answer_images": [
         "/images/questions/2022-计算-05-ans.png"
@@ -14783,7 +17962,17 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "E5",
+        "E6"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2022-七-1"
+      ]
     },
     {
       "id": "2022-计算-06",
@@ -14799,7 +17988,8 @@
       "difficulty": "中等",
       "score": 15,
       "images": [
-        "/images/questions/2022-计算-06.png"
+        "/images/questions/2022-计算-06.png",
+        "/images/questions/2022-8-1.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -14819,7 +18009,17 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "L2",
+        "L3"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2022-八-1"
+      ]
     },
     {
       "id": "2022-计算-07",
@@ -14846,7 +18046,8 @@
       "difficulty": "中等",
       "score": 16,
       "images": [
-        "/images/questions/2022-计算-07.png"
+        "/images/questions/2022-计算-07.png",
+        "/images/questions/2022-9-1.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -14872,7 +18073,16 @@
       "source_years": [
         2022
       ],
-      "source": "2022年855机械设计基础真题"
+      "source": "2022年855机械设计基础真题",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2022-九-1"
+      ]
     },
     {
       "id": "2023-选择-01",
@@ -14924,7 +18134,16 @@
       "source_years": [
         2023
       ],
-      "source": "2023年855机械设计基础真题"
+      "source": "2023年855机械设计基础真题",
+      "sub_knowledge": [
+        "B1"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2023-一-1"
+      ]
     },
     {
       "id": "2023-选择-02",
@@ -14976,7 +18195,16 @@
       "source_years": [
         2023
       ],
-      "source": "2023年855机械设计基础真题"
+      "source": "2023年855机械设计基础真题",
+      "sub_knowledge": [
+        "D1"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2023-一-2"
+      ]
     },
     {
       "id": "2023-简答-01",
@@ -15012,7 +18240,16 @@
       "source_years": [
         2023
       ],
-      "source": "2023年855机械设计基础真题"
+      "source": "2023年855机械设计基础真题",
+      "sub_knowledge": [
+        "G1"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2023-二-1"
+      ]
     },
     {
       "id": "2023-简答-02",
@@ -15048,7 +18285,16 @@
       "source_years": [
         2023
       ],
-      "source": "2023年855机械设计基础真题"
+      "source": "2023年855机械设计基础真题",
+      "sub_knowledge": [
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2023-二-2"
+      ]
     },
     {
       "id": "2023-简答-03",
@@ -15084,7 +18330,16 @@
       "source_years": [
         2023
       ],
-      "source": "2023年855机械设计基础真题"
+      "source": "2023年855机械设计基础真题",
+      "sub_knowledge": [
+        "G5"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2023-二-3"
+      ]
     },
     {
       "id": "2023-计算-02",
@@ -15100,7 +18355,8 @@
       "difficulty": "中等",
       "score": 33,
       "images": [
-        "/images/questions/2023-计算-02.png"
+        "/images/questions/2023-计算-02.png",
+        "/images/questions/2023-3-2.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -15119,7 +18375,17 @@
       "source_years": [
         2023
       ],
-      "source": "2023年855机械设计基础真题"
+      "source": "2023年855机械设计基础真题",
+      "sub_knowledge": [
+        "L3",
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2023-三-2"
+      ]
     },
     {
       "id": "2023-计算-03",
@@ -15144,7 +18410,8 @@
       "difficulty": "较难",
       "score": 33,
       "images": [
-        "/images/questions/2023-计算-03.png"
+        "/images/questions/2023-计算-03.png",
+        "/images/questions/2023-3-3.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -15163,7 +18430,16 @@
       "source_years": [
         2023
       ],
-      "source": "2023年855机械设计基础真题"
+      "source": "2023年855机械设计基础真题",
+      "sub_knowledge": [
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2023-三-3"
+      ]
     },
     {
       "id": "2024-选择-01",
@@ -15220,7 +18496,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "K1"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2024-一-1"
+      ]
     },
     {
       "id": "2024-选择-02",
@@ -15281,7 +18566,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "I1"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2024-一-2"
+      ]
     },
     {
       "id": "2024-选择-03",
@@ -15342,7 +18636,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "D2"
+      ],
+      "trae_chapters": [
+        "D"
+      ],
+      "trae_exam_ids": [
+        "2024-一-3"
+      ]
     },
     {
       "id": "2024-选择-04",
@@ -15403,7 +18706,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "E1"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2024-一-4"
+      ]
     },
     {
       "id": "2024-选择-05",
@@ -15464,7 +18776,17 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "I2",
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2024-一-5"
+      ]
     },
     {
       "id": "2024-选择-06",
@@ -15526,7 +18848,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "G5"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2024-一-6"
+      ]
     },
     {
       "id": "2024-选择-07",
@@ -15583,7 +18914,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "C2"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2024-一-7"
+      ]
     },
     {
       "id": "2024-简答-03",
@@ -15624,7 +18964,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "I2"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2024-二-3"
+      ]
     },
     {
       "id": "2024-计算-01",
@@ -15645,7 +18994,8 @@
       "difficulty": "中等",
       "score": 15,
       "images": [
-        "/images/questions/2024-计算-01.png"
+        "/images/questions/2024-计算-01.png",
+        "/images/questions/2024-3-1.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -15667,7 +19017,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2024-三-1"
+      ]
     },
     {
       "id": "2024-计算-02",
@@ -15683,7 +19042,8 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2024-计算-02.png"
+        "/images/questions/2024-计算-02.png",
+        "/images/questions/2024-3-2.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -15705,7 +19065,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "O1"
+      ],
+      "trae_chapters": [
+        "O"
+      ],
+      "trae_exam_ids": [
+        "2024-三-2"
+      ]
     },
     {
       "id": "2024-计算-03",
@@ -15734,7 +19103,8 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2024-计算-03.png"
+        "/images/questions/2024-计算-03.png",
+        "/images/questions/2024-3-3.png"
       ],
       "answer_images": [
         "/images/questions/2024-计算-03-ans.png"
@@ -15760,7 +19130,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2024-三-3"
+      ]
     },
     {
       "id": "2024-计算-04",
@@ -15784,7 +19163,8 @@
       "difficulty": "中等",
       "score": 15,
       "images": [
-        "/images/questions/2024-计算-04.png"
+        "/images/questions/2024-计算-04.png",
+        "/images/questions/2024-3-4.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -15808,7 +19188,17 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "I4",
+        "I5"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2024-三-4"
+      ]
     },
     {
       "id": "2024-计算-05",
@@ -15831,7 +19221,8 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2024-计算-05.png"
+        "/images/questions/2024-计算-05.png",
+        "/images/questions/2024-3-5.png"
       ],
       "answer_images": [
         "/images/questions/2024-计算-05-ans.png"
@@ -15857,7 +19248,17 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "E5",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2024-三-5"
+      ]
     },
     {
       "id": "2024-计算-06",
@@ -15902,7 +19303,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "E11"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2024-三-6"
+      ]
     },
     {
       "id": "2024-计算-07",
@@ -15918,7 +19328,8 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2024-计算-07.png"
+        "/images/questions/2024-计算-07.png",
+        "/images/questions/2024-3-7.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -15940,7 +19351,16 @@
       "source_years": [
         2024
       ],
-      "source": "2024年855机械设计基础真题"
+      "source": "2024年855机械设计基础真题",
+      "sub_knowledge": [
+        "F2"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2024-三-7"
+      ]
     },
     {
       "id": "2025-简答-03",
@@ -15976,7 +19396,16 @@
       "source_years": [
         2025
       ],
-      "source": "2025年855机械设计基础真题"
+      "source": "2025年855机械设计基础真题",
+      "sub_knowledge": [
+        "O1"
+      ],
+      "trae_chapters": [
+        "O"
+      ],
+      "trae_exam_ids": [
+        "2025-一-3"
+      ]
     },
     {
       "id": "2025-综合-01",
@@ -15998,10 +19427,12 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2025-综合-01.png"
+        "/images/questions/2025-综合-01.png",
+        "/images/questions/2025-2-1.png"
       ],
       "answer_images": [
-        "/images/questions/2025-综合-01-ans.png"
+        "/images/questions/2025-综合-01-ans.png",
+        "/images/questions/2025-2-1-ans.png"
       ],
       "original_numbers": {
         "2025": "二、综合题 第1题"
@@ -16019,7 +19450,17 @@
       "source_years": [
         2025
       ],
-      "source": "2025年855机械设计基础真题"
+      "source": "2025年855机械设计基础真题",
+      "sub_knowledge": [
+        "E5",
+        "E7"
+      ],
+      "trae_chapters": [
+        "E"
+      ],
+      "trae_exam_ids": [
+        "2025-二-1"
+      ]
     },
     {
       "id": "2025-综合-02",
@@ -16047,10 +19488,12 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2025-综合-02.png"
+        "/images/questions/2025-综合-02.png",
+        "/images/questions/2025-2-2.png"
       ],
       "answer_images": [
-        "/images/questions/2025-综合-02-ans.png"
+        "/images/questions/2025-综合-02-ans.png",
+        "/images/questions/2025-2-2-ans.png"
       ],
       "original_numbers": {
         "2025": "二、综合题 第2题"
@@ -16068,7 +19511,18 @@
       "source_years": [
         2025
       ],
-      "source": "2025年855机械设计基础真题"
+      "source": "2025年855机械设计基础真题",
+      "sub_knowledge": [
+        "K4",
+        "L5"
+      ],
+      "trae_chapters": [
+        "K",
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2025-二-2"
+      ]
     },
     {
       "id": "2025-计算-01",
@@ -16089,10 +19543,12 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2025-计算-01.png"
+        "/images/questions/2025-计算-01.png",
+        "/images/questions/2025-3-1.png"
       ],
       "answer_images": [
-        "/images/questions/2025-计算-01-ans.png"
+        "/images/questions/2025-计算-01-ans.png",
+        "/images/questions/2025-3-1-ans.png"
       ],
       "original_numbers": {
         "2025": "三、计算题 第1题"
@@ -16108,7 +19564,16 @@
       "source_years": [
         2025
       ],
-      "source": "2025年855机械设计基础真题"
+      "source": "2025年855机械设计基础真题",
+      "sub_knowledge": [
+        "B2"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2025-三-1"
+      ]
     },
     {
       "id": "2025-计算-02",
@@ -16132,7 +19597,8 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2025-计算-02.png"
+        "/images/questions/2025-计算-02.png",
+        "/images/questions/2025-3-2.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -16152,7 +19618,18 @@
       "source_years": [
         2025
       ],
-      "source": "2025年855机械设计基础真题"
+      "source": "2025年855机械设计基础真题",
+      "sub_knowledge": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2025-三-2"
+      ]
     },
     {
       "id": "2025-计算-03",
@@ -16175,10 +19652,12 @@
       "difficulty": "较难",
       "score": 15,
       "images": [
-        "/images/questions/2025-计算-03.png"
+        "/images/questions/2025-计算-03.png",
+        "/images/questions/2025-3-3.png"
       ],
       "answer_images": [
-        "/images/questions/2025-计算-03-ans.png"
+        "/images/questions/2025-计算-03-ans.png",
+        "/images/questions/2025-3-3-ans.png"
       ],
       "original_numbers": {
         "2025": "三、计算题 第3题"
@@ -16196,7 +19675,17 @@
       "source_years": [
         2025
       ],
-      "source": "2025年855机械设计基础真题"
+      "source": "2025年855机械设计基础真题",
+      "sub_knowledge": [
+        "I4",
+        "I5"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2025-三-3"
+      ]
     },
     {
       "id": "2025-计算-04",
@@ -16217,10 +19706,12 @@
       "difficulty": "中等",
       "score": 15,
       "images": [
-        "/images/questions/2025-计算-04.png"
+        "/images/questions/2025-计算-04.png",
+        "/images/questions/2025-3-4.png"
       ],
       "answer_images": [
-        "/images/questions/2025-计算-04-ans.png"
+        "/images/questions/2025-计算-04-ans.png",
+        "/images/questions/2025-3-4-ans.png"
       ],
       "original_numbers": {
         "2025": "三、计算题 第4题"
@@ -16238,7 +19729,16 @@
       "source_years": [
         2025
       ],
-      "source": "2025年855机械设计基础真题"
+      "source": "2025年855机械设计基础真题",
+      "sub_knowledge": [
+        "I4"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2025-三-4"
+      ]
     },
     {
       "id": "2026-选择-06",
@@ -16290,7 +19790,16 @@
       "source_years": [
         2026
       ],
-      "source": "2026年855机械设计基础真题（回忆版）"
+      "source": "2026年855机械设计基础真题（回忆版）",
+      "sub_knowledge": [
+        "B1"
+      ],
+      "trae_chapters": [
+        "B"
+      ],
+      "trae_exam_ids": [
+        "2026-一-6"
+      ]
     },
     {
       "id": "2026-选择-07",
@@ -16342,7 +19851,16 @@
       "source_years": [
         2026
       ],
-      "source": "2026年855机械设计基础真题（回忆版）"
+      "source": "2026年855机械设计基础真题（回忆版）",
+      "sub_knowledge": [
+        "K2"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2026-一-7"
+      ]
     },
     {
       "id": "2026-选择-08",
@@ -16394,7 +19912,16 @@
       "source_years": [
         2026
       ],
-      "source": "2026年855机械设计基础真题（回忆版）"
+      "source": "2026年855机械设计基础真题（回忆版）",
+      "sub_knowledge": [
+        "G1"
+      ],
+      "trae_chapters": [
+        "G"
+      ],
+      "trae_exam_ids": [
+        "2026-一-8"
+      ]
     },
     {
       "id": "2026-选择-09",
@@ -16446,7 +19973,16 @@
       "source_years": [
         2026
       ],
-      "source": "2026年855机械设计基础真题（回忆版）"
+      "source": "2026年855机械设计基础真题（回忆版）",
+      "sub_knowledge": [
+        "I6"
+      ],
+      "trae_chapters": [
+        "I"
+      ],
+      "trae_exam_ids": [
+        "2026-一-9"
+      ]
     },
     {
       "id": "2026-简答-04",
@@ -16477,7 +20013,17 @@
       "source_years": [
         2026
       ],
-      "source": "2026年855机械设计基础真题（回忆版）"
+      "source": "2026年855机械设计基础真题（回忆版）",
+      "sub_knowledge": [
+        "C1",
+        "C3"
+      ],
+      "trae_chapters": [
+        "C"
+      ],
+      "trae_exam_ids": [
+        "2026-二-4"
+      ]
     },
     {
       "id": "2026-简答-05",
@@ -16509,7 +20055,20 @@
       "source_years": [
         2026
       ],
-      "source": "2026年855机械设计基础真题（回忆版）"
+      "source": "2026年855机械设计基础真题（回忆版）",
+      "sub_knowledge": [
+        "E1",
+        "G5",
+        "H1"
+      ],
+      "trae_chapters": [
+        "E",
+        "G",
+        "H"
+      ],
+      "trae_exam_ids": [
+        "2026-二-5"
+      ]
     },
     {
       "id": "2026-综合-03",
@@ -16526,7 +20085,8 @@
       "difficulty": "较难",
       "score": 33,
       "images": [
-        "/images/questions/2026-综合-03.png"
+        "/images/questions/2026-综合-03.png",
+        "/images/questions/2026-三-6.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -16547,7 +20107,17 @@
       "source_years": [
         2026
       ],
-      "source": "2026年855机械设计基础真题（回忆版）"
+      "source": "2026年855机械设计基础真题（回忆版）",
+      "sub_knowledge": [
+        "F2",
+        "F3"
+      ],
+      "trae_chapters": [
+        "F"
+      ],
+      "trae_exam_ids": [
+        "2026-三-6"
+      ]
     },
     {
       "id": "2026-综合-04",
@@ -16564,7 +20134,8 @@
       "difficulty": "较难",
       "score": 33,
       "images": [
-        "/images/questions/2026-综合-04.png"
+        "/images/questions/2026-综合-04.png",
+        "/images/questions/2026-三-4.png"
       ],
       "answer_images": [],
       "original_numbers": {
@@ -16584,7 +20155,16 @@
       "source_years": [
         2026
       ],
-      "source": "2026年855机械设计基础真题（回忆版）"
+      "source": "2026年855机械设计基础真题（回忆版）",
+      "sub_knowledge": [
+        "L4"
+      ],
+      "trae_chapters": [
+        "L"
+      ],
+      "trae_exam_ids": [
+        "2026-三-4"
+      ]
     },
     {
       "id": "2026-综合-06",
@@ -16600,7 +20180,8 @@
       "difficulty": "较难",
       "score": 34,
       "images": [
-        "/images/questions/2026-综合-06.png"
+        "/images/questions/2026-综合-06.png",
+        "/images/questions/2026-三-7.png"
       ],
       "answer_images": [
         "/images/questions/2026-综合-06-ans.png"
@@ -16623,7 +20204,16 @@
       "source_years": [
         2026
       ],
-      "source": "2026年855机械设计基础真题（回忆版）"
+      "source": "2026年855机械设计基础真题（回忆版）",
+      "sub_knowledge": [
+        "K4"
+      ],
+      "trae_chapters": [
+        "K"
+      ],
+      "trae_exam_ids": [
+        "2026-三-7"
+      ]
     }
   ]
 }

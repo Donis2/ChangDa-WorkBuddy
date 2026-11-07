@@ -67,6 +67,10 @@ export function filterQuestions(
     ) {
       return false
     }
+    if (
+      session.subKpFilter.length &&
+      !(q.sub_knowledge ?? []).some((c) => session.subKpFilter.includes(c))
+    ) return false
     const rec = progress[q.id]
     if (session.wrongOnly && !(rec?.inWrongBook ?? false)) return false
     if (session.favoriteOnly && !(rec?.favorite ?? false)) return false
@@ -89,6 +93,8 @@ function seedOf(s: SessionState) {
     s.kpFilter.join('-') +
     '|' +
     s.chapterFilter.join('-') +
+    '|' +
+    s.subKpFilter.join('-') +
     '|' + (s.wrongOnly ? 'w' : '') + (s.favoriteOnly ? 'f' : '')
   )
 }
@@ -135,6 +141,7 @@ export function modeLabel(session: SessionState): string {
   if (session.typeFilter.length) parts.push(`${session.typeFilter.length}种题型`)
   if (session.chapterFilter.length) parts.push(`${session.chapterFilter.length}个章节`)
   if (session.kpFilter.length) parts.push(`${session.kpFilter.length}个知识点`)
+  if (session.subKpFilter.length) parts.push(`${session.subKpFilter.length}个细分知识点`)
   if (!parts.length) return session.order === 'random' ? '随机练习' : '顺序练习'
   return parts.join(' · ')
 }
