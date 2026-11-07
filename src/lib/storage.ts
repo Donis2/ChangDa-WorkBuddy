@@ -34,6 +34,27 @@ function read(): ProgressMap {
 let state: ProgressMap = typeof window === 'undefined' ? {} : read()
 const listeners = new Set<() => void>()
 
+/** 写入失败时置位，让 UI 明确提示「进度不会保存」，不再静默丢数据 */
+let storageError = false
+const errorListeners = new Set<() => void>()
+
+function markStorageError() {
+  if (storageError) return
+  storageError = true
+  errorListeners.forEach((l) => l())
+}
+
+export function useStorageError(): boolean {
+  return useSyncExternalStore(
+    (cb) => {
+      errorListeners.add(cb)
+      return () => { errorListeners.delete(cb) }
+    },
+    () => storageError,
+    () => false,
+  )
+}
+
 function emit() {
   listeners.forEach((l) => l())
 }
@@ -42,7 +63,7 @@ function persist() {
   try {
     localStorage.setItem(KEY, JSON.stringify(state))
   } catch {
-    /* ignore quota errors */
+    markStorageError()
   }
 }
 
@@ -54,7 +75,7 @@ function setState(next: ProgressMap) {
 
 function subscribe(cb: () => void) {
   listeners.add(cb)
-  return () => listeners.delete(cb)
+  return () => { listeners.delete(cb) }
 }
 
 export function useProgress(): ProgressMap {
@@ -173,6 +194,6 @@ export function saveSession(s: SessionState) {
   try {
     localStorage.setItem(SESSION_KEY, JSON.stringify(s))
   } catch {
-    /* ignore */
+    markStorageError()
   }
 }

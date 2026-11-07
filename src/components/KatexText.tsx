@@ -11,17 +11,40 @@ function escapeHtml(s: string) {
     .replace(/"/g, '&quot;')
 }
 
+/**
+ * 全局 LRU 缓存：按「公式 + 行内/块级」复用编译结果。
+ * 组件内的 useMemo 只在同一个实例内有效，单题模式每题销毁重建、
+ * 全显示模式筛选变化时都会重新解析，几百次同步 renderToString 会卡主线程。
+ */
+const KATEX_CACHE_MAX = 800
+const katexCache = new Map<string, string>()
+
 function renderKatex(tex: string, displayMode: boolean) {
+  const key = `${displayMode ? 'b' : 'i'}:${tex}`
+  const hit = katexCache.get(key)
+  if (hit !== undefined) {
+    // 命中后移到末尾，维持真正的 LRU 顺序
+    katexCache.delete(key)
+    katexCache.set(key, hit)
+    return hit
+  }
+  let html: string
   try {
-    return katex.renderToString(tex, {
+    html = katex.renderToString(tex, {
       displayMode,
       throwOnError: false,
       strict: false,
       output: 'html',
     })
   } catch {
-    return escapeHtml(displayMode ? `$$${tex}$$` : `$${tex}$`)
+    html = escapeHtml(displayMode ? `$$${tex}$$` : `$${tex}$`)
   }
+  if (katexCache.size >= KATEX_CACHE_MAX) {
+    const oldest = katexCache.keys().next().value
+    if (oldest !== undefined) katexCache.delete(oldest)
+  }
+  katexCache.set(key, html)
+  return html
 }
 
 /**

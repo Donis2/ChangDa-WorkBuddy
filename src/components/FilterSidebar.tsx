@@ -1,24 +1,26 @@
 import * as React from 'react'
 import { RotateCcw, Search, Filter, ChevronDown } from 'lucide-react'
-import { knowledgeTree, questions } from '@/lib/data'
+import { knowledgeTree } from '@/lib/data'
 import type { ProgressMap, SessionState } from '@/lib/storage'
+import type { Question } from '@/lib/types'
 import { TYPE_ORDER, cn, typeLabel } from '@/lib/utils'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
-function useCounts() {
+/** 计数按「当前题库」算，切到扩展题库时不能再显示真题的年份与题型口径 */
+function useCounts(pool: Question[]) {
   return React.useMemo(() => {
     const byType: Record<string, number> = {}
     const byYear: Record<string, number> = {}
     const byKp: Record<string, number> = {}
-    for (const q of questions) {
+    for (const q of pool) {
       byType[q.type] = (byType[q.type] ?? 0) + 1
       for (const y of q.source_years) byYear[y] = (byYear[y] ?? 0) + 1
       for (const k of q.knowledge_points) byKp[k] = (byKp[k] ?? 0) + 1
     }
     return { byType, byYear, byKp }
-  }, [])
+  }, [pool])
 }
 
 export function FilterSidebar({
@@ -26,13 +28,16 @@ export function FilterSidebar({
   patch,
   onReset,
   progress,
+  pool,
 }: {
   session: SessionState
   patch: (p: Partial<SessionState>) => void
   onReset: () => void
   progress: ProgressMap
+  /** 当前题库的题目池（真题 / 扩展题 / 全部） */
+  pool: Question[]
 }) {
-  const counts = useCounts()
+  const counts = useCounts(pool)
   const [kpQuery, setKpQuery] = React.useState('')
   const [openChapters, setOpenChapters] = React.useState<string[]>([])
 
@@ -46,8 +51,8 @@ export function FilterSidebar({
   )
 
   const years = React.useMemo(
-    () => Array.from(new Set(questions.flatMap((q) => q.source_years))).sort(),
-    [],
+    () => Array.from(new Set(pool.flatMap((q) => q.source_years))).sort((a, b) => a - b),
+    [pool],
   )
 
   const filteredChapters = React.useMemo(() => {
@@ -150,12 +155,12 @@ export function FilterSidebar({
                 </span>
               )}
             </CardTitle>
-            {/* 「筛选」：勾选=多选叠加；不勾=单选（点新的替换旧的） */}
+            {/* 「筛选」：勾选 = 同一维度内可多选（并集）；章节与知识点之间始终是交集 */}
             <label
               className="flex shrink-0 cursor-pointer select-none items-center gap-1 rounded-md border px-2 py-1 text-[11px] text-muted-foreground transition-colors hover:bg-accent has-[:checked]:border-primary has-[:checked]:bg-primary/10 has-[:checked]:font-medium has-[:checked]:text-primary"
               title={
                 session.multiSelect
-                  ? '多选模式：可同时选中多个章节 / 知识点，题目叠加显示'
+                  ? '多选模式：同一维度内可多选（并集）；章节与知识点之间需同时满足'
                   : '单选模式：点新的章节 / 知识点会替换上一个'
               }
             >
@@ -173,7 +178,8 @@ export function FilterSidebar({
             再点<b className="font-medium text-foreground">知识点</b>=只看该知识点。
             {session.multiSelect ? (
               <>
-                已勾选「筛选」：可<b className="font-medium text-foreground">多选叠加</b>。
+                已勾选「筛选」：同一维度可<b className="font-medium text-foreground">多选（并集）</b>，
+                章节与知识点之间需同时满足。
               </>
             ) : (
               <>

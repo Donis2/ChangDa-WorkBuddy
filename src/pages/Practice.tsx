@@ -1,8 +1,9 @@
 import * as React from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { ChevronLeft, ChevronRight, Shuffle, ListOrdered, Sparkles, Star, AlertCircle, Layers, Square, Eye, EyeOff, ArrowUp, X, SlidersHorizontal } from 'lucide-react'
-import { questions } from '@/lib/data'
-import { extendedQuestions, allQuestions } from '@/lib/extData'
+import { questions } from '@/lib/questionData'
+import { extMeta } from '@/lib/extMeta'
+import type { ExtendedQuestion, Question } from '@/lib/types'
 import { filterQuestions, modeLabel } from '@/lib/quiz'
 import {
   defaultSession,
@@ -19,18 +20,27 @@ import { QuestionCard } from '@/components/QuestionCard'
 import { AnswerSheet } from '@/components/AnswerSheet'
 import { StatsPanel } from '@/components/StatsPanel'
 
+/** 全显示模式每页题目数：避免一次渲染 956 张卡、数千次公式解析 */
+const PAGE_SIZE = 20
+
 export function Practice() {
   const progress = useProgress()
   const [params, setParams] = useSearchParams()
   const [session, setSession] = React.useState<SessionState>(() => loadSession())
   const [drawerOpen, setDrawerOpen] = React.useState(false)
-  const appliedRef = React.useRef(false)
+  // 记住已处理过的查询串，而不是布尔锁：同一实例内前进/后退再次带参跳转仍能生效
+  const appliedSearchRef = React.useRef<string | null>(null)
+
+  // 会话统一在 effect 里持久化，避免 StrictMode 下 setState updater 被双调用产生重复副作用
+  React.useEffect(() => {
+    saveSession(session)
+  }, [session])
 
   // 从首页入口跳转时带上筛选参数
   React.useEffect(() => {
-    if (appliedRef.current) return
-    if ([...params.keys()].length === 0) return
-    appliedRef.current = true
+    const search = params.toString()
+    if (!search || appliedSearchRef.current === search) return
+    appliedSearchRef.current = search
     const year = params.get('year')
     const type = params.get('type')
     const kp = params.get('kp')
@@ -44,7 +54,9 @@ export function Practice() {
         view: prev.view,
         revealAll: prev.revealAll,
         multiSelect: prev.multiSelect,
-        bank: prev.bank,
+        // 首页入口都是真题维度。不沿用 localStorage 里上次的扩展题库：
+        // 585 道扩展题中 470 道没有 source_years，带年份进入会得到空列表。
+        bank: 'real',
       }
       if (bank === 'ext' || bank === 'all' || bank === 'real') next.bank = bank
       if (year) next.yearFilter = year.split(',').map(Number)
@@ -54,25 +66,42 @@ export function Practice() {
       if (mode === 'wrong') next.wrongOnly = true
       if (mode === 'favorite') next.favoriteOnly = true
       if (mode === 'random') next.order = 'random'
-      saveSession(next)
       return next
     })
     setParams({}, { replace: true })
+    appliedSearchRef.current = null
   }, [params, setParams])
 
-  const patch = React.useCallback(
-    (p: Partial<SessionState>) => {
-      setSession((prev) => {
-        const next = { ...prev, ...p }
-        saveSession(next)
-        return next
-      })
+  const patch = React.useCallback((p: Partial<SessionState>) => {
+    setSession((prev) => ({ ...prev, ...p }))
+  }, [])
+
+  // 稳定引用：配合 QuestionCard 的 React.memo，答一题不再让整页卡片重渲染
+  const handleAnswered = React.useCallback(
+    (i?: number) => {
+      if (i !== undefined) patch({ index: i })
     },
-    [],
+    [patch],
   )
 
-  const pool =
-    session.bank === 'ext' ? extendedQuestions : session.bank === 'all' ? allQuestions : questions
+  // 扩展题 777KB 只在用户切到「扩展题 / 全部」时动态加载；默认真题库完全不下载
+  const needExt = session.bank !== 'real'
+  const [extQuestions, setExtQuestions] = React.useState<ExtendedQuestion[] | null>(null)
+  React.useEffect(() => {
+    if (!needExt || extQuestions) return
+    let alive = true
+    void import('@/lib/extData').then((m) => {
+      if (alive) setExtQuestions(m.extendedQuestions)
+    })
+    return () => { alive = false }
+  }, [needExt, extQuestions])
+  const extLoading = needExt && !extQuestions
+
+  const pool: Question[] = React.useMemo(() => {
+    if (!needExt) return questions
+    if (!extQuestions) return []
+    return session.bank === 'ext' ? extQuestions : [...extQuestions, ...questions]
+  }, [needExt, extQuestions, session.bank])
 
   const list = React.useMemo(
     () => filterQuestions(session, progress, pool),
@@ -83,6 +112,27 @@ export function Practice() {
   const current = list[index]
   const isAll = session.view === 'all'
 
+  // 全显示模式分页；筛选条件变化时回到第一页（不要依赖整个 session，
+  // 否则每答一题 patch(index) 都会把用户踢回第一页）
+  const [page, setPage] = React.useState(0)
+  const filterKey = [
+    session.bank,
+    session.yearFilter.join(','),
+    session.typeFilter.join(','),
+    session.chapterFilter.join(','),
+    session.kpFilter.join(','),
+    session.order,
+    session.wrongOnly,
+    session.favoriteOnly,
+  ].join('|')
+  React.useEffect(() => { setPage(0) }, [filterKey])
+  const totalPages = Math.max(1, Math.ceil(list.length / PAGE_SIZE))
+  const safePage = Math.min(page, totalPages - 1)
+  const visibleList = React.useMemo(
+    () => (isAll ? list.slice(safePage * PAGE_SIZE, (safePage + 1) * PAGE_SIZE) : list),
+    [isAll, list, safePage],
+  )
+
   React.useEffect(() => {
     if (index !== session.index) patch({ index })
   }, [index, session.index, patch])
@@ -91,8 +141,12 @@ export function Practice() {
     const target = Math.max(0, Math.min(list.length - 1, i))
     patch({ index: target })
     if (session.view === 'all') {
-      const el = document.getElementById(`q-${list[target]?.id}`)
-      el?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      setPage(Math.floor(target / PAGE_SIZE))
+      // 跨页跳转时目标卡片要等新页渲染出来才存在，延后一帧再滚动
+      window.setTimeout(() => {
+        const el = document.getElementById(`q-${list[target]?.id}`)
+        el?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }, 60)
     } else {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     }
@@ -124,6 +178,11 @@ export function Practice() {
           {session.bank !== 'real' && (
             <Badge variant="warning" className="shrink-0 text-xs">
               {session.bank === 'ext' ? '扩展题库' : '真题+扩展'}
+            </Badge>
+          )}
+          {extLoading && (
+            <Badge variant="outline" className="shrink-0 text-xs">
+              扩展题库加载中…
             </Badge>
           )}
           <span className="shrink-0 text-sm text-muted-foreground">
@@ -182,15 +241,25 @@ export function Practice() {
             {(
               [
                 { k: 'real', label: '真题', title: `真题 ${questions.length} 题` },
-                { k: 'ext', label: '扩展题', title: `扩展题 ${extendedQuestions.length} 题` },
-                { k: 'all', label: '全部', title: `真题 + 扩展题 共 ${allQuestions.length} 题` },
+                { k: 'ext', label: '扩展题', title: `扩展题 ${extMeta.total_questions} 题` },
+                { k: 'all', label: '全部', title: `真题 + 扩展题 共 ${questions.length + extMeta.total_questions} 题` },
               ] as const
             ).map(({ k, label, title }) => (
               <button
                 key={k}
                 title={title}
                 onClick={() =>
-                  patch({ bank: k, index: 0, wrongOnly: false, favoriteOnly: false })
+                  patch({
+                    bank: k,
+                    index: 0,
+                    wrongOnly: false,
+                    favoriteOnly: false,
+                    // 两个题库的年份/题型/知识点集合不同，残留筛选叠加必然出空结果
+                    yearFilter: [],
+                    typeFilter: [],
+                    chapterFilter: [],
+                    kpFilter: [],
+                  })
                 }
                 className={cn(
                   'rounded-full px-2.5 py-1 text-xs transition-colors',
@@ -315,6 +384,7 @@ export function Practice() {
                 session={session}
                 patch={patch}
                 progress={progress}
+                pool={pool}
                 onReset={() => patch({ ...defaultSession, bank: session.bank, view: session.view, multiSelect: session.multiSelect })}
               />
             </div>
@@ -334,6 +404,7 @@ export function Practice() {
             session={session}
             patch={patch}
             progress={progress}
+            pool={pool}
             onReset={() => patch({ ...defaultSession, bank: session.bank, view: session.view, multiSelect: session.multiSelect })}
           />
         </aside>
@@ -343,26 +414,52 @@ export function Practice() {
           {isAll ? (
             list.length ? (
               <div className="space-y-3">
-                {list.map((q, i) => (
-                  <div
-                    key={q.id}
-                    id={`q-${q.id}`}
-                    className={cn(
-                      'scroll-mt-32 rounded-lg border bg-card p-4 shadow-sm transition-shadow sm:scroll-mt-28 sm:p-5',
-                      i === index && 'ring-2 ring-primary/40',
-                    )}
-                  >
-                    <QuestionCard
-                      question={q}
-                      record={progress[q.id]}
-                      index={i}
-                      forceReveal={session.revealAll}
-                      onAnswered={() => patch({ index: i })}
-                    />
+                {visibleList.map((q, i) => {
+                  const globalIndex = safePage * PAGE_SIZE + i
+                  return (
+                    <div
+                      key={q.id}
+                      id={`q-${q.id}`}
+                      className={cn(
+                        'scroll-mt-32 rounded-lg border bg-card p-4 shadow-sm transition-shadow sm:scroll-mt-28 sm:p-5',
+                        globalIndex === index && 'ring-2 ring-primary/40',
+                      )}
+                    >
+                      <QuestionCard
+                        question={q}
+                        record={progress[q.id]}
+                        index={globalIndex}
+                        forceReveal={session.revealAll}
+                        onAnswered={handleAnswered}
+                      />
+                    </div>
+                  )
+                })}
+                {totalPages > 1 && (
+                  <div className="flex items-center justify-center gap-3 py-2">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      disabled={safePage <= 0}
+                      onClick={() => { setPage(safePage - 1); window.scrollTo({ top: 0 }) }}
+                    >
+                      <ChevronLeft className="mr-0.5 h-4 w-4" /> 上一页
+                    </Button>
+                    <span className="text-xs tabular-nums text-muted-foreground">
+                      第 {safePage + 1} / {totalPages} 页 · 共 {list.length} 题
+                    </span>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      disabled={safePage >= totalPages - 1}
+                      onClick={() => { setPage(safePage + 1); window.scrollTo({ top: 0 }) }}
+                    >
+                      下一页 <ChevronRight className="ml-0.5 h-4 w-4" />
+                    </Button>
                   </div>
-                ))}
+                )}
                 <div className="flex items-center justify-between pb-2 text-xs text-muted-foreground">
-                  <span>—— 已显示全部 {list.length} 题 ——</span>
+                  <span>—— 本页 {visibleList.length} 题 / 共 {list.length} 题 ——</span>
                   <button
                     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     className="flex items-center gap-1 hover:text-primary"

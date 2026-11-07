@@ -1,4 +1,4 @@
-import { kpToChapter, questions } from './data'
+import { kpToChapter } from './data'
 import type { ProgressMap, SessionState } from './storage'
 import type { Question } from './types'
 
@@ -11,13 +11,32 @@ export function inChapter(q: Question, chapter: string): boolean {
   return q.knowledge_points.some((k) => kpToChapter[k] === chapter)
 }
 
-/** 客观题判分：选择/多选/判断 */
-export function judgeObjective(q: Question, selected: string[] | boolean): boolean {
+/**
+ * 客观题判分：选择 / 多选 / 判断。
+ *
+ * `answer` 传入「当前正在显示的答案版本」，不传则用题面默认答案。
+ * 答案版本切换时判分、正确选项高亮与错误提示必须共用同一份答案，
+ * 否则会出现「参考答案显示 C、却按 A 判分」。
+ *
+ * 判断题的选项固定为 A=正确 / B=错误，题库答案存的是布尔值；
+ * 这里统一把选中项映射成布尔再比，避免 `Boolean(['A'])` 恒为 true 的坑。
+ */
+export function judgeObjective(
+  q: Question,
+  selected: string[] | boolean,
+  answer: Question['answer'] = q.answer,
+): boolean {
   if (q.type === 'true_false') {
-    const ans = Array.isArray(q.answer) ? q.answer[0] : q.answer
-    return Boolean(ans) === Boolean(selected)
+    const ansBool = Boolean(Array.isArray(answer) ? answer[0] : answer)
+    const selBool =
+      typeof selected === 'boolean'
+        ? selected
+        : Array.isArray(selected)
+          ? selected[0] === 'A'
+          : Boolean(selected)
+    return ansBool === selBool
   }
-  const correct = (Array.isArray(q.answer) ? q.answer : [q.answer]) as string[]
+  const correct = (Array.isArray(answer) ? answer : [answer]) as string[]
   const sel = (Array.isArray(selected) ? selected : [selected]) as string[]
   if (sel.length !== correct.length) return false
   const a = [...correct].sort().join(',')
@@ -29,7 +48,7 @@ export function judgeObjective(q: Question, selected: string[] | boolean): boole
 export function filterQuestions(
   session: SessionState,
   progress: ProgressMap,
-  all: Question[] = questions,
+  all: Question[],
 ): Question[] {
   let list = all.filter((q) => {
     if (session.yearFilter.length && !q.source_years.some((y) => session.yearFilter.includes(y))) {

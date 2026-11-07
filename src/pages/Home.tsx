@@ -11,7 +11,7 @@ import {
   Calculator,
   Clock,
 } from 'lucide-react'
-import { knowledgeTree, questions, statsFile, years } from '@/lib/data'
+import { knowledgeTree, statsFile, years } from '@/lib/data'
 import { extMeta } from '@/lib/extMeta'
 import { useProgress } from '@/lib/storage'
 import { TYPE_ORDER, pct, typeLabel } from '@/lib/utils'
@@ -22,22 +22,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 export function Home() {
   const progress = useProgress()
 
-  // 首屏渲染完成后，空闲时预取刷题页代码块，点击「开始刷题」即点即开
-  React.useEffect(() => {
-    const idle =
-      (window as unknown as { requestIdleCallback?: (cb: () => void) => number })
-        .requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 1500))
-    const t = idle(() => {
-      void import('@/pages/Practice')
-    })
-    return () => {
-      const cancel = (window as unknown as { cancelIdleCallback?: (h: number) => void })
-        .cancelIdleCallback
-      if (cancel) cancel(t as number)
-      else window.clearTimeout(t as number)
-    }
-  }, [])
-
+  // 不再做首屏空闲预取：刷题页携带 888KB 题库，预取会把它拉回前台。
+  // 导航栏 NavLink 的 onMouseEnter 已在用户有意图时预取，足够即时。
   const recs = Object.values(progress)
   const attempts = recs.reduce((s, r) => s + r.attempts, 0)
   const correct = recs.reduce((s, r) => s + r.correctCount, 0)
@@ -86,7 +72,7 @@ export function Home() {
           </div>
 
           <div className="grid grid-cols-2 gap-3 lg:w-[360px]">
-            <Stat icon={<Layers />} label="题库总题数" value={`${questions.length} 题`} />
+            <Stat icon={<Layers />} label="题库总题数" value={`${statsFile.total_questions} 题`} />
             <Stat icon={<BookOpen />} label="覆盖年份" value={`${years.length} 年`} />
             <Stat icon={<Clock />} label="考试时长" value={`${knowledgeTree.exam.duration_minutes} 分钟`} />
             <Stat icon={<Calculator />} label="满分" value={`${knowledgeTree.exam.total_score} 分`} />
@@ -96,7 +82,7 @@ export function Home() {
 
       {/* 我的进度 */}
       <div className="grid gap-4 md:grid-cols-4">
-        <StatCard label="已作答" value={`${answered}`} sub={`共 ${questions.length} 题`} tone="sky" />
+        <StatCard label="已作答" value={`${answered}`} sub={`共 ${statsFile.total_questions} 题`} tone="sky" />
         <StatCard
           label="总正确率"
           value={attempts ? `${pct(correct, attempts)}%` : '—'}
@@ -155,7 +141,7 @@ export function Home() {
         icon={<CalendarDays className="h-4 w-4" />}
         action={
           <Button variant="ghost" size="sm" asChild>
-            <Link to="/practice?year=2024,2025">
+            <Link to="/practice">
               全部年份 <ArrowRight className="ml-1 h-3.5 w-3.5" />
             </Link>
           </Button>

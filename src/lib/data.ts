@@ -1,23 +1,14 @@
-import questionsRaw from '../../data/questions.json'
 import treeRaw from '../../data/knowledge_tree.json'
 import statsRaw from '../../data/stats.json'
-import type { KnowledgeTree, Question, QuestionsFile, StatsFile } from './types'
+import type { KnowledgeTree, StatsFile } from './types'
 
-export const questionsFile = questionsRaw as unknown as QuestionsFile
+/**
+ * 轻量元数据：首页、筛选侧栏、章节归属判定用（约 90KB）。
+ * **不要在这里 import 题目正文**（questions.json 888KB / extended.json 777KB），
+ * 否则会被静态打进首屏 chunk。完整题库见 ./questionData.ts 与 ./extData.ts。
+ */
 export const knowledgeTree = treeRaw as unknown as KnowledgeTree
 export const statsFile = statsRaw as unknown as StatsFile
-
-export const questions: Question[] = questionsFile.questions
-
-export const TYPE_LABELS = questionsFile.meta.type_labels
-
-export const years: number[] = Array.from(
-  new Set(questions.flatMap((q) => q.source_years)),
-).sort((a, b) => a - b)
-
-export const knowledgePoints: string[] = Array.from(
-  new Set(questions.flatMap((q) => q.knowledge_points)),
-)
 
 /** 知识点 -> 章节 */
 export const kpToChapter: Record<string, string> = (() => {
@@ -28,21 +19,5 @@ export const kpToChapter: Record<string, string> = (() => {
   return m
 })()
 
-/** 知识点 -> 题目数 */
-export const kpCount: Record<string, number> = (() => {
-  const m: Record<string, number> = {}
-  for (const q of questions) {
-    for (const kp of q.knowledge_points) m[kp] = (m[kp] ?? 0) + 1
-  }
-  return m
-})()
-
-export function getQuestion(id: string) {
-  return questions.find((q) => q.id === id)
-}
-
-export function typesInUse(): string[] {
-  return Array.from(new Set(questions.map((q) => q.type)))
-}
-
-export const sourceNote = questionsFile.meta.years
+/** 年份列表取自统计产物，避免为了拿年份把整份题库拖进首屏 */
+export const years: number[] = statsFile.by_year.map((y) => y.year)

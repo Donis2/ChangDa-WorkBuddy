@@ -67,6 +67,9 @@ ChangDa-WorkBuddy/
 ├─ src/
 │  ├─ components/               # 组件（ui/ 为 shadcn/ui 风格基础组件）
 │  ├─ lib/                      # 数据加载、本地存储、判分与筛选逻辑
+│  │  ├─ data.ts                # 轻量元数据（知识点树 / 统计，进首屏）
+│  │  ├─ questionData.ts        # 完整真题库（只在刷题页 / 统计页加载）
+│  │  └─ extData.ts             # 扩展题库（切到扩展题库时动态 import）
 │  ├─ pages/                    # 首页 / 刷题页 / 统计页
 │  ├─ App.tsx  main.tsx  index.css
 ├─ docs/                        # 项目文档
@@ -94,6 +97,11 @@ ChangDa-WorkBuddy/
 
 > 过时的历史文档、已执行完的一次性脚本、构建产物与渲染缓存**已移出项目**，
 > 归档在 `../_归档_20261107/`，回档方法见其中的《回档说明.md》。
+
+**数据加载约定（改前端时别破坏）**：首屏只加载 `data.ts`（知识点树 + 统计，约 90KB，首屏 chunk 233KB / gzip 76KB）。
+`questions.json`（888KB）经 `questionData.ts` 进入刷题页 / 统计页的 lazy chunk，
+`extended.json`（777KB）只在用户切到「扩展题 / 全部」或打开统计页时动态加载。
+**不要把这两份 JSON 静态 import 回首页或 `data.ts`**，否则首屏会退回 629KB。
 
 ---
 

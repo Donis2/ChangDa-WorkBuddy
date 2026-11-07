@@ -1,32 +1,42 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { GraduationCap, Home, PenSquare, BarChart3 } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { useStorageError } from '@/lib/storage'
 
 const NAV = [
-  { to: '/', label: '首页', icon: Home },
+  // end: 根路径必须用精确匹配，否则 NavLink 默认会命中所有子路径，首页永远高亮
+  { to: '/', label: '首页', icon: Home, end: true, preload: undefined },
   {
     to: '/practice',
     label: '刷题',
     icon: PenSquare,
+    end: false,
     preload: () => import('@/pages/Practice'),
   },
   {
     to: '/stats',
     label: '统计',
     icon: BarChart3,
+    end: false,
     preload: () => import('@/pages/Stats'),
   },
 ]
 
 export function Layout() {
   const { pathname } = useLocation()
+  const storageError = useStorageError()
   return (
     <div className="min-h-screen bg-background">
+      {storageError && (
+        <div role="alert" className="bg-amber-50 px-4 py-2 text-center text-xs text-amber-800">
+          本地存储不可用（隐私模式或存储空间已满），本次答题进度与筛选条件不会被保存。
+        </div>
+      )}
       <header className="sticky top-0 z-30 border-b bg-card/90 backdrop-blur">
         <div className="mx-auto flex h-14 max-w-[1600px] items-center gap-2 px-3 sm:px-4">
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-primary text-primary-foreground">
-              <GraduationCap className="h-4.5 w-4.5" />
+              <GraduationCap className="h-4 w-4" />
             </div>
             <div className="leading-tight">
               <div className="text-sm font-semibold">常大 855 机械设计基础</div>
@@ -41,6 +51,7 @@ export function Layout() {
               <NavLink
                 key={n.to}
                 to={n.to}
+                end={n.end}
                 aria-label={n.label}
                 onMouseEnter={n.preload}
                 className={({ isActive }) =>

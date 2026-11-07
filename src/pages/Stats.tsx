@@ -15,8 +15,10 @@ import {
   XAxis,
   YAxis,
 } from 'recharts'
-import { knowledgeTree, questions, statsFile } from '@/lib/data'
+import { statsFile } from '@/lib/data'
+import { questions } from '@/lib/questionData'
 import { extStats } from '@/lib/extMeta'
+import type { Question } from '@/lib/types'
 import { useProgress } from '@/lib/storage'
 import { TYPE_ORDER, pct, typeLabel } from '@/lib/utils'
 import { Badge } from '@/components/ui/badge'
@@ -27,6 +29,25 @@ const PALETTE = ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#ef4444', '#06b6d4
 
 export function Stats() {
   const progress = useProgress()
+
+  // 扩展题只在统计页异步载入，避免把 777KB 题库拖进首屏或阻塞首屏统计
+  const [extQuestions, setExtQuestions] = React.useState<Question[]>([])
+  React.useEffect(() => {
+    let alive = true
+    void import('@/lib/extData').then((m) => {
+      if (alive) setExtQuestions(m.extendedQuestions)
+    })
+    return () => { alive = false }
+  }, [])
+
+  /** 真题 + 扩展题的 id 索引：之前只用 questions.find，EXT-* 作答会被整批漏统计 */
+  const questionById = React.useMemo(() => {
+    const m = new Map<string, Question>()
+    for (const q of questions) m.set(q.id, q)
+    for (const q of extQuestions) m.set(q.id, q)
+    return m
+  }, [extQuestions])
+  const poolSize = questions.length + extStats.total_questions
 
   const typeData = React.useMemo(
     () =>
@@ -67,7 +88,7 @@ export function Stats() {
   const byTypeAccuracy = React.useMemo(() => {
     const m: Record<string, { attempts: number; correct: number }> = {}
     for (const [id, r] of recs) {
-      const q = questions.find((x) => x.id === id)
+      const q = questionById.get(id)
       if (!q) continue
       m[q.type] ??= { attempts: 0, correct: 0 }
       m[q.type].attempts += r.attempts
@@ -78,12 +99,12 @@ export function Stats() {
       value: pct(m[t].correct, m[t].attempts),
       attempts: m[t].attempts,
     }))
-  }, [progress])
+  }, [progress, questionById])
 
   const weakKp = React.useMemo(() => {
     const m: Record<string, { attempts: number; wrong: number }> = {}
     for (const [id, r] of recs) {
-      const q = questions.find((x) => x.id === id)
+      const q = questionById.get(id)
       if (!q) continue
       for (const kp of q.knowledge_points) {
         m[kp] ??= { attempts: 0, wrong: 0 }
@@ -96,7 +117,7 @@ export function Stats() {
       .map(([name, v]) => ({ name, ...v, rate: pct(v.attempts - v.wrong, v.attempts) }))
       .sort((a, b) => a.rate - b.rate)
       .slice(0, 10)
-  }, [progress])
+  }, [progress, questionById])
 
   return (
     <div className="space-y-5">
@@ -110,7 +131,7 @@ export function Stats() {
       {/* 概览 */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <MiniCard label="题库题量" value={`${statsFile.total_questions}`} sub={`合计 ${statsFile.total_score} 分`} />
-        <MiniCard label="已作答" value={`${answered}`} sub={`覆盖 ${pct(answered, questions.length)}% 题库`} />
+        <MiniCard label="已作答" value={`${answered}`} sub={`覆盖 ${pct(answered, poolSize)}% 题库`} />
         <MiniCard
           label="总正确率"
           value={attempts ? `${pct(correct, attempts)}%` : '—'}

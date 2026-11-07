@@ -32,7 +32,17 @@ const DIFF_VARIANT: Record<string, 'success' | 'warning' | 'destructive' | 'seco
   较难: 'destructive',
 }
 
-export function QuestionCard({
+/** 默认展示的答案版本：优先题面指定，否则取固定顺序里第一个有内容的 */
+function defaultVersionOf(q: Question): AnswerVersionKey | null {
+  const def = q.answer_version_default
+  if (def && q.answer_versions?.[def]) return def
+  const first = ANSWER_VERSION_ORDER.find(
+    (k) => q.answer_versions?.[k as AnswerVersionKey],
+  )
+  return (first as AnswerVersionKey | undefined) ?? null
+}
+
+export const QuestionCard = React.memo(function QuestionCard({
   question: q,
   record,
   onAnswered,
@@ -41,7 +51,8 @@ export function QuestionCard({
 }: {
   question: Question
   record?: ProgressRecord
-  onAnswered?: () => void
+  /** 带全显示模式的题目序号回传，回调引用稳定才能配合 React.memo */
+  onAnswered?: (index?: number) => void
   /** 在「全部展开」模式下的序号（从 0 开始） */
   index?: number
   /** 「全部展开」模式下由上层统一控制是否直接显示答案 */
@@ -51,6 +62,7 @@ export function QuestionCard({
   const [selected, setSelected] = React.useState<string[]>([])
   const [judged, setJudged] = React.useState(false)
   const [revealed, setRevealed] = React.useState(false)
+  const [selfJudged, setSelfJudged] = React.useState(false)
 
   /** 可用的答案版本（按固定顺序），至少 0 个 */
   const versions = React.useMemo(() => {
@@ -62,20 +74,21 @@ export function QuestionCard({
     }))
   }, [q])
 
-  const [versionKey, setVersionKey] = React.useState<AnswerVersionKey | null>(null)
-
-  // 换题时重置为默认版本
+  // 同步初始化，避免首帧先渲染顶层答案、随后跳到默认版本造成闪烁
+  const [versionKey, setVersionKey] = React.useState<AnswerVersionKey | null>(
+    () => defaultVersionOf(q),
+  )
   React.useEffect(() => {
-    const def = q.answer_version_default
-    if (def && q.answer_versions?.[def]) {
-      setVersionKey(def)
-    } else {
-      setVersionKey(versions[0]?.key ?? null)
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [q.id])
+    setVersionKey(defaultVersionOf(q))
+  }, [q])
 
   const activeVersion = versionKey ? q.answer_versions?.[versionKey] : undefined
+
+  /**
+   * 当前显示的答案。判分、正确选项高亮、错误提示与答案文本必须共用这一份，
+   * 否则切换到「老魏版 / 考研群版」后会出现「显示 C、按 A 判分」。
+   */
+  const effectiveAnswer = activeVersion?.answer ?? q.answer
 
   /** 扩展题标注的真题来源 */
   const realRefs = (q as ExtendedQuestion).real_exam_refs ?? []
@@ -88,56 +101,77 @@ export function QuestionCard({
   React.useEffect(() => {
     setSelected([])
     setJudged(false)
+    setSelfJudged(false)
   }, [q.id])
 
   const answerKeys = React.useMemo(() => {
-    if (q.type === 'true_false') return []
-    return (Array.isArray(q.answer) ? q.answer : [q.answer]) as string[]
-  }, [q])
+    if (q.type === 'true_false') {
+      const b = Boolean(Array.isArray(effectiveAnswer) ? effectiveAnswer[0] : effectiveAnswer)
+      return [b ? 'A' : 'B']
+    }
+    return (Array.isArray(effectiveAnswer) ? effectiveAnswer : [effectiveAnswer]) as string[]
+  }, [q.type, effectiveAnswer])
+
+  /** 判断题选项固定 A=正确 / B=错误，把选中项转成布尔再判 */
+  const judgeSelection = (sel: string[]) =>
+    judgeObjective(q, q.type === 'true_false' ? sel[0] === 'A' : sel, effectiveAnswer)
 
   const correct = React.useMemo(() => {
     if (!judged) return null
-    return judgeObjective(q, selected)
-  }, [judged, q, selected])
+    return judgeSelection(selected)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [judged, selected, effectiveAnswer, q])
 
   function choose(key: string) {
     if (judged) return
-    const next = q.type === 'multiple_choice' ? toggle(selected, key) : [key]
+    if (q.type === 'multiple_choice') {
+      setSelected((prev) => toggle(prev, key))
+      return
+    }
+    const next = [key]
     setSelected(next)
     if (q.type === 'single_choice' || q.type === 'true_false') {
-      const ok = judgeObjective(q, next)
+      const ok = judgeSelection(next)
       setJudged(true)
       recordAnswer(q.id, next, ok)
-      onAnswered?.()
+      onAnswered?.(index)
     }
   }
 
   function submitMulti() {
     if (!selected.length) return
-    const ok = judgeObjective(q, selected)
+    const ok = judgeSelection(selected)
     setJudged(true)
     recordAnswer(q.id, selected, ok)
-    onAnswered?.()
+    onAnswered?.(index)
   }
 
   function reveal() {
     setRevealed(true)
-    onAnswered?.()
+    onAnswered?.(index)
   }
 
   function selfJudge(ok: boolean) {
+    if (selfJudged) return // 防止连点重复累加 attempts / correctCount
+    setSelfJudged(true)
     recordAnswer(q.id, null, ok)
-    onAnswered?.()
+    onAnswered?.(index)
   }
 
   const showAnswerArea = objective ? judged || revealed : revealed
   const answerText = React.useMemo(
-    () => formatAnswerValue(q.type, activeVersion?.answer ?? q.answer),
-    [q, activeVersion],
+    () => formatAnswerValue(q.type, effectiveAnswer),
+    [q.type, effectiveAnswer],
   )
-  const explanation = activeVersion?.explanation ?? (activeVersion ? undefined : q.explanation)
+  const explanation = activeVersion?.explanation ?? q.explanation
   const answerImages =
     activeVersion?.answer_images?.length ? activeVersion.answer_images : q.answer_images
+  const correctAnswerLabel =
+    q.type === 'true_false'
+      ? answerKeys.includes('A')
+        ? '正确'
+        : '错误'
+      : answerKeys.join('、')
 
   return (
     <div className="space-y-4">
@@ -281,7 +315,7 @@ export function QuestionCard({
                 correct ? 'text-emerald-600' : 'text-rose-600',
               )}
             >
-              {correct ? '✓ 回答正确' : `✗ 回答错误，正确答案：${answerKeys.join('、')}`}
+              {correct ? '✓ 回答正确' : `✗ 回答错误，正确答案：${correctAnswerLabel}`}
             </p>
           )}
         </div>
@@ -294,6 +328,8 @@ export function QuestionCard({
             <Button onClick={reveal}>
               <Eye className="mr-1 h-4 w-4" /> 显示答案
             </Button>
+          ) : selfJudged ? (
+            <span className="text-sm text-muted-foreground">✓ 已记录自评结果</span>
           ) : (
             <>
               <span className="text-sm text-muted-foreground">自评：</span>
@@ -350,6 +386,11 @@ export function QuestionCard({
               <p className="mb-1 text-xs text-muted-foreground">
                 来源：{activeVersion.source}
                 {activeVersion.quality ? `（${activeVersion.quality}）` : ''}
+              </p>
+            )}
+            {judged && versions.length > 1 && (
+              <p className="mb-1 text-xs text-muted-foreground">
+                判分与正确答案按当前版本计算；已记录的答题进度、错题本不随版本切换改变。
               </p>
             )}
             {answerText.trim() ? (
@@ -418,7 +459,7 @@ export function QuestionCard({
       )}
     </div>
   )
-}
+})
 
 function WrongBookButton({
   questionId,

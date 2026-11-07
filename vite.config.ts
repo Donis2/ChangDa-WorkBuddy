@@ -21,6 +21,7 @@ export default defineConfig({
         './src/pages/Home.tsx',
         './src/pages/Practice.tsx',
         './src/lib/data.ts',
+        './src/lib/questionData.ts',
       ],
     },
   },
@@ -29,7 +30,10 @@ export default defineConfig({
     include: ['recharts', 'katex', 'react', 'react-dom', 'react-router-dom'],
   },
   build: {
-    chunkSizeWarningLimit: 900,
+    // 题库正文（questions.json 888KB / extended.json 777KB）是业务数据，已隔离在
+    // Practice / Stats 的 lazy chunk 与按需加载的 extData chunk，首屏不含这两份数据。
+    // 阈值按「数据 chunk」体积设定，不再为了掩盖首屏膨胀而调高。
+    chunkSizeWarningLimit: 1000,
     // 不再手工 manualChunks：统计页/练习页已是动态导入，Rollup 会自动把
     // recharts、katex 拆成按需加载的 chunk；手工分组反而会把共享小工具
     // （clsx 等）错划进大 chunk，导致首屏多下载数百 KB
