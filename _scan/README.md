@@ -19,10 +19,13 @@
 | | `apply_jianda_ziliao.py` | 按（年份, 大题号, 小题号）把《简答详解》写进 `answer_versions.ziliao` |
 | `tools/` | `build_ext_src.py` | 扩展题去重 / 归章 / 真题标注 → `data/source/ext/*.json` |
 | | `gen_checklist.py` | 由题库生成 `docs/待核实清单.md` |
-| `archive/` | `patch_*.py`、`bands.py`、`crop.py` | 已执行完的一次性修正脚本与早期工具，**不要再跑**，仅留档 |
 | `data/` | 中间数据 | 解析结果 JSON + `ans_json/`（人工转录的版本答案，**不可再生**） |
 | `text/` | PDF 文本提取 | `raw/`（资料包）、`ext/`（扩展题来源）、`qs/`（各年题目文本） |
 | `cache/` | 可再生缓存 | 渲染页、裁图草稿；可随时删除，`.gitignore` 已忽略 |
+
+> 已执行完的 `patch_*.py` 与早期工具 `bands.py` / `crop.py` 已移出项目，
+> 归档在 `../_归档_20261107/20261107_清理/scan_archive/`，
+> 也可 `git restore --source=787496d -- _scan/archive` 找回。
 
 ## 常用命令
 
