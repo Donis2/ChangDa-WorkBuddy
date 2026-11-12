@@ -148,6 +148,8 @@ export interface SessionState {
   /** 章节筛选（存章节名，如「第五章 轮系」）；点章节名即可看该章全部题目 */
   chapterFilter: string[]
   kpFilter: string[]
+  /** Trae 版二级知识点码筛选，空数组=不限 */
+  subKpFilter: string[]
   /**
    * 知识点/章节是否多选叠加。
    * false（默认）= 单选：点新的会替换旧的，即「点知识点 1 只看 1，再点知识点 2 只看 2」。
@@ -171,6 +173,7 @@ export const defaultSession: SessionState = {
   typeFilter: [],
   chapterFilter: [],
   kpFilter: [],
+  subKpFilter: [],
   multiSelect: false,
   wrongOnly: false,
   favoriteOnly: false,

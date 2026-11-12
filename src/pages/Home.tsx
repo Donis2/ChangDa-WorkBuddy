@@ -10,6 +10,8 @@ import {
   ArrowRight,
   Calculator,
   Clock,
+  Images,
+  FileDown,
 } from 'lucide-react'
 import { knowledgeTree, statsFile, years } from '@/lib/data'
 import { extMeta } from '@/lib/extMeta'
@@ -18,6 +20,14 @@ import { TYPE_ORDER, pct, typeLabel } from '@/lib/utils'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+
+/** 原 Trae 版导出的 4 册 PDF，已迁入 public/pdfs/，文件名含中文需编码 */
+const PDF_BOOKS = [
+  { name: '常大855-客观题答案册.pdf', label: '客观题答案册' },
+  { name: '常大855-客观题题目册.pdf', label: '客观题题目册' },
+  { name: '常大855-简答题记忆版.pdf', label: '简答题记忆版' },
+  { name: '常大855-简答题详解.pdf', label: '简答题详解' },
+]
 
 export function Home() {
   const progress = useProgress()
@@ -36,26 +46,29 @@ export function Home() {
   )
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-6 sm:space-y-7">
       {/* Hero */}
-      <Card className="overflow-hidden border-primary/20 bg-gradient-to-br from-primary/5 via-card to-card">
-        <CardContent className="flex flex-col gap-5 p-6 lg:flex-row lg:items-center">
-          <div className="flex-1 space-y-3">
-            <div className="flex flex-wrap items-center gap-2">
+      <Card className="hero-surface overflow-hidden border-primary/20 shadow-card">
+        <CardContent className="flex flex-col gap-6 p-5 sm:p-7 lg:flex-row lg:items-center lg:gap-8">
+          <div className="flex-1 space-y-3.5">
+            <div className="flex flex-wrap items-center gap-1.5">
               <Badge variant="default">常州大学</Badge>
               <Badge variant="info">科目代码 855</Badge>
               <Badge variant="secondary">机械设计基础</Badge>
             </div>
-            <h1 className="text-2xl font-bold tracking-tight">
-              855 机械设计基础 · 历年真题刷题平台
+            <h1 className="text-2xl font-bold leading-tight tracking-tight sm:text-3xl">
+              855 机械设计基础
+              <span className="mt-1 block text-lg font-semibold text-muted-foreground sm:mt-1.5 sm:text-xl">
+                历年真题刷题平台
+              </span>
             </h1>
             <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
               题库由历年真题 PDF（扫描版）逐页解析整理而成，覆盖选择题、简答题、计算/综合题。
               选择题、判断题点击选项即时判分；填空、简答、计算题点击「显示答案」查看答案、解析与步骤。
               答错的题会自动进入错题本。
             </p>
-            <div className="flex flex-wrap gap-2 pt-1">
-              <Button asChild>
+            <div className="flex flex-wrap gap-2 pt-1.5">
+              <Button asChild className="shadow-sm">
                 <Link to="/practice">
                   <NotebookPen className="mr-1.5 h-4 w-4" /> 开始刷题
                 </Link>
@@ -71,7 +84,7 @@ export function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-3 lg:w-[360px]">
+          <div className="grid grid-cols-2 gap-2.5 sm:gap-3 lg:w-[360px]">
             <Stat icon={<Layers />} label="题库总题数" value={`${statsFile.total_questions} 题`} />
             <Stat icon={<BookOpen />} label="覆盖年份" value={`${years.length} 年`} />
             <Stat icon={<Clock />} label="考试时长" value={`${knowledgeTree.exam.duration_minutes} 分钟`} />
@@ -81,7 +94,7 @@ export function Home() {
       </Card>
 
       {/* 我的进度 */}
-      <div className="grid gap-4 md:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4">
         <StatCard label="已作答" value={`${answered}`} sub={`共 ${statsFile.total_questions} 题`} tone="sky" />
         <StatCard
           label="总正确率"
@@ -109,7 +122,7 @@ export function Home() {
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             <Link
               to="/practice?bank=ext"
-              className="group rounded-lg border border-amber-200 bg-amber-50/50 p-4 transition-colors hover:border-amber-400 hover:bg-amber-50"
+              className="group rounded-xl border border-amber-200 bg-amber-50/50 p-4 shadow-card transition-all duration-150 hover:-translate-y-0.5 hover:border-amber-400 hover:bg-amber-50 hover:shadow-md"
             >
               <div className="flex items-center justify-between">
                 <div className="text-lg font-semibold">全部扩展题</div>
@@ -121,7 +134,7 @@ export function Home() {
               </p>
             </Link>
             {extMeta.by_source.map((s) => (
-              <div key={s.source} className="rounded-lg border bg-card p-4">
+              <div key={s.source} className="rounded-xl border bg-card p-4 shadow-card">
                 <div className="flex items-center justify-between gap-2">
                   <div className="truncate text-sm font-semibold" title={s.source}>
                     {s.source}
@@ -134,6 +147,82 @@ export function Home() {
           </div>
         </Section>
       )}
+
+      {/* 合并迁入资料：整卷双版本答案、导出 PDF、Trae 细分知识点 */}
+      <Section
+        title="整卷答案与导出资料（原 Trae 版迁入）"
+        icon={<Images className="h-4 w-4" />}
+      >
+        <div className="grid gap-3 lg:grid-cols-3">
+          {/* 整卷扫描答案 */}
+          <Link
+            to="/answers"
+            className="group rounded-xl border border-primary/20 bg-primary/5 p-4 shadow-card transition-all duration-150 hover:-translate-y-0.5 hover:border-primary/50 hover:bg-primary/10 hover:shadow-md"
+          >
+            <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center gap-1.5 text-sm font-semibold">
+                <Images className="h-4 w-4 text-primary" />
+                历年整卷答案（扫描版）
+              </div>
+              <Badge variant="info">120 页</Badge>
+            </div>
+            <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+              老魏版（2009–2024，缺 2023）与考研群资料版（2009–2026）两套扫描答案，按年份浏览；
+              两版原样各存、不自动取舍。
+            </p>
+            <div className="mt-3 flex items-center gap-1 text-xs text-primary opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100">
+              进入浏览 <ArrowRight className="h-3 w-3" />
+            </div>
+          </Link>
+
+          {/* 64 细分知识点 */}
+          <Link
+            to="/knowledge"
+            className="group rounded-xl border bg-card p-4 shadow-card transition-all duration-150 hover:-translate-y-0.5 hover:border-primary/50 hover:bg-accent/50 hover:shadow-md"
+          >
+            <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center gap-1.5 text-sm font-semibold">
+                <Layers className="h-4 w-4" />
+                细分知识点（Trae 版）
+              </div>
+              <Badge variant="purple">15 章 / 64 点</Badge>
+            </div>
+            <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+              与考纲章节并存的另一套逐题标注体系（A–O）。按知识点查看真题命中数与自己的正确率，
+              再一键进入该知识点刷题。
+            </p>
+            <div className="mt-3 flex items-center gap-1 text-xs text-primary opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100">
+              查看知识点统计 <ArrowRight className="h-3 w-3" />
+            </div>
+          </Link>
+
+          {/* PDF 下载 */}
+          <Card>
+            <CardContent className="p-4">
+              <div className="flex items-center justify-between gap-2">
+                <div className="flex items-center gap-1.5 text-sm font-semibold">
+                  <FileDown className="h-4 w-4" />
+                  导出 PDF 资料册
+                </div>
+                <Badge variant="secondary">4 册</Badge>
+              </div>
+              <div className="mt-2 grid grid-cols-2 gap-1.5">
+                {PDF_BOOKS.map((b) => (
+                  <a
+                    key={b.name}
+                    href={`/pdfs/${encodeURIComponent(b.name)}`}
+                    download={b.name}
+                    title={`下载 ${b.name}`}
+                    className="truncate rounded-md border px-2 py-1.5 text-xs text-muted-foreground transition-colors hover:border-primary/50 hover:bg-accent hover:text-foreground"
+                  >
+                    {b.label}
+                  </a>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </Section>
 
       {/* 年份入口 */}
       <Section
@@ -152,7 +241,7 @@ export function Home() {
             <Link
               key={y.year}
               to={`/practice?year=${y.year}`}
-              className="group rounded-lg border bg-card p-4 transition-colors hover:border-primary/50 hover:bg-accent/50"
+              className="group rounded-xl border bg-card p-4 shadow-card transition-all duration-150 hover:-translate-y-0.5 hover:border-primary/50 hover:bg-accent/50 hover:shadow-md"
             >
               <div className="flex items-center justify-between">
                 <div className="text-lg font-semibold">{y.year} 年真题</div>
@@ -165,7 +254,7 @@ export function Home() {
                   </Badge>
                 ))}
               </div>
-              <div className="mt-3 flex items-center gap-1 text-xs text-primary opacity-0 transition-opacity group-hover:opacity-100">
+              <div className="mt-3 flex items-center gap-1 text-xs text-primary opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100">
                 开始刷这一年 <ArrowRight className="h-3 w-3" />
               </div>
             </Link>
@@ -180,7 +269,7 @@ export function Home() {
             <Link
               key={t.type}
               to={`/practice?type=${t.type}`}
-              className="flex items-center justify-between rounded-lg border bg-card p-4 transition-colors hover:border-primary/50 hover:bg-accent/50"
+              className="flex items-center justify-between rounded-xl border bg-card p-4 shadow-card transition-all duration-150 hover:-translate-y-0.5 hover:border-primary/50 hover:bg-accent/50 hover:shadow-md"
             >
               <div>
                 <div className="font-medium">{t.label}</div>
@@ -198,8 +287,8 @@ export function Home() {
         icon={<BookOpen className="h-4 w-4" />}
         action={
           <Button variant="ghost" size="sm" asChild>
-            <Link to="/stats">
-              知识点频次排行 <ArrowRight className="ml-1 h-3.5 w-3.5" />
+            <Link to="/knowledge">
+              知识点详细统计 <ArrowRight className="ml-1 h-3.5 w-3.5" />
             </Link>
           </Button>
         }
@@ -286,8 +375,9 @@ function Section({
 }) {
   return (
     <section className="space-y-3">
-      <div className="flex items-center gap-2">
-        <span className="flex items-center gap-1.5 text-base font-semibold">
+      <div className="flex items-center gap-2 border-b border-border/60 pb-2.5">
+        <span className="flex h-6 w-1 shrink-0 rounded-full bg-primary/70" aria-hidden="true" />
+        <span className="flex items-center gap-1.5 text-base font-semibold tracking-tight">
           {icon}
           {title}
         </span>
@@ -300,21 +390,21 @@ function Section({
 
 function Stat({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
   return (
-    <div className="rounded-lg border bg-card/80 p-3">
-      <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+    <div className="rounded-xl border bg-card/80 p-3 shadow-card sm:p-3.5">
+      <div className="flex items-center gap-1.5 text-[11px] text-muted-foreground sm:text-xs">
         <span className="[&_svg]:h-3.5 [&_svg]:w-3.5">{icon}</span>
         {label}
       </div>
-      <div className="mt-1 text-lg font-semibold">{value}</div>
+      <div className="mt-1 text-lg font-semibold tabular-nums sm:text-xl">{value}</div>
     </div>
   )
 }
 
 const TONES: Record<string, string> = {
-  sky: 'bg-sky-50 text-sky-700 border-sky-200',
-  emerald: 'bg-emerald-50 text-emerald-700 border-emerald-200',
-  rose: 'bg-rose-50 text-rose-700 border-rose-200',
-  amber: 'bg-amber-50 text-amber-700 border-amber-200',
+  sky: 'bg-sky-50/80 text-sky-800 border-sky-200/80 shadow-card',
+  emerald: 'bg-emerald-50/80 text-emerald-800 border-emerald-200/80 shadow-card',
+  rose: 'bg-rose-50/80 text-rose-800 border-rose-200/80 shadow-card',
+  amber: 'bg-amber-50/80 text-amber-800 border-amber-200/80 shadow-card',
 }
 
 function StatCard({
@@ -330,10 +420,10 @@ function StatCard({
 }) {
   return (
     <Card className={TONES[tone]}>
-      <CardContent className="p-4">
-        <div className="text-xs opacity-80">{label}</div>
-        <div className="mt-1 text-2xl font-bold tabular-nums">{value}</div>
-        <div className="text-[11px] opacity-70">{sub}</div>
+      <CardContent className="p-3.5 sm:p-4">
+        <div className="text-[11px] opacity-80 sm:text-xs">{label}</div>
+        <div className="mt-1 text-xl font-bold tabular-nums sm:text-2xl">{value}</div>
+        <div className="mt-0.5 text-[11px] opacity-70">{sub}</div>
       </CardContent>
     </Card>
   )

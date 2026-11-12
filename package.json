@@ -9,7 +9,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
-    "build:data": "python scripts/build_data.py"
+    "build:data": "python scripts/build_data.py",
+    "build:answers": "python scripts/build_answer_pages.py",
+    "build:gear": "python scripts/build_topic_pdfs.py --topic gear",
+    "build:balance": "python scripts/build_topic_pdfs.py --topic balance"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

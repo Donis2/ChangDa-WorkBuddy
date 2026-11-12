@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'react-router-dom'
 import {
   Check,
   X,
@@ -7,7 +8,7 @@ import {
   Lightbulb,
   BookmarkPlus,
   BookmarkCheck,
-  ImageIcon,
+  Images,
   Link2,
 } from 'lucide-react'
 import type { AnswerVersionKey, ExtendedQuestion, ProgressRecord, Question } from '@/lib/types'
@@ -16,12 +17,12 @@ import {
   ANSWER_VERSION_ORDER,
   cn,
   formatAnswerValue,
-  imgUrl,
   isObjective,
   typeLabel,
 } from '@/lib/utils'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import { QuestionFigure } from '@/components/QuestionFigure'
 import { KatexBlock, KatexText } from '@/components/KatexText'
 import { judgeObjective } from '@/lib/quiz'
 import { recordAnswer, setWrongBook, toggleFavorite } from '@/lib/storage'
@@ -31,6 +32,12 @@ const DIFF_VARIANT: Record<string, 'success' | 'warning' | 'destructive' | 'seco
   中等: 'warning',
   较难: 'destructive',
 }
+
+/** 整卷扫描答案覆盖的年份（两版并集：2009–2015、2017–2026；2016 无原卷、2023 仅考研群版） */
+const ANSWER_PAGE_YEARS = new Set([
+  2009, 2010, 2011, 2012, 2013, 2014, 2015,
+  2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026,
+])
 
 /** 默认展示的答案版本：优先题面指定，否则取固定顺序里第一个有内容的 */
 function defaultVersionOf(q: Question): AnswerVersionKey | null {
@@ -59,6 +66,9 @@ export const QuestionCard = React.memo(function QuestionCard({
   forceReveal?: boolean
 }) {
   const objective = isObjective(q.type)
+  // 原 Trae 版整卷扫描答案按年份归档：为真题题目卡提供跳转年份
+  // （扩展题 source_years 为空数组，find 返回 undefined，故不显示该入口）
+  const answerPageYear = q.source_years.find((y) => ANSWER_PAGE_YEARS.has(Number(y)))
   const [selected, setSelected] = React.useState<string[]>([])
   const [judged, setJudged] = React.useState(false)
   const [revealed, setRevealed] = React.useState(false)
@@ -228,28 +238,8 @@ export const QuestionCard = React.memo(function QuestionCard({
         <KatexText text={q.stem} />
       </div>
 
-      {/* 题图 */}
-      {q.images.length > 0 && (
-        <div className="space-y-2">
-          {q.images.map((src) => (
-            <figure
-              key={src}
-              className="overflow-hidden rounded-md border bg-white p-1.5"
-            >
-              <img
-                src={imgUrl(src)}
-                alt={`${q.id} 题图`}
-                loading="lazy"
-                className="mx-auto max-h-[50vh] w-auto object-contain sm:max-h-[420px]"
-              />
-            </figure>
-          ))}
-          <p className="flex items-center gap-1 text-xs text-muted-foreground">
-            <ImageIcon className="h-3 w-3" />
-            题目图形（原始扫描件裁切）
-          </p>
-        </div>
-      )}
+      {/* 题图：同时存在题库版与原卷版时只显示一套，可手动切换 */}
+      {q.images.length > 0 && <QuestionFigure sources={q.images} id={q.id} />}
 
       {/* 选项 / 填空提示 */}
       {q.options.length > 0 && (
@@ -352,6 +342,13 @@ export const QuestionCard = React.memo(function QuestionCard({
             </>
           ))}
         <WrongBookButton questionId={q.id} record={record} />
+        {answerPageYear !== undefined && (
+          <Button variant="ghost" size="sm" asChild>
+            <Link to={`/answers?year=${answerPageYear}`} title={`查看 ${answerPageYear} 年整卷扫描答案`}>
+              <Images className="mr-1 h-4 w-4" /> 查看整卷扫描答案
+            </Link>
+          </Button>
+        )}
       </div>
 
       {/* 答案与解析 */}
@@ -403,19 +400,7 @@ export const QuestionCard = React.memo(function QuestionCard({
           </div>
 
           {answerImages?.length > 0 && (
-            <div className="space-y-2">
-              {answerImages.map((src) => (
-                <figure key={src} className="overflow-hidden rounded-md border bg-white p-1.5">
-                  <img
-                    src={imgUrl(src)}
-                    alt={`${q.id} 答案图`}
-                    loading="lazy"
-                    className="mx-auto max-h-[50vh] w-auto object-contain sm:max-h-[420px]"
-                  />
-                </figure>
-              ))}
-              <p className="text-xs text-muted-foreground">答案图形（原始扫描件裁切）</p>
-            </div>
+            <QuestionFigure sources={answerImages} id={q.id} kind="answer" />
           )}
 
           {explanation && (

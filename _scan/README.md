@@ -19,13 +19,17 @@
 | | `apply_jianda_ziliao.py` | 按（年份, 大题号, 小题号）把《简答详解》写进 `answer_versions.ziliao` |
 | `tools/` | `build_ext_src.py` | 扩展题去重 / 归章 / 真题标注 → `data/source/ext/*.json` |
 | | `gen_checklist.py` | 由题库生成 `docs/待核实清单.md` |
+| | `clean_figures.py` | 题图去留白（裁到墨迹外接框 +10px）+ 边缘整行文字带剥离；原图备份到 `cache/figures_bak/`，可重复执行 |
+| | `preview_clean.py` | 出「清理前/清理后」对比图（`cache/preview/`），人工复核用 |
+| | `recrop_main.py` | 按「主图块」重裁：自动挑墨迹最多的行/列块，适合图被文字挤到一角的情况 |
+| | `apply_manual_figures.py` | 人工复核过的重裁清单（写明来源 PDF、页码、200dpi 像素框），含从原卷重新出图与二次裁切两类 |
 | `data/` | 中间数据 | 解析结果 JSON + `ans_json/`（人工转录的版本答案，**不可再生**） |
 | `text/` | PDF 文本提取 | `raw/`（资料包）、`ext/`（扩展题来源）、`qs/`（各年题目文本） |
 | `cache/` | 可再生缓存 | 渲染页、裁图草稿；可随时删除，`.gitignore` 已忽略 |
 
 > 已执行完的 `patch_*.py` 与早期工具 `bands.py` / `crop.py` 已移出项目，
-> 归档在 `../_归档_20261107/20261107_清理/scan_archive/`，
-> 也可 `git restore --source=787496d -- _scan/archive` 找回。
+> 合并时曾短暂归档于 Trae 版归档目录，该归档目录已删除、历史见远端仓库；
+> 这些脚本也可 `git restore --source=787496d -- _scan/archive` 从本站 git 历史找回。
 
 ## 常用命令
 

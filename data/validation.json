@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T11:37:07+08:00",
+  "generated_at": "2026-11-12T18:01:31+08:00",
   "total_questions": 371,
   "issue_counts": {
     "缺题号": 0,
@@ -10,7 +10,8 @@
     "知识点未标注": 0,
     "知识点不在考纲": 0,
     "图片文件缺失": 0,
-    "答案版本异常": 0
+    "答案版本异常": 0,
+    "整卷答案图缺失": 0
   },
   "issues": {
     "缺题号": [],
@@ -23,7 +24,17 @@
     "知识点未标注": [],
     "知识点不在考纲": [],
     "图片文件缺失": [],
-    "答案版本异常": []
+    "答案版本异常": [],
+    "整卷答案图缺失": []
+  },
+  "trae_assets": {
+    "figure_questions": 109,
+    "figure_images": 121,
+    "figure_answer_images": 5,
+    "mapped_questions": 371,
+    "sub_chapters": 15,
+    "sub_points": 64,
+    "answer_pages": 120
   },
   "extended": {
     "total_questions": 585,
