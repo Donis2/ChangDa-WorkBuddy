@@ -22,6 +22,10 @@ export interface AnswerVersion {
   source?: string
   /** 原文转录 | 整理 | 补写 */
   quality?: string
+  /** 该版本答案经核对存在错误（如压紧端判反、传动比取值错），前端会显著提示 */
+  wrong?: boolean
+  /** 错在哪，一句话说明，配合 wrong 使用 */
+  wrong_note?: string
   /** 该版本独有的答案图 */
   answer_images?: string[]
 }

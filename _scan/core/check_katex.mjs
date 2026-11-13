@@ -50,6 +50,15 @@ for (const q of [...list, ...ext]) {
   if (Array.isArray(q.options)) {
     q.options.forEach((o, i) => check(q.id, `option[${i}]`, typeof o === 'string' ? o : o?.text || ''))
   }
+  // 多版本答案（老魏版 / 考研群版 …）里的公式同样要过，含标注错误原因的 wrong_note
+  const vers = q.answer_versions || {}
+  for (const [vk, vv] of Object.entries(vers)) {
+    if (!vv || typeof vv !== 'object') continue
+    for (const f of ['answer', 'explanation', 'wrong_note']) {
+      const val = vv[f]
+      check(`${q.id}/${vk}`, f, Array.isArray(val) ? val.join('\n') : val)
+    }
+  }
 }
 
 console.log('公式总数:', total)

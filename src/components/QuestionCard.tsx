@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'react-router-dom'
 import {
+  AlertTriangle,
   Check,
   X,
   Star,
@@ -39,14 +40,18 @@ const ANSWER_PAGE_YEARS = new Set([
   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026,
 ])
 
-/** 默认展示的答案版本：优先题面指定，否则取固定顺序里第一个有内容的 */
+/** 默认展示的答案版本：优先题面指定，否则取固定顺序里第一个有内容的
+ *  已核对有误的版本不作为默认（除非所有版本都标了有误） */
 function defaultVersionOf(q: Question): AnswerVersionKey | null {
+  const versions = q.answer_versions
+  const bad = (k: AnswerVersionKey) => Boolean(versions?.[k]?.wrong)
   const def = q.answer_version_default
-  if (def && q.answer_versions?.[def]) return def
-  const first = ANSWER_VERSION_ORDER.find(
-    (k) => q.answer_versions?.[k as AnswerVersionKey],
+  if (def && versions?.[def] && !bad(def)) return def
+  const usable = ANSWER_VERSION_ORDER.filter(
+    (k) => versions?.[k as AnswerVersionKey] && !bad(k as AnswerVersionKey),
   )
-  return (first as AnswerVersionKey | undefined) ?? null
+  const fallback = usable[0] ?? ANSWER_VERSION_ORDER.find((k) => versions?.[k as AnswerVersionKey])
+  return (fallback as AnswerVersionKey | undefined) ?? null
 }
 
 export const QuestionCard = React.memo(function QuestionCard({
@@ -365,15 +370,33 @@ export const QuestionCard = React.memo(function QuestionCard({
                     <button
                       key={v.key}
                       onClick={() => setVersionKey(v.key)}
-                      title={v.source || v.label}
+                      title={
+                        v.wrong
+                          ? `${v.source || v.label}（经核对有误）`
+                          : v.source || v.label
+                      }
                       className={cn(
-                        'rounded-full border px-2 py-0.5 text-xs transition-colors',
+                        'inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs transition-colors',
                         versionKey === v.key
                           ? 'border-primary bg-primary font-medium text-primary-foreground'
-                          : 'text-muted-foreground hover:border-primary/40 hover:bg-accent',
+                          : v.wrong
+                            ? 'border-destructive/40 text-destructive hover:bg-destructive/10'
+                            : 'text-muted-foreground hover:border-primary/40 hover:bg-accent',
                       )}
                     >
                       {v.label}
+                      {v.wrong && (
+                        <span
+                          className={cn(
+                            'rounded px-1 text-[10px] leading-tight',
+                            versionKey === v.key
+                              ? 'bg-primary-foreground/25'
+                              : 'bg-destructive/10',
+                          )}
+                        >
+                          有误
+                        </span>
+                      )}
                     </button>
                   ))}
                 </div>
@@ -384,6 +407,19 @@ export const QuestionCard = React.memo(function QuestionCard({
                 来源：{activeVersion.source}
                 {activeVersion.quality ? `（${activeVersion.quality}）` : ''}
               </p>
+            )}
+            {activeVersion?.wrong && (
+              <div className="mb-2 flex gap-2 rounded-md border border-destructive/40 bg-destructive/5 p-2 text-xs text-destructive">
+                <AlertTriangle className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                <div className="min-w-0">
+                  <p className="font-semibold">
+                    此版答案经核对有误，请勿作为标准答案。
+                  </p>
+                  {activeVersion.wrong_note && (
+                    <KatexText text={activeVersion.wrong_note} className="mt-0.5" />
+                  )}
+                </div>
+              </div>
             )}
             {judged && versions.length > 1 && (
               <p className="mb-1 text-xs text-muted-foreground">
